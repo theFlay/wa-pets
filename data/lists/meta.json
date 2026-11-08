@@ -7,15 +7,18 @@
  "wa_noxious_fish": {
   "checked": "2026-11-08",
   "page": "https://www.dpird.wa.gov.au/businesses/biosecurity/aquatic-biosecurity/importing-and-keeping-live-fish-translocation/",
+  "file": "https://www.dpird.wa.gov.au/siteassets/documents/biosecurity/animal/noxious_fish_list.pdf",
   "version": "As at 12 Dec 2024"
  },
  "wa_high_risk_fish": {
   "checked": "2026-11-08",
-  "page": "https://www.dpird.wa.gov.au/businesses/biosecurity/aquatic-biosecurity/importing-and-keeping-live-fish-translocation/"
+  "page": "https://www.dpird.wa.gov.au/businesses/biosecurity/aquatic-biosecurity/importing-and-keeping-live-fish-translocation/",
+  "file": "https://www.dpird.wa.gov.au/siteassets/documents/biosecurity/aquatic/high_risk_non_endemic_fish_list.pdf"
  },
  "live_import_list_part1": {
   "checked": "2026-11-08",
   "page": "https://www.legislation.gov.au/F2006B01053/latest/text",
+  "file": "https://www.legislation.gov.au/F2006B01053/2026-01-28/2026-01-28/text/original/pdf",
   "version": "Compilation No. 104, 28 Jan 2026"
  }
 }
