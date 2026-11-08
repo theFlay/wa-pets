@@ -1,0 +1,51 @@
+# Build the site from main and publish it to GitHub Pages. The built files
+# (index.html, data/site) aren't committed; they're made here every time.
+#
+# Runs on every push to main by a person. The bot workflows (photos and new
+# cards, community suggestions, weekly lists) call it after they push, because
+# pushes made by a workflow don't start other workflows.
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # One deployment at a time; a newer one waiting replaces an older one,
+    # which is fine because each builds the latest main.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Build
+        run: python3 src/build.py
+      - name: Collect the site files
+        run: |
+          mkdir -p _site/data
+          cp index.html _site/
+          cp -r img _site/
+          cp -r data/site _site/data/
+          touch _site/.nojekyll
+          du -sh _site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
