@@ -111,6 +111,15 @@
 "taxa": [
 {
 "rank": "species",
+"name": "Acipenser nudiventris"
+}
+],
+"raw": "Acipenser nudiventris Fringebarbel Sturgeon Any area of the State"
+},
+{
+"taxa": [
+{
+"rank": "species",
 "name": "Acipenser oxyrinchus"
 }
 ],
@@ -223,6 +232,15 @@
 }
 ],
 "raw": "Alfaro huberi"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Allomogurnda nesolepis"
+}
+],
+"raw": "Allomogurnda nesolepis Yellowbelly Gudgeon Any area of the State"
 },
 {
 "taxa": [
@@ -502,6 +520,15 @@
 }
 ],
 "raw": "Boulengerella cuvieri Bicuda"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Boulengerella lucius"
+}
+],
+"raw": "Boulengerella lucius Golden Pike-characin Any area of the State"
 },
 {
 "taxa": [
@@ -804,6 +831,15 @@
 "taxa": [
 {
 "rank": "species",
+"name": "Ctenopoma multispine"
+}
+],
+"raw": "Ctenopoma multispine Manyspined Ctenopoma Any area of the State"
+},
+{
+"taxa": [
+{
+"rank": "species",
 "name": "Ctenopoma muriei"
 }
 ],
@@ -917,6 +953,15 @@
 }
 ],
 "raw": "Dreissena bugensis"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Dreissena polymorpha"
+}
+],
+"raw": "Dreissena polymorpha European Zebra Mussel, Any area of the State"
 },
 {
 "taxa": [
@@ -1741,6 +1786,15 @@
 "taxa": [
 {
 "rank": "species",
+"name": "Mormyrops anguilloides"
+}
+],
+"raw": "Mormyrops anguilloides Cornish Jack, Bottlenose Any area of the State"
+},
+{
+"taxa": [
+{
+"rank": "species",
 "name": "Mya arenaria"
 }
 ],
@@ -2429,6 +2483,15 @@
 }
 ],
 "raw": "Perna viridis"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Phoxinus erythrogaster"
+}
+],
+"raw": "Phoxinus erythrogaster Southern Redbelly Dace Any area of the State"
 },
 {
 "taxa": [

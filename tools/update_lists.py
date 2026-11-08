@@ -14,7 +14,7 @@ Writes data/sources/* (raw downloads as text) and data/lists/*.json.
 Needs `pdftotext` (poppler) for the three PDFs. --offline re-parses the
 files already in data/sources without downloading.
 """
-import base64, csv, io, json, os, re, subprocess, sys, time, urllib.parse, urllib.request
+import base64, collections, csv, io, json, os, re, subprocess, sys, time, urllib.parse, urllib.request
 from http.cookiejar import CookieJar
 
 UA = "wa-pets-list-updater/1.0 (https://github.com/theFlay/wa-pets)"
@@ -72,21 +72,38 @@ SKIP_WORDS = {"Any", "Examples", "Scientific", "Including", "Port", "Montebello"
               "Heading", "Class", "Marine", "Taxon", "Only", "Note", "General", "All", "Part", "Compilation", "Page"}
 
 
+def page_lines(text):
+    """Every line with the first-column indent of its page.
+
+    pdftotext versions place tables differently (column 0, 1, or centred, and
+    it can change from page to page), so find where scientific names line up."""
+    tagged = []
+    for page in text.split("\f"):
+        lines = page.splitlines()
+        starts = [len(l) - len(l.lstrip()) for l in lines
+                  if re.match(r"\s*[A-Z][a-z]+(\s+(spp\.?|[a-z]{3,})|\s*$)", l)
+                  and not re.match(r"\s*(Any|Examples|Scientific|Including|Translocation|Published|Fish|Page)\b", l)]
+        base = collections.Counter(starts).most_common(1)[0][0] if starts else 0
+        tagged += [(l, base) for l in lines]
+    return tagged
+
+
 def col1_blocks(text):
     """Yield the first-column fragments of each blank-line-separated table row.
 
     Header rows and prose lines (long sentences) are dropped line by line, so
     a header sharing a block with real entries doesn't hide them."""
     block = []
-    for line in text.splitlines() + [""]:
+    for line, base in page_lines(text) + [("", 0)]:
         if not line.strip():
             if block:
                 yield block
             block = []
             continue
-        if line[:1].strip():  # starts at column 0: first column has content
+        if abs(len(line) - len(line.lstrip()) - base) <= 2:  # line starts in the first column
             frag = re.split(r"\s{2,}", line.strip())[0]
-            if frag.startswith(("Scientific name", "names used")) or (len(frag.split()) > 7 and not frag.startswith("(")):
+            prose = re.search(r"\b(the|will|is|are|this|for|be)\b", frag.replace("Any area of the State", ""))
+            if frag.startswith(("Scientific name", "names used")) or (len(frag.split()) > 7 and prose and not frag.startswith("(")):
                 continue
             block.append(frag)
         elif block and re.match(r"\s{0,3}\(", line):
@@ -128,10 +145,11 @@ def taxa_in(text):
 
 def parse_fish_list(text, with_area):
     entries = []
+    last = None  # most recent entry; an "(except ...)" clause can sit in the next block
     for frags in col1_blocks(text):
         if any(w in " ".join(frags) for w in ("In this Schedule", "means the area", "means all waters")):
             continue
-        last, exc = None, None  # exc collects an "except ... )" clause across fragments
+        exc = None  # collects an "except ... )" clause across fragments
         for i, f in enumerate(frags):
             nxt = frags[i + 1] if i + 1 < len(frags) else ""
             head = f
@@ -154,14 +172,18 @@ def parse_fish_list(text, with_area):
                     last["except"] = taxa_in(clause) or [{"rank": "note", "name": clause.strip(" (,")[:120]}]
                 exc = None
     if with_area:  # noxious list: note species that are only noxious in some areas
-        partial = set()
-        rows = text.split("\n\n")
-        for r in rows:
-            if "Any area of the State" not in r and re.search(r"Port of|Marine Park|waters", r):
-                for t in taxa_in(r):
-                    partial.add(t["name"])
+        whole, partial, current = set(), set(), None
+        for line, base in page_lines(text):
+            if abs(len(line) - len(line.lstrip()) - base) <= 2 and line.strip():
+                found = strict_taxa(re.split(r"\s{2,}", line.strip())[0], "")
+                if found:
+                    current = found[0]["name"]
+            if current and "Any area of the State" in line:
+                whole.add(current)
+            elif current and re.search(r"Port of|Marine Park|Islands|waters", line):
+                partial.add(current)
         for e in entries:
-            if any(t["name"] in partial for t in e["taxa"]):
+            if any(t["name"] in partial - whole for t in e["taxa"]):
                 e["area"] = "Some areas only"
     return entries
 
@@ -171,28 +193,44 @@ def parse_lil(text):
     start = text.find("Bony fishes")
     m = re.compile(r"Part 2\s*\W\s*Live specimens requiring an import permit").search(text, max(start, 0))
     part1 = text[:m.start()] if m else text
+    taxon_start = re.compile(r"([A-Z][a-z]+\s+(spp\.?|sp\.|[a-z]{3,})|All species of the family|Only )")
     section, out = "", []
-    for line in part1.splitlines():
-        s = line.strip()
-        for key, name in (("Freshwater Fish", "freshwater_fish"), ("Marine Fish", "marine_fish"),
-                          ("Birds (Aves)", "birds"), ("Mammals (Mammalia)", "mammals"),
-                          ("Invertebrate", "invertebrates"), ("Cartilaginous fishes", "sharks_rays"),
-                          ("Reptil", "reptiles"), ("Amphibia", "amphibians")):
-            if s.startswith(key) or re.match(r"^\s{10,}" + re.escape(key), line):
-                section = name
-        if not line.startswith("  ") or not section:
-            continue
-        cell = re.split(r"\s{2,}", s)[0]
-        cond = None
-        m = re.search(r"(of minimum length.*|of maximum length.*|excluding.*)$", cell)
-        if m:
-            cond = m.group(1)
-        if cell.startswith("Only "):
-            cond = cell
-        for t in taxa_in(cell):
-            if t["rank"] == "species" and t["name"].split()[1] in ("of", "excluding"):
+    for page in part1.split("\f"):
+        lines = page.splitlines()
+        # taxa sit in one column per page; its indent varies between pdftotext builds
+        starts = [len(l) - len(l.lstrip()) for l in lines if len(l) > len(l.lstrip()) and taxon_start.match(l.strip())]
+        base = collections.Counter(starts).most_common(1)[0][0] if starts else 2
+        for line in lines:
+            s = line.strip()
+            cell = re.split(r"\s{2,}", s)[0]
+            is_taxon_line = abs(len(line) - len(line.lstrip()) - base) <= 1 and bool(taxon_start.match(cell))
+            if not is_taxon_line:
+                for key, name in (("Freshwater Fish", "freshwater_fish"), ("Marine Fish", "marine_fish"),
+                                  ("Birds (Aves)", "birds"), ("Mammals (Mammalia)", "mammals"),
+                                  ("Invertebrate", "invertebrates"), ("Cartilaginous fishes", "sharks_rays"),
+                                  ("Reptil", "reptiles"), ("Amphibia", "amphibians")):
+                    if re.search(r"(^|\s{2,})" + re.escape(key), line):
+                        section = name
                 continue
-            out.append({**t, "section": section, **({"condition": cond} if cond else {})})
+            if not section:
+                continue
+            out += lil_taxa(cell, section)
+    return out
+
+
+def lil_taxa(cell, section):
+    """Taxa in one Live Import List taxon cell, with any import condition."""
+    cond = None
+    m = re.search(r"(of minimum length.*|of maximum length.*|excluding.*)$", cell)
+    if m:
+        cond = m.group(1)
+    if cell.startswith("Only "):
+        cond = cell
+    out = []
+    for t in taxa_in(cell):
+        if t["rank"] == "species" and t["name"].split()[1] in ("of", "excluding"):
+            continue
+        out.append({**t, "section": section, **({"condition": cond} if cond else {})})
     return out
 
 
@@ -208,6 +246,40 @@ def parse_waol(csvtext):
                                                      "Phylum", "Class", "Order", "Family", "Common name(s)")])
     return {"exported": exported, "columns": ["scientific", "legal", "keeping", "control", "areas", "phylum",
                                               "class", "order", "family", "common"], "rows": keep}
+
+
+# Entries that must always be found. If the parser misses any, the source
+# layout has probably changed: stop rather than publish a broken list.
+CANARIES = {
+    "wa_noxious_fish": ["Gambusia", "Procambarus clarkii", "Oreochromis", "Misgurnus anguillicaudatus", "Pygocentrus"],
+    "wa_high_risk_fish": ["Osteoglossum bicirrhosum", "Clariidae", "Barbonymus schwanenfeldii", "Serrasalminae"],
+    "live_import_list_part1": ["Danio rerio", "Poecilia reticulata", "Betta", "Pomacentridae"],
+}
+
+
+def sanity_check(new):
+    """Refuse to overwrite the lists if anything looks broken."""
+    problems = []
+    for key, data in new.items():
+        if key == "waol":
+            n = len(data)
+            old_path = os.path.join(OUT, "waol.json")
+            old = len(json.load(open(old_path, encoding="utf-8"))["rows"]) if os.path.exists(old_path) else 0
+        else:
+            names = {t["name"] for e in data for t in (e["taxa"] if "taxa" in e else [e])}
+            n = len(names)
+            for c in CANARIES.get(key, []):
+                if c not in names:
+                    problems.append(f"{key}: expected entry '{c}' not found")
+            old_path = os.path.join(OUT, key + ".json")
+            old = 0
+            if os.path.exists(old_path):
+                od = json.load(open(old_path, encoding="utf-8"))
+                old = len({t["name"] for e in od for t in (e["taxa"] if "taxa" in e else [e])})
+        if old and n < old * 0.9:
+            problems.append(f"{key}: {n} entries, down from {old} (more than 10% fewer)")
+    if problems:
+        raise SystemExit("Not updating the lists:\n  " + "\n  ".join(problems))
 
 
 def main():
@@ -235,10 +307,11 @@ def main():
             time.sleep(2)
 
     waol = parse_waol(open(waol_csv, encoding="utf-8").read())
-    json.dump(waol, open(os.path.join(OUT, "waol.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     nox = parse_fish_list(open(os.path.join(SRC, "wa_noxious_fish.txt"), encoding="utf-8").read(), True)
     hr = parse_fish_list(open(os.path.join(SRC, "wa_high_risk_fish.txt"), encoding="utf-8").read(), False)
     lil = parse_lil(open(os.path.join(SRC, "live_import_list_part1.txt"), encoding="utf-8").read())
+    sanity_check({"waol": waol["rows"], "wa_noxious_fish": nox, "wa_high_risk_fish": hr, "live_import_list_part1": lil})
+    json.dump(waol, open(os.path.join(OUT, "waol.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     for name, data in (("wa_noxious_fish", nox), ("wa_high_risk_fish", hr), ("live_import_list_part1", lil)):
         json.dump(data, open(os.path.join(OUT, name + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     # record each document's own version so the site can show how current it is

@@ -1,11 +1,6 @@
 [
 {
 "rank": "species",
-"name": "Alphabetic sequence",
-"section": "invertebrates"
-},
-{
-"rank": "species",
 "name": "Anas platyrhynchos",
 "section": "birds"
 },
@@ -47,12 +42,12 @@
 {
 "rank": "species",
 "name": "Heterodontus zebra",
-"section": "birds"
+"section": "sharks_rays"
 },
 {
 "rank": "species",
 "name": "Taeniura lymma",
-"section": "birds"
+"section": "sharks_rays"
 },
 {
 "rank": "species",
@@ -118,26 +113,6 @@
 },
 {
 "rank": "species",
-"name": "Leptailurus serval",
-"section": "mammals"
-},
-{
-"rank": "species",
-"name": "Felis catus",
-"section": "mammals"
-},
-{
-"rank": "species",
-"name": "Leptailurus serval",
-"section": "mammals"
-},
-{
-"rank": "species",
-"name": "To avoid",
-"section": "mammals"
-},
-{
-"rank": "species",
 "name": "Felis catus",
 "section": "mammals"
 },
@@ -169,11 +144,6 @@
 {
 "rank": "species",
 "name": "Sus scrofa",
-"section": "mammals"
-},
-{
-"rank": "species",
-"name": "Bony fishes",
 "section": "mammals"
 },
 {
@@ -214,11 +184,6 @@
 {
 "rank": "species",
 "name": "Ambassis kopsii",
-"section": "freshwater_fish"
-},
-{
-"rank": "species",
-"name": "Scalloped perchlet",
 "section": "freshwater_fish"
 },
 {
@@ -1189,11 +1154,6 @@
 },
 {
 "rank": "species",
-"name": "Threadfin cichlid",
-"section": "freshwater_fish"
-},
-{
-"rank": "species",
 "name": "Phenacogrammus interruptus",
 "section": "freshwater_fish"
 },
@@ -1698,11 +1658,6 @@
 "section": "marine_fish"
 },
 {
-"rank": "species",
-"name": "Holacanthus limbaughi",
-"section": "marine_fish"
-},
-{
 "rank": "family",
 "name": "Pomacentridae",
 "section": "marine_fish"
@@ -1911,11 +1866,6 @@
 "rank": "species",
 "name": "Zanclus cornutus",
 "section": "marine_fish"
-},
-{
-"rank": "species",
-"name": "Lantana bud",
-"section": "invertebrates"
 },
 {
 "rank": "species",
