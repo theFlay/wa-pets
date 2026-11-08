@@ -1,0 +1,59 @@
+# When the maintainer adds the "approved" label to a community suggestion,
+# apply it to the site data, rebuild, commit, and close the issue with a note.
+# Only people with write access can add labels, so nothing publishes without review.
+name: Apply community suggestion
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: site-data
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'community')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      # The issue text is untrusted, so it's only read by the script from the
+      # event file, never pasted into a shell command.
+      - name: Apply the suggestion
+        id: apply
+        run: |
+          set +e
+          python3 tools/community.py "$GITHUB_EVENT_PATH" > result.txt
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+          cat result.txt
+      - name: Rebuild and commit
+        if: steps.apply.outputs.code == '0'
+        run: |
+          python3 src/build.py
+          git add -A data/community data/hobby data/site index.html
+          if git diff --cached --quiet; then echo "Nothing changed"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Apply community suggestion #${{ github.event.issue.number }}"
+          git pull --rebase -q
+          git push
+      - name: Reply on the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+          CODE: ${{ steps.apply.outputs.code }}
+        run: |
+          if [ "$CODE" = "0" ]; then
+            printf '%s\n\nIt will show on the site within a few minutes. Thanks for contributing!\n' "$(cat result.txt)" > reply.md
+            gh issue comment "$NUMBER" -R "$GITHUB_REPOSITORY" -F reply.md
+            gh issue close "$NUMBER" -R "$GITHUB_REPOSITORY"
+          else
+            printf '%s\n\nPlease edit the suggestion and the maintainer can approve it again.\n' "$(cat result.txt)" > reply.md
+            gh issue comment "$NUMBER" -R "$GITHUB_REPOSITORY" -F reply.md
+            gh issue edit "$NUMBER" -R "$GITHUB_REPOSITORY" --remove-label approved
+          fi

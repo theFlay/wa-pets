@@ -1,0 +1,67 @@
+name: Suggest an edit
+description: Correct a card, report a status that looks wrong, add a species or share keeping experience
+title: "[Suggestion] "
+labels: ["community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping. Suggestions are reviewed before they appear on the site.
+        The legal status always comes from the official lists; if you think one is wrong, please link your evidence (for example, a reply from DPIRD or your state's wildlife department).
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of suggestion?
+      options:
+        - Correction to the care info or description
+        - The legal status looks wrong
+        - Add a species to a hobby guide
+        - Better photo
+        - I keep this species (experience report)
+        - This card is correct (please verify it)
+    validations:
+      required: true
+  - type: input
+    id: species
+    attributes:
+      label: Scientific name
+      description: For example Extatosoma tiaratum
+    validations:
+      required: true
+  - type: input
+    id: common
+    attributes:
+      label: Common name
+  - type: input
+    id: tab
+    attributes:
+      label: Tab
+      description: fauna, mammals, aquatic, bugs, plants or fungi
+    validations:
+      required: true
+  - type: input
+    id: state
+    attributes:
+      label: State or territory it applies to
+      description: WA, NSW, VIC, QLD, SA, TAS, NT, ACT, or "all"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Your suggestion
+      description: What should change, or what you know from keeping it. For a new species, include size, care level, temperament and setup if you can.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Evidence or source (link)
+      description: Optional, but needed for legal status reports
+  - type: checkboxes
+    id: ok
+    attributes:
+      label: Publishing
+      options:
+        - label: I'm happy for this text to be published on the site, with a link back to this suggestion
+          required: true

@@ -35,6 +35,12 @@ Every status carries its source and the date that list was downloaded. Levels:
 
 Statuses are stored per state. `tools/realms.py` builds one catalogue per tab where each taxon (matched on scientific name, ignoring the author) holds a status for every state that has one. Other states come from `tools/state_lists.py` (parses saved sources into `data/lists/states/`); see [docs/STATES.md](../docs/STATES.md).
 
+## Community
+
+- `.github/ISSUE_TEMPLATE/community.yml` - the "Suggest an edit" form (the page pre-fills species, tab and state)
+- `tools/community.py` - applies an approved suggestion: writes `data/community/notes.json`, adds new species to `data/hobby/<tab>.json`, or marks a card verified. Issue text is treated as untrusted data (HTML stripped, links must be http(s), names validated)
+- `Apply community suggestion` workflow: runs when the `approved` label is added to an issue labelled `community`
+
 ## Automation
 
 - `Cache photos` (every 30 minutes): fetches up to 5 missing photos for any guide, rebuilds and commits

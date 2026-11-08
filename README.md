@@ -22,6 +22,12 @@ Statuses are worked out automatically from those lists, which are re-downloaded 
 
 Photos: Wikipedia / Wikimedia Commons contributors under Creative Commons licences. Each card links to its photo's credit page.
 
+## Contributing
+
+Every card and list row has a **Suggest an edit** link. It opens a short GitHub form (you need a free GitHub account) for corrections, status reports with evidence, new species, better photos, keeping experience, or confirming a card is right.
+
+Suggestions are reviewed first. When the maintainer adds the `approved` label, an Action adds it to the site as a community note (or a new card, or a verified badge) and closes the suggestion with a link. Community notes sit beside the official status; they never replace it.
+
 ## How it's built
 
 See [src/README.md](src/README.md).
