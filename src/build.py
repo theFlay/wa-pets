@@ -1,13 +1,19 @@
-"""Build index.html from src/. Run from anywhere:  python src/build.py
+"""Build the site. Run from anywhere:  python src/build.py
+
+- index.html: the page, with the fauna guide (src/data.js) built in
+- data/site/<tab>.json: hobby guide and full official list for every main tab
+  (loaded by the page when that tab is opened)
 
 Photos in img/ (named by tools/fetch_photos.py) are served from the site.
-Any species without a cached photo yet falls back to its Wikimedia URL.
+Anything without a cached photo yet falls back to its Wikimedia URL.
 """
-import json, os, re, urllib.parse
+import json, os, re, sys, urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "src")
 EXTS = (".jpg", ".png", ".webp", ".gif")
+sys.path.insert(0, os.path.join(ROOT, "tools"))
+import realms  # noqa: E402
 
 
 def read(name):
@@ -28,26 +34,34 @@ def credit_page(url, key):
     return "https://en.wikipedia.org/w/index.php?search=" + urllib.parse.quote(key)
 
 
+URLS = json.loads(read("img_urls.json"))["urls"]
+
+
+def photo_for(k):
+    if not k or k == "none":
+        return None
+    u = URLS.get(k, "")
+    f = next((f"img/{slug(k)}{e}" for e in EXTS if os.path.exists(os.path.join(ROOT, "img", slug(k) + e))), None)
+    if f:
+        return {"f": f, "c": credit_page(u, k)}
+    if u:
+        return {"f": re.sub(r"^https://thumb\.wikimedia\.org/", "https://upload.wikimedia.org/", u).split("?")[0],
+                "c": credit_page(u, k)}
+    return None
+
+
 data = read("data.js")
 keys = [json.loads(l.strip().rstrip(","))[-1] for l in data.splitlines() if l.strip().startswith('["')]
-urls = json.loads(read("img_urls.json"))["urls"]
-photos, local = [], 0
-for k in keys:
-    u = urls.get(k, "")
-    f = next((f"img/{slug(k)}{e}" for e in EXTS if os.path.exists(os.path.join(ROOT, "img", slug(k) + e))), None)
-    if k == "none":
-        photos.append(None)
-    elif f:
-        local += 1
-        photos.append({"f": f, "c": credit_page(u, k)})
-    elif u:
-        photos.append({"f": re.sub(r"^https://thumb\.wikimedia\.org/", "https://upload.wikimedia.org/", u).split("?")[0],
-                       "c": credit_page(u, k)})
-    else:
-        photos.append(None)
+photos = [photo_for(k) for k in keys]
+counts = realms.build(photo_for)
+meta = json.load(open(os.path.join(ROOT, "data", "lists", "meta.json")))
+info = {"counts": counts, "sources": meta}
 
 html = (read("template.html").replace("__DATA__", data).replace("__PHOTOS__", json.dumps(photos))
-        .replace("__TOTAL__", str(len(keys))))
+        .replace("__TOTAL__", str(len(keys))).replace("__INFO__", json.dumps(info)))
 with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8", newline="\n") as f:
     f.write(html)
-print(f"index.html: {len(keys)} species, {sum(1 for p in photos if p)} with photos, {local} served from img/")
+local = sum(1 for p in photos if p and p["f"].startswith("img/"))
+print(f"index.html: {len(keys)} fauna guide species, {local} photos from img/")
+for r, c in counts.items():
+    print(f"  {r:8} guide {c['guide']:3}  official list {c['list']:6}")

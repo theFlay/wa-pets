@@ -1,0 +1,21 @@
+{
+ "waol": {
+  "checked": "2026-11-08",
+  "page": "https://www.dpird.wa.gov.au/online-tools/western-australian-organism-list/",
+  "version": "Exported 8th November 2026"
+ },
+ "wa_noxious_fish": {
+  "checked": "2026-11-08",
+  "page": "https://www.dpird.wa.gov.au/businesses/biosecurity/aquatic-biosecurity/importing-and-keeping-live-fish-translocation/",
+  "version": "As at 12 Dec 2024"
+ },
+ "wa_high_risk_fish": {
+  "checked": "2026-11-08",
+  "page": "https://www.dpird.wa.gov.au/businesses/biosecurity/aquatic-biosecurity/importing-and-keeping-live-fish-translocation/"
+ },
+ "live_import_list_part1": {
+  "checked": "2026-11-08",
+  "page": "https://www.legislation.gov.au/F2006B01053/latest/text",
+  "version": "Compilation No. 104, 28 Jan 2026"
+ }
+}

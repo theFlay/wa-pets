@@ -1,0 +1,37 @@
+# Once a week, re-download the official lists (WA Organism List, WA noxious
+# and high-risk fish lists, Live Import List), rebuild and commit if they changed.
+name: Update official lists
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"   # Mondays 03:17 UTC (11:17 Perth)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-data
+  cancel-in-progress: false
+
+jobs:
+  lists:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pdftotext
+        run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
+      - name: Download and parse the lists
+        run: python3 tools/update_lists.py
+      - name: Rebuild the site
+        run: python3 src/build.py
+      - name: Commit if anything changed
+        run: |
+          git add -A data/lists data/sources data/site index.html
+          if git diff --cached --quiet; then echo "Lists unchanged"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update official lists"
+          git pull --rebase -q
+          git push

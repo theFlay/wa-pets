@@ -1,0 +1,421 @@
+[
+{
+"taxa": [
+{
+"rank": "genus",
+"name": "Atractosteus"
+}
+],
+"raw": "Atractosteus spp. (entire genus)"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Barbonymus schwanenfeldii"
+}
+],
+"raw": "Barbonymus schwanenfeldii"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Boulengerella maculata"
+}
+],
+"raw": "Boulengerella maculata Spotted pike-characin Ctenoluciidae"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Bryconops affinis"
+}
+],
+"raw": "Bryconops affinis"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Bryconops melanurus"
+}
+],
+"raw": "Bryconops melanurus"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Cichlasoma urophthalmus"
+}
+],
+"raw": "Cichlasoma urophthalmus"
+},
+{
+"taxa": [
+{
+"rank": "family",
+"name": "Clariidae"
+}
+],
+"raw": "Clariidae (entire family)"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Crenicichla lacustris"
+}
+],
+"raw": "Crenicichla lacustris"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Crenicichla notophthalmus"
+}
+],
+"raw": "Crenicichla notophthalmus"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Crenicichla saxatilis"
+}
+],
+"raw": "Crenicichla saxatilis"
+},
+{
+"taxa": [
+{
+"rank": "genus",
+"name": "Crenicichla"
+}
+],
+"raw": "Crenicichla spp. (entire genus)"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Dianema longibarbis"
+}
+],
+"raw": "Dianema longibarbis"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Fundulus chrysotus"
+}
+],
+"raw": "Fundulus chrysotus"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Gasterosteus aculeatus"
+}
+],
+"raw": "Gasterosteus aculeatus"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Gibelion catla"
+}
+],
+"raw": "Gibelion catla"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Herichthys cyanoguttatus"
+}
+],
+"raw": "Herichthys cyanoguttatus"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Hollandichthys multifasciatus"
+}
+],
+"raw": "Hollandichthys multifasciatus"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Hypophthalmichthys nobilis"
+}
+],
+"raw": "Hypophthalmichthys nobilis"
+},
+{
+"taxa": [
+{
+"rank": "genus",
+"name": "Hypselecara"
+}
+],
+"raw": "Hypselecara spp. (entire genus)"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Irvineia voltae"
+}
+],
+"raw": "Irvineia voltae"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Knodus savannensis"
+}
+],
+"raw": "Knodus savannensis"
+},
+{
+"taxa": [
+{
+"rank": "genus",
+"name": "Lepisosteus"
+}
+],
+"raw": "Lepisosteus spp. (entire genus)"
+},
+{
+"taxa": [
+{
+"rank": "genus",
+"name": "Lepomis"
+}
+],
+"raw": "Lepomis spp. (entire genus)"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Leptolebias splendens"
+}
+],
+"raw": "Leptolebias splendens Splendid pearlfish"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Microctenopoma ansorgii"
+}
+],
+"raw": "Microctenopoma ansorgii"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Microctenopoma congicum"
+}
+],
+"raw": "Microctenopoma congicum"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Microctenopoma fasciolatum"
+}
+],
+"raw": "Microctenopoma fasciolatum"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Microctenopoma nanum"
+}
+],
+"raw": "Microctenopoma nanum"
+},
+{
+"taxa": [
+{
+"rank": "genus",
+"name": "Micropterus"
+}
+],
+"raw": "Micropterus spp. (entire genus)"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Nandopsis tetracanthus"
+}
+],
+"raw": "Nandopsis tetracanthus Cuban cichlid"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Neolissochilus hexagonolepis"
+}
+],
+"raw": "Neolissochilus hexagonolepis"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Ompok bimaculatus"
+}
+],
+"raw": "Ompok bimaculatus"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Osteoglossum bicirrhosum"
+}
+],
+"raw": "Osteoglossum bicirrhosum"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Pangasianodon hypopthalmus"
+}
+],
+"raw": "Pangasianodon hypopthalmus"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Parachanna obscura"
+}
+],
+"raw": "Parachanna obscura"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Phago loricatus"
+}
+],
+"raw": "Phago loricatus"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Polypterus endlicherii"
+}
+],
+"raw": "Polypterus endlicherii Saddled bichir"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Polypterus retropinnis"
+}
+],
+"raw": "Polypterus retropinnis West African bichir"
+},
+{
+"taxa": [
+{
+"rank": "genus",
+"name": "Pomoxis"
+}
+],
+"raw": "Pomoxis spp. (entire genus)"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Pseudocrenilabrus philander"
+}
+],
+"raw": "Pseudocrenilabrus philander"
+},
+{
+"taxa": [
+{
+"rank": "genus",
+"name": "Pygopristis"
+}
+],
+"raw": "Pygopristis spp."
+},
+{
+"taxa": [
+{
+"rank": "family",
+"name": "Serrasalminae"
+}
+],
+"raw": "Serrasalminae",
+"except": [
+{
+"rank": "genus",
+"name": "Metynnis"
+},
+{
+"rank": "species",
+"name": "Myloplus rubripinnis"
+},
+{
+"rank": "species",
+"name": "Piaractus brachypomus"
+}
+]
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Sorubim lima"
+}
+],
+"raw": "Sorubim lima"
+},
+{
+"taxa": [
+{
+"rank": "family",
+"name": "Trichomycteridae"
+}
+],
+"raw": "Trichomycteridae (entire family)"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Xiphophorus pygmaeus"
+}
+],
+"raw": "Xiphophorus pygmaeus Pygmy swordtail"
+}
+]

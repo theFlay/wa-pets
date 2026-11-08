@@ -21,9 +21,18 @@ URLS = os.path.join(ROOT, "src", "img_urls.json")
 EXTS = {"image/jpeg": ".jpg", "image/png": ".png", "image/webp": ".webp", "image/gif": ".gif"}
 
 
+HOBBY = os.path.join(ROOT, "data", "hobby")
+
+
 def species_keys():
+    """Photo keys for the fauna guide (src/data.js) and every hobby guide (data/hobby/*.json)."""
     rows = [json.loads(l.strip().rstrip(",")) for l in open(DATA, encoding="utf-8") if l.strip().startswith('["')]
-    return [r[-1] for r in rows]
+    keys = [r[-1] for r in rows]
+    if os.path.isdir(HOBBY):
+        for name in sorted(os.listdir(HOBBY)):
+            if name.endswith(".json"):
+                keys += [r.get("photo") or r["sci"] for r in json.load(open(os.path.join(HOBBY, name), encoding="utf-8"))]
+    return keys
 
 
 def slug(key):

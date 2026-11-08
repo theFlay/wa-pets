@@ -28,10 +28,41 @@ body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-u
 .realms::-webkit-scrollbar{display:none}
 .realm{flex:none;border:1px solid var(--line);border-radius:12px;padding:8px 14px;background:var(--card);color:var(--ink);font:600 14px Inter,sans-serif;cursor:pointer}
 .realm.on{background:var(--accent);border-color:var(--accent);color:var(--chipink)}
+body[data-realm=mammals]{--bg:#f7efea;--card:#fffaf7;--ink:#2b1f1a;--muted:#6e5a51;--line:#e8d6cc;--accent:#9a4a2e;--chip:#f0e0d6;--chipon:#9a4a2e;--chipink:#fff}
+body[data-realm=plants]{--bg:#eef5ea;--card:#fbfdf9;--ink:#1a2617;--muted:#566652;--line:#d4e3cc;--accent:#2e7a2a;--chip:#e0edd8;--chipon:#2e7a2a;--chipink:#fff}
+body[data-realm=fungi]{--bg:#f4eff6;--card:#fdfbfe;--ink:#261d2b;--muted:#665a6d;--line:#e2d6e8;--accent:#6e3f86;--chip:#ece2f1;--chipon:#6e3f86;--chipink:#fff}
+@media (prefers-color-scheme:dark){
+body[data-realm=mammals]{--bg:#1b1412;--card:#251c19;--ink:#f0e5df;--muted:#b6a097;--line:#3b2c26;--accent:#e8977a;--chip:#30241f;--chipon:#e8977a;--chipink:#2a120a}
+body[data-realm=plants]{--bg:#111a10;--card:#182417;--ink:#e3eedf;--muted:#9fb39a;--line:#283a25;--accent:#8fd486;--chip:#1f2e1d;--chipon:#8fd486;--chipink:#0d220b}
+body[data-realm=fungi]{--bg:#18131b;--card:#211a26;--ink:#ece3f1;--muted:#ad9fb6;--line:#352b3c;--accent:#c79ce0;--chip:#2a2131;--chipon:#c79ce0;--chipink:#22112c}
+}
 [data-for]{display:none}
-body[data-realm=fauna] [data-for~=fauna],body[data-realm=aquatic] [data-for~=aquatic],body[data-realm=bugs] [data-for~=bugs]{display:block}
+body[data-realm=fauna] [data-for~=fauna]{display:block}
+body[data-realm=fauna] .vtabs[data-for~=fauna]{display:flex}
+body[data-view=list] [data-for~=fauna]{display:none!important}
+#rv{display:none}
+body:not([data-realm=fauna]) #rv,body[data-view=list] #rv{display:block}
+.vtabs{max-width:1200px;margin:0 auto;padding:12px 18px 0;display:flex;gap:6px;flex-wrap:wrap}
+.vt{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:6px 14px;font:600 13px Inter,sans-serif;cursor:pointer}
+.vt.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .soon{background:var(--card);border:1px dashed var(--line);border-radius:16px;padding:28px 20px;text-align:center;color:var(--muted);margin-top:18px}
 .soon b{display:block;font:600 22px Fraunces,Georgia,serif;color:var(--ink);margin-bottom:6px}
+.lv{display:inline-block;font:600 11.5px Inter,sans-serif;padding:3px 9px;border-radius:999px;color:#fff;white-space:nowrap}
+.lv.ok{background:#2f7d46}.lv.permit{background:#b06d12}.lv.check{background:#56677a}.lv.no{background:#b33a32}
+.stbox{border-left:4px solid var(--line);padding:4px 0 4px 10px;font-size:13px}
+.stbox.ok{border-color:#2f7d46}.stbox.permit{border-color:#b06d12}.stbox.check{border-color:#56677a}.stbox.no{border-color:#b33a32}
+.stbox b{display:block;font-size:13.5px}
+.stbox small,.lrow small{color:var(--muted);font-size:11.5px}
+.stbox a,.lrow a{color:var(--accent)}
+.unchk{font-size:11.5px;padding:2px 8px;border-radius:999px;border:1px dashed var(--muted);color:var(--muted)}
+.lrows{display:flex;flex-direction:column;gap:6px}
+.lrow{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 12px;display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center}
+.lrow .nm{font-size:14px}.lrow .nm i{font-weight:600}
+.lrow .lv{grid-row:span 2}
+.more{display:block;margin:14px auto;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:12px;padding:9px 18px;font:600 14px Inter,sans-serif;cursor:pointer}
+.legend{display:grid;gap:6px;padding-bottom:12px;font-size:14px;color:var(--muted)}
+.legend p{margin:0}
+.loading{color:var(--muted);padding:40px 0;text-align:center}
 .key{font-size:12px;color:var(--muted);padding-top:4px;display:flex;gap:12px;flex-wrap:wrap}
 header{padding:28px 18px 8px;max-width:1200px;margin:0 auto}
 h1{font-family:Fraunces,Georgia,serif;font-size:clamp(26px,6vw,40px);line-height:1.1;margin:0 0 6px}
@@ -94,20 +125,14 @@ footer a{color:var(--accent)}
 </head>
 <body data-realm="fauna">
 <nav class="realms" id="realms" aria-label="Animal groups">
-  <button class="realm on" data-r="fauna">🦎 Frogs, reptiles &amp; birds</button>
+  <button class="realm on" data-r="fauna">🦎 Reptiles, frogs &amp; birds</button>
+  <button class="realm" data-r="mammals">🐾 Mammals</button>
   <button class="realm" data-r="aquatic">🐟 Aquatic</button>
   <button class="realm" data-r="bugs">🐞 Insects &amp; spiders</button>
+  <button class="realm" data-r="plants">🌿 Plants</button>
+  <button class="realm" data-r="fungi">🍄 Fungi &amp; microbes</button>
 </nav>
-<header data-for="aquatic">
-  <h1>Aquatic pets in WA</h1>
-  <p class="sub">Fish, crayfish and other aquatic animals you can keep in Western Australia. These are covered by different rules from the pet keeper's licence.</p>
-  <div class="soon"><b>Coming soon</b>This section is being researched against the official WA lists before anything goes up.</div>
-</header>
-<header data-for="bugs">
-  <h1>Insects and spiders in WA</h1>
-  <p class="sub">Insects, spiders, scorpions and other invertebrates you can keep in Western Australia. These are covered by different rules from the pet keeper's licence.</p>
-  <div class="soon"><b>Coming soon</b>This section is being researched against the official WA lists before anything goes up.</div>
-</header>
+<div class="vtabs" id="fvt" data-for="fauna"><button class="vt on" data-v="guide">Pet keeper's licence guide (__TOTAL__)</button><button class="vt" data-v="list">Full official list</button></div>
 <header data-for="fauna">
   <h1>WA pet keeper's licence: species guide</h1>
   <p class="sub">All __TOTAL__ native animals DBCA lets you keep as pets: frogs, reptiles and birds. Filter, tap a photo to enlarge it, and star the ones you like.</p>
@@ -134,6 +159,7 @@ footer a{color:var(--accent)}
   <p>Size, care and temperament notes are general hobby guidance, not DBCA's. Care level and the colour morph and male/female icons are Claude's rough judgement. "Around Perth/Peel" means the species lives wild in the area. You still can't take animals from the wild; buy captive-bred from licensed keepers.</p>
   <p>Photos: Wikipedia / Wikimedia Commons contributors, used under their Creative Commons licences. Tap "Photo credit" on a card for the author and licence. Some subspecies show a photo of a close relative.</p>
 </footer>
+<div id="rv"></div>
 <div class="lb" id="lb"><img id="lbimg" alt=""><div id="lbcap"></div><div style="font-size:13px;opacity:.7">Tap anywhere to close</div></div>
 <script>
 __DATA__
@@ -145,12 +171,6 @@ const CATSUB={A:"Keep these without any licence. Birds only.",B:"The starting li
 const CARE=["","Easy","Moderate","Hard"];
 let stars=new Set();try{stars=new Set(JSON.parse(localStorage.getItem("waStars")||"[]"))}catch(e){}
 const st={q:"",cat:"All",group:"All",d:false,r:false,x:false,l:false,m:false,t:false,s:false};
-const REALMS=["fauna","aquatic","bugs"];
-function setRealm(r,push){if(!REALMS.includes(r))r="fauna";document.body.dataset.realm=r;
-  document.querySelectorAll(".realm").forEach(b=>b.classList.toggle("on",b.dataset.r===r));
-  if(push)history.replaceState(null,"",r==="fauna"?location.pathname:"#"+r)}
-document.getElementById("realms").onclick=e=>{const b=e.target.closest(".realm");if(b){setRealm(b.dataset.r,true);scrollTo(0,0)}};
-setRealm(location.hash.slice(1));addEventListener("hashchange",()=>setRealm(location.hash.slice(1)));
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 function chips(el,items,key){el.innerHTML=items.map(([v,label])=>`<button class="chip${st[key]===v?" on":""}" data-v="${esc(v)}">${esc(label)}</button>`).join("");
   el.onclick=e=>{const b=e.target.closest(".chip");if(!b)return;st[key]=b.dataset.v;chips(el,items,key);render()}}
@@ -210,6 +230,129 @@ document.getElementById("out").addEventListener("click",e=>{
 });
 document.getElementById("lb").onclick=()=>document.getElementById("lb").classList.remove("on");
 render();
+
+/* ---------- main tabs: hobby guide + full official list, data loaded per tab ---------- */
+const INFO=__INFO__;
+const LEGEND=`<div class="legend">
+<p><span class="lv ok">Allowed</span> DPIRD permits it in WA, or it isn't on any WA banned list.</p>
+<p><span class="lv permit">Permit</span> Allowed with a permit or conditions.</p>
+<p><span class="lv check">Check</span> Not clear from the lists: unlisted in WA, or needs DPIRD approval. Ask DPIRD before buying.</p>
+<p><span class="lv no">Banned</span> Prohibited, noxious or high risk in WA.</p>
+<p>Statuses are filled in automatically from the official lists. Cards marked <span class="unchk">🤖 Unchecked</span> haven't been reviewed by a person yet, so their care notes may be wrong. The official list always wins.</p></div>`;
+const WAOL_NOTE=`<p><b>Keeping category</b>, when shown: Exempt means no permit is needed to keep it, Restricted means you need a permit, Prohibited means you can't keep it. <b>Unlisted</b> organisms (not on the list at all) can't be brought into WA until DPIRD assesses them.</p>`;
+const RINFO={
+ fauna:{h1:"Frogs, reptiles and birds: the full WA list",sub:"Every amphibian, reptile and bird on DPIRD's WA Organism List, with its status.",
+  explain:`<p><b>Permitted</b> means DPIRD allows it into WA. For native animals that's only half of it: keeping native frogs, reptiles and birds also needs the DBCA pet keeper's licence shown in the guide.</p>${WAOL_NOTE}`},
+ mammals:{h1:"Mammals in WA",sub:"Every mammal on DPIRD's WA Organism List, with its status. Hobby guide coming soon.",
+  explain:`<p>Some popular pets elsewhere are prohibited in WA: for example, golden hamsters are. Domestic rabbits are a declared pest but exempt, so you can keep them; wild-type rabbits are prohibited.</p><p>DBCA's pet keeper's licence only covers frogs, reptiles and birds, so native mammals generally can't be kept as pets.</p>${WAOL_NOTE}`},
+ aquatic:{h1:"Aquatic pets in WA",sub:"Fish, crayfish, shrimp and snails. WA's fish rules come from DPIRD's fisheries lists, not the pet keeper's licence.",
+  explain:`<ul><li><b>Noxious fish</b> are banned: you can't keep, breed or release them. Penalties start at $10,000.</li><li><b>High-risk non-endemic fish</b> can't be brought into WA.</li><li>Any other fish that isn't a WA native needs <b>DPIRD translocation approval</b> to bring it in from another state. Whitelisted species get automatic approval.</li><li>The <b>national Live Import List</b> covers what can be imported into Australia at all. Species not on it are only available as Australian-bred stock.</li><li>"Fish" in WA law includes crayfish, shrimp, snails and corals. Never release aquarium animals, plants or water into the wild.</li></ul>`},
+ bugs:{h1:"Insects, spiders and other invertebrates in WA",sub:"Ants, beetles, stick insects, roaches, spiders, scorpions and more. Status comes from DPIRD's WA Organism List.",
+  explain:`<p><b>Permitted</b> means DPIRD allows it into WA. <b>Prohibited</b> means it's a declared pest: you can't bring it in or keep it.</p>${WAOL_NOTE}<p>Some WA natives simply haven't been listed, which is why they show as unlisted. DBCA's pet keeper's licence guidelines put native invertebrates that aren't threatened in Category A, so they need no licence.</p>`},
+ plants:{h1:"Plants in WA",sub:"Every plant on DPIRD's WA Organism List, with its status. Hobby guide coming soon.",
+  explain:`<p><b>Permitted</b> plants can come into WA, though imports can still have conditions (check DPIRD's <a href="https://www.dpird.wa.gov.au/online-tools/western-australian-import-requirements-search/" target="_blank" rel="noopener">import requirements search</a>). <b>Declared pest</b> plants (weeds) can be prohibited or restricted.</p>${WAOL_NOTE}`},
+ fungi:{h1:"Fungi and microbes in WA",sub:"Mostly plant and animal diseases on DPIRD's WA Organism List. Handy for checking mushroom kits, cultures and the like. Hobby guide coming soon.",
+  explain:WAOL_NOTE}
+};
+const SRCNAMES={waol:"WA Organism List (DPIRD)",wa_noxious_fish:"WA noxious fish list",wa_high_risk_fish:"WA high-risk non-endemic fish list",live_import_list_part1:"Live Import List, Part 1 (EPBC Act)"};
+const RSRC={fauna:["waol"],mammals:["waol"],aquatic:["wa_noxious_fish","wa_high_risk_fish","live_import_list_part1","waol"],bugs:["waol"],plants:["waol"],fungi:["waol"]};
+const REALMS=Object.keys(RINFO);
+const LVL=[["All","All"],["ok","Allowed"],["permit","Permit"],["check","Check"],["no","Banned"]];
+const cache={};
+const rs={realm:"fauna",view:"guide",q:"",sub:"All",lvl:"All",d:false,r:false,x:false,s:false,limit:200};
+const rv=document.getElementById("rv");
+const loadRealm=r=>cache[r]||(cache[r]=fetch(`data/site/${r}.json`).then(x=>{if(!x.ok)throw new Error(x.status);return x.json()}));
+function setRealm(r,view,push){
+  if(!REALMS.includes(r))r="fauna";
+  const c=INFO.counts[r]||{guide:0,list:0};
+  view=view==="list"||view==="guide"?view:(r==="fauna"||c.guide?"guide":"list");
+  if(r!=="fauna"&&!c.guide)view="list";
+  Object.assign(rs,{realm:r,view,q:"",sub:"All",lvl:"All",d:false,r:false,x:false,s:false,limit:200});
+  document.body.dataset.realm=r;document.body.dataset.view=r==="fauna"&&view==="guide"?"guide":"list";
+  if(r!=="fauna")document.body.dataset.view="other";
+  document.querySelectorAll(".realm").forEach(b=>b.classList.toggle("on",b.dataset.r===r));
+  document.querySelectorAll("#fvt .vt").forEach(b=>b.classList.toggle("on",b.dataset.v===view));
+  if(push)history.replaceState(null,"",r==="fauna"&&view==="guide"?location.pathname:"#"+r+(view==="list"&&(r==="fauna"||c.guide)?"/list":""));
+  if(r==="fauna"&&view==="guide"){rv.innerHTML="";return}
+  shell();
+}
+function fromHash(){const [r,v]=location.hash.slice(1).split("/");setRealm(r||"fauna",v)}
+document.getElementById("realms").onclick=e=>{const b=e.target.closest(".realm");if(b){setRealm(b.dataset.r,null,true);scrollTo(0,0)}};
+document.getElementById("fvt").onclick=e=>{const b=e.target.closest(".vt");if(b)setRealm("fauna",b.dataset.v,true)};
+addEventListener("hashchange",fromHash);
+function srcLine(keys){return keys.map(k=>{const m=INFO.sources[k]||{};return `<a href="${esc(m.page||"#")}" target="_blank" rel="noopener">${SRCNAMES[k]}</a>${m.version?" ("+esc(m.version)+")":""}${m.checked?", downloaded "+esc(m.checked):""}`}).join(" · ")}
+async function shell(){
+  const r=rs.realm,I=RINFO[r],c=INFO.counts[r];
+  rv.innerHTML=`${r==="fauna"?"":`<div class="vtabs">${c.guide?`<button class="vt${rs.view==="guide"?" on":""}" data-v="guide">Hobby guide (${c.guide})</button>`:""}<button class="vt${rs.view==="list"?" on":""}" data-v="list">Full official list (${c.list.toLocaleString()})</button></div>`}
+  ${r==="fauna"?`<div class="vtabs"><button class="vt" data-v="guide">Pet keeper's licence guide (${SPECIES.length})</button><button class="vt on" data-v="list">Full official list (${c.list.toLocaleString()})</button></div>`:""}
+  <header><h1>${I.h1}</h1><p class="sub">${I.sub}</p>
+  <details class="explain"><summary>How WA's rules work here</summary>${I.explain}${LEGEND}</details></header>
+  <div class="controls"><div class="in"><input type="search" id="rq" placeholder="Search name or scientific name..." autocomplete="off">
+  <div class="row" id="rsubs"></div><div class="row" id="rlvl"></div>${rs.view==="guide"?'<div class="row" id="rflags"></div><div class="key"><span>☠ Dangerous</span><span>🌈 Colour morphs or forms</span><span>♂♀ Males and females look different</span></div>':""}
+  <div class="count" id="rcount"></div></div></div>
+  <main id="rout"><p class="loading">Loading...</p></main>
+  <footer><p>Sources: ${srcLine(RSRC[r])}. Lists are re-downloaded automatically; always confirm with DPIRD before buying or importing.</p>
+  <p>Photos: Wikipedia / Wikimedia Commons contributors under Creative Commons licences.</p></footer>`;
+  rv.querySelectorAll(".vtabs").forEach(v=>v.onclick=e=>{const b=e.target.closest(".vt");if(b)setRealm(r,b.dataset.v,true)});
+  document.getElementById("rq").oninput=e=>{rs.q=e.target.value.trim().toLowerCase();rs.limit=200;results()};
+  let d;try{d=await loadRealm(r)}catch(e){document.getElementById("rout").innerHTML='<p class="empty">Couldn\'t load this tab\'s data. If you opened the file directly, run a local web server instead.</p>';return}
+  if(rs.realm!==r)return;
+  const subsUsed=new Set((rs.view==="guide"?d.guide.map(g=>g.sub):d.list.map(x=>x[2])));
+  rchips("rsubs",[["All","All"],...d.subs.filter(([k])=>subsUsed.has(k))],"sub",d);
+  rchips("rlvl",LVL.map(([k,l])=>[k,k==="All"?"Any status":l]),"lvl",d);
+  if(rs.view==="guide"){const fe=document.getElementById("rflags");const FLG=[["s","★ My shortlist"],["d","☠ Dangerous"],["r","🌈 Colour morphs"],["x","♂♀ Sexes look different"]];
+    const draw=()=>{fe.innerHTML=FLG.map(([k,l])=>`<button class="chip${rs[k]?" on":""}" data-k="${k}">${l}</button>`).join("")};draw();
+    fe.onclick=e=>{const b=e.target.closest(".chip");if(!b)return;rs[b.dataset.k]=!rs[b.dataset.k];draw();results()}}
+  results();
+}
+function rchips(id,items,key,d){const el=document.getElementById(id);
+  el.innerHTML=items.map(([v,l])=>`<button class="chip${rs[key]===v?" on":""}" data-v="${esc(v)}">${esc(l)}</button>`).join("");
+  el.onclick=e=>{const b=e.target.closest(".chip");if(!b)return;rs[key]=b.dataset.v;rs.limit=200;rchips(id,items,key,d);results()}}
+function stBox(st){return `<div class="stbox ${st.level}"><b>${esc(st.label)}</b>${esc(st.detail||"")}<br><small>Source: <a href="${esc(st.url)}" target="_blank" rel="noopener">${esc(st.src)}</a>${st.checked?", downloaded "+esc(st.checked):""}</small></div>`}
+function gcard(g,i){
+  const f=(g.flags||"").split(",");const q=encodeURIComponent(g.sci);const p=g.photo;const sl=(cache._subs||{})[g.sub]||g.sub;
+  return `<article class="card"><div class="ph" data-g="${i}">${p?`<img loading="lazy" src="${esc(p.f)}" alt="${esc(g.n)}">`:`<span>${{fauna:"🦎",mammals:"🐾",aquatic:"🐟",bugs:"🐞",plants:"🌿",fungi:"🍄"}[rs.realm]}</span>`}
+    <div class="badges"><span class="lv ${g.st.level}">${esc(LVL.find(l=>l[0]===g.st.level)[1])}</span>${ICONS.filter(([k])=>f.includes(k)).map(([k,gl,t])=>`<button class="ico ${k}" data-tip="${t}" aria-label="${t}">${gl}</button>`).join("")}</div>
+    <button class="star${stars.has(g.sci)?" on":""}" data-n="${esc(g.sci)}" aria-label="Shortlist">${stars.has(g.sci)?"★":"☆"}</button></div>
+  <div class="body"><div class="name">${esc(g.n)}</div><div class="sci">${esc(g.sci)}</div>
+    <div class="tags"><span class="tag">${esc(sl)}</span>${g.verified?'<span class="tag">✔ Verified</span>':'<span class="unchk" title="Collected automatically and not yet reviewed by a person">🤖 Unchecked</span>'}</div>
+    ${stBox(g.st)}
+    <dl>${g.size?`<dt>Size</dt><dd>${esc(g.size)}</dd>`:""}${g.care?`<dt>Care</dt><dd><span class="care">${[1,2,3].map(x=>`<i class="${x<=g.care?"f":""}"></i>`).join("")}</span>${CARE[g.care]}</dd>`:""}${g.temp?`<dt>Nature</dt><dd>${esc(g.temp)}</dd>`:""}${g.setup?`<dt>Setup</dt><dd>${esc(g.setup)}</dd>`:""}</dl>
+    ${g.note?`<p class="note">${esc(g.note)}</p>`:""}
+    <div class="links"><a href="https://www.inaturalist.org/taxa/search?q=${q}" target="_blank" rel="noopener">More photos (iNaturalist)</a><a href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(g.n+" "+g.sci)}" target="_blank" rel="noopener">Google Images</a><a href="https://en.wikipedia.org/w/index.php?search=${q}" target="_blank" rel="noopener">Wikipedia</a></div>
+    ${p?`<div class="credit"><a href="${esc(p.c)}" target="_blank" rel="noopener">Photo credit</a></div>`:`<div class="credit">No free photo found yet. Use the links above.</div>`}
+  </div></article>`}
+async function results(){
+  const r=rs.realm;const d=await loadRealm(r);if(rs.realm!==r)return;
+  const out=document.getElementById("rout"),cnt=document.getElementById("rcount");if(!out)return;
+  const subs=Object.fromEntries(d.subs);cache._subs=subs;
+  if(rs.view==="guide"){
+    const items=d.guide.map((g,i)=>[g,i]).filter(([g])=>{const f=(g.flags||"").split(",");
+      if(rs.sub!=="All"&&g.sub!==rs.sub)return false;if(rs.lvl!=="All"&&g.st.level!==rs.lvl)return false;
+      for(const k of ["d","r","x"])if(rs[k]&&!f.includes(k))return false;if(rs.s&&!stars.has(g.sci))return false;
+      if(rs.q&&!(g.n+" "+g.sci).toLowerCase().includes(rs.q))return false;return true});
+    let html="";for(const [k,label] of d.subs){const its=items.filter(([g])=>g.sub===k);if(!its.length)continue;
+      html+=`<h2 class="sec">${esc(label)} <span style="font:500 14px Inter;color:var(--muted)">(${its.length})</span></h2><div class="grid">${its.map(([g,i])=>gcard(g,i)).join("")}</div>`}
+    out.innerHTML=html||'<p class="empty">Nothing matches those filters.</p>';
+    cnt.textContent=`Showing ${items.length} of ${d.guide.length} species`;return}
+  const S=d.statuses;
+  const rows=d.list.filter(x=>(rs.sub==="All"||x[2]===rs.sub)&&(rs.lvl==="All"||S[x[3]].level===rs.lvl)&&(!rs.q||(x[0]+" "+x[1]).toLowerCase().includes(rs.q)));
+  const shown=rows.slice(0,rs.limit);
+  out.innerHTML=`<div class="lrows">${shown.map(x=>{const st=S[x[3]];return `<div class="lrow"><div class="nm"><i>${esc(x[0])}</i>${x[1]?" · "+esc(x[1]):""}</div><span class="lv ${st.level}" title="${esc(st.detail)}">${esc(st.label)}</span><small>${esc(subs[x[2]]||"")} · ${esc(st.detail)} · <a href="${esc(st.url)}" target="_blank" rel="noopener">${esc(st.src)}</a> · <a href="https://www.inaturalist.org/taxa/search?q=${encodeURIComponent(x[0].replace(/ [(]whole.*$/,""))}" target="_blank" rel="noopener">iNaturalist</a></small></div>`}).join("")}</div>`+
+    (rows.length>shown.length?`<button class="more" id="rmore">Show more (${(rows.length-shown.length).toLocaleString()} left)</button>`:"")+(rows.length?"":'<p class="empty">Nothing matches those filters.</p>');
+  const m=document.getElementById("rmore");if(m)m.onclick=()=>{rs.limit+=500;results()};
+  cnt.textContent=`Showing ${shown.length.toLocaleString()} of ${rows.length.toLocaleString()} matching (${d.list.length.toLocaleString()} in this tab)`;
+}
+rv.addEventListener("click",e=>{
+  const ic=e.target.closest(".ico");
+  if(ic){e.stopPropagation();const was=ic.classList.contains("show");rv.querySelectorAll(".ico.show").forEach(x=>x.classList.remove("show"));if(!was)ic.classList.add("show");return}
+  const sb=e.target.closest(".star");
+  if(sb){const n=sb.dataset.n;stars.has(n)?stars.delete(n):stars.add(n);try{localStorage.setItem("waStars",JSON.stringify([...stars]))}catch(_){}
+    sb.classList.toggle("on",stars.has(n));sb.textContent=stars.has(n)?"★":"☆";if(rs.s)results();return}
+  const ph=e.target.closest(".ph[data-g]");if(ph){loadRealm(rs.realm).then(d=>{const it=d.guide[+ph.dataset.g];if(!it||!it.photo)return;
+    document.getElementById("lbimg").src=it.photo.f;document.getElementById("lbcap").textContent=it.n;document.getElementById("lb").classList.add("on")})}
+});
+fromHash();
 </script>
 </body>
 </html>

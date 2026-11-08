@@ -1,0 +1,3306 @@
+[
+{
+"rank": "species",
+"name": "Alphabetic sequence",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Anas platyrhynchos",
+"section": "birds"
+},
+{
+"rank": "species",
+"name": "Anser anser",
+"section": "birds"
+},
+{
+"rank": "species",
+"name": "Cairina moschata",
+"section": "birds"
+},
+{
+"rank": "species",
+"name": "Columba livia",
+"section": "birds"
+},
+{
+"rank": "species",
+"name": "Coturnix coturnix",
+"section": "birds"
+},
+{
+"rank": "species",
+"name": "Gallus gallus",
+"section": "birds"
+},
+{
+"rank": "species",
+"name": "Meleagris gallopavo",
+"section": "birds"
+},
+{
+"rank": "species",
+"name": "Phasianus colchicus",
+"section": "birds"
+},
+{
+"rank": "species",
+"name": "Heterodontus zebra",
+"section": "birds"
+},
+{
+"rank": "species",
+"name": "Taeniura lymma",
+"section": "birds"
+},
+{
+"rank": "species",
+"name": "Bos taurus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Bos taurus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Camelus dromedaries",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Canis lupus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Capra hircus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Cavia porcellus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Equus asinus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Equus asinus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Equus caballus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Equus caballus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Felis catus",
+"section": "mammals",
+"condition": "excluding any specimen of Felis catus derived from cross"
+},
+{
+"rank": "species",
+"name": "Felis catus",
+"section": "mammals",
+"condition": "excluding any specimen of Felis catus derived from cross"
+},
+{
+"rank": "species",
+"name": "Leptailurus serval",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Felis catus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Leptailurus serval",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "To avoid",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Felis catus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Leptailurus serval",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Mus musculus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Ovis aries",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Rattus norvegicus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Rattus rattus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Sus scrofa",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Bony fishes",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Abramites hypselonotus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Alestopetersius caudalis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Ambassis ambassis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Ambassis buruensis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Ambassis elongata",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Ambassis gymnocephalus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Ambassis interrupta",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Ambassis kopsii",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Scalloped perchlet",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Ambassis macleayi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Ambassis nalua",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Ambastaia sidthimunki",
+"section": "freshwater_fish",
+"condition": "of minimum length 2.5 cm SL"
+},
+{
+"rank": "species",
+"name": "Andinoacara pulcher",
+"section": "freshwater_fish",
+"condition": "of minimum length 3 cm SL"
+},
+{
+"rank": "genus",
+"name": "Anostomus",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Aphyocharax",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Aphyosemion",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Apistogramma",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Aplocheilus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Apteronotus albifrons",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Apteronotus leptorhynchus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Arnoldichthys spilopterus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Astronotus ocellatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Astyanax jordani",
+"section": "freshwater_fish",
+"condition": "Only albino form of Astyanax jordani"
+},
+{
+"rank": "species",
+"name": "Aulonocara nyassae",
+"section": "freshwater_fish",
+"condition": "of minimum length 5 cm SL"
+},
+{
+"rank": "genus",
+"name": "Aulonocara",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Bagrichthys hypselopterus",
+"section": "freshwater_fish",
+"condition": "Only male Bagrichthys hypselopterus"
+},
+{
+"rank": "species",
+"name": "Balantiocheilos melanopterus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Barbodes everetti",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Barbodes lateristriga",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Barbodes semifasciolatus",
+"section": "freshwater_fish",
+"condition": "of minimum length 3 cm SL"
+},
+{
+"rank": "species",
+"name": "Bedotia geayi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Benthochromis tricoti",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Betta",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Boehlkea fredcochui",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Boraras maculatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Botia lohachata",
+"section": "freshwater_fish",
+"condition": "of minimum length 3 cm SL"
+},
+{
+"rank": "genus",
+"name": "Brachygobius",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Brevibora dorsiocellata",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Brochis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Brycinus longipinnis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Campylomormyrus cassaicus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Campylomormyrus rhynchophorus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Carassius auratus",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Carnegiella",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Chalinochromis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Chanda nama",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Characidium laterale",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Chilatherina bulolo",
+"section": "freshwater_fish",
+"condition": "of minimum length 4 cm SL"
+},
+{
+"rank": "species",
+"name": "Chilatherina campsi",
+"section": "freshwater_fish",
+"condition": "of minimum length 4 cm SL"
+},
+{
+"rank": "species",
+"name": "Chilatherina lorentzii",
+"section": "freshwater_fish",
+"condition": "of minimum length 4 cm SL"
+},
+{
+"rank": "species",
+"name": "Chilodus punctatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Chilotilapia rhoadesii",
+"section": "freshwater_fish",
+"condition": "of minimum length 5 cm SL"
+},
+{
+"rank": "species",
+"name": "Chromobotia macracanthus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Cleithracara maronii",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Copeina guttata",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Copella arnoldi",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Corydoras",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Corynopoma riisei",
+"section": "freshwater_fish",
+"condition": "Only male Corynopoma riisei of minimum length 2 cm SL"
+},
+{
+"rank": "species",
+"name": "Crossocheilus oblongus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Cyathopharynx furcifer",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Cyphotilapia frontosa",
+"section": "freshwater_fish",
+"condition": "of minimum length 10 cm SL"
+},
+{
+"rank": "species",
+"name": "Cyprichromis leptosoma",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Cyrtocara moorii",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Danio albolineatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Danio kerri",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Danio nigrofasciatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Danio rerio",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Dasyloricaria filamentosa",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Dawkinsia arulius",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Dawkinsia filamentosa",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Dekeyseria pulchra",
+"section": "freshwater_fish",
+"condition": "of minimum length 3 cm SL"
+},
+{
+"rank": "species",
+"name": "Dermogenys pusilla",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Desmopuntius hexazona",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Desmopuntius pentazona",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Devario devario",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Devario malabaricus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Dianema urostriatum",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Dicrossus filamentosus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Dicrossus maculatus",
+"section": "freshwater_fish",
+"condition": "of minimum length 3 cm SL"
+},
+{
+"rank": "species",
+"name": "Ectrepopterus uruguayensis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Epalzeorhynchos bicolor",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Epalzeorhynchos frenatum",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Epalzeorhynchos kalopterum",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Epalzeorhynchos munense",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Epiplatys",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Eretmodus cyanostictus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Esomus malayensis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Farlowella acus",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Gasteropelecus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Glossolepis incisus",
+"section": "freshwater_fish",
+"condition": "of minimum length of 3.5 cm SL"
+},
+{
+"rank": "species",
+"name": "Glossolepis kabia",
+"section": "freshwater_fish",
+"condition": "of minimum length 4 cm SL"
+},
+{
+"rank": "species",
+"name": "Glossolepis leggetti",
+"section": "freshwater_fish",
+"condition": "of minimum length 4 cm SL"
+},
+{
+"rank": "species",
+"name": "Glossolepis multisquamata",
+"section": "freshwater_fish",
+"condition": "of minimum length 4 cm SL"
+},
+{
+"rank": "species",
+"name": "Gnathochromis permaxillaris",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Gnathonemus petersii",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Gymnocorymbus bondi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Gymnocorymbus ternetzi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Gymnocorymbus thayeri",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Gyrinocheilus aymonieri",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Haludaria fasciata",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Hasemania nana",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Helostoma temminkii",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Hemigrammus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Hemiodus sterni",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Homaloptera orthogoniata",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Hyphessobrycon",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Hypsophrys nicaraguensis",
+"section": "freshwater_fish",
+"condition": "of minimum length 5 cm SL"
+},
+{
+"rank": "species",
+"name": "Inpaichthys kerri",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Iodotropheus sprengerae",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Julidochromis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Kryptopterus bicirrhis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Kryptopterus macrocephalus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Kryptopterus vitreolus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Labeo chrysophekadion",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Labeo cyclorhynchus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Labidochromis caeruleus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Laetacara curviceps",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Laetacara dorsigera",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Lamprologus ocellatus",
+"section": "freshwater_fish",
+"condition": "of minimum length 3 cm SL"
+},
+{
+"rank": "species",
+"name": "Laubuka laubuca",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Leiognathus ruconius",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Lepidarchus adonis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Lepidocephalichthys lorentzi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Lepidiolamprologus meeli",
+"section": "freshwater_fish",
+"condition": "of minimum length 3 cm SL"
+},
+{
+"rank": "species",
+"name": "Leporinus arcus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Leporinus fasciatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Leporinus maculatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Leporinus multifasciatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Lestradea stappersii",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Macrognathus aculeatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Macropodus opercularis",
+"section": "freshwater_fish",
+"condition": "of minimum length 3.5 cm SL"
+},
+{
+"rank": "species",
+"name": "Marcusenius macrolepidotus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Marosatherina ladigesi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Melanochromis auratus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Melanochromis simulans",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Albino form",
+"section": "freshwater_fish",
+"condition": "Only non-Albino form of Mesonauta festivus"
+},
+{
+"rank": "species",
+"name": "Mesonauta festivus",
+"section": "freshwater_fish",
+"condition": "Only non-Albino form of Mesonauta festivus"
+},
+{
+"rank": "genus",
+"name": "Metynnis",
+"section": "freshwater_fish",
+"condition": "of minimum length 4 cm SL"
+},
+{
+"rank": "species",
+"name": "Mikrogeophagus altispinosus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Mikrogeophagus ramirezi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Mimagoniates microlepis",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Moenkhausia",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Monodactylus argenteus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Monodactylus sebae",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Myloplus rubripinnis",
+"section": "freshwater_fish",
+"condition": "of minimum length 8 cm SL"
+},
+{
+"rank": "species",
+"name": "Nannacara anomala",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Nannacara aureocephalus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Nannacara taenia",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Nannostomus",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Nematobrycon",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Neolamprologus brichardi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Neolamprologus cylindricus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Neolamprologus leleupi",
+"section": "freshwater_fish",
+"condition": "Only yellow morph of Neolamprologus leleupi of minimum"
+},
+{
+"rank": "species",
+"name": "Neolamprologus mustax",
+"section": "freshwater_fish",
+"condition": "of minimum length 3.5 cm SL"
+},
+{
+"rank": "species",
+"name": "Oliotius oligolepis",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Ophthalmotilapia",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Oryzias latipes",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Osteochilus vittatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Otocinclus arnoldi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio agma",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio anguillaris",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio borneensis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio cuneovirgata",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio goaensis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio kuhlii",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio longipinnis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio malayana",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio mariarum",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio muraeniformis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio myersi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio oblonga",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio pangia",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio robiginosa",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio semicincta",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pangio shelfordii",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pantodon buchholzi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Paracheirodon axelrodi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Paracheirodon innesi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Parachela oxygastroides",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Paracyprichromis nigripinnis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Parambassis apogonoides",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Parambassis baculis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Parambassis lala",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Parambassis macrolepis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Parambassis ranga",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Parambassis siamensis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Parosphromenus deissneri",
+"section": "freshwater_fish",
+"condition": "of minimum length 2 cm SL"
+},
+{
+"rank": "species",
+"name": "Pelvicachromis pulcher",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pelvicachromis subocellatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pelvicachromis taeniatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pethia conchonius",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pethia cumingii",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pethia nigrofasciata",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pethia ticto",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Petitella georgiae",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Petrochromis trewavasae",
+"section": "freshwater_fish",
+"condition": "of minimum length 3.5 cm SL"
+},
+{
+"rank": "species",
+"name": "Threadfin cichlid",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Phenacogrammus interruptus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pimelodus ornatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pimelodus pictus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Poecilia latipinna",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Poecilia reticulata",
+"section": "freshwater_fish",
+"condition": "of minimum length 2 cm SL"
+},
+{
+"rank": "species",
+"name": "Poecilia sphenops",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Poecilia velifera",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Poecilocharax weitzmani",
+"section": "freshwater_fish",
+"condition": "Only male Poecilocharax weitzmani"
+},
+{
+"rank": "species",
+"name": "Prionobrama filigera",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pristella maxillaris",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pseudogastromyzon myersi",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Pseudomystus siamensis",
+"section": "freshwater_fish",
+"condition": "of minimum length 8 cm SL"
+},
+{
+"rank": "genus",
+"name": "Pterophyllum",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Puntigrus partipentazona",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Puntigrus tetrazona",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Puntius bimaculatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Puntius titteya",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Puntius vittatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rasbora argyrotaenia",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rasbora borapetensis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rasbora caudimaculata",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rasbora dusonensis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rasbora einthovenii",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rasbora elegans",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rasbora kalochroma",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rasbora leptosoma",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rasbora sarawakensis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rasbora steineri",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rasbora trilineata",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rasboroides vaterifloris",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rhodeus amarus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Rhodeus sericeus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Sawbwa resplendens",
+"section": "freshwater_fish",
+"condition": "of minimum length 1.5 cm SL"
+},
+{
+"rank": "species",
+"name": "Semaprochilodus insignis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Semaprochilodus taeniurus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Spathodus erythrodon",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Sphaerichthys osphromenoides",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Striuntius lineatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Sturisomatichthys panamense",
+"section": "freshwater_fish",
+"condition": "of minimum length 10 cm SL"
+},
+{
+"rank": "genus",
+"name": "Symphysodon",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Synodontis decorus",
+"section": "freshwater_fish",
+"condition": "of minimum length 10 cm SL"
+},
+{
+"rank": "species",
+"name": "Synodontis multipunctatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Synodontis nigriventris",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Systomus asoka",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Tanganicodus irsacae",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Tanichthys albonubes",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Tateurndina ocellicauda",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Tetragonopterus rarus",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Thayeria",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Theriodes sandakanensis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Thoracocharax securis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Thoracocharax stellatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Toxotes jaculatrix",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Trachelyopterus fisheri",
+"section": "freshwater_fish",
+"condition": "Only male Trachelyopterus fisheri of minimum length 7 cm SL"
+},
+{
+"rank": "species",
+"name": "Trichogaster chuna",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Trichogaster fasciata",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Trichogaster labiosa",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Trichogaster lalius",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Trichogaster microlepis",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Trichopodus leerii",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Trichopsis pumila",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Trichopodus trichopterus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Trichopsis vittata",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Trigonopoma pauciperforatum",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Trigonostigma hengeli",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Trigonostigma heteromorpha",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Trinectes maculatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Triportheus",
+"section": "freshwater_fish"
+},
+{
+"rank": "genus",
+"name": "Tropheus",
+"section": "freshwater_fish",
+"condition": "of minimum length 3 cm SL"
+},
+{
+"rank": "species",
+"name": "Xiphophorus hellerii",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Xiphophorus maculatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Xiphophorus variatus",
+"section": "freshwater_fish"
+},
+{
+"rank": "family",
+"name": "Acanthuridae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Anomalopidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Apogonidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Balistidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Bythitidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Callionymidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Carapidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Centriscidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Chaetodontidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Cirrhitidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Ephippidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Grammatidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Holocentridae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Labridae",
+"section": "marine_fish",
+"condition": "excluding Cheilinus undulatus"
+},
+{
+"rank": "species",
+"name": "Cheilinus undulatus",
+"section": "marine_fish",
+"condition": "excluding Cheilinus undulatus"
+},
+{
+"rank": "family",
+"name": "Malacanthidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Monacanthidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Monocentridae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Mullidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Muraenidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Ostraciidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Pegasidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Pempheridae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Pholidichthyidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Pinguipedidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Plesiopidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Pomacanthidae",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Holacanthus limbaughi",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Pomacentridae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Priacanthidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Pseudochromidae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Scaridae",
+"section": "marine_fish"
+},
+{
+"rank": "family",
+"name": "Syngnathidae",
+"section": "marine_fish",
+"condition": "excluding Hippocampus spp"
+},
+{
+"rank": "genus",
+"name": "Hippocampus",
+"section": "marine_fish",
+"condition": "excluding Hippocampus spp"
+},
+{
+"rank": "genus",
+"name": "Alectis",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Anthias",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Brachirus",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Brotula",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Canthigaster",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Cirripectes stigmaticus",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Cromileptes",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Dendrochirus",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Ecsenius axelrodi",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Ecsenius bicolor",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Ecsenius gravieri",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Ecsenius melarchus",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Ecsenius midas",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Ecsenius pulcher",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Gobiodon",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Lipophrys nigriceps",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Lobotes",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Lythrypnus",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Macolor",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Meiacanthus atrodorsalis",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Meiacanthus grammistes",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Meiacanthus oualanensis",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Nemateleotris",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Plotosus lineatus",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Ptereleotris",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Pterois",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Rhinopias",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Scolopsis bilineata",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Siganus",
+"section": "marine_fish",
+"condition": "excluding Siganus rivulatus and Siganus luridus"
+},
+{
+"rank": "species",
+"name": "Siganus rivulatus",
+"section": "marine_fish",
+"condition": "excluding Siganus rivulatus and Siganus luridus"
+},
+{
+"rank": "species",
+"name": "Siganus luridus",
+"section": "marine_fish",
+"condition": "excluding Siganus rivulatus and Siganus luridus"
+},
+{
+"rank": "genus",
+"name": "Signigobius",
+"section": "marine_fish"
+},
+{
+"rank": "genus",
+"name": "Symphorichthys",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Valenciennea strigata",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Zanclus cornutus",
+"section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Lantana bud",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aceria lantanae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aculus hyperici",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Amblyseius fallacis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Anystis baccarum",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Bdellodes lapidaria",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Neomolgus capillatus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Neoseiulus cucumeris",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Phytoseliulus persimilis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Tetranychus linearius",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Typhlodromus pyri",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Typhlodromus rickeri",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Acaciothrips ebneri",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Acanthoscelides puniceus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Acanthoscelides quadridentatus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aconophora compressa",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Actinotia hyperici",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aerenicopsis championi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Agasicles hygrophila",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Ageniaspis citricola",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Agonopterix ulicetella",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Agrilus hyperici",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Alagoasa parana",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Alcidion cereicola",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Algarobius bottimeri",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Algarobius prosopis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Allurus muricatus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aloencyrtus ingens",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Anacassis cribrum",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Anacassis fuscata",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Anacassis phaeopoda",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Anagyrus pseudococci",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Anaphes diana",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Apanteles scutellaris",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Apanteles subandinus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphelinus asychis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphidius eadyi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphidius ervi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphidius gifuensis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphidius pisivorus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphidius rhopalosiphi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphidius rosae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphidius smithi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphidius sonchi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphis chloris",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphytis aonidiae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphytis coheni",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphytis gordoni",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphytis holoxanthus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphytis lepidosaphes",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphytis lingnanensis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphytis malloi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aphytis mytilaspidis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Apion aculeatum",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Apion miniatum",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Apis mellifera",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aplocera plagiata",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Aprostocetus ceroplastae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Arcola malloi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Arytainilla spartiophila",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Ascogaster quadridentata",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Asolcus basalis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Ateuchetus laticollis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Autoplusia illustrata",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Bembecia chrysidiformis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Bombyx mori",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Botanophila spinosa",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Bradyrrhoa gilveolella",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Bruchidius sahlbergi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Bruchidius villosus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Bubas bubalus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Bucculatrix ivella",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Cactoblastis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Calligrapha pantherina",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Campogaster exigua",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Campoletis chlorideae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Carmenta ithacae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Carmenta mimosa",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Carvalhotingis visenda",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Cassida",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Cecidochares connexa",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Chalcodermus serripes",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Chamaesphecia mysiniformis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Charidotis pygmaea",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Cheironitis scabrosus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Chiasmia assimilis",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Chlamisus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Chrysolina hyperici",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Chrysolina oberprieleri",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Chrysolina progressa",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Chrysolina quadrigemina",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Cirrospilus quadristriatus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Citrostichus phyllocnistoides",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Coccidiphaga scitula",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Cochylis atricapitana",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Coelocephalapion pigrae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Coeloides pissodis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Coeloides sympitys",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Comostolopsis germana",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Conotrachelus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Copidosoma koehleri",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Copris hispanus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Copris incertus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Copris integer",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Copris lunaris",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Cotesia kazak",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Cotesia marginiventris",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Cotesia ruficrus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Cuphodes profluens",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Cydia pomonella",
+"section": "invertebrates",
+"condition": "Only sterile Cydia pomonella"
+},
+{
+"rank": "species",
+"name": "Cyrtobagous salviniae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Cystiphora schmidti",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Dactylopius opuntiae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Dactylopius tomentosus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Diaeretus essigellae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Deuterocampta quadrijuga",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Dialectica scalariella",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Dinotiscus burkei",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Disonycha argentinensis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Diversinervus elegans",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Diversinervus stramineus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Drosophila melanogaster",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Elachertus",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Encarsia",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Ephedrus nacheri",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Ephedrus plagiator",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Epiblema strenuana",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Eretmocerus hayati",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Erynniopsis antennata",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Eublemma respersa",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Euclasta gigantalis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Eueupithecia cisplatensis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Eueupithecia vollonoides",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Euonthophagus crocatus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Euoniticellus triangulatus",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Eutinobothrus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Eutreta xanthochaeta",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Euxanthellus philippiae",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Evippe",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Falconia intermedia",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Geotrupes stercorarius",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Goetheana shakespearei",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Gymnopleurus humanus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Gymnopleurus sturmi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Habrolepis rouxi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Haimbachia infusella",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Heilipodus intricatus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Hellinsia balanotes",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Homichloda barkeri",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Hydrotimetes natans",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Hypocosmia pyrochroma",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Hyposoter didymator",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Ibalia",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Larinus latus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Leptobyrsa decora",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Leptomastix dactylopii",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Leuciris fimbriaria",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Leptomastix epona",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Leucoptera spartifoliella",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Lioplacis elliptica",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Listronotus appendiculatus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Listronotus setosipennis",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Litomastix",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Lixus cardui",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Lixus cribricollis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Longitarsus aeneus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Longitarsus albineus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Longitarsus echii",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Longitarsus flavicornis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Longitarsus jacobaeae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Lysiphlebus confusus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Lysiphlebus fabarum",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Macaria pallidata",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Macrocentrus ancylivorus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Macrocentrus collaris",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Malacorhinus irregularis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Mastrus ridens",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Megacyllene mellyi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Megaphragma mymaripenne",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Megarhyssa nortoni",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Megarhyssa nortoni",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Meibomeus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Meligethes planiusculus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Meligethes rotroui",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Mesoclanis polana",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Metallactus patagonicus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Metaphycus lounsburyi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Microctonus aethiopoides",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Microgaster",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Mimosestes ulkei",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Mogulones geographicus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Mogulones larvatus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Neochetina bruchi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Neolasioptera lathami",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Nesaecrepida infuscata",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Neurostrota gunniella",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Niphograpta albiguttalis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Octotoma championi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Odontocolon geniculatus",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Oedionychus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Oidaematophorus lacteodactylus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Onitis minutus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Onthophagus marginalis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Onthophagus medius",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Onthophagus nuchicornis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Onthophagus opacicollis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Onthophagus vacca",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Oomyzus gallerucae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Ophiomyia camarae",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Orgilus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Orius laevigatus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Pelidnoptera nigripennis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Penthobruchus germaini",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Perapion antiquum",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Phytoecia coerulescens",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Plagiohammus spinipennis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Platphalonidia mystica",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Plectonycha correntina",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Praon barbatum",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Praon dorsale",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Praon exoletum",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Praon volucre",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Procecidochares alani",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Prochoerodes truxaliata",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Prosopidopsylla flava",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Pseudaphycus flavidulus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Pseudaphycus maculipennis",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Pseudorhyssa",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Pyramidobela",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Rhinocyllus conicus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Rhyssa alaskensis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Rhyssa amoena",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Rhyssa crevieri",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Rhyssa lineolata",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Rhyssa persuasoria",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Rogas",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Roptrocerus xylophagorum",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Samea multiplicalis",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Scamurius",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Scarabaeus sacer",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Schlettererius cinctipes",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Sericothrips staphylinus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Sibinia fastigiata",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Sisyphus schaefferi",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Smicronyx lutulentus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Spathius pallidus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Sphecophaga vesparum",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Stobaera concinna",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Telenomus nakagawai",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Telenomus remus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Teleonemia elata",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Teleonemia scrupulosa",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Temnochila virescens",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Tephritis postica",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Tetrastichus brontispae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Tettigometra sulphurea",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Thanasimus dubius",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Tortrix",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Trichogramma pretiosum",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Trichopoda giacomellii",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Trichopoda pennipes",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Trichosirocalus briesei",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Trichosirocalus mortadelo",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Trirhabda bacharidis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Trissolcus basalis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Tyria jacobaeae",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Urophora solstitialis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Urophora stylata",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Urophora terebrans",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Wheeleria spilodactylus",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Xenopsylla cunicularis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Xubida infesellus",
+"section": "invertebrates"
+},
+{
+"rank": "genus",
+"name": "Zygina",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Zygogramma bigenera",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Zygogramma suturalis",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Artemia salina",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Cornu aspersum",
+"section": "invertebrates"
+},
+{
+"rank": "species",
+"name": "Deladenus siridicola",
+"section": "invertebrates"
+}
+]

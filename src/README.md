@@ -1,18 +1,39 @@
-# Source for the guide
+# How the site is built
 
-- `data.js` - every species: [common, scientific, category, group, size, care 1-3, temperament, setup, note, flags, photo key]
-- `template.html` - page layout, styles and script
-- `img_urls.json` - Wikimedia photo URL for each photo key
-- `build.py` - merges these into the root index.html
+Everything is plain Python 3 (standard library only) and a static page, so it runs on GitHub Pages.
 
-Rebuild from the repo root (needs Python 3, nothing to install):
+Rebuild from anywhere:
 
     python src/build.py
 
-## Photos
+## Files
 
-Photos are cached in the root `img/` folder, named after their photo key (for example `img/litoria-splendida.jpg`). Any species without a cached photo yet falls back to loading it from upload.wikimedia.org.
+- `src/template.html` - page layout, styles and script
+- `src/data.js` - the pet keeper's licence guide: [common, scientific, category, group, size, care 1-3, temperament, setup, note, flags, photo key]
+- `src/img_urls.json` - Wikimedia photo URL for each photo key
+- `data/hobby/<tab>.json` - hobby guide species for a tab (`aquatic`, `bugs`, ...). Fields: `n` common name, `sci`, `sub` subcategory id, `fam` family, `size`, `care` 1-3, `temp`, `setup`, `note`, `flags`, optional `native` (WA native), `also` (other scientific names to match), `photo` (photo key if not the scientific name), `verified`
+- `data/lists/` - the official lists, parsed (`waol.json`, `wa_noxious_fish.json`, `wa_high_risk_fish.json`, `live_import_list_part1.json`) and `meta.json` with download dates and versions
+- `data/sources/` - the official PDFs as text, for checking the parser
+- `data/site/<tab>.json` - generated: each tab's hobby guide and full official list, loaded by the page when the tab opens
+- `tools/update_lists.py` - downloads and parses the official lists (needs `pdftotext`; `--offline` re-parses what's in data/sources)
+- `tools/status.py` - works out a species' WA status from the lists
+- `tools/realms.py` - sorts every official entry into a tab and subcategory, and writes data/site
+- `tools/fetch_photos.py` - downloads missing photos one at a time, politely
 
-`tools/fetch_photos.py` downloads missing photos one at a time with a pause between each. If a photo key has no entry in `img_urls.json`, it looks one up through the Wikipedia or Commons API. Set the photo key to `none` for species with no free photo.
+Flags: `d` dangerous, `r` colour morphs or forms, `x` males and females look different, `l` lives around Perth/Peel, `m` suits a mixed finch/quail aviary, `t` threatened or hard to source.
 
-The `Cache photos` GitHub Action runs it every 30 minutes, fetching up to 5 photos per run, then rebuilds and commits. To add a species, add a line to `data.js` and push: the Action finds its photo.
+## Statuses
+
+Every status carries its source and the date that list was downloaded. Levels:
+
+- `ok` allowed: permitted on the WA Organism List, or a fish that isn't on WA's noxious or high-risk lists
+- `permit` allowed with a permit or conditions
+- `check` unclear: unlisted in WA, or (for crustaceans and snails) not on the fish lists but likely needs DPIRD approval
+- `no` prohibited, noxious or high risk
+
+## Automation
+
+- `Cache photos` (every 30 minutes): fetches up to 5 missing photos for any guide, rebuilds and commits
+- `Update official lists` (weekly): re-downloads every official list, rebuilds and commits if anything changed
+
+To add a species, add it to `src/data.js` or a `data/hobby/*.json` file and push. Its status and photo fill in automatically. The Live Import List URL in `tools/update_lists.py` is pinned to a compilation; bump it when a new one is registered.

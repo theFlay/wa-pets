@@ -1,5 +1,5 @@
-# Every 30 minutes, cache a few missing species photos into img/ and rebuild
-# index.html. Does nothing (and commits nothing) once every photo is cached.
+# Every 30 minutes, cache a few missing species photos (fauna guide and every
+# hobby guide in data/hobby) into img/ and rebuild the site. Does nothing (and commits nothing) once every photo is cached.
 name: Cache photos
 
 on:
@@ -8,13 +8,13 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["src/data.js", "src/img_urls.json"]
+    paths: ["src/data.js", "src/img_urls.json", "data/hobby/**"]
 
 permissions:
   contents: write
 
 concurrency:
-  group: photos
+  group: site-data
   cancel-in-progress: false
 
 jobs:
@@ -25,13 +25,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: Download up to 5 missing photos
         run: python3 tools/fetch_photos.py --max 5 --delay 3
-      - name: Rebuild index.html
+      - name: Rebuild the site
         run: python3 src/build.py
       - name: Commit if anything changed
         run: |
-          git add -A img src/img_urls.json index.html
+          git add -A img src/img_urls.json index.html data/site
           if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Cache species photos"
+          git pull --rebase -q
           git push
