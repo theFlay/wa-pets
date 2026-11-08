@@ -1,0 +1,37 @@
+# Every 30 minutes, cache a few missing species photos into img/ and rebuild
+# index.html. Does nothing (and commits nothing) once every photo is cached.
+name: Cache photos
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["src/data.js", "src/img_urls.json"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: photos
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download up to 5 missing photos
+        run: python3 tools/fetch_photos.py --max 5 --delay 3
+      - name: Rebuild index.html
+        run: python3 src/build.py
+      - name: Commit if anything changed
+        run: |
+          git add -A img src/img_urls.json index.html
+          if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Cache species photos"
+          git push

@@ -15,8 +15,24 @@
   --bg:#151916;--card:#1e2420;--ink:#ece8df;--muted:#a3aaa3;--line:#2f3832;
   --a:#6fbf80;--b:#e2a54b;--c:#e2706a;--accent:#8fc9b4;--chip:#2a312c;--chipon:#8fc9b4;--chipink:#10201a;
 }}
+/* each main tab has its own palette: fauna keeps the root grey-green */
+body[data-realm=aquatic]{--bg:#eef4f7;--card:#fbfdfe;--ink:#18232a;--muted:#536671;--line:#d3e1e8;--accent:#1f5f7a;--chip:#e0ebf0;--chipon:#1f5f7a;--chipink:#fff}
+body[data-realm=bugs]{--bg:#f7f1e6;--card:#fffcf6;--ink:#2a2118;--muted:#6b5d4c;--line:#e6d9c3;--accent:#8a5a14;--chip:#efe3cc;--chipon:#8a5a14;--chipink:#fff}
+@media (prefers-color-scheme:dark){
+body[data-realm=aquatic]{--bg:#0f171c;--card:#16222a;--ink:#e4eef2;--muted:#9db0ba;--line:#263741;--accent:#7cc4e0;--chip:#1f2e37;--chipon:#7cc4e0;--chipink:#08202b}
+body[data-realm=bugs]{--bg:#1a1510;--card:#241d16;--ink:#efe6d8;--muted:#b3a48f;--line:#3a2f23;--accent:#e3b264;--chip:#2f261c;--chipon:#e3b264;--chipink:#24180a}
+}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif;transition:background-color .3s,color .3s}
+.realms{max-width:1200px;margin:0 auto;padding:14px 18px 0;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.realms::-webkit-scrollbar{display:none}
+.realm{flex:none;border:1px solid var(--line);border-radius:12px;padding:8px 14px;background:var(--card);color:var(--ink);font:600 14px Inter,sans-serif;cursor:pointer}
+.realm.on{background:var(--accent);border-color:var(--accent);color:var(--chipink)}
+[data-for]{display:none}
+body[data-realm=fauna] [data-for~=fauna],body[data-realm=aquatic] [data-for~=aquatic],body[data-realm=bugs] [data-for~=bugs]{display:block}
+.soon{background:var(--card);border:1px dashed var(--line);border-radius:16px;padding:28px 20px;text-align:center;color:var(--muted);margin-top:18px}
+.soon b{display:block;font:600 22px Fraunces,Georgia,serif;color:var(--ink);margin-bottom:6px}
+.key{font-size:12px;color:var(--muted);padding-top:4px;display:flex;gap:12px;flex-wrap:wrap}
 header{padding:28px 18px 8px;max-width:1200px;margin:0 auto}
 h1{font-family:Fraunces,Georgia,serif;font-size:clamp(26px,6vw,40px);line-height:1.1;margin:0 0 6px}
 .sub{color:var(--muted);margin:0 0 14px}
@@ -43,10 +59,14 @@ h2.sec .dot{width:12px;height:12px;border-radius:50%}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
 .ph{position:relative;aspect-ratio:4/3;background:var(--chip);display:flex;align-items:center;justify-content:center;font-size:56px;cursor:zoom-in}
 .ph img{width:100%;height:100%;object-fit:cover;display:block}
-.badges{position:absolute;left:8px;top:8px;display:flex;gap:5px;flex-wrap:wrap}
+.badges{position:absolute;left:8px;top:8px;display:flex;gap:5px;flex-wrap:wrap;align-items:center}
 .bdg{font:600 11px Inter,sans-serif;padding:3px 8px;border-radius:999px;color:#fff;background:rgba(0,0,0,.55);backdrop-filter:blur(4px)}
 .bdg.A{background:var(--a)}.bdg.B{background:var(--b)}.bdg.C{background:var(--c)}
 .bdg.d{background:#111;color:#ffd84a}
+.ico{position:relative;border:0;font:14px/1 system-ui,sans-serif;width:26px;height:26px;border-radius:50%;background:rgba(0,0,0,.55);backdrop-filter:blur(4px);color:#fff;cursor:help;padding:0}
+.ico.d{background:#111;color:#ffd84a}
+.ico::after{content:attr(data-tip);position:absolute;left:0;top:30px;white-space:nowrap;font:600 11.5px Inter,sans-serif;background:rgba(0,0,0,.85);color:#fff;padding:4px 8px;border-radius:8px;opacity:0;pointer-events:none;transition:opacity .15s;z-index:2}
+.ico:hover::after,.ico:focus-visible::after,.ico.show::after{opacity:1}
 .star{position:absolute;right:8px;top:8px;width:36px;height:36px;border-radius:50%;border:0;background:rgba(0,0,0,.5);color:#fff;font-size:18px;cursor:pointer}
 .star.on{color:#ffd84a}
 .body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
@@ -72,8 +92,23 @@ footer a{color:var(--accent)}
 .lb img{max-width:100%;max-height:80vh;border-radius:10px}
 </style>
 </head>
-<body>
-<header>
+<body data-realm="fauna">
+<nav class="realms" id="realms" aria-label="Animal groups">
+  <button class="realm on" data-r="fauna">🦎 Frogs, reptiles &amp; birds</button>
+  <button class="realm" data-r="aquatic">🐟 Aquatic</button>
+  <button class="realm" data-r="bugs">🐞 Insects &amp; spiders</button>
+</nav>
+<header data-for="aquatic">
+  <h1>Aquatic pets in WA</h1>
+  <p class="sub">Fish, crayfish and other aquatic animals you can keep in Western Australia. These are covered by different rules from the pet keeper's licence.</p>
+  <div class="soon"><b>Coming soon</b>This section is being researched against the official WA lists before anything goes up.</div>
+</header>
+<header data-for="bugs">
+  <h1>Insects and spiders in WA</h1>
+  <p class="sub">Insects, spiders, scorpions and other invertebrates you can keep in Western Australia. These are covered by different rules from the pet keeper's licence.</p>
+  <div class="soon"><b>Coming soon</b>This section is being researched against the official WA lists before anything goes up.</div>
+</header>
+<header data-for="fauna">
   <h1>WA pet keeper's licence: species guide</h1>
   <p class="sub">All __TOTAL__ native animals DBCA lets you keep as pets: frogs, reptiles and birds. Filter, tap a photo to enlarge it, and star the ones you like.</p>
   <details class="explain">
@@ -85,17 +120,18 @@ footer a{color:var(--accent)}
     </div>
   </details>
 </header>
-<div class="controls"><div class="in">
+<div class="controls" data-for="fauna"><div class="in">
   <input type="search" id="q" placeholder="Search name or scientific name..." autocomplete="off">
   <div class="row" id="cats"></div>
   <div class="row" id="groups"></div>
   <div class="row" id="flags"></div>
+  <div class="key"><span>☠ Dangerous</span><span>🌈 Colour morphs or forms</span><span>♂♀ Males and females look different</span></div>
   <div class="count" id="count"></div>
 </div></div>
-<main id="out"></main>
-<footer>
+<main id="out" data-for="fauna"></main>
+<footer data-for="fauna">
   <p>Species list and categories: DBCA "Fauna possessing (pet keeper's) licence" guidelines, Appendix 1 (Biodiversity Conservation Regulations 2018). DBCA was reviewing the list in late 2025, so species may be added or moved. Check the current list with DBCA (wildlifelicensing@dbca.wa.gov.au, 08 9219 9000) before you buy.</p>
-  <p>Size, care and temperament notes are general hobby guidance, not DBCA's. Care level is Claude's rough judgement. "Around Perth/Peel" means the species lives wild in the area. You still can't take animals from the wild; buy captive-bred from licensed keepers.</p>
+  <p>Size, care and temperament notes are general hobby guidance, not DBCA's. Care level and the colour morph and male/female icons are Claude's rough judgement. "Around Perth/Peel" means the species lives wild in the area. You still can't take animals from the wild; buy captive-bred from licensed keepers.</p>
   <p>Photos: Wikipedia / Wikimedia Commons contributors, used under their Creative Commons licences. Tap "Photo credit" on a card for the author and licence. Some subspecies show a photo of a close relative.</p>
 </footer>
 <div class="lb" id="lb"><img id="lbimg" alt=""><div id="lbcap"></div><div style="font-size:13px;opacity:.7">Tap anywhere to close</div></div>
@@ -108,23 +144,30 @@ const CATS={A:"Category A: no licence",B:"Category B: standard licence",C:"Categ
 const CATSUB={A:"Keep these without any licence. Birds only.",B:"The starting licence. All frogs and most reptiles start here.",C:"Needs 12+ months on a Category B licence first. Venomous snakes live here."};
 const CARE=["","Easy","Moderate","Hard"];
 let stars=new Set();try{stars=new Set(JSON.parse(localStorage.getItem("waStars")||"[]"))}catch(e){}
-const st={q:"",cat:"All",group:"All",d:false,l:false,m:false,t:false,s:false};
+const st={q:"",cat:"All",group:"All",d:false,r:false,x:false,l:false,m:false,t:false,s:false};
+const REALMS=["fauna","aquatic","bugs"];
+function setRealm(r,push){if(!REALMS.includes(r))r="fauna";document.body.dataset.realm=r;
+  document.querySelectorAll(".realm").forEach(b=>b.classList.toggle("on",b.dataset.r===r));
+  if(push)history.replaceState(null,"",r==="fauna"?location.pathname:"#"+r)}
+document.getElementById("realms").onclick=e=>{const b=e.target.closest(".realm");if(b){setRealm(b.dataset.r,true);scrollTo(0,0)}};
+setRealm(location.hash.slice(1));addEventListener("hashchange",()=>setRealm(location.hash.slice(1)));
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 function chips(el,items,key){el.innerHTML=items.map(([v,label])=>`<button class="chip${st[key]===v?" on":""}" data-v="${esc(v)}">${esc(label)}</button>`).join("");
   el.onclick=e=>{const b=e.target.closest(".chip");if(!b)return;st[key]=b.dataset.v;chips(el,items,key);render()}}
 chips(document.getElementById("cats"),[["All","All licences"],["A","A: no licence"],["B","B: standard"],["C","C: advanced"]],"cat");
 chips(document.getElementById("groups"),[["All","All animals"],...GROUPS.map(g=>[g,ICON[g]+" "+g])],"group");
-const FL=[["s","★ My shortlist"],["d","⚠️ Dangerous only"],["l","📍 Around Perth/Peel"],["m","Mixes with finches/quail"],["t","Threatened / hard to get"]];
+const FL=[["s","★ My shortlist"],["d","☠ Dangerous"],["r","🌈 Colour morphs"],["x","♂♀ Sexes look different"],["l","📍 Around Perth/Peel"],["m","Mixes with finches/quail"],["t","Threatened / hard to get"]];
 const fe=document.getElementById("flags");
 function flagChips(){fe.innerHTML=FL.map(([k,l])=>`<button class="chip${st[k]?" on":""}" data-k="${k}">${l}</button>`).join("")}
 flagChips();fe.onclick=e=>{const b=e.target.closest(".chip");if(!b)return;st[b.dataset.k]=!st[b.dataset.k];flagChips();render()};
 document.getElementById("q").oninput=e=>{st.q=e.target.value.trim().toLowerCase();render()};
+const ICONS=[["d","☠","Dangerous: venomous or can injure"],["r","🌈","Comes in colour morphs or forms"],["x","♂♀","Males and females look different"]];
 function card(s,i){
   const [n,sci,cat,g,size,care,temp,setup,note,flags]=s;const p=PHOTOS[i];
   const f=flags.split(",");const q=encodeURIComponent(sci);
   return `<article class="card">
   <div class="ph" data-i="${i}">${p?`<img loading="lazy" src="${p.f}" alt="${esc(n)}">`:`<span>${ICON[g]}</span>`}
-    <div class="badges"><span class="bdg ${cat}">Cat ${cat}</span>${f.includes("d")?'<span class="bdg d">⚠ Dangerous</span>':""}</div>
+    <div class="badges"><span class="bdg ${cat}">Cat ${cat}</span>${ICONS.filter(([k])=>f.includes(k)).map(([k,g,t])=>`<button class="ico ${k}" data-tip="${t}" aria-label="${t}">${g}</button>`).join("")}</div>
     <button class="star${stars.has(n)?" on":""}" data-n="${esc(n)}" aria-label="Shortlist">${stars.has(n)?"★":"☆"}</button>
   </div>
   <div class="body">
@@ -146,7 +189,7 @@ function render(){
       const f=s[9].split(",");
       if(s[2]!==cat)return false;
       if(st.group!=="All"&&s[3]!==st.group)return false;
-      for(const k of ["d","l","m","t"]) if(st[k]&&!f.includes(k))return false;
+      for(const k of ["d","r","x","l","m","t"]) if(st[k]&&!f.includes(k))return false;
       if(st.s&&!stars.has(s[0]))return false;
       if(st.q&&!(s[0]+" "+s[1]).toLowerCase().includes(st.q))return false;
       return true}).sort((a,b)=>GROUPS.indexOf(a[0][3])-GROUPS.indexOf(b[0][3])||a[0][0].localeCompare(b[0][0]));
@@ -156,6 +199,9 @@ function render(){
   document.getElementById("count").textContent=`Showing ${total} of ${SPECIES.length} species`+(stars.size?` · ${stars.size} starred`:"");
 }
 document.getElementById("out").addEventListener("click",e=>{
+  const ic=e.target.closest(".ico");
+  if(ic){e.stopPropagation();const was=ic.classList.contains("show");document.querySelectorAll(".ico.show").forEach(x=>x.classList.remove("show"));if(!was)ic.classList.add("show");return}
+  document.querySelectorAll(".ico.show").forEach(x=>x.classList.remove("show"));
   const sb=e.target.closest(".star");
   if(sb){e.stopPropagation();const n=sb.dataset.n;stars.has(n)?stars.delete(n):stars.add(n);try{localStorage.setItem("waStars",JSON.stringify([...stars]))}catch(_){}
     sb.classList.toggle("on",stars.has(n));sb.textContent=stars.has(n)?"★":"☆";if(st.s)render();else document.getElementById("count").textContent=document.getElementById("count").textContent.replace(/ · \d+ starred|$/,stars.size?` · ${stars.size} starred`:"");return}

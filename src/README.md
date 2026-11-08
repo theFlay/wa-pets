@@ -5,9 +5,14 @@
 - `img_urls.json` - Wikimedia photo URL for each photo key
 - `build.py` - merges these into the root index.html
 
-Rebuild (run from the repo root, needs Python 3):
-1. Copy `src/data.js`, `src/template.html`, `src/keys.json`, `src/img_urls.json` and the root `img/` folder into one working folder
-2. `python3 src/build.py <that folder> gh`
-3. Copy `<that folder>/gh/index.html` to the repo root
+Rebuild from the repo root (needs Python 3, nothing to install):
 
-Photos in `img/` are served locally; any species without a local photo loads it straight from upload.wikimedia.org.
+    python src/build.py
+
+## Photos
+
+Photos are cached in the root `img/` folder, named after their photo key (for example `img/litoria-splendida.jpg`). Any species without a cached photo yet falls back to loading it from upload.wikimedia.org.
+
+`tools/fetch_photos.py` downloads missing photos one at a time with a pause between each. If a photo key has no entry in `img_urls.json`, it looks one up through the Wikipedia or Commons API. Set the photo key to `none` for species with no free photo.
+
+The `Cache photos` GitHub Action runs it every 30 minutes, fetching up to 5 photos per run, then rebuilds and commits. To add a species, add a line to `data.js` and push: the Action finds its photo.
