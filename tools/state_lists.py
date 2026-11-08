@@ -329,6 +329,11 @@ def main():
     results = {}
     for st, fn in PARSERS.items():
         rows = fn()
+        # Zoo species (cheetahs, camels...) are "permit" on paper, but only
+        # for exhibition licence holders, so say that rather than "Permit".
+        for r in rows:
+            if r["level"] == "permit" and re.search(r"exhibition licen[cs]e (holders only|required)|exhibition only", r["detail"], re.I):
+                r["label"] = "Zoos and exhibitors only"
         # one entry per species: the strictest if a list names it twice
         sev = {"ok": 0, "check": 1, "permit": 2, "no": 3}
         best = {}

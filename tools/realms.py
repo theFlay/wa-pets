@@ -369,7 +369,7 @@ def build(photo_for):
             sts = guide_statuses(realm, rec, cat.rows[realm].get(taxon_key(rec["sci"])))
             covered |= set(sts)
             sub = rec.get("sub") or (cat.rows[realm].get(taxon_key(rec["sci"])) or {}).get("sub") or SUBS[realm][-1][0]
-            item = {**{k: rec[k] for k in ("n", "sci", "fam", "size", "care", "temp", "setup", "note", "flags", "community", "w", "auto") if rec.get(k)},
+            item = {**{k: rec[k] for k in ("n", "sci", "fam", "size", "care", "temp", "setup", "note", "flags", "community", "w", "auto", "pest") if rec.get(k)},
                     "sub": sub, "st": {s: gstore.add(st) for s, st in sts.items()}}
             ph = photo_for(rec.get("photo") or rec["sci"])
             if ph:
@@ -408,11 +408,11 @@ def write(name, data):
 
 
 def guide_records(realm):
-    """Hand-written hobby cards, then grown ones (alphabetical by name)."""
+    """Hand-written hobby cards, then grown ones (alphabetical, known pests last)."""
     out = []
     for folder in (HOBBY, GROWN):
         path = os.path.join(folder, realm + ".json")
         if os.path.exists(path):
             recs = json.load(open(path, encoding="utf-8"))
-            out += recs if folder == HOBBY else sorted(recs, key=lambda r: r["n"].lower())
+            out += recs if folder == HOBBY else sorted(recs, key=lambda r: (bool(r.get("pest")), r["n"].lower()))
     return out

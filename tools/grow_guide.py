@@ -14,8 +14,11 @@ that species, adds an "Unchecked" card to data/grown/<tab>.json with:
 Species without a usable article are remembered in data/grown/tried.json and
 retried after RETRY_DAYS, so each run only spends requests on new ones.
 
-The frogs, reptiles and birds tab has its own WA licence guide, and fungi are
-mostly diseases, so those two aren't grown. Standard library only.
+Frogs, reptiles and birds grow into a second guide on that tab, skipping the
+species already in the WA licence guide. Fungi are mostly diseases, so they
+aren't grown. Species whose only keeping status is "Zoos and exhibitors only"
+are skipped, and ones the summary calls a pest, weed or invasive get a
+"Known pest" tag and sort last. Standard library only.
 """
 import argparse, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 
@@ -31,14 +34,22 @@ RETRY_DAYS = 180
 
 # Most cards each tab may grow to. Keeps the site (and img/) well inside
 # GitHub Pages' 1 GB: about 11,000 photos at ~25 KB each.
-CAPS = {"mammals": 400, "aquatic": 800, "bugs": 2000, "plants": 8000}
+CAPS = {"fauna": 1800, "mammals": 400, "aquatic": 800, "bugs": 2000, "plants": 8000}
 SKIP_SUBS = {"bugs": {"mites", "flies", "truebugs"}}  # mostly pests, not kept
 HOBBY_SUBS = {"bugs": {"ants", "beetles", "phasmids", "roaches", "spiders", "scorpions", "butterflies"},
               "plants": {"cacti", "orchids", "carnivorous", "aquatic", "bromeliads", "palms", "ferns"},
               "mammals": {"pets", "rodents", "rabbits"}, "aquatic": {"fresh", "marine", "crust"}}
 KEEP = {"ok", "permit"}
+ZOO = "Zoos and exhibitors only"
+PEST = re.compile(r"\b(pests?|weeds?|invasive)\b", re.I)
+DATA_JS = os.path.join(ROOT, "src", "data.js")
 NOT_EPITHETS = {"form", "forms", "variety", "varieties", "hybrid", "hybrids", "strain", "strains", "species", "group"}
 DANGER = re.compile(r"(?<!non-)(?<!not )\b(venomous|poisonous|highly toxic|toxic to (?:humans|people|pets|dogs|cats))\b", re.I)
+
+
+def binom(name):
+    """Genus and species, skipping a subgenus: 'Aethina (Idaethina) tumida' -> 'Aethina tumida'."""
+    return " ".join([w for w in name.split() if not w.startswith("(")][:2])
 
 
 def load(path, default):
@@ -61,7 +72,7 @@ def candidates(have, tried, today):
         for k, r in cat.rows[realm].items():
             if not re.fullmatch(r"[a-z]+ [a-z][a-z-]+", k) or k in have or k.split()[1] in NOT_EPITHETS:
                 continue
-            if r["sub"] in SKIP_SUBS.get(realm, ()) or not any(s["level"] in KEEP for s in r["st"].values()):
+            if r["sub"] in SKIP_SUBS.get(realm, ()) or not any(s["level"] in KEEP and s["label"] != ZOO for s in r["st"].values()):
                 continue
             t = tried.get(k)
             if t and (today - time.mktime(time.strptime(t, "%Y-%m-%d"))) < RETRY_DAYS * 86400:
@@ -104,15 +115,18 @@ def first_sentences(text, limit=320):
 
 def card_for(row, d):
     """A card from a Wikipedia summary, or None if the article isn't about this species."""
-    sci = " ".join(row["n"].split()[:2])
+    sci = binom(row["n"])
     if not d or d.get("type") != "standard":
         return None, "no article"
     title, extract = d.get("title", ""), d.get("extract", "")
     # We asked for the species name, so a redirect (Acinonyx jubatus -> Cheetah)
     # is fine, unless it lands on a genus or family page.
     first = re.split(r"(?<=[.!?]) ", extract, maxsplit=1)[0]
-    if re.match(r"(genus|family|subfamily|order|tribe|list) ", d.get("description", ""), re.I) \
-            or re.search(r"\b(is|are|was) an? (?:\w+ ){0,3}(genus|family|subfamily|tribe|order|group)\b", first):
+    # ("is a fish of the family Cyprinidae" is a species; "is a small genus" isn't)
+    desc = d.get("description", "")
+    if not re.match(r"(sub)?species\b", desc, re.I) and (
+            re.match(r"(genus|family|subfamily|order|tribe|list) ", desc, re.I)
+            or re.search(r"\b(is|are|was) an? (?:(?!of\b)\w+ ){0,2}(genus|family|subfamily|tribe|order|group)\b", first)):
         return None, "genus or group article"
     note = first_sentences(extract)
     if len(note) < 40:
@@ -138,6 +152,8 @@ def card_for(row, d):
         name = (c[:1].upper() + c[1:]) if c else sci
     card = {"n": name, "sci": sci, "sub": row["sub"], "note": note, "w": title,
             "flags": "d" if DANGER.search(extract) else "", "auto": time.strftime("%Y-%m-%d")}
+    if PEST.search(extract):
+        card["pest"] = 1  # shown with a "Known pest" tag, after the other cards
     th = (d.get("thumbnail") or {}).get("source", "")
     if "/wikipedia/commons/" not in th:
         card["photo"] = "none"  # no photo, or a non-free local one we shouldn't copy
@@ -158,6 +174,9 @@ def main():
         hobby = load(os.path.join(realms.HOBBY, realm + ".json"), [])
         have |= {realms.taxon_key(r["sci"]) for r in cards[realm] + hobby}
         have |= {realms.taxon_key(x) for r in hobby for x in r.get("also", [])}
+    # species already in the WA pet keeper's licence guide (src/data.js)
+    have |= {realms.taxon_key(json.loads(l.strip().rstrip(","))[1])
+             for l in open(DATA_JS, encoding="utf-8") if l.strip().startswith('["')}
     queues = candidates(have, tried, time.time())
     for realm in CAPS:
         queues[realm] = queues[realm][:max(0, CAPS[realm] - len(cards[realm]))]
@@ -172,7 +191,7 @@ def main():
             order.remove(realm)
         else:
             i += 1
-        sci = " ".join(row["n"].split()[:2])
+        sci = binom(row["n"])
         try:
             d = summary(sci)
         except RateLimited:

@@ -13,7 +13,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
 },
 {
@@ -45,7 +45,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife, permit required to possess, exhibition licence required, species management"
 },
 {
@@ -133,7 +133,7 @@
 "common": "",
 "group": "reptiles",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
 },
 {
@@ -261,7 +261,7 @@
 "common": "",
 "group": "birds",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife, permit required to possess, exhibition licence required, species management"
 },
 {
@@ -269,7 +269,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
 },
 {
@@ -341,7 +341,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
 },
 {
@@ -413,7 +413,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Import permit needed",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (approved farming and exhibition licence holders only), import permit required,. Keeping: -"
 },
 {
@@ -429,7 +429,7 @@
 "common": "",
 "group": "birds",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife, permit required to possess, exhibition licence required, species management"
 },
 {
@@ -493,7 +493,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
 },
 {
@@ -629,7 +629,7 @@
 "common": "",
 "group": "birds",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife, permit required to possess, exhibition licence required, species management"
 },
 {
@@ -645,7 +645,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements Domestic stock (no import. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required "
 },
 {
@@ -653,7 +653,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
 },
 {
@@ -709,7 +709,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
 },
 {
@@ -789,7 +789,7 @@
 "common": "",
 "group": "reptiles",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
 },
 {
@@ -797,7 +797,7 @@
 "common": "",
 "group": "reptiles",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
 },
 {
@@ -853,7 +853,7 @@
 "common": "",
 "group": "birds",
 "level": "permit",
-"label": "Import permit needed",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (approved farming and exhibition licence holders only), import permit required,. Keeping: (Refer to Animal Farming (Registration) Act 1994)"
 },
 {
@@ -909,7 +909,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife, permit required to possess, exhibition licence required, species management"
 },
 {
@@ -1045,7 +1045,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
 },
 {
@@ -1181,7 +1181,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: under the NCA) Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, sp"
 },
 {
@@ -1205,7 +1205,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
 },
 {
@@ -1213,7 +1213,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
 },
 {
@@ -1349,7 +1349,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
 },
 {
@@ -1357,7 +1357,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
 },
 {
@@ -1365,7 +1365,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
 },
 {
@@ -1373,7 +1373,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
 },
 {
@@ -1437,7 +1437,7 @@
 "common": "",
 "group": "reptiles",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence"
 },
 {
@@ -1501,7 +1501,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
 },
 {
@@ -1629,7 +1629,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
 },
 {
@@ -1653,7 +1653,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
 },
 {
@@ -1661,7 +1661,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
 },
 {
@@ -1669,7 +1669,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
 },
 {
@@ -1677,7 +1677,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife, permit required to possess, exhibition licence required, species management"
 },
 {
@@ -1733,7 +1733,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
 },
 {
@@ -2125,7 +2125,7 @@
 "common": "",
 "group": "reptiles",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: educational display businesses only), import permit required, high security requirements Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife display permit "
 },
 {
@@ -2165,7 +2165,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
 },
 {
@@ -2277,7 +2277,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
 },
 {
@@ -2293,7 +2293,7 @@
 "common": "",
 "group": "mammals",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
 },
 {
@@ -2453,7 +2453,7 @@
 "common": "",
 "group": "reptiles",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
 },
 {
@@ -2461,7 +2461,7 @@
 "common": "",
 "group": "reptiles",
 "level": "permit",
-"label": "Permit needed to keep",
+"label": "Zoos and exhibitors only",
 "detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
 },
 {
