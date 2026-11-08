@@ -130,7 +130,11 @@ def card_for(row, d):
         c = m.group(1) if m else ""
         if not c:
             c = re.sub(r"^(.+?) \((.+)\)$", lambda x: x.group(2) + " " + x.group(1).lower(), row["c"])
-            c = "" if re.search(r"[\d()]", c) else c
+            # WAOL plant names mix languages and cultivars ("Korallvippa",
+            # "'morgana'"): only trust one the English summary also uses, or
+            # one from a state keeping list (those are English).
+            english = c.lower() in extract.lower() or any(s != "WA" for s in row.get("st", {}))
+            c = c if english and re.fullmatch(r"[A-Za-z][A-Za-z' -]*", c) else ""
         name = (c[:1].upper() + c[1:]) if c else sci
     card = {"n": name, "sci": sci, "sub": row["sub"], "note": note, "w": title,
             "flags": "d" if DANGER.search(extract) else "", "auto": time.strftime("%Y-%m-%d")}
