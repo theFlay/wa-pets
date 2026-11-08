@@ -48,7 +48,10 @@ body:not([data-realm=fauna]) #rv,body[data-view=list] #rv{display:block}
 .soon{background:var(--card);border:1px dashed var(--line);border-radius:16px;padding:28px 20px;text-align:center;color:var(--muted);margin-top:18px}
 .soon b{display:block;font:600 22px Fraunces,Georgia,serif;color:var(--ink);margin-bottom:6px}
 .lv{display:inline-block;font:600 11.5px Inter,sans-serif;padding:3px 9px;border-radius:999px;color:#fff;white-space:nowrap}
-.lv.ok{background:#2f7d46}.lv.permit{background:#b06d12}.lv.check{background:#56677a}.lv.no{background:#b33a32}
+.lv.ok{background:#2f7d46}.lv.permit{background:#b06d12}.lv.check{background:#56677a}.lv.no{background:#b33a32}.lv.none{background:#8a8f94}
+.stbox.none{border-color:#8a8f94}
+.stbar{max-width:1200px;margin:0 auto;padding:10px 18px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.stbar select{font:600 14px Inter,sans-serif;padding:6px 10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
 .stbox{border-left:4px solid var(--line);padding:4px 0 4px 10px;font-size:13px}
 .stbox.ok{border-color:#2f7d46}.stbox.permit{border-color:#b06d12}.stbox.check{border-color:#56677a}.stbox.no{border-color:#b33a32}
 .stbox b{display:block;font-size:13.5px}
@@ -132,8 +135,10 @@ footer a{color:var(--accent)}
   <button class="realm" data-r="plants">🌿 Plants</button>
   <button class="realm" data-r="fungi">🍄 Fungi &amp; microbes</button>
 </nav>
+<div class="stbar"><label>Your state or territory <select id="state" aria-label="State or territory"></select></label><span id="stnote"></span></div>
 <div class="vtabs" id="fvt" data-for="fauna"><button class="vt on" data-v="guide">Pet keeper's licence guide (__TOTAL__)</button><button class="vt" data-v="list">Full official list</button></div>
 <header data-for="fauna">
+  <div id="fnote"></div>
   <h1>WA pet keeper's licence: species guide</h1>
   <p class="sub">All __TOTAL__ native animals DBCA lets you keep as pets: frogs, reptiles and birds. Filter, tap a photo to enlarge it, and star the ones you like.</p>
   <details class="explain">
@@ -233,6 +238,22 @@ render();
 
 /* ---------- main tabs: hobby guide + full official list, data loaded per tab ---------- */
 const INFO=__INFO__;
+/* state picker: statuses are stored per state; states without lists say so */
+const STATES=INFO.states;
+let STATE=(()=>{try{return localStorage.getItem("waState")}catch(e){return null}})()||"WA";
+if(!STATES.find(x=>x.id===STATE))STATE="WA";
+const stInfo=id=>STATES.find(x=>x.id===id);
+const NODATA=()=>({level:"none",label:"Not added yet",detail:`${stInfo(STATE).name}'s official lists haven't been added yet.`,src:"States still to add",url:"https://github.com/theFlay/wa-pets/blob/main/docs/STATES.md",checked:""});
+const stOf=m=>(m&&m[STATE])||NODATA();
+const rowSt=(S,x)=>x[3][STATE]!=null?S[x[3][STATE]]:NODATA();
+const lvlName=l=>({ok:"Allowed",permit:"Permit",check:"Check",no:"Banned",none:"Not added"})[l]||l;
+function stateNotes(){
+  const st=stInfo(STATE);
+  document.getElementById("stnote").textContent=st.ready?"":"Not added yet: only Western Australia has statuses so far.";
+  document.getElementById("fnote").innerHTML=STATE==="WA"?"":`<div class="soon"><b>This guide is Western Australia's</b>The pet keeper's licence and its A, B and C categories are WA rules. ${esc(st.name)} licenses native animals differently and hasn't been added yet.</div>`}
+const stSel=document.getElementById("state");
+stSel.innerHTML=STATES.map(x=>`<option value="${x.id}"${x.id===STATE?" selected":""}>${esc(x.name)}${x.ready?"":" (coming)"}</option>`).join("");
+stSel.onchange=()=>{STATE=stSel.value;try{localStorage.setItem("waState",STATE)}catch(e){}stateNotes();setRealm(rs.realm,rs.view)};
 const LEGEND=`<div class="legend">
 <p><span class="lv ok">Allowed</span> DPIRD permits it in WA, or it isn't on any WA banned list.</p>
 <p><span class="lv permit">Permit</span> Allowed with a permit or conditions.</p>
@@ -285,7 +306,7 @@ async function shell(){
   const r=rs.realm,I=RINFO[r],c=INFO.counts[r];
   rv.innerHTML=`${r==="fauna"?"":`<div class="vtabs">${c.guide?`<button class="vt${rs.view==="guide"?" on":""}" data-v="guide">Hobby guide (${c.guide})</button>`:""}<button class="vt${rs.view==="list"?" on":""}" data-v="list">Full official list (${c.list.toLocaleString()})</button></div>`}
   ${r==="fauna"?`<div class="vtabs"><button class="vt" data-v="guide">Pet keeper's licence guide (${SPECIES.length})</button><button class="vt on" data-v="list">Full official list (${c.list.toLocaleString()})</button></div>`:""}
-  <header><h1>${I.h1}</h1><p class="sub">${I.sub}</p>
+  <header><h1>${I.h1}</h1><p class="sub">${I.sub}</p>${stInfo(STATE).ready?"":`<div class="soon"><b>${esc(stInfo(STATE).name)} isn't added yet</b>We know where its official lists are but haven't loaded them, so statuses show as "Not added yet". The descriptions and photos still apply. Pick Western Australia to see full statuses.</div>`}
   <details class="explain"><summary>How WA's rules work here</summary>${I.explain}${LEGEND}</details></header>
   <div class="controls"><div class="in"><input type="search" id="rq" placeholder="Search name or scientific name..." autocomplete="off">
   <div class="row" id="rsubs"></div><div class="row" id="rlvl"></div>${rs.view==="guide"?'<div class="row" id="rflags"></div><div class="key"><span>☠ Dangerous</span><span>🌈 Colour morphs or forms</span><span>♂♀ Males and females look different</span></div>':""}
@@ -299,7 +320,7 @@ async function shell(){
   if(rs.realm!==r)return;
   const subsUsed=new Set((rs.view==="guide"?d.guide.map(g=>g.sub):d.list.map(x=>x[2])));
   rchips("rsubs",[["All","All"],...d.subs.filter(([k])=>subsUsed.has(k))],"sub",d);
-  rchips("rlvl",LVL.map(([k,l])=>[k,k==="All"?"Any status":l]),"lvl",d);
+  if(stInfo(STATE).ready)rchips("rlvl",LVL.map(([k,l])=>[k,k==="All"?"Any status":l]),"lvl",d);else document.getElementById("rlvl").innerHTML="";
   if(rs.view==="guide"){const fe=document.getElementById("rflags");const FLG=[["s","★ My shortlist"],["d","☠ Dangerous"],["r","🌈 Colour morphs"],["x","♂♀ Sexes look different"]];
     const draw=()=>{fe.innerHTML=FLG.map(([k,l])=>`<button class="chip${rs[k]?" on":""}" data-k="${k}">${l}</button>`).join("")};draw();
     fe.onclick=e=>{const b=e.target.closest(".chip");if(!b)return;rs[b.dataset.k]=!rs[b.dataset.k];draw();results()}}
@@ -312,11 +333,11 @@ function stBox(st){return `<div class="stbox ${st.level}"><b>${esc(st.label)}</b
 function gcard(g,i){
   const f=(g.flags||"").split(",");const q=encodeURIComponent(g.sci);const p=g.photo;const sl=(cache._subs||{})[g.sub]||g.sub;
   return `<article class="card"><div class="ph" data-g="${i}">${p?`<img loading="lazy" src="${esc(p.f)}" alt="${esc(g.n)}">`:`<span>${{fauna:"🦎",mammals:"🐾",aquatic:"🐟",bugs:"🐞",plants:"🌿",fungi:"🍄"}[rs.realm]}</span>`}
-    <div class="badges"><span class="lv ${g.st.level}">${esc(LVL.find(l=>l[0]===g.st.level)[1])}</span>${ICONS.filter(([k])=>f.includes(k)).map(([k,gl,t])=>`<button class="ico ${k}" data-tip="${t}" aria-label="${t}">${gl}</button>`).join("")}</div>
+    <div class="badges"><span class="lv ${stOf(g.st).level}">${esc(lvlName(stOf(g.st).level))}</span>${ICONS.filter(([k])=>f.includes(k)).map(([k,gl,t])=>`<button class="ico ${k}" data-tip="${t}" aria-label="${t}">${gl}</button>`).join("")}</div>
     <button class="star${stars.has(g.sci)?" on":""}" data-n="${esc(g.sci)}" aria-label="Shortlist">${stars.has(g.sci)?"★":"☆"}</button></div>
   <div class="body"><div class="name">${esc(g.n)}</div><div class="sci">${esc(g.sci)}</div>
     <div class="tags"><span class="tag">${esc(sl)}</span>${g.verified?'<span class="tag">✔ Verified</span>':'<span class="unchk" title="Collected automatically and not yet reviewed by a person">🤖 Unchecked</span>'}</div>
-    ${stBox(g.st)}
+    ${stBox(stOf(g.st))}
     <dl>${g.size?`<dt>Size</dt><dd>${esc(g.size)}</dd>`:""}${g.care?`<dt>Care</dt><dd><span class="care">${[1,2,3].map(x=>`<i class="${x<=g.care?"f":""}"></i>`).join("")}</span>${CARE[g.care]}</dd>`:""}${g.temp?`<dt>Nature</dt><dd>${esc(g.temp)}</dd>`:""}${g.setup?`<dt>Setup</dt><dd>${esc(g.setup)}</dd>`:""}</dl>
     ${g.note?`<p class="note">${esc(g.note)}</p>`:""}
     <div class="links"><a href="https://www.inaturalist.org/taxa/search?q=${q}" target="_blank" rel="noopener">More photos (iNaturalist)</a><a href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(g.n+" "+g.sci)}" target="_blank" rel="noopener">Google Images</a><a href="https://en.wikipedia.org/w/index.php?search=${q}" target="_blank" rel="noopener">Wikipedia</a></div>
@@ -328,7 +349,7 @@ async function results(){
   const subs=Object.fromEntries(d.subs);cache._subs=subs;
   if(rs.view==="guide"){
     const items=d.guide.map((g,i)=>[g,i]).filter(([g])=>{const f=(g.flags||"").split(",");
-      if(rs.sub!=="All"&&g.sub!==rs.sub)return false;if(rs.lvl!=="All"&&g.st.level!==rs.lvl)return false;
+      if(rs.sub!=="All"&&g.sub!==rs.sub)return false;if(rs.lvl!=="All"&&stOf(g.st).level!==rs.lvl)return false;
       for(const k of ["d","r","x"])if(rs[k]&&!f.includes(k))return false;if(rs.s&&!stars.has(g.sci))return false;
       if(rs.q&&!(g.n+" "+g.sci).toLowerCase().includes(rs.q))return false;return true});
     let html="";for(const [k,label] of d.subs){const its=items.filter(([g])=>g.sub===k);if(!its.length)continue;
@@ -336,9 +357,9 @@ async function results(){
     out.innerHTML=html||'<p class="empty">Nothing matches those filters.</p>';
     cnt.textContent=`Showing ${items.length} of ${d.guide.length} species`;return}
   const S=d.statuses;
-  const rows=d.list.filter(x=>(rs.sub==="All"||x[2]===rs.sub)&&(rs.lvl==="All"||S[x[3]].level===rs.lvl)&&(!rs.q||(x[0]+" "+x[1]).toLowerCase().includes(rs.q)));
+  const rows=d.list.filter(x=>(rs.sub==="All"||x[2]===rs.sub)&&(rs.lvl==="All"||rowSt(S,x).level===rs.lvl)&&(!rs.q||(x[0]+" "+x[1]).toLowerCase().includes(rs.q)));
   const shown=rows.slice(0,rs.limit);
-  out.innerHTML=`<div class="lrows">${shown.map(x=>{const st=S[x[3]];return `<div class="lrow"><div class="nm"><i>${esc(x[0])}</i>${x[1]?" · "+esc(x[1]):""}</div><span class="lv ${st.level}" title="${esc(st.detail)}">${esc(st.label)}</span><small>${esc(subs[x[2]]||"")} · ${esc(st.detail)} · <a href="${esc(st.url)}" target="_blank" rel="noopener">${esc(st.src)}</a> · <a href="https://www.inaturalist.org/taxa/search?q=${encodeURIComponent(x[0].replace(/ [(]whole.*$/,""))}" target="_blank" rel="noopener">iNaturalist</a></small></div>`}).join("")}</div>`+
+  out.innerHTML=`<div class="lrows">${shown.map(x=>{const st=rowSt(S,x);return `<div class="lrow"><div class="nm"><i>${esc(x[0])}</i>${x[1]?" · "+esc(x[1]):""}</div><span class="lv ${st.level}" title="${esc(st.detail)}">${esc(st.label)}</span><small>${esc(subs[x[2]]||"")} · ${esc(st.detail)} · <a href="${esc(st.url)}" target="_blank" rel="noopener">${esc(st.src)}</a> · <a href="https://www.inaturalist.org/taxa/search?q=${encodeURIComponent(x[0].replace(/ [(]whole.*$/,""))}" target="_blank" rel="noopener">iNaturalist</a></small></div>`}).join("")}</div>`+
     (rows.length>shown.length?`<button class="more" id="rmore">Show more (${(rows.length-shown.length).toLocaleString()} left)</button>`:"")+(rows.length?"":'<p class="empty">Nothing matches those filters.</p>');
   const m=document.getElementById("rmore");if(m)m.onclick=()=>{rs.limit+=500;results()};
   cnt.textContent=`Showing ${shown.length.toLocaleString()} of ${rows.length.toLocaleString()} matching (${d.list.length.toLocaleString()} in this tab)`;
@@ -352,7 +373,7 @@ rv.addEventListener("click",e=>{
   const ph=e.target.closest(".ph[data-g]");if(ph){loadRealm(rs.realm).then(d=>{const it=d.guide[+ph.dataset.g];if(!it||!it.photo)return;
     document.getElementById("lbimg").src=it.photo.f;document.getElementById("lbcap").textContent=it.n;document.getElementById("lb").classList.add("on")})}
 });
-fromHash();
+stateNotes();fromHash();
 </script>
 </body>
 </html>

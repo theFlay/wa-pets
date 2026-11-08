@@ -9,6 +9,8 @@ Main tabs, each with subcategories:
 - **Aquatic**: a hobby guide to fish, crayfish, shrimp and snails, plus WA's noxious and high-risk fish lists and the national Live Import List
 - **Insects & spiders**: a hobby guide to ants, beetles, stick insects, roaches, spiders and scorpions, plus every invertebrate on the WA Organism List
 
+Statuses are Western Australia's for now. There's a state picker, and other states are being added one at a time: see [docs/STATES.md](docs/STATES.md).
+
 ## Sources
 
 - DBCA pet keeper's licence guidelines, Appendix 1 (Biodiversity Conservation Regulations 2018)

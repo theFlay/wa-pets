@@ -31,6 +31,10 @@ Every status carries its source and the date that list was downloaded. Levels:
 - `check` unclear: unlisted in WA, or (for crustaceans and snails) not on the fish lists but likely needs DPIRD approval
 - `no` prohibited, noxious or high risk
 
+## States
+
+Statuses are stored per state. `tools/realms.py` builds one catalogue per tab where each taxon (matched on scientific name, ignoring the author) holds a status for every state that has one. Only WA is loaded so far; [docs/STATES.md](../docs/STATES.md) lists where the other states' official lists are and how to add one.
+
 ## Automation
 
 - `Cache photos` (every 30 minutes): fetches up to 5 missing photos for any guide, rebuilds and commits

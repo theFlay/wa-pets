@@ -135,64 +135,117 @@ def common_name(s):
     return s.split(",")[0].strip()[:60]
 
 
-def build(photo_for):
-    os.makedirs(OUT, exist_ok=True)
-    lists = {r: [] for r in SUBS}
-    stores = {r: Statuses() for r in SUBS}
+# States and territories, in the order the picker shows them. A state only
+# gets statuses once a source for it is added below; until then the site says
+# "not added yet" for it rather than guessing.
+STATES = [("WA", "Western Australia"), ("NSW", "New South Wales"), ("VIC", "Victoria"), ("QLD", "Queensland"),
+          ("SA", "South Australia"), ("TAS", "Tasmania"), ("NT", "Northern Territory"),
+          ("ACT", "Australian Capital Territory")]
+SEVERITY = {"ok": 0, "check": 1, "permit": 2, "no": 3}
+
+
+def taxon_key(name):
+    """Match key for a name: genus, species and any lowercase qualifiers, without
+    the author. 'Dionaea muscipula J.Ellis' and 'Dionaea muscipula' match;
+    'Oryctolagus cuniculus (domestic)' and '(feral)' stay separate."""
+    words, out = name.replace("×", "x").split(), []
+    for i, w in enumerate(words):
+        if i == 0:
+            out.append(w)
+        elif i == 1 and re.fullmatch(r"\([A-Z][a-z]+\)", w):
+            continue  # subgenus
+        elif w[:1].islower() or re.fullmatch(r"\([a-z][^)]*\)?", w) or (out and out[-1].startswith("(") and not out[-1].endswith(")")):
+            out.append(w)
+        else:
+            break
+    return " ".join(out).lower()
+
+
+class Catalogue:
+    """One entry per taxon per tab, whatever list it came from.
+
+    Sources call add() with the state they cover. A taxon that's already there
+    just gains that state's status (or a stricter one if two lists for the same
+    state disagree), so adding a new state's lists never duplicates species."""
+
+    def __init__(self):
+        self.rows = {r: {} for r in SUBS}
+
+    def add(self, realm, name, common, sub, state, st):
+        key = taxon_key(name)
+        row = self.rows[realm].get(key)
+        if row is None:
+            row = self.rows[realm][key] = {"n": name, "c": common, "sub": sub, "st": {}}
+        elif common and not row["c"]:
+            row["c"] = common
+        old = row["st"].get(state)
+        if old is None or SEVERITY[st["level"]] > SEVERITY[old["level"]]:
+            row["st"][state] = st
+
+
+def add_wa(cat):
+    """Western Australia: WA Organism List, WA noxious and high-risk fish lists,
+    and (for import notes) the national Live Import List."""
     for row in S.WAOL["rows"]:
         c = classify(row)
         if not c:
             continue
-        realm, sub = c
         lvl, label, detail = S.waol_status(row)
-        st = {"level": lvl, "label": label, "detail": detail, **S.src("waol")}
-        lists[realm].append([re.sub(r"\s+", " ", row[0]), common_name(row[9]), sub, stores[realm].add(st)])
-
-    # aquatic: the WA fish lists and the national import list
-    aq = stores["aquatic"]
-    seen = set()
+        cat.add(c[0], re.sub(r"\s+", " ", row[0]), common_name(row[9]), c[1], "WA",
+                {"level": lvl, "label": label, "detail": detail, **S.src("waol")})
+    rank_suffix = {"genus": " (whole genus)", "family": " (whole family)"}
     for key, entries, lvl, label in (("wa_noxious_fish", S.NOX, "no", "Noxious: banned in WA"),
                                      ("wa_high_risk_fish", S.HR, "no", "High risk: can't be brought into WA")):
         for e in entries:
             t = e["taxa"][0]
-            nm = t["name"] + (" (whole genus)" if t["rank"] == "genus" else " (whole family)" if t["rank"] == "family" else "")
-            if nm in seen:
-                continue
-            seen.add(nm)
             extra = " in some areas" if e.get("area") else ""
             exc = ", except " + ", ".join(x["name"] for x in e["except"]) if e.get("except") else ""
-            st = {"level": lvl, "label": label + extra, "detail": "Listed" + exc, **S.src(key)}
-            lists["aquatic"].append([nm, "", "banned", aq.add(st)])
+            cat.add("aquatic", t["name"] + rank_suffix.get(t["rank"], ""), "", "banned", "WA",
+                    {"level": lvl, "label": label + extra, "detail": "Listed" + exc, **S.src(key)})
     for x in S.LIL:
         if x["section"] not in ("freshwater_fish", "marine_fish", "sharks_rays"):
             continue
-        nm = x["name"] + (" (whole genus)" if x["rank"] == "genus" else " (whole family)" if x["rank"] == "family" else "")
-        if nm in seen:
-            continue
-        seen.add(nm)
         rec = {"sci": x["name"], "sub": "fresh" if x["section"] == "freshwater_fish" else "marine",
                "fam": x["name"] if x["rank"] == "family" else ""}
         st = S.aquatic(rec)
         if x.get("condition"):
             st = {**st, "detail": st["detail"] + " Import condition: " + x["condition"] + "."}
-        lists["aquatic"].append([nm, "", rec["sub"], aq.add(st)])
+        cat.add("aquatic", x["name"] + rank_suffix.get(x["rank"], ""), "", rec["sub"], "WA", st)
 
-    counts = {}
+
+def guide_statuses(realm, rec):
+    """Status per state for a hobby guide species. Add a state here once its lists are in."""
+    return {"WA": S.aquatic(rec) if realm == "aquatic" else S.organism(rec)}
+
+
+def build(photo_for):
+    os.makedirs(OUT, exist_ok=True)
+    cat = Catalogue()
+    add_wa(cat)
+    # future: add_nsw(cat), add_vic(cat)... each adds its state to existing taxa
+
+    counts, covered = {}, set()
     for realm in SUBS:
+        store = Statuses()
         guide = []
         path = os.path.join(HOBBY, realm + ".json")
         if os.path.exists(path):
             for rec in json.load(open(path, encoding="utf-8")):
-                st = S.aquatic(rec) if realm == "aquatic" else S.organism(rec)
+                sts = guide_statuses(realm, rec)
+                covered |= set(sts)
                 guide.append({**{k: rec[k] for k in ("n", "sci", "sub", "fam", "size", "care", "temp", "setup", "note", "flags") if k in rec},
-                              "st": st, "photo": photo_for(rec.get("photo") or rec["sci"]),
+                              "st": sts, "photo": photo_for(rec.get("photo") or rec["sci"]),
                               "verified": bool(rec.get("verified"))})
-        rows = sorted(lists[realm], key=lambda r: r[0].lower())
-        data = {"realm": realm, "subs": SUBS[realm], "guide": guide, "statuses": stores[realm].items, "list": rows}
+        rows = []
+        for r in sorted(cat.rows[realm].values(), key=lambda r: r["n"].lower()):
+            covered |= set(r["st"])
+            rows.append([r["n"], r["c"], r["sub"], {s: store.add(st) for s, st in r["st"].items()}])
+        data = {"realm": realm, "subs": SUBS[realm], "guide": guide, "statuses": store.items, "list": rows}
         with open(os.path.join(OUT, realm + ".json"), "w", encoding="utf-8", newline="\n") as f:
             json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
         counts[realm] = {"guide": len(guide), "list": len(rows)}
-    return counts
+    states = [{"id": s, "name": n, "ready": s in covered} for s, n in STATES]
+    return counts, states
 
 
 def hobby_photo_keys():

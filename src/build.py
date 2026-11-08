@@ -53,9 +53,9 @@ def photo_for(k):
 data = read("data.js")
 keys = [json.loads(l.strip().rstrip(","))[-1] for l in data.splitlines() if l.strip().startswith('["')]
 photos = [photo_for(k) for k in keys]
-counts = realms.build(photo_for)
+counts, states = realms.build(photo_for)
 meta = json.load(open(os.path.join(ROOT, "data", "lists", "meta.json")))
-info = {"counts": counts, "sources": meta}
+info = {"counts": counts, "sources": meta, "states": states}
 
 html = (read("template.html").replace("__DATA__", data).replace("__PHOTOS__", json.dumps(photos))
         .replace("__TOTAL__", str(len(keys))).replace("__INFO__", json.dumps(info)))
