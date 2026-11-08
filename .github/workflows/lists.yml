@@ -1,5 +1,6 @@
 # Once a week, re-download the official lists (WA Organism List, WA noxious
-# and high-risk fish lists, Live Import List), rebuild and commit if they changed.
+# and high-risk fish lists, Live Import List), commit if they changed, and
+# redeploy the site.
 name: Update official lists
 
 on:
@@ -18,15 +19,26 @@ jobs:
   lists:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    outputs:
+      pushed: ${{ steps.push.outputs.pushed }}
     steps:
       - uses: actions/checkout@v4
       - name: Install pdftotext
         run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
       - name: Download and parse the lists
         run: python3 tools/update_lists.py
-      - name: Rebuild the site
+      - name: Check the site still builds
         run: python3 src/build.py
       - name: Commit if anything changed
+        id: push
         run: |
-          git add -A data/lists data/sources data/site index.html
+          git add -A data/lists data/sources
           sh tools/push.sh "Update official lists"
+  deploy:
+    needs: lists
+    if: needs.lists.outputs.pushed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml

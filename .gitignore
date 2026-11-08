@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 # raw WAOL export; the parsed copy is data/lists/waol.json
 data/sources/waol.csv
+
+# built by the Deploy site workflow (src/build.py), not committed
+index.html
+data/site/

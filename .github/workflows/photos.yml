@@ -1,7 +1,7 @@
 # Every 30 minutes: grow the hobby guides by a few species (tools/grow_guide.py),
-# cache a few missing photos into img/ (tools/fetch_photos.py), rebuild the
-# site and commit. Commits nothing when there's nothing new. About 40 requests
-# to Wikipedia per run, one at a time, so roughly 2,000 a day.
+# cache a few missing photos into img/ (tools/fetch_photos.py), commit, and
+# redeploy the site. Commits nothing when there's nothing new. About 45
+# requests to Wikipedia per run, one at a time, so roughly 2,000 a day.
 name: Grow guides and cache photos
 
 on:
@@ -23,15 +23,26 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    outputs:
+      pushed: ${{ steps.push.outputs.pushed }}
     steps:
       - uses: actions/checkout@v4
       - name: Look up 20 new species for the hobby guides
         run: python3 tools/grow_guide.py --max 20 --delay 1.5
       - name: Download up to 25 missing photos
         run: python3 tools/fetch_photos.py --max 25 --delay 1.5
-      - name: Rebuild the site
+      - name: Check the site still builds
         run: python3 src/build.py
       - name: Commit if anything changed
+        id: push
         run: |
-          git add -A img src/img_urls.json index.html data/site data/grown
+          git add -A img src/img_urls.json data/grown
           sh tools/push.sh "Grow guides and cache photos"
+  deploy:
+    needs: fetch
+    if: needs.fetch.outputs.pushed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
