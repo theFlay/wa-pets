@@ -2,7 +2,7 @@
 {
 "rank": "species",
 "name": "Alphabetic sequence",
-"section": "marine_fish"
+"section": "invertebrates"
 },
 {
 "rank": "species",
@@ -46,18 +46,13 @@
 },
 {
 "rank": "species",
-"name": "Cartilaginous fishes",
-"section": "sharks_rays"
-},
-{
-"rank": "species",
 "name": "Heterodontus zebra",
-"section": "sharks_rays"
+"section": "birds"
 },
 {
 "rank": "species",
 "name": "Taeniura lymma",
-"section": "sharks_rays"
+"section": "birds"
 },
 {
 "rank": "species",
@@ -120,6 +115,21 @@
 "name": "Felis catus",
 "section": "mammals",
 "condition": "excluding any specimen of Felis catus derived from cross"
+},
+{
+"rank": "species",
+"name": "Leptailurus serval",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Felis catus",
+"section": "mammals"
+},
+{
+"rank": "species",
+"name": "Leptailurus serval",
+"section": "mammals"
 },
 {
 "rank": "species",
@@ -204,6 +214,11 @@
 {
 "rank": "species",
 "name": "Ambassis kopsii",
+"section": "freshwater_fish"
+},
+{
+"rank": "species",
+"name": "Scalloped perchlet",
 "section": "freshwater_fish"
 },
 {
@@ -1546,11 +1561,6 @@
 "section": "freshwater_fish"
 },
 {
-"rank": "species",
-"name": "Freshwater members",
-"section": "marine_fish"
-},
-{
 "rank": "family",
 "name": "Acanthuridae",
 "section": "marine_fish"
@@ -1901,6 +1911,11 @@
 "rank": "species",
 "name": "Zanclus cornutus",
 "section": "marine_fish"
+},
+{
+"rank": "species",
+"name": "Lantana bud",
+"section": "invertebrates"
 },
 {
 "rank": "species",
@@ -3286,11 +3301,6 @@
 {
 "rank": "species",
 "name": "Deladenus siridicola",
-"section": "invertebrates"
-},
-{
-"rank": "species",
-"name": "Protection and",
 "section": "invertebrates"
 }
 ]

@@ -2,6 +2,132 @@
 {
 "taxa": [
 {
+"rank": "genus",
+"name": "Atractosteus"
+}
+],
+"raw": "Atractosteus spp. (entire genus)"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Barbonymus schwanenfeldii"
+}
+],
+"raw": "Barbonymus schwanenfeldii"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Boulengerella maculata"
+}
+],
+"raw": "Boulengerella maculata Spotted pike-characin Ctenoluciidae"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Bryconops affinis"
+}
+],
+"raw": "Bryconops affinis"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Bryconops melanurus"
+}
+],
+"raw": "Bryconops melanurus"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Cichlasoma urophthalmus"
+}
+],
+"raw": "Cichlasoma urophthalmus"
+},
+{
+"taxa": [
+{
+"rank": "family",
+"name": "Clariidae"
+}
+],
+"raw": "Clariidae (entire family)"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Crenicichla lacustris"
+}
+],
+"raw": "Crenicichla lacustris"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Crenicichla notophthalmus"
+}
+],
+"raw": "Crenicichla notophthalmus"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Crenicichla saxatilis"
+}
+],
+"raw": "Crenicichla saxatilis"
+},
+{
+"taxa": [
+{
+"rank": "genus",
+"name": "Crenicichla"
+}
+],
+"raw": "Crenicichla spp. (entire genus)"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Dianema longibarbis"
+}
+],
+"raw": "Dianema longibarbis"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Fundulus chrysotus"
+}
+],
+"raw": "Fundulus chrysotus"
+},
+{
+"taxa": [
+{
+"rank": "species",
+"name": "Gasterosteus aculeatus"
+}
+],
+"raw": "Gasterosteus aculeatus"
+},
+{
+"taxa": [
+{
 "rank": "species",
 "name": "Gibelion catla"
 }
@@ -87,7 +213,7 @@
 "name": "Leptolebias splendens"
 }
 ],
-"raw": "Leptolebias splendens"
+"raw": "Leptolebias splendens Splendid pearlfish"
 },
 {
 "taxa": [
@@ -141,7 +267,7 @@
 "name": "Nandopsis tetracanthus"
 }
 ],
-"raw": "Nandopsis tetracanthus"
+"raw": "Nandopsis tetracanthus Cuban cichlid"
 },
 {
 "taxa": [
@@ -204,7 +330,7 @@
 "name": "Polypterus endlicherii"
 }
 ],
-"raw": "Polypterus endlicherii"
+"raw": "Polypterus endlicherii Saddled bichir"
 },
 {
 "taxa": [
@@ -213,7 +339,7 @@
 "name": "Polypterus retropinnis"
 }
 ],
-"raw": "Polypterus retropinnis"
+"raw": "Polypterus retropinnis West African bichir"
 },
 {
 "taxa": [
@@ -249,7 +375,21 @@
 "name": "Serrasalminae"
 }
 ],
-"raw": "Serrasalminae"
+"raw": "Serrasalminae",
+"except": [
+{
+"rank": "genus",
+"name": "Metynnis"
+},
+{
+"rank": "species",
+"name": "Myloplus rubripinnis"
+},
+{
+"rank": "species",
+"name": "Piaractus brachypomus"
+}
+]
 },
 {
 "taxa": [
@@ -276,6 +416,6 @@
 "name": "Xiphophorus pygmaeus"
 }
 ],
-"raw": "Xiphophorus pygmaeus"
+"raw": "Xiphophorus pygmaeus Pygmy swordtail"
 }
 ]

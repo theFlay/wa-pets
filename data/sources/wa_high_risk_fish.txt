@@ -1,171 +1,140 @@
 High-risk non-endemic fish that are noxious fish
 elsewhere in Australia
+
 Translocation approvals, authorities and aquaculture licences will not be
 approved for import of the fish listed in this table.
 
 (This list is subject to change. It is the importer’s responsibility to check that this is the
 most up-to-date version of this list.)
 
-                                        Examples of common
-            Scientific name                                        Family
-                                        names used
-
-                                        Including for example,
-                                        American Gar,
-            Atractosteus spp.
-                                        Armoured Gar, Alligator    Lepisosteidae
-            (entire genus)
-                                        gar, tropical gar, Cuban
-                                        gar
-
-            Barbonymus
-                                        Tinfoil barb               Cyprinidae
-            schwanenfeldii
-
-            Boulengerella maculata      Spotted pike-characin      Ctenoluciidae
-
-            Bryconops affinis           Orangefin tetra            Iguanodectidae
-
-            Bryconops melanurus                                    Iguanodectidae
-
-            Cichlasoma
-                                        Mexican mojarra            Cichlidae
-            urophthalmus
-
-                                        Including for example,
-            Clariidae (entire family)   snake catfish, walking     Clariidae
-                                        catfish
-
-            Crenicichla lacustris                                  Cichlidae
-
-            Crenicichla
-                                                                   Cichlidae
-            notophthalmus
-
-            Crenicichla saxatilis       Ringtail pike cichlid      Cichlidae
-
-            Crenicichla spp. (entire
-                                        Pike Cichlid               Cichlidae
-            genus)
-
-            Dianema longibarbis         Porthole catfish           Callichthyidae
-
-            Fundulus chrysotus          Golden topminnow           Fundulidae
-
-                                        Three-spined
-            Gasterosteus aculeatus                                 Gasterosteidae
-                                        stickleback
-                           Examples of common
-Scientific name                                    Family
+Scientific name            Examples of common        Family
                            names used
+Atractosteus spp.
+(entire genus)             Including for example,    Lepisosteidae
+                           American Gar,
+Barbonymus                 Armoured Gar, Alligator
+schwanenfeldii             gar, tropical gar, Cuban
+                           gar
 
-Gibelion catla             Catla                   Cyprinidae
+                           Tinfoil barb              Cyprinidae
 
-Herichthys
-                           Rio Grande cichlid      Cichlidae
-cyanoguttatus
+Boulengerella maculata Spotted pike-characin Ctenoluciidae
 
-Hollandichthys
-                                                   Characidae
-multifasciatus
+Bryconops affinis          Orangefin tetra           Iguanodectidae
 
-Hypophthalmichthys
-                           Bighead carp            Cyprinidae
-nobilis
+Bryconops melanurus                                  Iguanodectidae
+                                                     Cichlidae
+Cichlasoma                 Mexican mojarra
+urophthalmus                                         Clariidae
+                                                     Cichlidae
+Clariidae (entire family)  Including for example,    Cichlidae
+                           snake catfish, walking    Cichlidae
+                           catfish                   Cichlidae
+                                                     Callichthyidae
+Crenicichla lacustris
 
-Hypselecara spp.
-                           Chocolate cichlid       Cichlidae
-(entire genus)
+Crenicichla
+notophthalmus
 
-Irvineia voltae            Butterfish              Schilbeidae
+Crenicichla saxatilis      Ringtail pike cichlid
 
-Knodus savannensis                                 Characidae
-
-                           Spotted gar, longnose
-Lepisosteus spp.
-                           gar shortnose gar       Lepisosteidae
-(entire genus)
-                           Florida gar
-
-Lepomis spp. (entire
-                           Bluegill                Centrarchidae
+Crenicichla spp. (entire   Pike Cichlid
 genus)
 
-Leptolebias splendens      Splendid pearlfish      Rivulidae
+Dianema longibarbis        Porthole catfish
 
-Microctenopoma
-                           Ornate ctenopoma        Anabantidae
-ansorgii
+Fundulus chrysotus         Golden topminnow          Fundulidae
+                                                     Gasterosteidae
+Gasterosteus aculeatus     Three-spined
+                           stickleback
+Scientific name           Examples of common     Family
+                          names used
+Gibelion catla
+                          Catla                  Cyprinidae
+Herichthys
+cyanoguttatus             Rio Grande cichlid     Cichlidae
 
-Microctenopoma
-                           Congo ctenopoma         Anabantidae
-congicum
+Hollandichthys                                   Characidae
+multifasciatus
+                          Bighead carp           Cyprinidae
+Hypophthalmichthys
+nobilis                   Chocolate cichlid      Cichlidae
+                          Butterfish             Schilbeidae
+Hypselecara spp.
+(entire genus)
 
-Microctenopoma
-                           Banded ctenopoma        Anabantidae
+Irvineia voltae
+
+Knodus savannensis                               Characidae
+
+Lepisosteus spp.          Spotted gar, longnose  Lepisosteidae
+(entire genus)            gar shortnose gar
+                          Florida gar
+Lepomis spp. (entire
+genus)                    Bluegill               Centrarchidae
+
+Leptolebias splendens Splendid pearlfish         Rivulidae
+
+Microctenopoma            Ornate ctenopoma       Anabantidae
+ansorgii                                         Anabantidae
+                                                 Anabantidae
+Microctenopoma            Congo ctenopoma        Anabantidae
+congicum                                         Centrarchidae
+
+Microctenopoma            Banded ctenopoma
 fasciolatum
 
-Microctenopoma
-                           Dwarf ctenopoma         Anabantidae
+Microctenopoma            Dwarf ctenopoma
 nanum
 
-                           Including for example
-Micropterus spp. (entire
-                           M. salmoides,           Centrarchidae
-genus)
-                           largemouth bass
+Micropterus spp. (entire  Including for example
+genus)                    M. salmoides,
+                          largemouth bass
 
-Nandopsis tetracanthus     Cuban cichlid           Cichlidae
+Nandopsis tetracanthus Cuban cichlid             Cichlidae
 
-Neolissochilus
-                           Copper Mahseer          Cyprinidae
+Neolissochilus            Copper Mahseer         Cyprinidae
 hexagonolepis
 
-Ompok bimaculatus          Butter catfish          Siluridae
+Ompok bimaculatus         Butter catfish         Siluridae
 
-Osteoglossum
-                           Arawana                 Osteoglossidae
-bicirrhosum
+Osteoglossum              Arawana                Osteoglossidae
+bicirrhosum               Sutchi catfish         Pangasiidae
 
 Pangasianodon
-                           Sutchi catfish          Pangasiidae
 hypopthalmus
-                         Examples of common
-Scientific name                                      Family
-                         names used
+Scientific name         Examples of common         Family
+Parachanna obscura      names used
 
-Parachanna obscura       Snakehead                   Channidae
+                        Snakehead                  Channidae
 
-Phago loricatus          African pike characin       Distichodontidae
+Phago loricatus         African pike characin Distichodontidae
 
-Polypterus endlicherii   Saddled bichir              Polypteridae
+Polypterus endlicherii Saddled bichir              Polypteridae
 
-Polypterus retropinnis   West African bichir         Polypteridae
+Polypterus retropinnis West African bichir         Polypteridae
 
-Pomoxis spp. (entire
-                         Crappie                     Centrarchidae
-genus)
+Pomoxis spp. (entire    Crappie                    Centrarchidae
+genus)                                             Cichlidae
+                        Dwarf Victorian            Serrasalmidae
+Pseudocrenilabrus       mouthbrooder
+philander               Piranha
 
-Pseudocrenilabrus        Dwarf Victorian
-                                                     Cichlidae
-philander                mouthbrooder
+Pygopristis spp.        Pacus, Piranahs            Serrasalmidae
 
-Pygopristis spp.         Piranha                     Serrasalmidae
-
-Serrasalminae
-(subfamily)
-
-(except Metynnis spp,
-Myloplus rubripinnis,    Pacus, Piranahs             Serrasalmidae
+Serrasalminae           Duckbill catfish           Pimelodidae
+(subfamily)                                        Trichomycteridae
+                        Parasitic catfish, pencil
+(except Metynnis spp,   catfish, candiru catfish
+Myloplus rubripinnis,
 asterias, planquettei,
 Piaractus
 brachypomus)
 
-Sorubim lima             Duckbill catfish            Pimelodidae
+Sorubim lima
 
-Trichomycteridae         Parasitic catfish, pencil
-                                                     Trichomycteridae
-(entire family)          catfish, candiru catfish
+Trichomycteridae
+(entire family)
 
-Xiphophorus pygmaeus     Pygmy swordtail             Poeciliidae
+Xiphophorus pygmaeus Pygmy swordtail               Poeciliidae
 
