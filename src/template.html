@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WA Pet Keeper's Licence Species Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f2ea;--card:#fffdf8;--ink:#1f2420;--muted:#5d655e;--line:#e3dccd;
+  --a:#3f7d4e;--b:#c07a1c;--c:#a8322d;--accent:#2f5d50;--chip:#ece5d6;--chipon:#2f5d50;--chipink:#fff;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#151916;--card:#1e2420;--ink:#ece8df;--muted:#a3aaa3;--line:#2f3832;
+  --a:#6fbf80;--b:#e2a54b;--c:#e2706a;--accent:#8fc9b4;--chip:#2a312c;--chipon:#8fc9b4;--chipink:#10201a;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}
+header{padding:28px 18px 8px;max-width:1200px;margin:0 auto}
+h1{font-family:Fraunces,Georgia,serif;font-size:clamp(26px,6vw,40px);line-height:1.1;margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 14px}
+details.explain{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:4px 16px;margin-bottom:6px}
+details.explain summary{cursor:pointer;font-weight:600;padding:10px 0}
+.tiers{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));padding-bottom:14px}
+.tier{border-left:4px solid;padding:4px 0 4px 12px}
+.tier h3{margin:0 0 4px;font-size:15px}
+.tier p,.tier li{margin:0;font-size:14px;color:var(--muted)}
+.tier ul{margin:4px 0 0;padding-left:18px}
+.controls{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.controls .in{max-width:1200px;margin:0 auto;padding:8px 18px 6px}
+input[type=search]{width:100%;padding:8px 12px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit}
+.row{display:flex;gap:6px;overflow-x:auto;padding:6px 0 0;scrollbar-width:none}
+.row::-webkit-scrollbar{display:none}
+.chip{flex:none;border:0;border-radius:999px;padding:5px 11px;background:var(--chip);color:var(--ink);font:500 12.5px Inter,sans-serif;cursor:pointer;white-space:nowrap}
+.chip.on{background:var(--chipon);color:var(--chipink)}
+.count{font-size:12px;color:var(--muted);padding-top:4px}
+main{max-width:1200px;margin:0 auto;padding:6px 18px 40px}
+h2.sec{font-family:Fraunces,Georgia,serif;font-size:22px;margin:26px 0 4px;display:flex;align-items:center;gap:10px}
+h2.sec .dot{width:12px;height:12px;border-radius:50%}
+.secsub{color:var(--muted);margin:0 0 12px;font-size:14px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(270px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.ph{position:relative;aspect-ratio:4/3;background:var(--chip);display:flex;align-items:center;justify-content:center;font-size:56px;cursor:zoom-in}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
+.badges{position:absolute;left:8px;top:8px;display:flex;gap:5px;flex-wrap:wrap}
+.bdg{font:600 11px Inter,sans-serif;padding:3px 8px;border-radius:999px;color:#fff;background:rgba(0,0,0,.55);backdrop-filter:blur(4px)}
+.bdg.A{background:var(--a)}.bdg.B{background:var(--b)}.bdg.C{background:var(--c)}
+.bdg.d{background:#111;color:#ffd84a}
+.star{position:absolute;right:8px;top:8px;width:36px;height:36px;border-radius:50%;border:0;background:rgba(0,0,0,.5);color:#fff;font-size:18px;cursor:pointer}
+.star.on{color:#ffd84a}
+.body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.name{font-weight:600;font-size:16px;line-height:1.25}
+.sci{font-style:italic;color:var(--muted);font-size:13px;margin-top:-4px}
+.tags{display:flex;gap:5px;flex-wrap:wrap}
+.tag{font-size:11.5px;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--muted)}
+dl{margin:2px 0 0;display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:13.5px}
+dt{color:var(--muted)}dd{margin:0}
+.care{display:inline-flex;gap:3px;vertical-align:middle;margin-right:6px}
+.care i{width:8px;height:8px;border-radius:50%;background:var(--line)}
+.care i.f{background:var(--accent)}
+.note{font-size:13.5px;margin:2px 0 0}
+.links{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto;padding-top:8px}
+.links a{font:500 12.5px Inter,sans-serif;text-decoration:none;color:var(--accent);border:1px solid var(--line);border-radius:8px;padding:5px 9px}
+.credit{font-size:11px;color:var(--muted)}
+.credit a{color:inherit}
+.empty{color:var(--muted);padding:30px 0;text-align:center}
+footer{max-width:1200px;margin:0 auto;padding:10px 18px 40px;color:var(--muted);font-size:13px}
+footer a{color:var(--accent)}
+.lb{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:20;padding:16px;flex-direction:column;gap:10px;color:#fff;text-align:center}
+.lb.on{display:flex}
+.lb img{max-width:100%;max-height:80vh;border-radius:10px}
+</style>
+</head>
+<body>
+<header>
+  <h1>WA pet keeper's licence: species guide</h1>
+  <p class="sub">All __TOTAL__ native animals DBCA lets you keep as pets: frogs, reptiles and birds. Filter, tap a photo to enlarge it, and star the ones you like.</p>
+  <details class="explain">
+    <summary>How the licence works</summary>
+    <div class="tiers">
+      <div class="tier" style="border-color:var(--a)"><h3>Category A: no licence</h3><p>Common aviary birds (budgies, cockatiels, zebra finches, galahs...) plus all invertebrates that aren't threatened. No frogs or reptiles are exempt.</p></div>
+      <div class="tier" style="border-color:var(--b)"><h3>Category B: standard licence</h3><ul><li>18+ and a permanent resident</li><li>No wildlife convictions</li><li>Show some husbandry knowledge</li><li>Secure enclosure</li><li>Apply 20 business days before getting the animal</li></ul></div>
+      <div class="tier" style="border-color:var(--c)"><h3>Category C: advanced licence</h3><ul><li>Have held Category B for 12+ months with no issues</li><li>Written OK from your local council</li><li>At least one written reference</li><li>Locked enclosures</li><li>Dangerous species: home inspection, warning signs, first aid kit, compression bandages, snake gear</li></ul></div>
+    </div>
+  </details>
+</header>
+<div class="controls"><div class="in">
+  <input type="search" id="q" placeholder="Search name or scientific name..." autocomplete="off">
+  <div class="row" id="cats"></div>
+  <div class="row" id="groups"></div>
+  <div class="row" id="flags"></div>
+  <div class="count" id="count"></div>
+</div></div>
+<main id="out"></main>
+<footer>
+  <p>Species list and categories: DBCA "Fauna possessing (pet keeper's) licence" guidelines, Appendix 1 (Biodiversity Conservation Regulations 2018). DBCA was reviewing the list in late 2025, so species may be added or moved. Check the current list with DBCA (wildlifelicensing@dbca.wa.gov.au, 08 9219 9000) before you buy.</p>
+  <p>Size, care and temperament notes are general hobby guidance, not DBCA's. Care level is Claude's rough judgement. "Around Perth/Peel" means the species lives wild in the area. You still can't take animals from the wild; buy captive-bred from licensed keepers.</p>
+  <p>Photos: Wikipedia / Wikimedia Commons contributors, used under their Creative Commons licences. Tap "Photo credit" on a card for the author and licence. Some subspecies show a photo of a close relative.</p>
+</footer>
+<div class="lb" id="lb"><img id="lbimg" alt=""><div id="lbcap"></div><div style="font-size:13px;opacity:.7">Tap anywhere to close</div></div>
+<script>
+__DATA__
+const PHOTOS = __PHOTOS__;
+const ICON={Frogs:"🐸",Lizards:"🦎",Snakes:"🐍",Turtles:"🐢",Finches:"🐦",Parrots:"🦜",Cockatoos:"🦜",Lorikeets:"🦜","Pigeons & doves":"🕊️",Quail:"🐦"};
+const GROUPS=["Frogs","Lizards","Snakes","Turtles","Finches","Parrots","Cockatoos","Lorikeets","Pigeons & doves","Quail"];
+const CATS={A:"Category A: no licence",B:"Category B: standard licence",C:"Category C: advanced licence"};
+const CATSUB={A:"Keep these without any licence. Birds only.",B:"The starting licence. All frogs and most reptiles start here.",C:"Needs 12+ months on a Category B licence first. Venomous snakes live here."};
+const CARE=["","Easy","Moderate","Hard"];
+let stars=new Set();try{stars=new Set(JSON.parse(localStorage.getItem("waStars")||"[]"))}catch(e){}
+const st={q:"",cat:"All",group:"All",d:false,l:false,m:false,t:false,s:false};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function chips(el,items,key){el.innerHTML=items.map(([v,label])=>`<button class="chip${st[key]===v?" on":""}" data-v="${esc(v)}">${esc(label)}</button>`).join("");
+  el.onclick=e=>{const b=e.target.closest(".chip");if(!b)return;st[key]=b.dataset.v;chips(el,items,key);render()}}
+chips(document.getElementById("cats"),[["All","All licences"],["A","A: no licence"],["B","B: standard"],["C","C: advanced"]],"cat");
+chips(document.getElementById("groups"),[["All","All animals"],...GROUPS.map(g=>[g,ICON[g]+" "+g])],"group");
+const FL=[["s","★ My shortlist"],["d","⚠️ Dangerous only"],["l","📍 Around Perth/Peel"],["m","Mixes with finches/quail"],["t","Threatened / hard to get"]];
+const fe=document.getElementById("flags");
+function flagChips(){fe.innerHTML=FL.map(([k,l])=>`<button class="chip${st[k]?" on":""}" data-k="${k}">${l}</button>`).join("")}
+flagChips();fe.onclick=e=>{const b=e.target.closest(".chip");if(!b)return;st[b.dataset.k]=!st[b.dataset.k];flagChips();render()};
+document.getElementById("q").oninput=e=>{st.q=e.target.value.trim().toLowerCase();render()};
+function card(s,i){
+  const [n,sci,cat,g,size,care,temp,setup,note,flags]=s;const p=PHOTOS[i];
+  const f=flags.split(",");const q=encodeURIComponent(sci);
+  return `<article class="card">
+  <div class="ph" data-i="${i}">${p?`<img loading="lazy" src="${p.f}" alt="${esc(n)}">`:`<span>${ICON[g]}</span>`}
+    <div class="badges"><span class="bdg ${cat}">Cat ${cat}</span>${f.includes("d")?'<span class="bdg d">⚠ Dangerous</span>':""}</div>
+    <button class="star${stars.has(n)?" on":""}" data-n="${esc(n)}" aria-label="Shortlist">${stars.has(n)?"★":"☆"}</button>
+  </div>
+  <div class="body">
+    <div class="name">${esc(n)}</div><div class="sci">${esc(sci)}</div>
+    <div class="tags"><span class="tag">${ICON[g]} ${esc(g)}</span>${f.includes("l")?'<span class="tag">📍 Around Perth/Peel</span>':""}${f.includes("m")?'<span class="tag">Finch/quail aviary ok</span>':""}${f.includes("t")?'<span class="tag">Threatened / hard to get</span>':""}</div>
+    <dl><dt>Size</dt><dd>${esc(size)}</dd>
+    <dt>Care</dt><dd><span class="care">${[1,2,3].map(x=>`<i class="${x<=care?"f":""}"></i>`).join("")}</span>${CARE[care]}</dd>
+    <dt>Nature</dt><dd>${esc(temp)}</dd>
+    <dt>Setup</dt><dd>${esc(setup)}</dd></dl>
+    <p class="note">${esc(note)}</p>
+    <div class="links"><a href="https://www.inaturalist.org/taxa/search?q=${q}" target="_blank" rel="noopener">More photos (iNaturalist)</a><a href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(n+" "+sci)}" target="_blank" rel="noopener">Google Images</a><a href="https://en.wikipedia.org/w/index.php?search=${q}" target="_blank" rel="noopener">Wikipedia</a></div>
+    ${p?`<div class="credit"><a href="${esc(p.c)}" target="_blank" rel="noopener">Photo credit</a></div>`:`<div class="credit">No free photo found. Use the links above.</div>`}
+  </div></article>`}
+function render(){
+  const out=document.getElementById("out");let html="",total=0;
+  for(const cat of ["A","B","C"]){
+    if(st.cat!=="All"&&st.cat!==cat)continue;
+    const items=SPECIES.map((s,i)=>[s,i]).filter(([s])=>{
+      const f=s[9].split(",");
+      if(s[2]!==cat)return false;
+      if(st.group!=="All"&&s[3]!==st.group)return false;
+      for(const k of ["d","l","m","t"]) if(st[k]&&!f.includes(k))return false;
+      if(st.s&&!stars.has(s[0]))return false;
+      if(st.q&&!(s[0]+" "+s[1]).toLowerCase().includes(st.q))return false;
+      return true}).sort((a,b)=>GROUPS.indexOf(a[0][3])-GROUPS.indexOf(b[0][3])||a[0][0].localeCompare(b[0][0]));
+    if(!items.length)continue;total+=items.length;
+    html+=`<h2 class="sec"><span class="dot" style="background:var(--${cat.toLowerCase()})"></span>${CATS[cat]} <span style="font:500 14px Inter;color:var(--muted)">(${items.length})</span></h2><p class="secsub">${CATSUB[cat]}</p><div class="grid">${items.map(([s,i])=>card(s,i)).join("")}</div>`}
+  out.innerHTML=html||'<p class="empty">Nothing matches those filters.</p>';
+  document.getElementById("count").textContent=`Showing ${total} of ${SPECIES.length} species`+(stars.size?` · ${stars.size} starred`:"");
+}
+document.getElementById("out").addEventListener("click",e=>{
+  const sb=e.target.closest(".star");
+  if(sb){e.stopPropagation();const n=sb.dataset.n;stars.has(n)?stars.delete(n):stars.add(n);try{localStorage.setItem("waStars",JSON.stringify([...stars]))}catch(_){}
+    sb.classList.toggle("on",stars.has(n));sb.textContent=stars.has(n)?"★":"☆";if(st.s)render();else document.getElementById("count").textContent=document.getElementById("count").textContent.replace(/ · \d+ starred|$/,stars.size?` · ${stars.size} starred`:"");return}
+  const ph=e.target.closest(".ph");if(ph){const i=+ph.dataset.i;const p=PHOTOS[i];if(!p)return;
+    document.getElementById("lbimg").src=p.f;document.getElementById("lbcap").textContent=SPECIES[i][0];document.getElementById("lb").classList.add("on")}
+});
+document.getElementById("lb").onclick=()=>document.getElementById("lb").classList.remove("on");
+render();
+</script>
+</body>
+</html>
