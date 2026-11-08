@@ -24,7 +24,7 @@
 "name": "Acipenser baerii"
 }
 ],
-"raw": "Acipenser baerii baerii Siberian Sturgeon"
+"raw": "Acipenser baerii baerii"
 },
 {
 "taxa": [
@@ -42,7 +42,7 @@
 "name": "Acipenser brevirostrum"
 }
 ],
-"raw": "Acipenser brevirostrum Shortnose Sturgeon"
+"raw": "Acipenser brevirostrum"
 },
 {
 "taxa": [
@@ -51,7 +51,7 @@
 "name": "Acipenser dabryanus"
 }
 ],
-"raw": "Acipenser dabryanus Yangtze Sturgeon"
+"raw": "Acipenser dabryanus"
 },
 {
 "taxa": [
@@ -60,7 +60,7 @@
 "name": "Acipenser fulvescens"
 }
 ],
-"raw": "Acipenser fulvescens Lake Sturgeon"
+"raw": "Acipenser fulvescens"
 },
 {
 "taxa": [
@@ -78,7 +78,7 @@
 "name": "Acipenser medirostris"
 }
 ],
-"raw": "Acipenser medirostris Green Sturgeon"
+"raw": "Acipenser medirostris"
 },
 {
 "taxa": [
@@ -96,7 +96,7 @@
 "name": "Acipenser multiscutatus"
 }
 ],
-"raw": "Acipenser multiscutatus Japanese Sturgeon"
+"raw": "Acipenser multiscutatus"
 },
 {
 "taxa": [
@@ -114,7 +114,7 @@
 "name": "Acipenser nudiventris"
 }
 ],
-"raw": "Acipenser nudiventris Fringebarbel Sturgeon Any area of the State"
+"raw": "Acipenser nudiventris"
 },
 {
 "taxa": [
@@ -168,7 +168,7 @@
 "name": "Acipenser schrenckii"
 }
 ],
-"raw": "Acipenser schrenckii Amur Sturgeon"
+"raw": "Acipenser schrenckii"
 },
 {
 "taxa": [
@@ -240,7 +240,7 @@
 "name": "Allomogurnda nesolepis"
 }
 ],
-"raw": "Allomogurnda nesolepis Yellowbelly Gudgeon Any area of the State"
+"raw": "Allomogurnda nesolepis"
 },
 {
 "taxa": [
@@ -294,7 +294,7 @@
 "name": "Ameiurus platycephalus"
 }
 ],
-"raw": "Ameiurus platycephalus Flat Bullhead"
+"raw": "Ameiurus platycephalus"
 },
 {
 "taxa": [
@@ -303,7 +303,7 @@
 "name": "Ameiurus serracanthus"
 }
 ],
-"raw": "Ameiurus serracanthus Spotted Bullhead"
+"raw": "Ameiurus serracanthus"
 },
 {
 "taxa": [
@@ -321,7 +321,7 @@
 "name": "Amphibalanus eburneus"
 }
 ],
-"raw": "Amphibalanus eburneus Ivory Barnacle"
+"raw": "Amphibalanus eburneus"
 },
 {
 "taxa": [
@@ -474,7 +474,7 @@
 "name": "Barbodes hexagonolepis"
 }
 ],
-"raw": "Barbodes hexagonolepis Copper Mahseer"
+"raw": "Barbodes hexagonolepis"
 },
 {
 "taxa": [
@@ -519,7 +519,7 @@
 "name": "Boulengerella cuvieri"
 }
 ],
-"raw": "Boulengerella cuvieri Bicuda"
+"raw": "Boulengerella cuvieri"
 },
 {
 "taxa": [
@@ -528,7 +528,7 @@
 "name": "Boulengerella lucius"
 }
 ],
-"raw": "Boulengerella lucius Golden Pike-characin Any area of the State"
+"raw": "Boulengerella lucius"
 },
 {
 "taxa": [
@@ -555,7 +555,7 @@
 "name": "Brachidontes pharaonis"
 }
 ],
-"raw": "Brachidontes pharaonis Variable Mussel"
+"raw": "Brachidontes pharaonis"
 },
 {
 "taxa": [
@@ -609,7 +609,7 @@
 "name": "Catlocarpio siamensis"
 }
 ],
-"raw": "Catlocarpio siamensis Giant Barb"
+"raw": "Catlocarpio siamensis"
 },
 {
 "taxa": [
@@ -753,7 +753,7 @@
 "name": "Crassostrea ariakensis"
 }
 ],
-"raw": "Crassostrea ariakensis Suminoe Oyster, Asian"
+"raw": "Crassostrea ariakensis"
 },
 {
 "taxa": [
@@ -825,7 +825,7 @@
 "name": "Ctenopoma kingsleyae"
 }
 ],
-"raw": "Ctenopoma kingsleyae Tailspot Ctenopoma"
+"raw": "Ctenopoma kingsleyae"
 },
 {
 "taxa": [
@@ -834,7 +834,7 @@
 "name": "Ctenopoma multispine"
 }
 ],
-"raw": "Ctenopoma multispine Manyspined Ctenopoma Any area of the State"
+"raw": "Ctenopoma multispine"
 },
 {
 "taxa": [
@@ -861,7 +861,7 @@
 "name": "Ctenopoma ocellatum"
 }
 ],
-"raw": "Ctenopoma ocellatum Eyespot Ctenopoma"
+"raw": "Ctenopoma ocellatum"
 },
 {
 "taxa": [
@@ -888,7 +888,7 @@
 "name": "Didemnum non"
 }
 ],
-"raw": "Didemnum non-endemic Colonial Sea Squirt,"
+"raw": "Didemnum non-endemic spp."
 },
 {
 "taxa": [
@@ -897,7 +897,7 @@
 "name": "Didemnum perlucidum"
 }
 ],
-"raw": "Didemnum perlucidum White Sea Squirt,",
+"raw": "Didemnum perlucidum",
 "area": "Some areas only"
 },
 {
@@ -943,7 +943,7 @@
 "name": "Dormitator maculatus"
 }
 ],
-"raw": "Dormitator maculatus Fat Sleeper"
+"raw": "Dormitator maculatus"
 },
 {
 "taxa": [
@@ -961,7 +961,7 @@
 "name": "Dreissena polymorpha"
 }
 ],
-"raw": "Dreissena polymorpha European Zebra Mussel, Any area of the State"
+"raw": "Dreissena polymorpha"
 },
 {
 "taxa": [
@@ -979,7 +979,7 @@
 "name": "Electrophorus electricus"
 }
 ],
-"raw": "Electrophorus electricus Electric Eel"
+"raw": "Electrophorus electricus"
 },
 {
 "taxa": [
@@ -1375,7 +1375,7 @@
 "name": "Gymnarchus niloticus"
 }
 ],
-"raw": "Gymnarchus niloticus Aba Aba"
+"raw": "Gymnarchus niloticus"
 },
 {
 "taxa": [
@@ -1402,7 +1402,7 @@
 "name": "Hemichromis fasciatus"
 }
 ],
-"raw": "Hemichromis fasciatus Banded Jewelfish"
+"raw": "Hemichromis fasciatus"
 },
 {
 "taxa": [
@@ -1447,7 +1447,7 @@
 "name": "Heterandria bimaculata"
 }
 ],
-"raw": "Heterandria bimaculata Twospot Livebearer"
+"raw": "Heterandria bimaculata"
 },
 {
 "taxa": [
@@ -1456,7 +1456,7 @@
 "name": "Heteropneustes fossilis"
 }
 ],
-"raw": "Heteropneustes fossilis Stinging Catfish"
+"raw": "Heteropneustes fossilis"
 },
 {
 "taxa": [
@@ -1483,7 +1483,7 @@
 "name": "Himantura oxyrhyncha"
 }
 ],
-"raw": "Himantura oxyrhyncha Marbled Whipray"
+"raw": "Himantura oxyrhyncha"
 },
 {
 "taxa": [
@@ -1510,7 +1510,7 @@
 "name": "Hydrocynus"
 }
 ],
-"raw": "Hydrocynus spp. (entire Tigerfish genus)"
+"raw": "Hydrocynus spp. (entire genus)"
 },
 {
 "taxa": [
@@ -1600,7 +1600,7 @@
 "name": "Ictalurus ochoterenai"
 }
 ],
-"raw": "Ictalurus ochoterenai Chapala Catfish"
+"raw": "Ictalurus ochoterenai"
 },
 {
 "taxa": [
@@ -1663,7 +1663,7 @@
 "name": "Lebiasina bimaculata"
 }
 ],
-"raw": "Lebiasina bimaculata Twospot Lebiasina"
+"raw": "Lebiasina bimaculata"
 },
 {
 "taxa": [
@@ -1690,7 +1690,7 @@
 "name": "Leptolebias marmoratus"
 }
 ],
-"raw": "Leptolebias marmoratus Marbled Pearlfish"
+"raw": "Leptolebias marmoratus"
 },
 {
 "taxa": [
@@ -1708,7 +1708,7 @@
 "name": "Leptolebias opalescens"
 }
 ],
-"raw": "Leptolebias opalescens Opal Pearlfish"
+"raw": "Leptolebias opalescens"
 },
 {
 "taxa": [
@@ -1789,7 +1789,7 @@
 "name": "Mormyrops anguilloides"
 }
 ],
-"raw": "Mormyrops anguilloides Cornish Jack, Bottlenose Any area of the State"
+"raw": "Mormyrops anguilloides"
 },
 {
 "taxa": [
@@ -1816,7 +1816,7 @@
 "name": "Mytilopsis leucophaeata"
 }
 ],
-"raw": "Mytilopsis leucophaeata Dark False Mussel,"
+"raw": "Mytilopsis leucophaeata"
 },
 {
 "taxa": [
@@ -2167,7 +2167,7 @@
 "name": "Oxyeleotris heterodon"
 }
 ],
-"raw": "Oxyeleotris heterodon Sentani Gudgeon"
+"raw": "Oxyeleotris heterodon"
 },
 {
 "taxa": [
@@ -2176,7 +2176,7 @@
 "name": "Oxyeleotris marmorata"
 }
 ],
-"raw": "Oxyeleotris marmorata Marble Goby"
+"raw": "Oxyeleotris marmorata"
 },
 {
 "taxa": [
@@ -2221,7 +2221,7 @@
 "name": "Pacifastacus leniusculus"
 }
 ],
-"raw": "Pacifastacus leniusculus Signal Crayfish"
+"raw": "Pacifastacus leniusculus"
 },
 {
 "taxa": [
@@ -2230,7 +2230,7 @@
 "name": "Pangasianodon gigas"
 }
 ],
-"raw": "Pangasianodon gigas Mekong Giant Catfish"
+"raw": "Pangasianodon gigas"
 },
 {
 "taxa": [
@@ -2392,7 +2392,7 @@
 "name": "Pangasius pangasius"
 }
 ],
-"raw": "Pangasius pangasius Yellowtailed Catfish"
+"raw": "Pangasius pangasius"
 },
 {
 "taxa": [
@@ -2455,7 +2455,7 @@
 "name": "Paravandelia oxyptera"
 }
 ],
-"raw": "Paravandelia oxyptera Parasitic Catfish"
+"raw": "Paravandelia oxyptera"
 },
 {
 "taxa": [
@@ -2491,7 +2491,7 @@
 "name": "Phoxinus erythrogaster"
 }
 ],
-"raw": "Phoxinus erythrogaster Southern Redbelly Dace Any area of the State"
+"raw": "Phoxinus erythrogaster"
 },
 {
 "taxa": [
@@ -2536,7 +2536,7 @@
 "name": "Protopterus aethiopicus"
 }
 ],
-"raw": "Protopterus aethiopicus Marbled Lungfish"
+"raw": "Protopterus aethiopicus"
 },
 {
 "taxa": [
@@ -2545,7 +2545,7 @@
 "name": "Protopterus amphibius"
 }
 ],
-"raw": "Protopterus amphibius Gilled Lungfish"
+"raw": "Protopterus amphibius"
 },
 {
 "taxa": [
@@ -2554,7 +2554,7 @@
 "name": "Protopterus annectens"
 }
 ],
-"raw": "Protopterus annectens African Lungfish"
+"raw": "Protopterus annectens"
 },
 {
 "taxa": [
@@ -2608,7 +2608,7 @@
 "name": "Pygocentrus"
 }
 ],
-"raw": "Pygocentrus spp. (entire Piranha (various) genus)"
+"raw": "Pygocentrus spp. (entire genus)"
 },
 {
 "taxa": [
@@ -2887,7 +2887,7 @@
 "name": "Serrasalmus"
 }
 ],
-"raw": "Serrasalmus spp. (entire Piranha (various) genus)"
+"raw": "Serrasalmus spp. (entire genus)"
 },
 {
 "taxa": [
@@ -2935,8 +2935,8 @@
 "raw": "Tilapia spp. (all",
 "except": [
 {
-"rank": "note",
-"name": "Tilapia (various"
+"rank": "species",
+"name": "Tilapia buttikoferi"
 }
 ]
 },
@@ -2974,7 +2974,7 @@
 "name": "Tridentiger barbatus"
 }
 ],
-"raw": "Tridentiger barbatus Shokihaze Goby"
+"raw": "Tridentiger barbatus"
 },
 {
 "taxa": [
@@ -2983,7 +2983,7 @@
 "name": "Tridentiger bifasciatus"
 }
 ],
-"raw": "Tridentiger bifasciatus Shimofuri Goby"
+"raw": "Tridentiger bifasciatus"
 },
 {
 "taxa": [

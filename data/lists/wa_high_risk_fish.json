@@ -24,7 +24,7 @@
 "name": "Boulengerella maculata"
 }
 ],
-"raw": "Boulengerella maculata Spotted pike-characin Ctenoluciidae"
+"raw": "Boulengerella maculata"
 },
 {
 "taxa": [
@@ -213,7 +213,7 @@
 "name": "Leptolebias splendens"
 }
 ],
-"raw": "Leptolebias splendens Splendid pearlfish"
+"raw": "Leptolebias splendens"
 },
 {
 "taxa": [
@@ -267,7 +267,7 @@
 "name": "Nandopsis tetracanthus"
 }
 ],
-"raw": "Nandopsis tetracanthus Cuban cichlid"
+"raw": "Nandopsis tetracanthus"
 },
 {
 "taxa": [
@@ -330,7 +330,7 @@
 "name": "Polypterus endlicherii"
 }
 ],
-"raw": "Polypterus endlicherii Saddled bichir"
+"raw": "Polypterus endlicherii"
 },
 {
 "taxa": [
@@ -339,7 +339,7 @@
 "name": "Polypterus retropinnis"
 }
 ],
-"raw": "Polypterus retropinnis West African bichir"
+"raw": "Polypterus retropinnis"
 },
 {
 "taxa": [
@@ -416,6 +416,6 @@
 "name": "Xiphophorus pygmaeus"
 }
 ],
-"raw": "Xiphophorus pygmaeus Pygmy swordtail"
+"raw": "Xiphophorus pygmaeus"
 }
 ]
