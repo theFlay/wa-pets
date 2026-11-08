@@ -1,6 +1,8 @@
-# Every 30 minutes, cache a few missing species photos (fauna guide and every
-# hobby guide in data/hobby) into img/ and rebuild the site. Does nothing (and commits nothing) once every photo is cached.
-name: Cache photos
+# Every 30 minutes: grow the hobby guides by a few species (tools/grow_guide.py),
+# cache a few missing photos into img/ (tools/fetch_photos.py), rebuild the
+# site and commit. Commits nothing when there's nothing new. About 40 requests
+# to Wikipedia per run, one at a time, so roughly 2,000 a day.
+name: Grow guides and cache photos
 
 on:
   schedule:
@@ -20,19 +22,21 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - name: Download up to 5 missing photos
-        run: python3 tools/fetch_photos.py --max 5 --delay 3
+      - name: Look up 20 new species for the hobby guides
+        run: python3 tools/grow_guide.py --max 20 --delay 1.5
+      - name: Download up to 25 missing photos
+        run: python3 tools/fetch_photos.py --max 25 --delay 1.5
       - name: Rebuild the site
         run: python3 src/build.py
       - name: Commit if anything changed
         run: |
-          git add -A img src/img_urls.json index.html data/site
+          git add -A img src/img_urls.json index.html data/site data/grown
           if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Cache species photos"
+          git commit -m "Grow guides and cache photos"
           git pull --rebase -q
           git push

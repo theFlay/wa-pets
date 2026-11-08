@@ -16,6 +16,7 @@ import json, os, re, sys, time
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOTES = os.path.join(ROOT, "data", "community", "notes.json")
 HOBBY = os.path.join(ROOT, "data", "hobby")
+GROWN = os.path.join(ROOT, "data", "grown")
 TABS = {"fauna", "mammals", "aquatic", "bugs", "plants", "fungi"}
 STATES = {"WA", "NSW", "VIC", "QLD", "SA", "TAS", "NT", "ACT", "ALL"}
 KINDS = {
@@ -80,9 +81,16 @@ def main():
     notes.append(note)
     summary = f"Added a community note for {sci}."
 
-    path = os.path.join(HOBBY, tab + ".json")
-    guide = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else []
-    rec = next((r for r in guide if r["sci"].lower() == sci.lower()), None)
+    # Hand-written cards first, then ones grown automatically from Wikipedia.
+    path = rec = None
+    for folder in (HOBBY, GROWN):
+        p = os.path.join(folder, tab + ".json")
+        g = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else []
+        rec = next((r for r in g if r["sci"].lower() == sci.lower()), None)
+        if rec or folder == HOBBY:
+            path, guide = p, g
+        if rec:
+            break
     if kind == "verify":
         if not rec:
             fail(f"{sci} isn't in the {tab} hobby guide, so there's no card to verify")

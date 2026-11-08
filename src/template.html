@@ -249,12 +249,13 @@ const STATES=INFO.states;
 let STATE=(()=>{try{return localStorage.getItem("waState")}catch(e){return null}})()||"WA";
 if(!STATES.find(x=>x.id===STATE))STATE="WA";
 const stInfo=id=>STATES.find(x=>x.id===id);
-const NODATA=()=>{const st=stInfo(STATE);return st.ready
+const covers=(st,r)=>st.ready&&(!st.covers||st.covers.includes(r));
+const NODATA=()=>{const st=stInfo(STATE);return covers(st,rs.realm)
   ?{level:"none",label:"Not on "+st.id+"'s lists",detail:st.default,src:(st.sources[0]||[])[0]||"",url:(st.sources[0]||[])[1]||"#",checked:""}
-  :{level:"none",label:"Not added yet",detail:`${st.name}'s official lists haven't been added yet.`,src:"States still to add",url:"https://github.com/theFlay/wa-pets/blob/main/docs/STATES.md",checked:""}};
+  :{level:"none",label:"Not added yet",detail:st.ready?`${st.name}'s rules for this tab haven't been added yet. Its lists so far cover frogs, reptiles, birds and mammals.`:`${st.name}'s official lists haven't been added yet.`,src:"States still to add",url:"https://github.com/theFlay/wa-pets/blob/main/docs/STATES.md",checked:""}};
 const stOf=m=>(m&&m[STATE])||NODATA();
 const rowSt=(S,x)=>x[3][STATE]!=null?S[x[3][STATE]]:NODATA();
-const lvlName=l=>({ok:"Allowed",permit:"Permit",check:"Check",no:"Banned",none:stInfo(STATE).ready?"Not listed":"Not added"})[l]||l;
+const lvlName=l=>({ok:"Allowed",permit:"Permit",check:"Check",no:"Banned",none:covers(stInfo(STATE),rs.realm)?"Not listed":"Not added"})[l]||l;
 function stateNotes(){
   const st=stInfo(STATE);
   document.getElementById("stnote").textContent=STATE==="WA"?"":st.ready?`Loaded for ${st.id}: ${st.sources.map(x=>x[0]).join("; ")}. ${st.default}`:"Not added yet.";
@@ -278,13 +279,13 @@ const WAOL_NOTE=`<p><b>Keeping category</b>, when shown: Exempt means no permit 
 const RINFO={
  fauna:{h1:"Frogs, reptiles and birds: the full WA list",sub:"Every amphibian, reptile and bird on DPIRD's WA Organism List, with its status.",
   explain:`<p><b>Permitted</b> means DPIRD allows it into WA. For native animals that's only half of it: keeping native frogs, reptiles and birds also needs the DBCA pet keeper's licence shown in the guide.</p>${WAOL_NOTE}`},
- mammals:{h1:"Mammals in WA",sub:"Every mammal on DPIRD's WA Organism List, with its status. Hobby guide coming soon.",
+ mammals:{h1:"Mammals in WA",sub:"Every mammal on DPIRD's WA Organism List, with its status. The hobby guide grows automatically.",
   explain:`<p>Some popular pets elsewhere are prohibited in WA: for example, golden hamsters are. Domestic rabbits are a declared pest but exempt, so you can keep them; wild-type rabbits are prohibited.</p><p>DBCA's pet keeper's licence only covers frogs, reptiles and birds, so native mammals generally can't be kept as pets.</p>${WAOL_NOTE}`},
  aquatic:{h1:"Aquatic pets in WA",sub:"Fish, crayfish, shrimp and snails. WA's fish rules come from DPIRD's fisheries lists, not the pet keeper's licence.",
   explain:`<ul><li><b>Noxious fish</b> are banned: you can't keep, breed or release them. Penalties start at $10,000.</li><li><b>High-risk non-endemic fish</b> can't be brought into WA.</li><li>Any other fish that isn't a WA native needs <b>DPIRD translocation approval</b> to bring it in from another state. Whitelisted species get automatic approval.</li><li>The <b>national Live Import List</b> covers what can be imported into Australia at all. Species not on it are only available as Australian-bred stock.</li><li>"Fish" in WA law includes crayfish, shrimp, snails and corals. Never release aquarium animals, plants or water into the wild.</li></ul>`},
  bugs:{h1:"Insects, spiders and other invertebrates in WA",sub:"Ants, beetles, stick insects, roaches, spiders, scorpions and more. Status comes from DPIRD's WA Organism List.",
   explain:`<p><b>Permitted</b> means DPIRD allows it into WA. <b>Prohibited</b> means it's a declared pest: you can't bring it in or keep it.</p>${WAOL_NOTE}<p>Some WA natives simply haven't been listed, which is why they show as unlisted. DBCA's pet keeper's licence guidelines put native invertebrates that aren't threatened in Category A, so they need no licence.</p>`},
- plants:{h1:"Plants in WA",sub:"Every plant on DPIRD's WA Organism List, with its status. Hobby guide coming soon.",
+ plants:{h1:"Plants in WA",sub:"Every plant on DPIRD's WA Organism List, with its status. The hobby guide grows automatically.",
   explain:`<p><b>Permitted</b> plants can come into WA, though imports can still have conditions (check DPIRD's <a href="https://www.dpird.wa.gov.au/online-tools/western-australian-import-requirements-search/" target="_blank" rel="noopener">import requirements search</a>). <b>Declared pest</b> plants (weeds) can be prohibited or restricted.</p>${WAOL_NOTE}`},
  fungi:{h1:"Fungi and microbes in WA",sub:"Mostly plant and animal diseases on DPIRD's WA Organism List. Handy for checking mushroom kits, cultures and the like. Hobby guide coming soon.",
   explain:WAOL_NOTE}
@@ -296,7 +297,11 @@ const LVL=[["All","All"],["ok","Allowed"],["permit","Permit"],["check","Check"],
 const cache={};
 const rs={realm:"fauna",view:"guide",q:"",sub:"All",lvl:"All",d:false,r:false,x:false,s:false,limit:200};
 const rv=document.getElementById("rv");
-const loadRealm=r=>cache[r]||(cache[r]=fetch(`data/site/${r}.json`).then(x=>{if(!x.ok)throw new Error(x.status);return x.json()}));
+const getJSON=u=>fetch(u).then(x=>{if(!x.ok)throw new Error(x.status);return x.json()});
+const loadRealm=r=>cache[r]||(cache[r]=getJSON(`data/site/${r}.json`));
+const loadGuide=r=>cache["g:"+r]||(cache["g:"+r]=getJSON(`data/site/${r}-guide.json`).then(d=>{
+  for(const g of d.guide){const m={};for(const k in g.st)m[k]=d.statuses[g.st[k]];g.st=m}return d}));
+const loadTab=r=>rs.view==="guide"?loadGuide(r):loadRealm(r);
 function setRealm(r,view,push){
   if(!REALMS.includes(r))r="fauna";
   const c=INFO.counts[r]||{guide:0,list:0};
@@ -320,7 +325,7 @@ async function shell(){
   const r=rs.realm,I=RINFO[r],c=INFO.counts[r];
   rv.innerHTML=`${r==="fauna"?"":`<div class="vtabs">${c.guide?`<button class="vt${rs.view==="guide"?" on":""}" data-v="guide">Hobby guide (${c.guide})</button>`:""}<button class="vt${rs.view==="list"?" on":""}" data-v="list">Full official list (${c.list.toLocaleString()})</button></div>`}
   ${r==="fauna"?`<div class="vtabs"><button class="vt" data-v="guide">Pet keeper's licence guide (${SPECIES.length})</button><button class="vt on" data-v="list">Full official list (${c.list.toLocaleString()})</button></div>`:""}
-  <header><h1>${I.h1}</h1><p class="sub">${I.sub}</p>${stInfo(STATE).ready?"":`<div class="soon"><b>${esc(stInfo(STATE).name)} isn't added yet</b>We know where its official lists are but haven't loaded them, so statuses show as "Not added yet". The descriptions and photos still apply. Pick Western Australia to see full statuses.</div>`}
+  <header><h1>${I.h1}</h1><p class="sub">${I.sub}</p>${covers(stInfo(STATE),r)?"":stInfo(STATE).ready?`<div class="soon"><b>${esc(stInfo(STATE).name)}'s rules for this tab aren't added yet</b>Its lists so far cover frogs, reptiles, birds and mammals, so statuses here show as "Not added yet". The descriptions and photos still apply. Pick Western Australia to see full statuses.</div>`:`<div class="soon"><b>${esc(stInfo(STATE).name)} isn't added yet</b>We know where its official lists are but haven't loaded them, so statuses show as "Not added yet". The descriptions and photos still apply. Pick Western Australia to see full statuses.</div>`}
   <details class="explain"><summary>How WA's rules work here</summary>${I.explain}${LEGEND}</details></header>
   <div class="controls"><div class="in"><input type="search" id="rq" placeholder="Search name or scientific name..." autocomplete="off">
   <div class="row" id="rsubs"></div><div class="row" id="rlvl"></div>${rs.view==="guide"?'<div class="row" id="rflags"></div><div class="key"><span>☠ Dangerous</span><span>🌈 Colour morphs or forms</span><span>♂♀ Males and females look different</span></div>':""}
@@ -330,11 +335,11 @@ async function shell(){
   <p>Photos: Wikipedia / Wikimedia Commons contributors under Creative Commons licences.</p></footer>`;
   rv.querySelectorAll(".vtabs").forEach(v=>v.onclick=e=>{const b=e.target.closest(".vt");if(b)setRealm(r,b.dataset.v,true)});
   document.getElementById("rq").oninput=e=>{rs.q=e.target.value.trim().toLowerCase();rs.limit=200;results()};
-  let d;try{d=await loadRealm(r)}catch(e){document.getElementById("rout").innerHTML='<p class="empty">Couldn\'t load this tab\'s data. If you opened the file directly, run a local web server instead.</p>';return}
+  let d;try{d=await loadTab(r)}catch(e){document.getElementById("rout").innerHTML='<p class="empty">Couldn\'t load this tab\'s data. If you opened the file directly, run a local web server instead.</p>';return}
   if(rs.realm!==r)return;
   const subsUsed=new Set((rs.view==="guide"?d.guide.map(g=>g.sub):d.list.map(x=>x[2])));
   rchips("rsubs",[["All","All"],...d.subs.filter(([k])=>subsUsed.has(k))],"sub",d);
-  if(stInfo(STATE).ready)rchips("rlvl",LVL.map(([k,l])=>[k,k==="All"?"Any status":l]),"lvl",d);else document.getElementById("rlvl").innerHTML="";
+  if(covers(stInfo(STATE),r))rchips("rlvl",LVL.map(([k,l])=>[k,k==="All"?"Any status":l]),"lvl",d);else document.getElementById("rlvl").innerHTML="";
   if(rs.view==="guide"){const fe=document.getElementById("rflags");const FLG=[["s","★ My shortlist"],["d","☠ Dangerous"],["r","🌈 Colour morphs"],["x","♂♀ Sexes look different"]];
     const draw=()=>{fe.innerHTML=FLG.map(([k,l])=>`<button class="chip${rs[k]?" on":""}" data-k="${k}">${l}</button>`).join("")};draw();
     fe.onclick=e=>{const b=e.target.closest(".chip");if(!b)return;rs[b.dataset.k]=!rs[b.dataset.k];draw();results()}}
@@ -353,13 +358,13 @@ function gcard(g,i){
     <div class="tags"><span class="tag">${esc(sl)}</span>${g.verified?'<span class="tag">✔ Verified</span>':'<span class="unchk" title="Collected automatically and not yet reviewed by a person">🤖 Unchecked</span>'}${g.community?'<span class="tag">👥 Added by the community</span>':""}</div>
     ${stBox(stOf(g.st))}
     <dl>${g.size?`<dt>Size</dt><dd>${esc(g.size)}</dd>`:""}${g.care?`<dt>Care</dt><dd><span class="care">${[1,2,3].map(x=>`<i class="${x<=g.care?"f":""}"></i>`).join("")}</span>${CARE[g.care]}</dd>`:""}${g.temp?`<dt>Nature</dt><dd>${esc(g.temp)}</dd>`:""}${g.setup?`<dt>Setup</dt><dd>${esc(g.setup)}</dd>`:""}</dl>
-    ${g.note?`<p class="note">${esc(g.note)}</p>`:""}
+    ${g.note?`<p class="note">${esc(g.note)}${g.w?` <small>Summary from <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(g.w.replace(/ /g,"_"))}" target="_blank" rel="noopener">Wikipedia</a> (CC BY-SA 4.0).</small>`:""}</p>`:""}
     <div class="links"><a href="https://www.inaturalist.org/taxa/search?q=${q}" target="_blank" rel="noopener">More photos (iNaturalist)</a><a href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(g.n+" "+g.sci)}" target="_blank" rel="noopener">Google Images</a><a href="https://en.wikipedia.org/w/index.php?search=${q}" target="_blank" rel="noopener">Wikipedia</a></div>
     ${notesHtml(g.notes)}
     ${p?`<div class="credit"><a href="${esc(p.c)}" target="_blank" rel="noopener">Photo credit</a> · ${sugLink(g.sci,g.n,rs.realm)}</div>`:`<div class="credit">No free photo found yet. Use the links above. · ${sugLink(g.sci,g.n,rs.realm)}</div>`}
   </div></article>`}
 async function results(){
-  const r=rs.realm;const d=await loadRealm(r);if(rs.realm!==r)return;
+  const r=rs.realm;const d=await loadTab(r);if(rs.realm!==r)return;
   const out=document.getElementById("rout"),cnt=document.getElementById("rcount");if(!out)return;
   const subs=Object.fromEntries(d.subs);cache._subs=subs;
   if(rs.view==="guide"){
@@ -367,10 +372,12 @@ async function results(){
       if(rs.sub!=="All"&&g.sub!==rs.sub)return false;if(rs.lvl!=="All"&&stOf(g.st).level!==rs.lvl)return false;
       for(const k of ["d","r","x"])if(rs[k]&&!f.includes(k))return false;if(rs.s&&!stars.has(g.sci))return false;
       if(rs.q&&!(g.n+" "+g.sci).toLowerCase().includes(rs.q))return false;return true});
-    let html="";for(const [k,label] of d.subs){const its=items.filter(([g])=>g.sub===k);if(!its.length)continue;
-      html+=`<h2 class="sec">${esc(label)} <span style="font:500 14px Inter;color:var(--muted)">(${its.length})</span></h2><div class="grid">${its.map(([g,i])=>gcard(g,i)).join("")}</div>`}
-    out.innerHTML=html||'<p class="empty">Nothing matches those filters.</p>';
-    cnt.textContent=`Showing ${items.length} of ${d.guide.length} species`;return}
+    let html="",shown=0;for(const [k,label] of d.subs){if(shown>=rs.limit)break;const its=items.filter(([g])=>g.sub===k);if(!its.length)continue;
+      const take=its.slice(0,rs.limit-shown);shown+=take.length;
+      html+=`<h2 class="sec">${esc(label)} <span style="font:500 14px Inter;color:var(--muted)">(${its.length})</span></h2><div class="grid">${take.map(([g,i])=>gcard(g,i)).join("")}</div>`}
+    out.innerHTML=(html||'<p class="empty">Nothing matches those filters.</p>')+(items.length>shown?`<button class="more" id="rmore">Show more (${(items.length-shown).toLocaleString()} left)</button>`:"");
+    const gm=document.getElementById("rmore");if(gm)gm.onclick=()=>{rs.limit+=200;results()};
+    cnt.textContent=`Showing ${shown.toLocaleString()} of ${items.length.toLocaleString()} matching (${d.guide.length.toLocaleString()} in this guide)`;return}
   const S=d.statuses;
   const rows=d.list.filter(x=>(rs.sub==="All"||x[2]===rs.sub)&&(rs.lvl==="All"||rowSt(S,x).level===rs.lvl)&&(!rs.q||(x[0]+" "+x[1]).toLowerCase().includes(rs.q)));
   const shown=rows.slice(0,rs.limit);
@@ -385,7 +392,7 @@ rv.addEventListener("click",e=>{
   const sb=e.target.closest(".star");
   if(sb){const n=sb.dataset.n;stars.has(n)?stars.delete(n):stars.add(n);try{localStorage.setItem("waStars",JSON.stringify([...stars]))}catch(_){}
     sb.classList.toggle("on",stars.has(n));sb.textContent=stars.has(n)?"★":"☆";if(rs.s)results();return}
-  const ph=e.target.closest(".ph[data-g]");if(ph){loadRealm(rs.realm).then(d=>{const it=d.guide[+ph.dataset.g];if(!it||!it.photo)return;
+  const ph=e.target.closest(".ph[data-g]");if(ph){loadGuide(rs.realm).then(d=>{const it=d.guide[+ph.dataset.g];if(!it||!it.photo)return;
     document.getElementById("lbimg").src=it.photo.f;document.getElementById("lbcap").textContent=it.n;document.getElementById("lb").classList.add("on")})}
 });
 stateNotes();render();fromHash();

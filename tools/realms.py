@@ -1,10 +1,13 @@
-"""Build data/site/<realm>.json for every main tab.
+"""Build the data files for every main tab.
 
-Each file has:
-  guide   - hobby species (data/hobby/<realm>.json) with photo and WA status
+data/site/<realm>.json (the full official list):
   list    - every official entry for the tab, as compact rows
   statuses- the distinct status objects rows point at (keeps files small)
   subs    - subcategory ids -> labels, in display order
+data/site/<realm>-guide.json (only if the tab has a hobby guide):
+  guide   - hand-written cards (data/hobby/<realm>.json) first, then the ones
+            grown automatically (data/grown/<realm>.json), with photo and a
+            status index per state into its own statuses list
 """
 import json, os, re, sys
 
@@ -13,6 +16,7 @@ import status as S  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HOBBY = os.path.join(ROOT, "data", "hobby")
+GROWN = os.path.join(ROOT, "data", "grown")
 OUT = os.path.join(ROOT, "data", "site")
 
 SUBS = {
@@ -343,19 +347,24 @@ def build(photo_for):
     for realm in SUBS:
         store = Statuses()
         tab_notes = notes.get(realm, {})
-        guide = []
-        path = os.path.join(HOBBY, realm + ".json")
-        if os.path.exists(path):
-            for rec in json.load(open(path, encoding="utf-8")):
-                sts = guide_statuses(realm, rec)
-                covered |= set(sts)
-                sub = rec.get("sub") or (cat.rows[realm].get(taxon_key(rec["sci"])) or {}).get("sub") or SUBS[realm][-1][0]
-                item = {**{k: rec[k] for k in ("n", "sci", "fam", "size", "care", "temp", "setup", "note", "flags", "community") if k in rec},
-                        "sub": sub, "st": sts, "photo": photo_for(rec.get("photo") or rec["sci"]),
-                        "verified": bool(rec.get("verified"))}
-                if taxon_key(rec["sci"]) in tab_notes:
-                    item["notes"] = tab_notes[taxon_key(rec["sci"])]
-                guide.append(item)
+        gstore, guide, seen = Statuses(), [], set()
+        for rec in guide_records(realm):
+            if taxon_key(rec["sci"]) in seen:
+                continue
+            seen.add(taxon_key(rec["sci"]))
+            sts = guide_statuses(realm, rec)
+            covered |= set(sts)
+            sub = rec.get("sub") or (cat.rows[realm].get(taxon_key(rec["sci"])) or {}).get("sub") or SUBS[realm][-1][0]
+            item = {**{k: rec[k] for k in ("n", "sci", "fam", "size", "care", "temp", "setup", "note", "flags", "community", "w", "auto") if rec.get(k)},
+                    "sub": sub, "st": {s: gstore.add(st) for s, st in sts.items()}}
+            ph = photo_for(rec.get("photo") or rec["sci"])
+            if ph:
+                item["photo"] = ph
+            if rec.get("verified"):
+                item["verified"] = True
+            if taxon_key(rec["sci"]) in tab_notes:
+                item["notes"] = tab_notes[taxon_key(rec["sci"])]
+            guide.append(item)
         rows = []
         for r in sorted(cat.rows[realm].values(), key=lambda r: r["n"].lower()):
             covered |= set(r["st"])
@@ -363,21 +372,33 @@ def build(photo_for):
             if taxon_key(r["n"]) in tab_notes:
                 row.append(tab_notes[taxon_key(r["n"])])
             rows.append(row)
-        data = {"realm": realm, "subs": SUBS[realm], "guide": guide, "statuses": store.items, "list": rows}
-        with open(os.path.join(OUT, realm + ".json"), "w", encoding="utf-8", newline="\n") as f:
-            json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+        write(realm + ".json", {"realm": realm, "subs": SUBS[realm], "statuses": store.items, "list": rows})
+        gpath = os.path.join(OUT, realm + "-guide.json")
+        if guide:
+            write(realm + "-guide.json", {"realm": realm, "subs": SUBS[realm], "statuses": gstore.items, "guide": guide})
+        elif os.path.exists(gpath):
+            os.remove(gpath)
         counts[realm] = {"guide": len(guide), "list": len(rows)}
     fauna_notes = notes.get("fauna", {})
-    states = [{"id": s, "name": n, "ready": s in covered,
+    # State lists so far cover native and exotic vertebrates only, so other
+    # tabs say "not added yet" for those states instead of implying a status.
+    states = [{"id": s, "name": n, "ready": s in covered, "covers": list(SUBS) if s == "WA" else ["fauna", "mammals"],
                "default": STATE_DATA[s]["default"] if s in STATE_DATA else "",
                "sources": STATE_DATA[s]["sources"] if s in STATE_DATA else []} for s, n in STATES]
     return counts, states, fauna_notes
 
 
-def hobby_photo_keys():
-    keys = []
-    for realm in SUBS:
-        path = os.path.join(HOBBY, realm + ".json")
+def write(name, data):
+    with open(os.path.join(OUT, name), "w", encoding="utf-8", newline="\n") as f:
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+
+
+def guide_records(realm):
+    """Hand-written hobby cards, then grown ones (alphabetical by name)."""
+    out = []
+    for folder in (HOBBY, GROWN):
+        path = os.path.join(folder, realm + ".json")
         if os.path.exists(path):
-            keys += [r.get("photo") or r["sci"] for r in json.load(open(path, encoding="utf-8"))]
-    return keys
+            recs = json.load(open(path, encoding="utf-8"))
+            out += recs if folder == HOBBY else sorted(recs, key=lambda r: r["n"].lower())
+    return out

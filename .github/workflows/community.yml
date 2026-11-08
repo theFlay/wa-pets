@@ -35,7 +35,7 @@ jobs:
         if: steps.apply.outputs.code == '0'
         run: |
           python3 src/build.py
-          git add -A data/community data/hobby data/site index.html
+          git add -A data/community data/hobby data/grown data/site index.html
           if git diff --cached --quiet; then echo "Nothing changed"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

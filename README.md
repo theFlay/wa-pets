@@ -5,7 +5,8 @@ A browsable guide to what you're allowed to keep in Western Australia, built fro
 Main tabs, each with subcategories:
 
 - **Reptiles, frogs & birds**: all 156 native animals DBCA approves under the pet keeper's licence (licence categories A, B and C), plus every amphibian, reptile and bird on the WA Organism List
-- **Mammals**, **Plants**, **Fungi & microbes**: every entry on the WA Organism List with its status (hobby guides coming)
+- **Mammals**, **Plants**: every entry on the WA Organism List with its status, plus a hobby guide that grows automatically
+- **Fungi & microbes**: every entry on the WA Organism List with its status
 - **Aquatic**: a hobby guide to fish, crayfish, shrimp and snails, plus WA's noxious and high-risk fish lists and the national Live Import List
 - **Insects & spiders**: a hobby guide to ants, beetles, stick insects, roaches, spiders and scorpions, plus every invertebrate on the WA Organism List
 
@@ -21,6 +22,8 @@ Pick your state or territory at the top. WA has the fullest coverage (pests, pla
 Statuses are worked out automatically from those lists, which are re-downloaded every week. Hobby guide cards marked "Unchecked" were collected automatically and haven't been reviewed by a person yet. Always confirm with DPIRD or DBCA before buying or importing anything.
 
 Photos: Wikipedia / Wikimedia Commons contributors under Creative Commons licences. Each card links to its photo's credit page.
+
+The hobby guides grow by themselves: every 30 minutes a script picks a few species that some state lets you keep, reads their Wikipedia summary and adds a card marked **🤖 Unchecked**, with the summary credited to Wikipedia (CC BY-SA 4.0). Only photos hosted on Wikimedia Commons are used. Cards become **✔ Verified** once someone confirms them through a suggestion.
 
 ## Contributing
 

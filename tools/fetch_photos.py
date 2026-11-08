@@ -22,17 +22,26 @@ EXTS = {"image/jpeg": ".jpg", "image/png": ".png", "image/webp": ".webp", "image
 
 
 HOBBY = os.path.join(ROOT, "data", "hobby")
+GROWN = os.path.join(ROOT, "data", "grown")
+# GitHub Pages sites must stay under 1 GB; stop caching well before that.
+MAX_IMG_MB = 700
 
 
 def species_keys():
-    """Photo keys for the fauna guide (src/data.js) and every hobby guide (data/hobby/*.json)."""
+    """Photo keys for the fauna guide (src/data.js), every hand-written hobby
+    guide (data/hobby/*.json), then the grown guides (data/grown/*.json)."""
     rows = [json.loads(l.strip().rstrip(",")) for l in open(DATA, encoding="utf-8") if l.strip().startswith('["')]
     keys = [r[-1] for r in rows]
-    if os.path.isdir(HOBBY):
-        for name in sorted(os.listdir(HOBBY)):
-            if name.endswith(".json"):
-                keys += [r.get("photo") or r["sci"] for r in json.load(open(os.path.join(HOBBY, name), encoding="utf-8"))]
+    for folder in (HOBBY, GROWN):
+        if os.path.isdir(folder):
+            for name in sorted(os.listdir(folder)):
+                if name.endswith(".json") and name != "tried.json":
+                    keys += [r.get("photo") or r["sci"] for r in json.load(open(os.path.join(folder, name), encoding="utf-8"))]
     return keys
+
+
+def img_mb():
+    return sum(os.path.getsize(os.path.join(IMG, f)) for f in os.listdir(IMG)) / 1e6
 
 
 def slug(key):
@@ -94,14 +103,22 @@ def main():
     os.makedirs(IMG, exist_ok=True)
     store = json.load(open(URLS, encoding="utf-8")) if os.path.exists(URLS) else {"urls": {}}
     urls = store["urls"]
-    todo = []
+    # Species with no photo on Wikipedia are only looked up again after 30 days.
+    nofind = store.setdefault("not_found", {})
+    soon = time.strftime("%Y-%m-%d", time.gmtime(time.time() - 30 * 86400))
+    todo, seen = [], set()
     for k in species_keys():
-        if k != "none" and not local_file(k) and k not in todo:
+        if k != "none" and k not in seen and not local_file(k) and nofind.get(k, "") < soon:
+            seen.add(k)
             todo.append(k)
-    print(f"{len(todo)} species photos missing", flush=True)
+    print(f"{len(todo)} species photos to fetch", flush=True)
     done = failed = 0
+    used = img_mb()
     for k in todo:
         if a.max and done >= a.max:
+            break
+        if used > MAX_IMG_MB:
+            print(f"  img/ is {used:.0f} MB, over the {MAX_IMG_MB} MB budget: stopping", flush=True)
             break
         try:
             u = urls.get(k)
@@ -110,9 +127,11 @@ def main():
                 time.sleep(a.delay)
                 if not u:
                     print(f"  no photo found: {k}", flush=True)
+                    nofind[k] = time.strftime("%Y-%m-%d")
                     failed += 1
                     continue
                 urls[k] = u
+                nofind.pop(k, None)
             ctype, body = get(clean(u))
             ext = EXTS.get(ctype)
             if not ext or len(body) < 1000:
@@ -122,6 +141,7 @@ def main():
                 with open(os.path.join(IMG, slug(k) + ext), "wb") as f:
                     f.write(body)
                 done += 1
+                used += len(body) / 1e6
                 print(f"  [{done}] {slug(k)}{ext} {len(body)//1024} KB", flush=True)
         except RateLimited as e:
             print(f"  rate limited by Wikimedia, stopping (retry after {e.wait}s)", flush=True)

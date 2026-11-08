@@ -262,6 +262,23 @@
   "Porcellio scaber": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Porcellio_scaber_%28AU%29-left_01.jpg/500px-Porcellio_scaber_%28AU%29-left_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "Porcellio laevis": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Porcellio_laevis_-_Bouxweerd20090527_897.jpg/500px-Porcellio_laevis_-_Bouxweerd20090527_897.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "Armadillidium vulgare": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Armadillidium_vulgare_male.jpg/500px-Armadillidium_vulgare_male.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "Achatina fulica": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Snail_in_Ubud%2C_Bali%2C_2010_%281%29.jpg/500px-Snail_in_Ubud%2C_Bali%2C_2010_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "Achatina fulica": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Snail_in_Ubud%2C_Bali%2C_2010_%281%29.jpg/500px-Snail_in_Ubud%2C_Bali%2C_2010_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Acinonyx jubatus": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Male_cheetah_facing_left_in_South_Africa.jpg/330px-Male_cheetah_facing_left_in_South_Africa.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Abramites hypselonotus": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Abramites_hypselonotus.jpg/330px-Abramites_hypselonotus.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Acrocomia aculeata": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Acrocomia_aculeata_-_Naples_Botanical_Garden_-_Naples%2C_Florida_-_DSC09667.jpg/330px-Acrocomia_aculeata_-_Naples_Botanical_Garden_-_Naples%2C_Florida_-_DSC09667.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Addax nasomaculatus": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/A_big_male_Addax_showing_as_the_power_of_his_horns.jpg/330px-A_big_male_Addax_showing_as_the_power_of_his_horns.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Alestopetersius caudalis": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Yellow_tailed_tetra.jpg/330px-Yellow_tailed_tetra.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Didymuria violescens": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Natural_history_of_Victoria_%28Pl._79%29_%285998829322%29.jpg/330px-Natural_history_of_Victoria_%28Pl._79%29_%285998829322%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Adiantum aethiopicum": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Maidenhair_-_Chatswood_West.jpg/330px-Maidenhair_-_Chatswood_West.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Aonyx cinereus": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Otter_-_melbourne_zoo.jpg/330px-Otter_-_melbourne_zoo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Ornithoptera euphorion": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/MG_3164.jpg/330px-MG_3164.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Adiantum aleuticum": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Adiantum_pedatum_09905.JPG/330px-Adiantum_pedatum_09905.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+ },
+ "not_found": {
+  "Pseudechis butleri": "2026-11-09",
+  "Acanthophis wellsi": "2026-11-09",
+  "Pangio kuhlii": "2026-11-09",
+  "Tandanus bostocki": "2026-11-09",
+  "Cherax quinquecarinatus": "2026-11-09"
  }
 }
