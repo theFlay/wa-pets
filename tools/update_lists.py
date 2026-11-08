@@ -228,14 +228,19 @@ def lil_taxa(cell, section):
         cond = cell
     out = []
     for t in taxa_in(cell):
-        if t["rank"] == "species" and t["name"].split()[1] in ("of", "excluding"):
+        # "Only non-Albino form of Mesonauta festivus" is a condition, not a taxon "Albino form"
+        if t["rank"] == "species" and t["name"].split()[1] in ("of", "excluding", "form", "forms", "variety", "strain"):
             continue
         out.append({**t, "section": section, **({"condition": cond} if cond else {})})
     return out
 
 
 def parse_waol(csvtext):
-    lines = csvtext.splitlines()
+    # Split on real line breaks only: some fields contain a vertical tab (a
+    # line break typed into DPIRD's database), which splitlines() would treat
+    # as the end of a row.
+    csvtext = re.sub(r"[\x0b\x0c\x1c-\x1e\x85  ]", "; ", csvtext)
+    lines = csvtext.replace("\r\n", "\n").split("\n")
     exported = lines[0].strip().lstrip("﻿").strip('"')
     rows = list(csv.DictReader(io.StringIO("\n".join(lines[1:]))))
     keep = []

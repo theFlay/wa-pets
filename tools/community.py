@@ -31,11 +31,13 @@ SCI = re.compile(r"[A-Z][a-z]+(?: [a-z]+(?:-[a-z]+)?){1,2}")
 
 
 def fields(body):
-    """Issue form bodies are '### Label' followed by the answer."""
+    """Issue form bodies are '### Label' followed by the answer. The form's
+    fields always come first, so the first of each label wins: a '### Tab'
+    typed inside the suggestion text can't override the real field."""
     out = {}
     for m in re.finditer(r"^### (.+?)\n+(.*?)(?=\n### |\Z)", body or "", re.S | re.M):
         v = m.group(2).strip()
-        out[m.group(1).strip()] = "" if v == "_No response_" else v
+        out.setdefault(m.group(1).strip(), "" if v == "_No response_" else v)
     return out
 
 

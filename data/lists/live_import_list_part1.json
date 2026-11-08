@@ -841,12 +841,6 @@
 },
 {
 "rank": "species",
-"name": "Albino form",
-"section": "freshwater_fish",
-"condition": "Only non-Albino form of Mesonauta festivus"
-},
-{
-"rank": "species",
 "name": "Mesonauta festivus",
 "section": "freshwater_fish",
 "condition": "Only non-Albino form of Mesonauta festivus"

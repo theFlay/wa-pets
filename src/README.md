@@ -21,6 +21,7 @@ Rebuild from anywhere:
 - `tools/status.py` - works out a species' WA status from the lists
 - `tools/realms.py` - sorts every official entry into a tab and subcategory, and writes data/site
 - `tools/fetch_photos.py` - downloads missing photos one at a time, politely. Stops once `img/` reaches 700 MB (GitHub Pages allows 1 GB), and only retries species with no photo after 30 days
+- `tools/push.sh` - used by every workflow to commit and push. If another workflow pushed first, it rebases and rebuilds the generated files, so overlapping runs don't fail or drop each other's changes
 - `tools/grow_guide.py` - grows the hobby guides: picks keepable species (allowed without a permit first, then ones on a state keeping list, then ones with a common name), reads the Wikipedia summary, and adds a card if the article is really about that species. Caps per tab are in `CAPS`
 
 Flags: `d` dangerous, `r` colour morphs or forms, `x` males and females look different, `l` lives around Perth/Peel, `m` suits a mixed finch/quail aviary, `t` threatened or hard to source.

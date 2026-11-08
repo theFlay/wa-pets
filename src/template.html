@@ -252,7 +252,7 @@ const stInfo=id=>STATES.find(x=>x.id===id);
 const covers=(st,r)=>st.ready&&(!st.covers||st.covers.includes(r));
 const NODATA=()=>{const st=stInfo(STATE);return covers(st,rs.realm)
   ?{level:"none",label:"Not on "+st.id+"'s lists",detail:st.default,src:(st.sources[0]||[])[0]||"",url:(st.sources[0]||[])[1]||"#",checked:""}
-  :{level:"none",label:"Not added yet",detail:st.ready?`${st.name}'s rules for this tab haven't been added yet. Its lists so far cover frogs, reptiles, birds and mammals.`:`${st.name}'s official lists haven't been added yet.`,src:"States still to add",url:"https://github.com/theFlay/wa-pets/blob/main/docs/STATES.md",checked:""}};
+  :{level:"none",label:"Not added yet",detail:st.ready?`${st.id}'s rules for this tab haven't been added yet. Its lists so far cover frogs, reptiles, birds and mammals.`:`${st.name}'s official lists haven't been added yet.`,src:"States still to add",url:"https://github.com/theFlay/wa-pets/blob/main/docs/STATES.md",checked:""}};
 const stOf=m=>(m&&m[STATE])||NODATA();
 const rowSt=(S,x)=>x[3][STATE]!=null?S[x[3][STATE]]:NODATA();
 const lvlName=l=>({ok:"Allowed",permit:"Permit",check:"Check",no:"Banned",none:covers(stInfo(STATE),rs.realm)?"Not listed":"Not added"})[l]||l;
@@ -325,7 +325,7 @@ async function shell(){
   const r=rs.realm,I=RINFO[r],c=INFO.counts[r];
   rv.innerHTML=`${r==="fauna"?"":`<div class="vtabs">${c.guide?`<button class="vt${rs.view==="guide"?" on":""}" data-v="guide">Hobby guide (${c.guide})</button>`:""}<button class="vt${rs.view==="list"?" on":""}" data-v="list">Full official list (${c.list.toLocaleString()})</button></div>`}
   ${r==="fauna"?`<div class="vtabs"><button class="vt" data-v="guide">Pet keeper's licence guide (${SPECIES.length})</button><button class="vt on" data-v="list">Full official list (${c.list.toLocaleString()})</button></div>`:""}
-  <header><h1>${I.h1}</h1><p class="sub">${I.sub}</p>${covers(stInfo(STATE),r)?"":stInfo(STATE).ready?`<div class="soon"><b>${esc(stInfo(STATE).name)}'s rules for this tab aren't added yet</b>Its lists so far cover frogs, reptiles, birds and mammals, so statuses here show as "Not added yet". The descriptions and photos still apply. Pick Western Australia to see full statuses.</div>`:`<div class="soon"><b>${esc(stInfo(STATE).name)} isn't added yet</b>We know where its official lists are but haven't loaded them, so statuses show as "Not added yet". The descriptions and photos still apply. Pick Western Australia to see full statuses.</div>`}
+  <header><h1>${I.h1}</h1><p class="sub">${I.sub}</p>${covers(stInfo(STATE),r)?"":stInfo(STATE).ready?`<div class="soon"><b>${esc(stInfo(STATE).id)}'s rules for this tab aren't added yet</b>Its lists so far cover frogs, reptiles, birds and mammals, so statuses here show as "Not added yet". The descriptions and photos still apply. Pick Western Australia to see full statuses.</div>`:`<div class="soon"><b>${esc(stInfo(STATE).name)} isn't added yet</b>We know where its official lists are but haven't loaded them, so statuses show as "Not added yet". The descriptions and photos still apply. Pick Western Australia to see full statuses.</div>`}
   <details class="explain"><summary>How WA's rules work here</summary>${I.explain}${LEGEND}</details></header>
   <div class="controls"><div class="in"><input type="search" id="rq" placeholder="Search name or scientific name..." autocomplete="off">
   <div class="row" id="rsubs"></div><div class="row" id="rlvl"></div>${rs.view==="guide"?'<div class="row" id="rflags"></div><div class="key"><span>☠ Dangerous</span><span>🌈 Colour morphs or forms</span><span>♂♀ Males and females look different</span></div>':""}
@@ -342,7 +342,7 @@ async function shell(){
   if(covers(stInfo(STATE),r))rchips("rlvl",LVL.map(([k,l])=>[k,k==="All"?"Any status":l]),"lvl",d);else document.getElementById("rlvl").innerHTML="";
   if(rs.view==="guide"){const fe=document.getElementById("rflags");const FLG=[["s","★ My shortlist"],["d","☠ Dangerous"],["r","🌈 Colour morphs"],["x","♂♀ Sexes look different"]];
     const draw=()=>{fe.innerHTML=FLG.map(([k,l])=>`<button class="chip${rs[k]?" on":""}" data-k="${k}">${l}</button>`).join("")};draw();
-    fe.onclick=e=>{const b=e.target.closest(".chip");if(!b)return;rs[b.dataset.k]=!rs[b.dataset.k];draw();results()}}
+    fe.onclick=e=>{const b=e.target.closest(".chip");if(!b)return;rs[b.dataset.k]=!rs[b.dataset.k];rs.limit=200;draw();results()}}
   results();
 }
 function rchips(id,items,key,d){const el=document.getElementById(id);

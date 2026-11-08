@@ -11,8 +11,10 @@ permissions:
   contents: write
   issues: write
 
+# Its own queue: in a shared one, a waiting approval could be cancelled by a
+# photo run queued behind it. tools/push.sh handles pushes that overlap.
 concurrency:
-  group: site-data
+  group: community
   cancel-in-progress: false
 
 jobs:
@@ -32,26 +34,28 @@ jobs:
           echo "code=$?" >> "$GITHUB_OUTPUT"
           cat result.txt
       - name: Rebuild and commit
+        id: commit
         if: steps.apply.outputs.code == '0'
         run: |
           python3 src/build.py
           git add -A data/community data/hobby data/grown data/site index.html
-          if git diff --cached --quiet; then echo "Nothing changed"; exit 0; fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Apply community suggestion #${{ github.event.issue.number }}"
-          git pull --rebase -q
-          git push
+          sh tools/push.sh "Apply community suggestion #${{ github.event.issue.number }}"
       - name: Reply on the issue
+        if: always() && steps.apply.outputs.code != ''
         env:
           GH_TOKEN: ${{ github.token }}
           NUMBER: ${{ github.event.issue.number }}
           CODE: ${{ steps.apply.outputs.code }}
+          SAVED: ${{ steps.commit.outcome }}
         run: |
-          if [ "$CODE" = "0" ]; then
+          if [ "$CODE" = "0" ] && [ "$SAVED" = "success" ]; then
             printf '%s\n\nIt will show on the site within a few minutes. Thanks for contributing!\n' "$(cat result.txt)" > reply.md
             gh issue comment "$NUMBER" -R "$GITHUB_REPOSITORY" -F reply.md
             gh issue close "$NUMBER" -R "$GITHUB_REPOSITORY"
+          elif [ "$CODE" = "0" ]; then
+            printf 'The suggestion was fine but saving it to the site failed. The maintainer can add the approved label again to retry.\n' > reply.md
+            gh issue comment "$NUMBER" -R "$GITHUB_REPOSITORY" -F reply.md
+            gh issue edit "$NUMBER" -R "$GITHUB_REPOSITORY" --remove-label approved
           else
             printf '%s\n\nPlease edit the suggestion and the maintainer can approve it again.\n' "$(cat result.txt)" > reply.md
             gh issue comment "$NUMBER" -R "$GITHUB_REPOSITORY" -F reply.md

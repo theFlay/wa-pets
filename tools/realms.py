@@ -296,30 +296,44 @@ def add_states(cat):
             cat.add(realm, g + " (whole genus)", "", sub, st, st_obj)
 
 
+STATE_INDEX = {}  # state -> (taxon key -> first entry, genus -> "X spp." entry)
+for _st, _d in STATE_DATA.items():
+    _by, _gen = {}, {}
+    for _e in _d["species"]:
+        if _e["sci"].endswith(" spp."):
+            _gen.setdefault(_e["sci"].split()[0], _e)
+        else:
+            _by.setdefault(taxon_key(_e["sci"]), _e)
+    STATE_INDEX[_st] = (_by, _gen)
+
+
 def state_lookup(st, names):
     """A hobby guide species' entry in a state's list: exact name, else its genus."""
-    d = STATE_DATA.get(st)
-    if not d:
+    if st not in STATE_INDEX:
         return None
-    keys = {taxon_key(n) for n in names}
-    for e in d["species"]:
-        if taxon_key(e["sci"]) in keys:
-            return e
-    genera = {n.split()[0] for n in names}
-    for e in d["species"]:
-        if e["sci"].endswith(" spp.") and e["sci"].split()[0] in genera:
+    by, gen = STATE_INDEX[st]
+    for n in names:
+        if taxon_key(n) in by:
+            return by[taxon_key(n)]
+    for n in names:
+        e = gen.get(n.split()[0])
+        if e:
             return {**e, "detail": e["detail"] + f" (listed as {e['sci']})"}
     return None
 
 
-def guide_statuses(realm, rec):
-    """Status per state for a hobby guide species."""
+def guide_statuses(realm, rec, cat_row=None):
+    """Status per state for a hobby guide species. Falls back to the official
+    list's row for anything a direct lookup misses (for example "Varies by
+    subspecies"), so a card and its list row never disagree."""
     sts = {"WA": S.aquatic(rec) if realm == "aquatic" else S.organism(rec)}
     names = [rec["sci"]] + rec.get("also", [])
     for st in STATE_DATA:
         e = state_lookup(st, names)
         if e:
             sts[st] = state_status(st, e)
+        elif cat_row and st in cat_row["st"]:
+            sts[st] = cat_row["st"][st]
     return sts
 
 
@@ -352,7 +366,7 @@ def build(photo_for):
             if taxon_key(rec["sci"]) in seen:
                 continue
             seen.add(taxon_key(rec["sci"]))
-            sts = guide_statuses(realm, rec)
+            sts = guide_statuses(realm, rec, cat.rows[realm].get(taxon_key(rec["sci"])))
             covered |= set(sts)
             sub = rec.get("sub") or (cat.rows[realm].get(taxon_key(rec["sci"])) or {}).get("sub") or SUBS[realm][-1][0]
             item = {**{k: rec[k] for k in ("n", "sci", "fam", "size", "care", "temp", "setup", "note", "flags", "community", "w", "auto") if rec.get(k)},

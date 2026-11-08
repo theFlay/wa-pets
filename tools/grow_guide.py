@@ -119,9 +119,19 @@ def card_for(row, d):
         return None, "summary too short"
     name = re.sub(r"\s*\([^)]*\)$", "", title)
     if name.lower() == sci.lower():
-        m = re.search(r"\bknown as (?:the |a |an )?([A-Za-z\u00c0-\u017f' -]{3,40}?)(?:,| or | and |\.| \u2013| -| is| \()", extract)
-        c = m.group(1) if m else re.sub(r"^(.+?) \((.+)\)$", lambda x: x.group(2) + " " + x.group(1).lower(), row["c"])
-        name = (c[:1].upper() + c[1:]) if c and not re.search(r"\d", c) else sci
+        # The name the English summary uses ("Adiantum pedatum, the northern
+        # maidenhair fern, is ..." or "... known as the marbled headstander"),
+        # else the official list's ("Stick insect (Giant walking)" reads as
+        # "Giant walking stick insect"). The official lists' first common name
+        # is sometimes another language ("adiante du Canada"), so it's second.
+        end = r"(?:,| or | and |\.| \u2013| -| is| \()"
+        m = re.match(re.escape(sci) + r"(?: \([^)]*\))?,? (?:the |a |an )([a-z][a-z' -]{2,40}?)" + end, extract, re.I) \
+            or re.search(r"\bknown as (?:the |a |an )?([A-Za-z' -]{3,40}?)" + end, extract)
+        c = m.group(1) if m else ""
+        if not c:
+            c = re.sub(r"^(.+?) \((.+)\)$", lambda x: x.group(2) + " " + x.group(1).lower(), row["c"])
+            c = "" if re.search(r"[\d()]", c) else c
+        name = (c[:1].upper() + c[1:]) if c else sci
     card = {"n": name, "sci": sci, "sub": row["sub"], "note": note, "w": title,
             "flags": "d" if DANGER.search(extract) else "", "auto": time.strftime("%Y-%m-%d")}
     th = (d.get("thumbnail") or {}).get("source", "")
