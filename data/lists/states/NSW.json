@@ -1,0 +1,4052 @@
+{
+"state": "NSW",
+"sources": [
+[
+"NSW Native Animal Keeper Species List (2016, reprinted 2019)",
+"https://www.environment.nsw.gov.au/publications/nsw-native-animal-keepers-species-list"
+]
+],
+"default": "Most native animals need a licence in NSW; only the listed birds are exempt. Exotic animals fall under the Biosecurity Act, which isn't loaded yet.",
+"species": [
+{
+"sci": "Acanthagenys rufogularis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Acanthiza chrysorrhoa",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Acanthophis antarcticus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Acanthophis praelongus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Acanthophis wellsei",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Acanthorhynchus tenuirostris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Adelaide rosella",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Adelotus brevis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Ailuroedus crassirostris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Alectura lathami",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Alisterus scapularis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Amphibolurus muricatus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Amytornis striatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Amytornis textilis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Anas castanea",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Anas gracilis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Anas rhynchotis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Anas superciliosa",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Anomalopus brevicollis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Anseranas semipalmata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Antaresia maculosa",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Antaresia perthensis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Anthochaera carunculata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Anthochaera chrysoptera",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Aplonis metallica",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Aprosmictus erythropterus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Arafura file snake",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Ardea ibis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Ardea picata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Artamus cinereus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Artamus cyanopterus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Artamus superciliosus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Aspidites ramsayi",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Assa darlingtoni",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Austrelaps ramsayi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Austrelaps superbus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Aythya australis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Barnardius zonarius",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Barnardius zonarius barnardi",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Barnardius zonarius macgillivrayi",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Barnardius zonarius zonarius",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Bird groups",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Boiga irregularis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Brachyurophis australis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Burhinus grallarius",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Cacatua galerita",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Cacatua pastinator butleri",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Cacatua roseicapilla",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Cacatua sanguinea",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Cacatua tenuirostris",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Cacophis krefftii",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Calyptorhynchus banksii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Calyptorhynchus baudinii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Calyptorhynchus funereus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Calyptorhynchus lathami",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Calyptorhynchus latirostris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Carettochelys insculpta",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Carlia coensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Carphodactylus laevis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Centralian carpet python",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Centropus phasianinus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Cereopsis novaehollandiae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Certhionyx variegatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Chalcophaps indica",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Charadrius australis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Chelodina steindachneri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Chenonetta jubata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Chlamydera maculata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Chlamydosaurus kingii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Cladorhynchus leucocephalus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Columba leucomela",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Common bronzewing",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Corcorax melanorhamphos",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Coturnix chinensis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Coturnix pectoralis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Coturnix ypsilophora",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Crested pigeon",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Crinia deserticola",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Crinia parinsignifera",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Crinia signifera",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Crinia sloanei",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Crinia tinnula",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Cryptophis nigrescens",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Ctenophorus caudicinctus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Ctenophorus cristatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Ctenophorus decresii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Ctenophorus fionni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Ctenophorus isolepis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Ctenophorus pictus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Ctenophorus reticulatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Ctenophorus vadnappa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Ctenotus leonhardii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Ctenotus pantherinus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Ctenotus pantherinus ocellifer",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Ctenotus saxatilis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Ctenotus taeniolatus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Cyclodomorphus michaeli",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Cyclopsitta diophthalma",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Cyclopsitta diophthalma coxeni",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Cyclorana alboguttata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Cyclorana brevipes",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Cyclorana cultripes",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Cyclorana novaehollandiae",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Cyclorana platycephala",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Cyclorana verrucosa",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Cygnus atratus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Cyrtodactylus louisiadensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Dacelo leachii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Dacelo novaeguineae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Delma impar",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Delma inornata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Demansia papuensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Demansia psammophis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Dendrelaphis calligastra",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Dendrocygna arcuata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Dendrocygna eytoni",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Denisonia devisi",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Dicaeum hirundinaceum",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Diplodactylus byrnei",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Diplodactylus conspicillatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Diplodactylus elderi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Diplodactylus galeatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Diplodactylus granariensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Diplodactylus steindachneri",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Diplodactylus stenodactylus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Diplodactylus tessellatus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Diplodactylus vittatus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Diporiphora australis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Diporiphora bennettii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Diporiphora bilineata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Diporiphora magna",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Diporiphora winneckei",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Dromaius novaehollandiae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B3)",
+"detail": "NSW licence classes: B3"
+},
+{
+"sci": "Drysdalia coronoides",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Drysdalia rhodogaster",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Ducula bicolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Ducula bicolour spilorrhoa",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Eastern hooded",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Eastern rosella",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Eclectus roratus macgillivrayi",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Egernia cunninghami",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Egernia depressa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Egernia frerei",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Egernia hosmeri",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Egernia inornata",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Egernia kingii",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Egernia major",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Egernia margaretae margaretae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Egernia margaretae personata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Egernia mcpheei",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Egernia modesta",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Egernia pulchra",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Egernia rugosa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Egernia saxatilis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Egernia stokesii",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Egernia striata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Egernia striolata",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Egernia whitii",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Egretta novaehollandiae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Elseya albagula",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Elseya belli",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Elseya irwini",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Elseya lavarackorum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Emblema pictum",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Emerald dove",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Emydura australis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Emydura macquarii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Emydura macquarii dharuk",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Emydura macquarii signata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Emydura subglobosa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Emydura tanybaraga",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Emydura victoriae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Enhydris polylepis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Entomyzon cyanotis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Eopsaltria australis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Epthianura albifrons",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Epthianura aurifrons",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Epthianura tricolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Eremiascincus richardsonii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Erythrura gouldiae",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Erythrura trichroa",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Eulabeornis castaneoventris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Eulamprus martini",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Eulamprus tryoni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Eulamprus tympanum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Excitable delma",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Exempt species",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Fulica atra",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Furina ornata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Gallinula ventralis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Gallirallus philippensis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Gehyra australis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Gehyra dubia",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Gehyra montium",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Gehyra variegata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Geocrinia laevis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Geocrinia victoriana",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Geocrinia vitellina",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Geopelia cuneata",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Geopelia humeralis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Geopelia striata",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Geophaps plumifera",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Geophaps scripta",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Geophaps smithii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Glossopsitta concinna",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Glossopsitta porphyrocephala",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Glossopsitta pusilla",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Gnypetoscincus queenslandiae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Green rosella",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Gymnorhina tibicen",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Heleioporus australiacus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Hemiaspis signata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Heteromunia pectoralis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Heteronotia binoei",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Heteronotia spelea",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Himantopus himantopus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Hoplocephalus bungaroides",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R3), venomous",
+"detail": "NSW licence classes: R3, R4, R5"
+},
+{
+"sci": "Hoplocephalus stephensii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R3), venomous",
+"detail": "NSW licence classes: R3, R4, R5"
+},
+{
+"sci": "Hunter river turtle",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Hypsilurus boydii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Hypsilurus spinipes",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Kimberley rough",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Lampropholis delicata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Lampropholis guichenoti",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Lathamus discolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Lechriodus fletcheri",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Leiopython albertisii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Lepidodactylus lugubris",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Lerista bougainvillii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Leucosarcia melanoleuca",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Lialis burtonis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Liasis fuscus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5, Companion"
+},
+{
+"sci": "Liasis olivaceus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Liasis stimsoni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Lichenostomus melanops",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Lichenostomus penicillatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Limnodynastes dumerilii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Limnodynastes fletcheri",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Limnodynastes interioris",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Limnodynastes ornatus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Limnodynastes peronii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Limnodynastes salmini",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Limnodynastes tasmaniensis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Limnodynastes terraereginae",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria aurea",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Litoria bicolor",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Litoria booroolongensis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Litoria brevipalmata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Litoria burrowsae",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Litoria caerulea",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria chloris",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria citropa",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria dahlii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Litoria dentata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria eucnemis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Litoria ewingii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria fallax",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Litoria freycineti",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria gilleni",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria gracilenta",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria infrafrenata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria jervisiensis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria latopalmata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria lesueuri",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria littlejohni",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Litoria moorei",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria nasuta",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Litoria pearsoniana",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Litoria peronii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria phyllochroa",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Litoria raniformis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Litoria revelata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Litoria rothii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria rubella",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Litoria splendida",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria tyleri",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Litoria verreauxii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Litoria xanthomera",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Lonchura castaneothorax",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Lonchura flaviprymna",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Lophognathus burnsi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Lophognathus gilberti",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Lophognathus longirostris",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Lopholaimus antarcticus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Macrochelodina burrungandjii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Macrochelodina expansa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Macrochelodina rugosa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Macropygia amboinensis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Malacorhynchus membranaceus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Malurus amabilis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Malurus coronatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Malurus cyaneus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Malurus elegans",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Malurus lamberti",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Malurus leucopterus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Malurus melanocephalus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Malurus pulcherrimus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Malurus splendens",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Mammal groups",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Manorina melanocephala",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Melanodryas cucullata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Meliphaga lewinii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Melopsittacus undulatus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Merops ornatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Mixophyes balbus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Mixophyes fasciolatus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Mixophyes iteratus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Morelia amethistina",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Morelia bredli",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Morelia carinata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Morelia spilota cheyni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Morelia spilota imbricata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Morelia spilota metcalfei",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Morelia spilota spilota",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Morelia viridis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Myzomela sanguinolenta",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Nectarinia jugularis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Neobatrachus centralis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Neobatrachus sudelli",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: A1, A2, Companion"
+},
+{
+"sci": "Neochmia modesta",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Neochmia phaeton",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Neochmia ruficauda",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Neochmia temporalis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Neophema chrysostoma",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Neophema elegans",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Neophema petrophila",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Neophema pulchella",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Neophema splendida",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Neopsephotus bourkii",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Nephrurus asper",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Nephrurus levis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Nephrurus levis levis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Nephrurus levis pilbarensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Nettapus coromandelianus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Nettapus pulchellus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "New guinea",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Northern snapping turtle",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Northiella haematogaster narethae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Notaden bennettii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Notechis ater",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Notechis scutatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Nymphicus hollandicus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Ocyphaps lophotes",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Oedura coggeri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Oedura gemmata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Oedura marmorata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Oedura monilis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Oedura tryoni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Oriolus sagittatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Oxyura australis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Oxyuranus microlepidotus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R5), venomous",
+"detail": "NSW licence classes: R5"
+},
+{
+"sci": "Oxyuranus scutellatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R5), venomous",
+"detail": "NSW licence classes: R5"
+},
+{
+"sci": "Pachycephala pectoralis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Paracrinia haswelli",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Parasuta spectabilis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R3), venomous",
+"detail": "NSW licence classes: R3, R4, R5"
+},
+{
+"sci": "Parasuta spectabilis spectabilis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R3), venomous",
+"detail": "NSW licence classes: R3, R4, R5"
+},
+{
+"sci": "Peaceful dove",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Petroica boodang",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Petroica goodenovii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Petroica phoenicea",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Petrophassa albipennis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Petrophassa rufipennis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Phalacrocorax melanoleucos",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Phaps chalcoptera",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Phaps histrionica",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Philemon citreogularis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Philemon corniculatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Philoria kundagungan",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Philoria loveridgei",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Philoria sphagnicolus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Phylidonyris nigra",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Phylidonyris novaehollandiae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Phyllurus platurus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Pitta iris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Pitta versicolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Platalea flavipes",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Platycercus adscitus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Platycercus caledonicus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Platycercus elegans",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Platycercus elegans adelaidae",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Platycercus elegans flaveolus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Platycercus eximius",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Platycercus icterotis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Plegadis falcinellus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Podargus strigoides",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Poephila cincta",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Poephila cincta cincta",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Poephila cincta x",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Poephila personata leucotis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Pogona barbata x",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Pogona microlepidota",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Pogona mitchelli",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Polytelis alexandrae",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Polytelis anthopeplus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Polytelis anthopeplus x",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Polytelis swainsonii x",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Porphyrio porphyrio",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Probosciger aterrimus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Psephotus dissimilis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Psephotus haematonotus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Pseudechis affinis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Pseudechis australis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Pseudechis butleri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Pseudechis collettii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R3), venomous",
+"detail": "NSW licence classes: R3, R4, R5"
+},
+{
+"sci": "Pseudechis guttatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Pseudechis porphyriacus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R3), venomous",
+"detail": "NSW licence classes: R3, R4, R5"
+},
+{
+"sci": "Pseudechis weigeli",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R5), venomous",
+"detail": "NSW licence classes: R5"
+},
+{
+"sci": "Pseudomys australis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class M1)",
+"detail": "NSW licence classes: M1"
+},
+{
+"sci": "Pseudonaja guttata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R5), venomous",
+"detail": "NSW licence classes: R5"
+},
+{
+"sci": "Pseudonaja ingrami",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Pseudonaja modesta",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Pseudonaja nuchalis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Pseudonaja textilis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R5), venomous",
+"detail": "NSW licence classes: R5"
+},
+{
+"sci": "Pseudophryne australis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Pseudophryne bibronii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Pseudophryne coriacea",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Pseudophryne dendyi",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Pseudophryne semimarmorata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (advanced class A2)",
+"detail": "NSW licence classes: A2"
+},
+{
+"sci": "Pseudothecadactylus lindneri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Psitteuteles versicolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Psophodes olivaceus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Ptilinopus magnificus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Ptilinopus regina",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Ptilinopus superbus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Ptilonorhynchus violaceus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Purpureicephalus spurious",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Pygmy mulga monitor",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Pygopus lepidopodus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Ramphotyphlops nigrescens",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Rheodytes leukops",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Rhynchoedura ornata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Robust ctenotus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Saltuarius cornutus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Saltuarius swaini",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Saltuarius wyberba",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Sericornis citreogularis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Sericornis frontalis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Sericulus chrysocephalus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Sphecotheres vieilloti",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Stagonopleura bella",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Stagonopleura guttata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Stagonopleura oculata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Stictonetta naevosa",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Strophurus intermedius",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Strophurus spinigerus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Strophurus williamsi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Struthidea cinerea",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Suta flagellum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R3), venomous",
+"detail": "NSW licence classes: R3, R4, R5"
+},
+{
+"sci": "Suta suta",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R4), venomous",
+"detail": "NSW licence classes: R4, R5"
+},
+{
+"sci": "Tadorna radjah",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Tadorna tadornoides",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Taeiopygia guttata",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Taeniopygia bichenovii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Taeniopygia bichenovii annulosa",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: B1, B2, B3, Companion"
+},
+{
+"sci": "Threskiornis molucca",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Threskiornis spinicollis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Tiliqua multifasciata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Tiliqua occipitalis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Tiliqua scincoides",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (companion animal keeper)",
+"detail": "NSW licence classes: Companion"
+},
+{
+"sci": "Tiliqua scincoides intermedia",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Todiramphus pyrrhopygia",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Todiramphus sanctus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Trichoglossus chlorolepidotus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Trichoglossus haematodus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Trichoglossus rubritorquis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Tropidonophis mairii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Turnix castanota",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Turnix maculosa",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Turnix olivii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Turnix pyrrhothorax",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Turnix varia",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Turnix velox",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Tympanocryptis cephalus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Tympanocryptis lineata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Tympanocryptis tetraporophora",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Underwoodisaurus milii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (basic class R1)",
+"detail": "NSW licence classes: R1, R2, R3, R4, R5"
+},
+{
+"sci": "Underwoodisaurus sphyrurus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Uperoleia capitulata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Uperoleia fusca",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Uperoleia laevigata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Uperoleia rugosa",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Uperoleia tyleri",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (basic class A1)",
+"detail": "NSW licence classes: A1, A2"
+},
+{
+"sci": "Vanellus miles",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Vanellus tricolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+},
+{
+"sci": "Varanus baritji",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus brevicauda",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus caudolineatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus giganteus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus glauerti",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus indicus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus kingorum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus mertensi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus mitchelli",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus panoptes",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus primordius",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus rosenbergi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus scalaris",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus spenceri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus storri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R2)",
+"detail": "NSW licence classes: R2, R3, R4, R5"
+},
+{
+"sci": "Varanus varius",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R3), venomous",
+"detail": "NSW licence classes: R3, R4, R5"
+},
+{
+"sci": "Vermicella annulata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (advanced class R3), venomous",
+"detail": "NSW licence classes: R3, R4, R5"
+},
+{
+"sci": "Western rosella",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Yellow rosella",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Zebra finch",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On NSW's list of 41 exempt native birds"
+},
+{
+"sci": "Zosterops lateralis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (advanced class B2)",
+"detail": "NSW licence classes: B2, B3"
+}
+]
+}

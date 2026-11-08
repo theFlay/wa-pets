@@ -1,0 +1,2484 @@
+{
+"state": "TAS",
+"sources": [
+[
+"Requirements for importing and keeping wildlife in Tasmania (2017)",
+"https://nre.tas.gov.au/Documents/Requirements%20for%20importing%20and%20keeping%20wildlife%20in%20Tasmania.pdf"
+]
+],
+"default": "Mammals, birds, reptiles and amphibians not on Tasmania's import list are prohibited. Tasmania doesn't allow reptiles to be imported as pets.",
+"species": [
+{
+"sci": "Acinonyx jubatus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
+},
+{
+"sci": "Acridotheres tristis",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: requirements Restricted animal, import prohibited Domestic stock (no import. Keeping: plan required - Domestic stock (no"
+},
+{
+"sci": "Acrophylla titan",
+"common": "",
+"group": "inverts",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted (approved travelling wildlife exhibitions only), import permit required, high. Keeping: Travelling wildlife exhibition permit required"
+},
+{
+"sci": "Acrophylla wuelfingi",
+"common": "",
+"group": "inverts",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: security requirements Controlled animal, import permitted (approved travelling. Keeping: Travelling wildlife exhibition permit required"
+},
+{
+"sci": "Addax nasomaculatus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife, permit required to possess, exhibition licence required, species management"
+},
+{
+"sci": "Aganippe castellum",
+"common": "",
+"group": "inverts",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted (approved travelling wildlife exhibitions only), import permit required, high security requirements. Keeping: Travelling wildlife exhibition permit required"
+},
+{
+"sci": "Agapornis fischeri",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Agapornis personatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Agapornis roseicollis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Aix galericulata",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: under the NCA) Domestic stock (no requirements for keeping"
+},
+{
+"sci": "Alectoris chukar",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: required Controlled animal, import. Keeping: -"
+},
+{
+"sci": "Alectoris graeca",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Alectoris rufa",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Alisterus amboinensis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Alisterus scapularis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Alligator mississippiensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
+},
+{
+"sci": "Amadina erythrocephala",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Amadina fafciata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Amandava amanadava",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Amandava formosa",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Amandava subflava",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Amazona aestiva",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Import Requirements Controlled animal, import. Keeping: Requirements for Keeping -"
+},
+{
+"sci": "Amazona ochrocephala",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Controlled animal, import. Keeping: -"
+},
+{
+"sci": "Ambystoma mexicanum",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (approved travelling wildlife exhibitions only), import permit required, high. Keeping: wildlife, permit required to possess, travelling wildlife exhibition permit required"
+},
+{
+"sci": "Anas castanea",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Partly protected wildlife, no possession requirements"
+},
+{
+"sci": "Anas gracilis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: Partly protected wildlife, no possession requirements"
+},
+{
+"sci": "Anas platyrhynchos",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping"
+},
+{
+"sci": "Anas superciliosa",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: under the NCA) Partly protected wildlife, no possession requirements"
+},
+{
+"sci": "Anchiale austrotessulata",
+"common": "",
+"group": "inverts",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted (approved travelling wildlife exhibitions only), import permit required, high security requirements. Keeping: Travelling wildlife exhibition permit required"
+},
+{
+"sci": "Anser anser",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping under the NCA)"
+},
+{
+"sci": "Anser cygnoides",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping under the NCA)"
+},
+{
+"sci": "Anseranas semipalmata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife, permit required to possess, exhibition licence required, species management"
+},
+{
+"sci": "Aonyx cinereus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
+},
+{
+"sci": "Aprosmictus erythropterus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Ara ararauna",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Ara chloropterus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Ara macao",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Aratinga aurea",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Aratinga jandaya",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Aratinga solstitialis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Aspidites melanocephalus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders and approved educational display businesses only), import permit required,. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licen"
+},
+{
+"sci": "Ateles geoffroyi",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
+},
+{
+"sci": "Atrax horribillis",
+"common": "",
+"group": "inverts",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted (approved travelling wildlife exhibitions only), import permit required, high security requirements. Keeping: Travelling wildlife exhibition permit required"
+},
+{
+"sci": "Atrax robustus",
+"common": "",
+"group": "inverts",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: permitted (approved travelling wildlife exhibitions only), import permit required, high security requirements. Keeping: permit required"
+},
+{
+"sci": "Barnardius zonarius",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: required Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Barnardius zonarius barnardi",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Barnardius zonarius macgillivrayi",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Barnardius zonarius zonarius",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Bos indicus",
+"common": "",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping under the NCA)"
+},
+{
+"sci": "Bos taurus",
+"common": "",
+"group": "mammals",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: requirements under the NCA). Keeping: requirements for keeping under the NCA)"
+},
+{
+"sci": "Bubalis bubalis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: permitted (approved farming and exhibition licence holders only), import permit required,. Keeping: -"
+},
+{
+"sci": "Bufo marinus",
+"common": "",
+"group": "frogs",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited (dead bodies may be imported by approved research institutions only) Controlled animal, import permitted (approved travelling. Keeping: Restricted (special purpose) wildlife, permit required to p"
+},
+{
+"sci": "Burhinus grallarius",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife, permit required to possess, exhibition licence required, species management"
+},
+{
+"sci": "Cacatua galerita",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed to keep (import permit needed)",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: Protected wildlife which may be bought, sold or held"
+},
+{
+"sci": "Cacatua leadbeateri",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife, permit to possess required (exclusion applies to exhibition licence"
+},
+{
+"sci": "Cacatua pastinator pastinator",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed to keep (import permit needed)",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife which may be bought, sold or held without a permit"
+},
+{
+"sci": "Cacatua sanguinea",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Controlled animal, import. Keeping: -"
+},
+{
+"sci": "Cacatua tenuirostris",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Cairina moschata",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: under the NCA) Domestic stock (no requirements for keeping"
+},
+{
+"sci": "Callithrix jacchus",
+"common": "",
+"group": "mammals",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: requirements Controlled animal, import permitted (exhibition licence. Keeping: plan required Restricted (special purpose) wildlife, permit required to"
+},
+{
+"sci": "Callithrix pygmaea",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
+},
+{
+"sci": "Callocephalon fimbriatum",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Restricted (special purpose) wildlife, permit required to possess"
+},
+{
+"sci": "Calyptorhynchus banksii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife, permit to possess required (exclusion applies to exhibition licence"
+},
+{
+"sci": "Calyptorhynchus baudinii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Calyptorhynchus funereus",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: Protected wildlife, permit to possess required (exclusion applies to exhibition licence"
+},
+{
+"sci": "Canis familiaris dingo",
+"common": "",
+"group": "mammals",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: requirements Restricted animal, import prohibited -. Keeping: plan required - -"
+},
+{
+"sci": "Capra hircus",
+"common": "",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping under the NCA)"
+},
+{
+"sci": "Carduelis carduelis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Carduelis chloris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Carduelis cucullata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Carduelis flammea",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Controlled animal, import. Keeping: -"
+},
+{
+"sci": "Carduelis magellanica",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Carduelis notata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: permitted, import permit required Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Carduelis sinica",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Carduelis spinoides",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Carduelis spinus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Carpodacus mexicanus",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Restricted animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Casuarius casuarius",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife, permit required to possess, exhibition licence required, species management"
+},
+{
+"sci": "Cavia procellus",
+"common": "",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping under the NCA)"
+},
+{
+"sci": "Cebus apella",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements Domestic stock (no import. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required "
+},
+{
+"sci": "Cercopithecus neglectus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
+},
+{
+"sci": "Chalcophaps indica",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Controlled animal, import. Keeping: - Page 14 of 30"
+},
+{
+"sci": "Charmosyna rubrigularis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Chenonetta jubata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Partly protected wildlife, no possession requirements"
+},
+{
+"sci": "Chrysolophus amherstiae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Chrysolophus pictus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Colinus virginianus",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Controlled animal, import. Keeping: -"
+},
+{
+"sci": "Colobus guereza",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
+},
+{
+"sci": "Colomba livia",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Columba leucomela",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Columba livia",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping"
+},
+{
+"sci": "Columbina talpacoti",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Coryphospingus cucullatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Coturnix chinensis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Coturnix japonica",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping under the NCA)"
+},
+{
+"sci": "Coturnix pectoralis",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: Protected wildlife which may be bought, sold or held"
+},
+{
+"sci": "Coturnix ypsilophora",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: Partly protected wildlife, no possession requirements"
+},
+{
+"sci": "Crocodylus johnsoni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
+},
+{
+"sci": "Crocodylus porosus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
+},
+{
+"sci": "Cyanoramphus auriceps",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Cyanoramphus novaezelandiae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Cynops pyrrogaster",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (approved travelling wildlife exhibitions only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, travelling wildlife"
+},
+{
+"sci": "Dama dama",
+"common": "",
+"group": "mammals",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Controlled animal, import. Keeping: Subspecies Dama dama dama"
+},
+{
+"sci": "Didymuria violescens",
+"common": "",
+"group": "inverts",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted (approved travelling wildlife exhibitions only), import permit required, high security requirements. Keeping: Travelling wildlife exhibition permit required"
+},
+{
+"sci": "Diopsittaca nobilis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Dromaius novaehollandiae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: permitted (approved farming and exhibition licence holders only), import permit required,. Keeping: (Refer to Animal Farming (Registration) Act 1994)"
+},
+{
+"sci": "Eclectus roratus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Emberiza citrinella",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Restricted animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Emblema picta",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Eolophus roseicapilla",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed to keep (import permit needed)",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife which may be bought, sold or held without a permit"
+},
+{
+"sci": "Equus asinus",
+"common": "",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping"
+},
+{
+"sci": "Equus caballus",
+"common": "",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping"
+},
+{
+"sci": "Equus quagga",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife, permit required to possess, exhibition licence required, species management"
+},
+{
+"sci": "Erythrura gouldiae",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed to keep (import permit needed)",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife which may be bought, sold or held without a permit"
+},
+{
+"sci": "Erythrura hypgrammica",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Erythrura prasina",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Erythrura psittacea",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Erythrura trichroa",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Erythrura tricolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Estrilda astrild",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Estrilda melpoda",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Controlled animal, import. Keeping: - Page 17 of 30"
+},
+{
+"sci": "Euplectes afer",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Euplectes albonotatus",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Restricted animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Euplectes axillaris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Euplectes orix",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Euplectes orix franciscana",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Felis catis",
+"common": "",
+"group": "mammals",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: requirements -. Keeping: plan required -"
+},
+{
+"sci": "Foudia madagascariensis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Fringilla coelebs",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Restricted animal, import. Keeping: under the NCA) -"
+},
+{
+"sci": "Funambulus pennantii",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
+},
+{
+"sci": "Gallicolumba jobiensis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Gallicolumba luzonica",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Gallirallus australis",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Restricted animal, import. Keeping: -"
+},
+{
+"sci": "Gallus gallus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping under the NCA)"
+},
+{
+"sci": "Geopelia cuneata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Geopelia humeralis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Geopelia placida",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Geophaps plumifera",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Geophaps scripta scripta",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Glossopsitta concinna",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: Protected wildlife, permit to possess required (exclusion applies to exhibition licence"
+},
+{
+"sci": "Glossopsitta porphyrocephala",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Glossopsitta pusilla",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed to keep (import permit needed)",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife which may be bought, sold or held without a permit"
+},
+{
+"sci": "Guaruba guarouba",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Hemitragus jemlahicus",
+"common": "",
+"group": "mammals",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: requirements Restricted animal, import prohibited. Keeping: plan required -"
+},
+{
+"sci": "Heteromunia pectoralis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Holconia immanis",
+"common": "",
+"group": "inverts",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted (approved travelling wildlife exhibitions only), import permit required, high security requirements. Keeping: Travelling wildlife exhibition permit required"
+},
+{
+"sci": "Hydrochoerus hydrochaeris",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: under the NCA) Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, sp"
+},
+{
+"sci": "Lagonosticta senegala",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Lathamus discolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Specially protected wildlife, permit to possess required (exclusion applies to exhibition"
+},
+{
+"sci": "Lemur catta",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
+},
+{
+"sci": "Leptailurus serval",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
+},
+{
+"sci": "Leucosarcia melanoleuca",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Lonchura bicolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Lonchura castaneothorax",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Lonchura flaviprymna",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Lonchura leucogastroides",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Lonchura maja",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Lonchura malabarica",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Lonchura malacca",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Lonchura punctulata",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Restricted animal, import. Keeping: - Page 18 of 30"
+},
+{
+"sci": "Lophura leucomelanos",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Lophura nycthemera",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Lophura swinhoii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Lorius chlorocercus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: required Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Lorius garrulus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Lorius lory",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Lycaon pictus",
+"common": "",
+"group": "mammals",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: requirements Controlled animal, import prohibited. Keeping: plan required -"
+},
+{
+"sci": "Macaca fascicularis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
+},
+{
+"sci": "Macaca fuscata",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
+},
+{
+"sci": "Macaca nigra",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
+},
+{
+"sci": "Macaca silenus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
+},
+{
+"sci": "Macropus agilis",
+"common": "",
+"group": "mammals",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: requirements Restricted animal, import. Keeping: plan required -"
+},
+{
+"sci": "Macropus eugenii",
+"common": "",
+"group": "mammals",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Restricted animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Macropus fuliginosus",
+"common": "",
+"group": "mammals",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Restricted animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Megacrania batesii",
+"common": "",
+"group": "inverts",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted (approved travelling wildlife exhibitions only), import permit required, high security requirements. Keeping: Travelling wildlife exhibition permit required"
+},
+{
+"sci": "Meleagris gallopavo",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping under the NCA)"
+},
+{
+"sci": "Melopsittacus undulatus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: holders) Domestic stock (no requirements for keeping"
+},
+{
+"sci": "Misgolas robertsi",
+"common": "",
+"group": "inverts",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted (approved travelling wildlife exhibitions only), import permit required, high security requirements. Keeping: Travelling wildlife exhibition permit required"
+},
+{
+"sci": "Morelia amethistina",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence"
+},
+{
+"sci": "Morelia spilota",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders and approved educational display businesses only), import permit required, high security requirements Controlled animal, import permitted (exhibition licence. Keeping: "
+},
+{
+"sci": "Mus musculus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Mustela lutreola",
+"common": "",
+"group": "mammals",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Restricted animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Mustela putorius",
+"common": "",
+"group": "mammals",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: Permit required to release"
+},
+{
+"sci": "Mustela vison",
+"common": "",
+"group": "mammals",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: requirements Restricted animal, import. Keeping: plan required -"
+},
+{
+"sci": "Myopsitta monachus",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Nandayus nenday",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Nasua nasua",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
+},
+{
+"sci": "Neochmia modesta",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Neochmia phaeton",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Neochmia ruficauda",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Neochmia temporalis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Neophema chrysostoma",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife, permit to possess required (exclusion applies to exhibition licence"
+},
+{
+"sci": "Neophema elegans",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Controlled animal, import. Keeping: - Page 21 of 30"
+},
+{
+"sci": "Neophema pulchella",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: licence holders) -"
+},
+{
+"sci": "Neophema splendida",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Neopsephotus bourkii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Northiella haematogaster",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Numida meleagris",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping"
+},
+{
+"sci": "Nymphicus hollandicus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping"
+},
+{
+"sci": "Ocyphaps lophotes",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Oena capensis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Oryctolagus cuniculus",
+"common": "",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping under the NCA)"
+},
+{
+"sci": "Oryx dammah",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
+},
+{
+"sci": "Ovis aries",
+"common": "",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping under the NCA)"
+},
+{
+"sci": "Padda oryzivora",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Panthera leo",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
+},
+{
+"sci": "Panthera tigris altaica",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
+},
+{
+"sci": "Panthera tigris tigris",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
+},
+{
+"sci": "Papio hamadryas",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife, permit required to possess, exhibition licence required, species management"
+},
+{
+"sci": "Passer luteus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Passer montanus",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: requirements Restricted animal, import prohibited. Keeping: plan required -"
+},
+{
+"sci": "Pavo cristatus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping under the NCA)"
+},
+{
+"sci": "Phaps chalcoptera",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife, permit to possess required (exclusion applies to exhibition licence"
+},
+{
+"sci": "Phaps elegans",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Phaps histrionica",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Phascolarctos cinereus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
+},
+{
+"sci": "Phasianus colchicus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Partly protected wildlife, no possession requirements"
+},
+{
+"sci": "Pionites melanocephalus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Platycercus adelaidae",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Platycercus adscitus adscitus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Platycercus adscitus palliceps",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Platycercus caledonicus",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: holders) Protected wildlife, permit to possess required (exclusion applies to exhibition licence"
+},
+{
+"sci": "Platycercus elegans",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Controlled animal, import. Keeping: -"
+},
+{
+"sci": "Platycercus elegans race",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: required Controlled animal, import. Keeping: -"
+},
+{
+"sci": "Platycercus icterotis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Platycercus venustus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: holders) -"
+},
+{
+"sci": "Platycerus eximius",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: Protected wildlife, permit to possess required (exclusion"
+},
+{
+"sci": "Platycerus eximius elecica",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: holders) Protected wildlife, permit to possess required (exclusion"
+},
+{
+"sci": "Podacanthus wilkinsoni",
+"common": "",
+"group": "inverts",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted (approved travelling wildlife exhibitions only), import permit required, high security requirements. Keeping: Travelling wildlife exhibition permit required"
+},
+{
+"sci": "Poephila acuticauda",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Poephila cincta",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Poephila personata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Pogona vitticeps",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders and approved educational display businesses only), import permit required,. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licen"
+},
+{
+"sci": "Polytelis alexandrae",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed to keep (import permit needed)",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife which may be bought, sold or held without a permit"
+},
+{
+"sci": "Polytelis anthopeplus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Polytelis anthopeplus anthopeplus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed to keep (import permit needed)",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife which may be bought, sold or held without a permit"
+},
+{
+"sci": "Polytelis swainsonii",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed to keep (import permit needed)",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife which may be bought, sold or held without a permit"
+},
+{
+"sci": "Primolius auricollis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Psephotus chrysopterygius",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed to keep (import permit needed)",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife which may be bought, sold or held without a permit"
+},
+{
+"sci": "Psephotus dissimilis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed to keep (import permit needed)",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife which may be bought, sold or held without a permit"
+},
+{
+"sci": "Psephotus haematonotus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Psephotus varius",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Pseudeos fuscata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required Controlled animal, import. Keeping: - -"
+},
+{
+"sci": "Psittacula alexandri",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Psittacula alexandri fasciata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Psittacula columboides",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Psittacula cyanocephala",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Psittacula derbiana",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Psittacula eupatria",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: requirements under the NCA) Controlled animal, import permitted, import permit. Keeping: requirements for keeping under the NCA) -"
+},
+{
+"sci": "Psittacula eupatria nipalensis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Psittacula himalayana",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Psittacula krameri",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Psittacus erithacus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Psitteuteles versicolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Ptilinopus regina",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Ptilinopus superbus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Protected wildlife, permit to possess required (exclusion applies to exhibition licence"
+},
+{
+"sci": "Purpureicephalus spurius",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Pycnonotus cafer",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Restricted animal, import. Keeping: under the NCA) -"
+},
+{
+"sci": "Pycnonotus jocosus",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Restricted animal, import. Keeping: -"
+},
+{
+"sci": "Pyrrhula pyrrhula",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Restricted animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Pyrrhura cruentata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Pyrrhura lepida",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Pyrrhura molinae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Pyrrhura perlata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Python reticulatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: educational display businesses only), import permit required, high security requirements Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: wildlife display permit "
+},
+{
+"sci": "Pytilia melba",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit. Keeping: -"
+},
+{
+"sci": "Pytilia phoenicoptera",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Quelea quelea",
+"common": "",
+"group": "birds",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: Restricted animal, import. Keeping: -"
+},
+{
+"sci": "Rattus rattus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Saguinus oedipus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
+},
+{
+"sci": "Serinus canaria",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping"
+},
+{
+"sci": "Serinus leucopygius",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Serinus mozambicus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Sicalis flaveola",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Sicalis flaveola pelzeni",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Stagonopleura bella",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited Controlled animal, import. Keeping: Protected wildlife, permit to possess required (exclusion applies to exhibition licence holders) -"
+},
+{
+"sci": "Stagonopleura guttata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Stagonopleura oculata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Streptopelia capicola",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Restricted animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Streptopelia decaocto",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Restricted animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Streptopelia risoria",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Streptopelia senegalensis",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Streptopelia turtur",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Suricata suricatta",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, species managemen"
+},
+{
+"sci": "Sus scrofa",
+"common": "",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping under the NCA)"
+},
+{
+"sci": "Symphalangus syndactylus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: wildlife, permit required to possess, exhibition licence required, species management plan required"
+},
+{
+"sci": "Syrmaticus reevesii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Tadorna tadornoides",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: Partly protected wildlife, no possession requirements"
+},
+{
+"sci": "Taeniopygia bichenovii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Taeniopygia guttata",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Import: Domestic stock (no import requirements under the NCA). Keeping: Domestic stock (no requirements for keeping"
+},
+{
+"sci": "Threskiornis molucca",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Tiaris canorus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Travelling wildlife",
+"common": "",
+"group": "inverts",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: exhibition. Keeping: -"
+},
+{
+"sci": "Travelling wildlife exhibition",
+"common": "",
+"group": "inverts",
+"level": "check",
+"label": "Check with NRE Tasmania",
+"detail": "Import: ition. Keeping: -"
+},
+{
+"sci": "Trichoglossus chlorolepidotus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Trichoglossus haematodus",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Triturus cristatus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (approved travelling wildlife exhibitions only), import permit required, high. Keeping: Restricted (special purpose) wildlife, permit required to possess, travelling wildlife exhibition permit req"
+},
+{
+"sci": "Triturus vulgaris",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: import permit required, high security requirements Controlled animal, import permitted (approved travelling wildlife exhibitions only), import permit required, high security requirements. Keeping: exhibition permit required Restrict"
+},
+{
+"sci": "Tropidoderus childrenii",
+"common": "",
+"group": "inverts",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted (approved travelling wildlife exhibitions only), import permit required, high security requirements. Keeping: Travelling wildlife exhibition permit required"
+},
+{
+"sci": "Turdus philomelos",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Restricted animal, import prohibited. Keeping: -"
+},
+{
+"sci": "Turnix melanogaster",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Turnix pyrrhothorax",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Turnix varia",
+"common": "",
+"group": "birds",
+"level": "no",
+"label": "Can't be brought into Tasmania",
+"detail": "Import: Controlled animal, import prohibited. Keeping: Protected wildlife, permit to possess required (exclusion applies to exhibition licence"
+},
+{
+"sci": "Uraeginthus bengalus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Uraeginthus cyanocephalus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Varanus giganteus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
+},
+{
+"sci": "Varanus varius",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Permit needed to keep",
+"detail": "Import: Controlled animal, import permitted (exhibition licence holders only), import permit required, high security requirements. Keeping: Restricted (special purpose) wildlife, permit required to possess, exhibition licence required, spec"
+},
+{
+"sci": "Vidua macroura",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+},
+{
+"sci": "Volatinia jacarina",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Import permit needed",
+"detail": "Import: Controlled animal, import permitted, import permit required. Keeping: -"
+}
+]
+}

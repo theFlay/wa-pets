@@ -1,0 +1,2532 @@
+{
+"state": "VIC",
+"sources": [
+[
+"Wildlife Regulations 2024, Schedules 2, 3, 4 and 7",
+"https://wildlife.vic.gov.au/wildlife-regulations-2024"
+]
+],
+"default": "All Victorian wildlife is protected; species not in the loaded schedules generally can't be kept privately. Exotic pests aren't loaded yet.",
+"species": [
+{
+"sci": "Acanthophis antarcticus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Acanthophis praelongus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Acanthophis pyrrhus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Acritoscincus duperreyi",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Acritoscincus platynotus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Acrobates pygmaeus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Acrochordus arafurae",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Aepyprymnus rufescens",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Amphibolurus gilberti",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Amphibolurus longirostris",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Amphibolurus muricatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Antaresia childreni",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Antaresia maculosus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Antaresia perthensis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Antaresia stimsoni",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Anthochaera carunculata",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Artamus superciliosus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "As from",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 7"
+},
+{
+"sci": "Aspidites melanocephalus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Aspidites ramsayi",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Austrelaps superbus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Axis axis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Axis porcinus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Barnardius zonarius",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Bellatorias frerei",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Bellatorias major",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Bettongia gaimardi",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Bettongia pencillata",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Biziura lobata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Boiga irregularis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Cacatua galerita",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Cacatua sanguinea",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Cacatua tenuirostris",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Callocephalon fimbriatum",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Calyptorhynchus banksia",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Calyptorhynchus baudinii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Calyptorhynchus funereus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Calyptorhynchus lathami",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Calyptorhynchus latirostris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Carettochelys insulpta",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Cervus canadensis",
+"common": "",
+"group": "mammals",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Cervus elaphus",
+"common": "",
+"group": "mammals",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Cervus timorensis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Cervus unicolor",
+"common": "",
+"group": "mammals",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Chalcophaps indica",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Charadrius australis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Chelodina colliei",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Chelodina expansa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Chelodina longicollis",
+"common": "",
+"group": "reptiles",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Chelodina rugosa",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Chelodina steindachneri",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Chlamydosaurus kingii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Christinus marmoratus",
+"common": "",
+"group": "reptiles",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Coturnix pectoralis",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Craticus tibicen",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Crinia parinsignifera",
+"common": "",
+"group": "frogs",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Crinia signifera",
+"common": "",
+"group": "frogs",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Crocodylus johnstoni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Crocodylus porosus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Cryptophis nigrescens",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Ctenophorus cristatus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Ctenophorus decresii",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Ctenophorus fionni",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Ctenophorus fordi",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Ctenophorus isolepis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Ctenophorus nuchalis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Ctenophorus pictus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Ctenophorus reticulatus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Ctenophorus vadnappa",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Ctenotus brooksi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Ctenotus pantherinus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Ctenotus regius",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Ctenotus schomburgkii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Cyclodomorphus gerrardii",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Cyclopsitta diophthalma",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Cyclorana platycephala",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Dacelo novaeguineae",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Dama dama",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Dasyuroides byrnei",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Dasyurus maculatus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Dasyurus viverrinus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Delma australis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Delma inornata",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Demansia psammophis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Dendrelaphis calligastra",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Dendrelaphis punctulata",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Diplodactylus conspicillatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Diplodactylus granariensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Diplodactylus tessellatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Diplodactylus vittatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Drysdalia coronoides",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Eclectus roratus polychloros",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Egernia cunninghami",
+"common": "",
+"group": "reptiles",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Egernia hosmeri",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Egernia kingii",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Egernia saxatilis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Egernia stokesii",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Egernia striolata",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Elseya dentata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Elusor macrurus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Emblema pictum",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Emydura krefftii",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Emydura macquarii",
+"common": "",
+"group": "reptiles",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Emydura subglobosa",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Eolophus roseicapilla",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Epthianura albifrons",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Epthianura tricolor",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Eremiascincus fasciolatus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Erythrura gouldiae",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Erythrura trichroa",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Eulamprus quoyii",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Eulamprus tympanum",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Excalfactoria chinensis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Explanatory details",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 7"
+},
+{
+"sci": "Gehyra australis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Gehyra variegata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "General information",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 7"
+},
+{
+"sci": "Geocrinia laevis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Geopelia cuneata",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Geopelia striata",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Glossopsitta concinna",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Heleioporus australiacus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Heteromunia pectoralis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Heteronotia binoei",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Heteronotia spelea",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Hoplocephalus stephensii",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Hypsilurus boydii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Hypsilurus spinipes",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Intellagama lesueurii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Intellagama lesueurii howittii",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Isoodon obesulus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Lampropholis delicata",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Lampropholis guichenoti",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Lathamus discolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Lerista bougainvillii",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Lerista picturata",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Lialis burtonis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Liasis mackloti",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Liasis olivaceus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Limnodynastes dumerilii",
+"common": "",
+"group": "frogs",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Limnodynastes peronii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Limnodynastes tasmaniensis",
+"common": "",
+"group": "frogs",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Liopholis margaretae",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Liopholis whitii",
+"common": "",
+"group": "reptiles",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Litoria aurea",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Litoria bicolor",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Litoria caerulea",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Litoria chloris",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Litoria citropa",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Litoria ewingii",
+"common": "",
+"group": "frogs",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Litoria fallax",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Litoria gracilenta",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Litoria infrafrenata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Litoria lesueuri",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Litoria nudidigita",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Litoria peronii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Litoria phyllochroa",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Litoria raniformis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Litoria rothii",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Litoria splendida",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Litoria verreauxii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Litoria xanthomera",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Lonchura castaneothorax",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Lonchura flaviprymna",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Lophochroa leadbeateri",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Lucasium damaeum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Macropus agilis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Macropus dorsalis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Macropus eugenii",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Macropus fuliginosus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Macropus giganteus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Macropus parma",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Macropus robustus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Macropus rufogriseus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Macropus rufus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Malurus cyaneus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Malurus lamberti",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Malurus leucopterus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Malurus splendens",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Melopsittacus undulatus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Mixophyes fasciolatus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Mixophyes iteratus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Morelia bredli",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Morelia carinata",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Morelia kinghorni",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Morelia spilota",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Morelia viridis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Morethia boulengeri",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Myzomela sanguinolenta",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Neobatrachus sudellae",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Neochmia modesta",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Neochmia phaeton",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Neochmia ruficauda",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Neochmia temporalis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Neophema elegans",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Neophema pulchella",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Neophema splendida",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Neopsephotus bourkii",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Nephrurus amyae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Nephrurus asper",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Nephrurus laevissimus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Nephrurus levis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Nettapus coromandelianus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Nettapus pulchellus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Northiella haematogaster",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Notechis scutatus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Notomys alexis",
+"common": "",
+"group": "mammals",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Notomys mitchelli",
+"common": "",
+"group": "mammals",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Nymphicus hollandicus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Ocyphaps lophotes",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Oedura marmorata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Oedura tryoni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Other material",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 7"
+},
+{
+"sci": "Oxyura australis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Oxyuranus microlepidotus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Oxyuranus scutellatus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Paracrinia haswelli",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Parasuta flagellum",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Parasuta nigriceps",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Pardalotus punctatus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Petaurus breviceps",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Petaurus norfolcensis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Petrophassa albipennis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Petrophassa rufipennis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Phaps chalcoptera",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Pitta versicolor",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Platycercus eximius",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Platycercus icterotis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Poephila acuticauda",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Poephila cincta",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Pogona barbata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Pogona henrylawsoni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Pogona vitticeps",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Polytelis alexandrae",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Potorous tridactylus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Provision numbers",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 7"
+},
+{
+"sci": "Psephotus dissimilis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Psephotus haematonotus",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Pseudechis australis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Pseudechis colletti",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Pseudechis guttatus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Pseudechis porphyriacus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Pseudemoia entrecasteauxii",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Pseudemoia spenceri",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Pseudocheirus peregrinus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Pseudomys australis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Pseudonaja affinis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Pseudonaja aspidorhyncha",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Pseudonaja guttata",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Pseudonaja mengdeni",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Pseudonaja nuchalis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Pseudonaja textilis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Ptilinopus magnificus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Ptilinopus superbus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Pygopus lepidopodus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Pygopus nigriceps",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Pygopus schraderi",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Rhynchoedura ornata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Rule made",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 7"
+},
+{
+"sci": "Saltuarius salebrosus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Saltuarius swaini",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "See section",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 7"
+},
+{
+"sci": "See www",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 7"
+},
+{
+"sci": "Setonix brachyurus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Sidenotes which cite",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 7"
+},
+{
+"sci": "Sminthopsis crassicaudata",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Stagonopleura bella",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Stagonopleura guttata",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Stagonopleura oculata",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Statutory rule",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 7"
+},
+{
+"sci": "Stegonotus cucullatus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Stictonetta naevosa",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Strophurus ciliaris",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Strophurus elderi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Strophurus intermedius",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Strophurus taenicauda",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Style changes",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 7"
+},
+{
+"sci": "Suta suta",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Taeniopygia bichenovii",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Taeniopygia guttata",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "There are",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 7"
+},
+{
+"sci": "Thylogale billardierii",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Thylogale stigmatica",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Thylogale thetis",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Tiliqua multifasciata",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Tiliqua nigrolutea",
+"common": "",
+"group": "reptiles",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Tiliqua occipitalis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Tiliqua rugosa",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Tiliqua scincoides",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Todiramphus sanctus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Treasurer under section",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 7"
+},
+{
+"sci": "Trichoglossus chlorolepidotus",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Trichoglossus haematodus",
+"common": "",
+"group": "",
+"level": "ok",
+"label": "No licence needed (Schedule 4)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 4"
+},
+{
+"sci": "Trichosurus vulpecula",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Tropidonophis mairii",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Underwoodisaurus milii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Vanellus miles",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Vanellus tricolor",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Varanus acanthurus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Varanus brevicauda",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Varanus caudolineatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Varanus gilleni",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Varanus gouldii",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Varanus indicus",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Varanus mertensi",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Varanus mitchelli",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Varanus scalaris",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Varanus spenceri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife advanced licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 3"
+},
+{
+"sci": "Varanus storri",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Varanus tristis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Varanus varius",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Vombatus ursinus",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Wallabia bicolor",
+"common": "",
+"group": "mammals",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Wollumbinia latisternum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+},
+{
+"sci": "Zosterops lateralis",
+"common": "",
+"group": "",
+"level": "permit",
+"label": "Licence needed (wildlife basic licence)",
+"detail": "VIC Wildlife Regulations 2024, Schedule 2"
+}
+]
+}

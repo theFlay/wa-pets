@@ -1,0 +1,2892 @@
+{
+"state": "SA",
+"sources": [
+[
+"SA native animal keeping categories species list",
+"https://www.environment.sa.gov.au/licences-and-permits/wildlife-permits/native-animal-categories/species-list"
+]
+],
+"default": "Any protected native animal (mammal, bird, reptile) not on SA's list is Specialist category. Exotic pests aren't loaded yet.",
+"species": [
+{
+"sci": "Acritoscincus duperreyi",
+"common": "Eastern three-lined skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Aepyprymnus rufescens",
+"common": "Rufous bettong",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Alisterus scapularis",
+"common": "Australian king-parrot",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Amalosia lesueurii",
+"common": "Lesueur’s velvet gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Amphibolurus muricatus",
+"common": "Jacky lizard",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Anas castanea",
+"common": "Chestnut teal",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Anas gracilis",
+"common": "Grey teal (Australasian teal)",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Anas rhynchotis",
+"common": "Australasian shoveler (Blue-winged)",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Anas superciliosa",
+"common": "Pacific black duck",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Anseranas semipalmata",
+"common": "Magpie goose",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Antaresia childreni",
+"common": "Childrens python",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Antaresia maculosa",
+"common": "Spotted python",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Antaresia stimsoni",
+"common": "Stimson’s python",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Anthochaera carunculata",
+"common": "Red wattlebird",
+"group": "birds",
+"level": "ok",
+"label": "Unprotected: no permit needed",
+"detail": "SA keeping category: Unprotected"
+},
+{
+"sci": "Anthochaera chrysoptera",
+"common": "Little wattlebird",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Aprosmictus erythropterus",
+"common": "Red-winged parrot",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Artamus cyanopterus",
+"common": "Dusky woodswallow",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Artamus leucorhynchus",
+"common": "White-breasted woodswallow",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Artamus personatus",
+"common": "Masked woodswallow",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Artamus superciliosus",
+"common": "White-browed woodswallow",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Aspidites melanocephalus",
+"common": "Black-headed python",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Aspidites ramsayi",
+"common": "Woma",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Aythya australis",
+"common": "Hardhead (White-eyed duck)",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Barnardius zonarius barnardi",
+"common": "Mallee ringneck",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Barnardius zonarius macgillivrayi",
+"common": "Cloncurry",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Barnardius zonarius semitorquatus",
+"common": "Twenty-eight parrot",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Barnardius zonarius zonarius",
+"common": "Port Lincoln parrot",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Bellatorias frerei",
+"common": "Major skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Bellatorias major",
+"common": "Land mullet",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Bettongia penicillata ogilbyi",
+"common": "Brush-tailed bettong (Woylie)",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Boiga irregularis",
+"common": "Brown tree snake",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Burhinus grallarius",
+"common": "Bush stonecurlew",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Cacatua galerita",
+"common": "Sulphur-crested cockatoo",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Cacatua pastinator",
+"common": "Western corella",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Cacatua roseicapilla",
+"common": "Galah",
+"group": "birds",
+"level": "ok",
+"label": "Unprotected: no permit needed",
+"detail": "SA keeping category: Unprotected"
+},
+{
+"sci": "Cacatua sanguinea",
+"common": "Little corella",
+"group": "birds",
+"level": "ok",
+"label": "Unprotected: no permit needed",
+"detail": "SA keeping category: Unprotected"
+},
+{
+"sci": "Cacatua tenuirostris",
+"common": "Long-billed corella",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Canis familiaris",
+"common": "Wild dog",
+"group": "mammals",
+"level": "ok",
+"label": "Unprotected: no permit needed",
+"detail": "SA keeping category: Unprotected"
+},
+{
+"sci": "Carlia schmeltzii",
+"common": "Robust rainbow-skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Cereopsis novaehollandiae novaehollandiae",
+"common": "Cape Barren goose",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Certhionyx variegatus",
+"common": "Pied honeyeater",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Chalcophaps indica",
+"common": "Emerald dove",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Chelodina colliei",
+"common": "Oblong turtle",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Chelodina expansa",
+"common": "Broadshelled tortoise",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Chelodina longicollis",
+"common": "Eastern long-necked tortoise",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Chelodina oblonga",
+"common": "Northern snake-necked turtle",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Chenonetta jubata",
+"common": "Maned duck (Australian wood duck)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Christinus marmoratus",
+"common": "Marbled gecko",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Chroicocephalus novaehollandiae",
+"common": "Silver gull",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Columba leucomela",
+"common": "White-headed pigeon",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Concinnia martini",
+"common": "Dark barsided skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Coracina novaehollandiae",
+"common": "Black-faced cuckooshrike",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Corvus bennetti",
+"common": "Little crow",
+"group": "birds",
+"level": "ok",
+"label": "Unprotected: no permit needed",
+"detail": "SA keeping category: Unprotected"
+},
+{
+"sci": "Corvus coronoides",
+"common": "Australian raven",
+"group": "birds",
+"level": "ok",
+"label": "Unprotected: no permit needed",
+"detail": "SA keeping category: Unprotected"
+},
+{
+"sci": "Corvus mellori",
+"common": "Little raven",
+"group": "birds",
+"level": "ok",
+"label": "Unprotected: no permit needed",
+"detail": "SA keeping category: Unprotected"
+},
+{
+"sci": "Corvus orru cecilae",
+"common": "Australian crow",
+"group": "birds",
+"level": "ok",
+"label": "Unprotected: no permit needed",
+"detail": "SA keeping category: Unprotected"
+},
+{
+"sci": "Coturnix pectoralis",
+"common": "Stubble quail",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Coturnix ypsilophora australis",
+"common": "Brown quail (Swamp quail)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Coturnix ypsilophora ypsilophora",
+"common": "Brown quail (Swamp partridge)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Cryptoblepharus pannosus",
+"common": "Speckled wall skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Cryptoblepharus pulcher",
+"common": "Striped wall skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenophorus caudicinctus",
+"common": "Ring-tailed dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenophorus clayi",
+"common": "Black-collared dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenophorus cristatus",
+"common": "Crested dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenophorus decresii",
+"common": "Tawny dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenophorus fionni",
+"common": "Eyre Peninsula dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenophorus fordi",
+"common": "Mallee dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenophorus isolepis",
+"common": "Military dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenophorus nuchalis",
+"common": "Central netted dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenophorus ornatus",
+"common": "Ornate dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenophorus pictus",
+"common": "Painted dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenophorus reticulatus",
+"common": "Western netted dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenophorus vadnappa",
+"common": "Red-barred dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenotus ariadnae",
+"common": "Pin-striped ctenotus",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenotus brooksi",
+"common": "Sandhill ctenotus",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenotus leonhardii",
+"common": "Common desert ctenotus",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenotus regius",
+"common": "Eastern desert ctenotus",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenotus schomburgkii",
+"common": "Sandplain ctenotus",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Ctenotus spaldingi",
+"common": "Eastern striped skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ctenotus taeniolatus",
+"common": "Copper-tailed skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Cyclodomorphus gerrardii",
+"common": "Pink-tongued lizard",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Cyclodomorphus michaeli",
+"common": "Mainland she-oak skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Cygnus atratus",
+"common": "Black swan",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Cyrtodactylus tuberculatus",
+"common": "Ring-tailed gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Dacelo leachii",
+"common": "Blue-winged kookaburra",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Dacelo novaeguineae",
+"common": "Laughing kookaburra",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Delma inornata",
+"common": "Patternless delma",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Delma molleri",
+"common": "Gulfs delma",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Delma tincta",
+"common": "Excitable delma",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Dendrelaphis calligastra",
+"common": "Northern tree snake",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Dendrelaphis punctulatus",
+"common": "Common (green) tree snake",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Dendrocygna arcuata",
+"common": "Wandering whistling duck",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Dendrocygna eytoni",
+"common": "Plumed whistling duck",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Diplodactylus galeatus",
+"common": "Helmeted gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Diplodactylus granariensis (revised)",
+"common": "Wheat-belt stone gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Diplodactylus vittatus (revised)",
+"common": "Eastern stone gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Diporiphora nobbi",
+"common": "Nobbi dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Dromaius novaehollandiae",
+"common": "Emu",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ducula bicolor spilorrhoa",
+"common": "Torresian imperial-pigeon",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Eclectus roratus macgillivrayi",
+"common": "Eclectus parrot",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Egernia cunninghami",
+"common": "Cunningham’s skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Egernia depressa",
+"common": "Pygmy spiny-tailed skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Egernia formosa",
+"common": "Goldfields crevice-skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Egernia hosmeri",
+"common": "Hosmer’s skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Egernia kingii",
+"common": "King’s skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Egernia mcpheei",
+"common": "Eastern crevice skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Egernia saxatilis",
+"common": "Black rock skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Egernia stokesii",
+"common": "Gidgee skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Egernia striolata",
+"common": "Eastern tree skink",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Elseya dentata",
+"common": "Northern snapping turtle",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Emblema pictum",
+"common": "Painted finch",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Emydura macquarii krefftii",
+"common": "Krefft’s River turtle",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Emydura macquarii macquarii",
+"common": "Macquarie River turtle",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Emydura subglobosa",
+"common": "Jardine River turtle",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Emydura tanybaraga",
+"common": "Northern yellow-faced turtle",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Emydura victoriae",
+"common": "North-west red-faced turtle",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Entomyzon cyanotis",
+"common": "Blue-faced honeyeater",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Eopsaltria australis",
+"common": "Eastern yellow robin",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Epthianura albifrons",
+"common": "White-fronted chat",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Epthianura aurifrons",
+"common": "Orange chat",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Epthianura tricolor",
+"common": "Crimson chat",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Eremiascincus fasciolatus (revised)",
+"common": "Narrow-banded sandswimmer",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Eremiascincus isolepis",
+"common": "Northern bar-lipped skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Eremiascincus richardsonii",
+"common": "Broad-banded sandswimmer",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Erythrura gouldiae",
+"common": "Gouldian finch",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Eulamprus quoyii",
+"common": "Eastern water skink",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Eulamprus tympanum",
+"common": "Southern water skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Excalfactoria chinensis",
+"common": "King quail",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Gallinula tenebrosa",
+"common": "Dusky moorhen",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Gehyra baliola",
+"common": "Short-tailed dtella",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Gehyra purpurascens",
+"common": "Robust tree dtella",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Gehyra variegata",
+"common": "Western tree dtella",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Geocrinia laevis",
+"common": "Smooth frog",
+"group": "frogs",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Geopelia cuneata",
+"common": "Diamond dove",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Geopelia humeralis",
+"common": "Bar-shouldered dove",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Geopelia placida",
+"common": "Peaceful dove",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Geophaps plumifera",
+"common": "Spinifex pigeon",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Geophaps plumifera ferruginea",
+"common": "Spinifex pigeon (red fronted)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Geophaps scripta",
+"common": "Squatter pigeon",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Geophaps smithii",
+"common": "Partridge pigeon",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Glossopsitta concinna",
+"common": "Musk lorikeet",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Gowidon longirostris",
+"common": "Long-nosed dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Grallina cyanoleuca",
+"common": "Magpielark",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Gymnorhina tibicen",
+"common": "Australian Magpie",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Hemiergis decresiensis",
+"common": "Three-toed earless skink",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Hemiergis initialis",
+"common": "Western earless skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Hemiergis peronii",
+"common": "Four-toed earless skink",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Heteromunia pectoralis",
+"common": "Pictorella mannikin",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Heteronotia binoei",
+"common": "Bynoe's gecko",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Himantopus leucocephalus",
+"common": "White-headed (black-winged) stilt",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Intellagama lesueurii",
+"common": "Water dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Lampropholis delicata",
+"common": "Delicate skink",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Lampropholis guichenoti",
+"common": "Garden skink",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Lerista apoda",
+"common": "Dampier Land limbless slider",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Lerista bougainvillii",
+"common": "Bougainville's skink",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Lerista dorsalis",
+"common": "Southern four-toed slider",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Lerista edwardsae",
+"common": "Myall slider",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Lerista humphriesi",
+"common": "Taper-tailed west-coast slider",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Lerista picturata",
+"common": "Southern robust slider",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Lerista punctatovittata",
+"common": "Spotted slider",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Lerista terdigitata",
+"common": "Southern three-toed slider",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Leucosarcia melanoleuca",
+"common": "Wonga pigeon",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Liasis fuscus",
+"common": "Water python",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Liasis olivaceus",
+"common": "Olive python",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Liopholis inornata",
+"common": "Desert skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Liopholis margaretae",
+"common": "Centralian Ranges rock-skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Liopholis multiscutata",
+"common": "Bull skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Liopholis striata",
+"common": "Night skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Liopholis whitii",
+"common": "White's skink",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Litoria raniformis",
+"common": "Southern bell frog",
+"group": "frogs",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Lonchura castaneothorax",
+"common": "Chestnut-breasted mannikin",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Lonchura flaviprymna",
+"common": "Yellow-rumped mannikin",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Lophochroa leadbeateri",
+"common": "Major Mitchell’s cockatoo",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Lophognathus gilberti",
+"common": "Gilbert’s dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Lophosaurus spinipes",
+"common": "Southern angle-headed dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Lucasium byrnei",
+"common": "Gibber gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Lucasium damaeum",
+"common": "Beaded gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Lucasium steindachneri",
+"common": "Map gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Lucasium stenodactylum",
+"common": "Sandplain gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Macropus eugenii eugenii",
+"common": "Tammar wallaby",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Macropus parma",
+"common": "Parma wallaby",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Macropus rufogriseus",
+"common": "Red-necked wallaby",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Macropygia amboinensis",
+"common": "Brown cuckoo-dove",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Malurus cyaneus",
+"common": "Superb fairywren",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Malurus lamberti",
+"common": "Variegated fairywren",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Malurus leucopterus",
+"common": "White-winged fairywren",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Malurus melanocephalus",
+"common": "Red-backed fairywren",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Malurus splendens callainus",
+"common": "Turquoise fairywren",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Malurus splendens melanotis",
+"common": "Black-backed fairywren",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Malurus splendens splendens",
+"common": "Splendid fairywren",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Manorina melanocephala",
+"common": "Noisy miner",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Melanodryas cucullata",
+"common": "Hooded robin",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Melopsittacus undulatus",
+"common": "Budgerygah",
+"group": "birds",
+"level": "ok",
+"label": "Unprotected: no permit needed",
+"detail": "SA keeping category: Unprotected"
+},
+{
+"sci": "Menetia greyii",
+"common": "Dwarf skink",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Morelia bredli",
+"common": "Centralian carpet python",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Morelia carinata",
+"common": "Rough-scaled python",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Morelia spilota",
+"common": "Carpet python",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Morethia adelaidensis",
+"common": "Adelaide snake-eye",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Morethia boulengeri",
+"common": "Common snake-eye",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Morethia obscura",
+"common": "Mallee snake-eye",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Myzomela sanguinolenta",
+"common": "Scarlet honeyeater",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Nebulifera robusta",
+"common": "Robust velvet gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Neochmia modesta",
+"common": "Plum-headed finch",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Neochmia phaeton evangelinae",
+"common": "Crimson finch (white-bellied subspecies)",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Neochmia phaeton phaeton",
+"common": "Crimson finch (Common)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Neochmia ruficauda",
+"common": "Star finch",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Neochmia temporalis",
+"common": "Red-browed finch",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Neophema chrysostoma",
+"common": "Blue-winged parrot",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Neophema elegans",
+"common": "Elegant parrot",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Neophema petrophila",
+"common": "Rock parrot",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Neophema pulchella",
+"common": "Turquoise parrot",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Neophema splendida",
+"common": "Scarlet-chested parrot",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Neopsephotus bourkii",
+"common": "Bourke's parrot",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Nephrurus amyae",
+"common": "Centralian knob-tailed gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Nephrurus asper",
+"common": "Rough knob-tail",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Nephrurus laevissimus",
+"common": "Pale knob-tailed gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Nephrurus levis",
+"common": "Common knob-tailed gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Nephrurus sheai",
+"common": "Northern knob-tailed gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Nephrurus stellatus",
+"common": "Starred knob-tailed gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Nephrurus wheeleri",
+"common": "Banded knob-tail",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ninox boobook",
+"common": "Southern boobook",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Northiella haematogaster haematogaster",
+"common": "Yellow-vented blue bonnet",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Northiella haematogaster haematorrhous",
+"common": "Red-vented blue bonnet",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Notomys alexis",
+"common": "Spinifex hopping-mouse",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Notomys mitchellii",
+"common": "Mitchell's hopping-mouse",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Notoscincus butleri",
+"common": "Lined soil-crevice skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Nymphicus hollandicus",
+"common": "Cockatiel",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Ocyphaps lophotes",
+"common": "Crested pigeon",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Oedura castelnaui",
+"common": "Northern velvet gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Oedura cincta",
+"common": "Banded velvet gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Oedura coggeri",
+"common": "Northern spotted velvet gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Oedura filicipoda",
+"common": "Fringe-toed velvet gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Oedura gemmata",
+"common": "Dotted velvet gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Oedura monilis",
+"common": "Ocellated velvet gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Oedura tryoni",
+"common": "Southern spotted velvet gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Parvipsitta porphyrocephala",
+"common": "Purple-crowned lorikeet",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Parvipsitta pusilla",
+"common": "Little lorikeet",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Peltohyas australis",
+"common": "Inland dotterel",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Petaurus breviceps",
+"common": "Sugar glider",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Petaurus norfolcensis",
+"common": "Squirrel glider",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Petroica goodenovii",
+"common": "Red-capped robin",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Phaps chalcoptera",
+"common": "Common bronzewing",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Phaps elegans",
+"common": "Brush bronzewing",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Phaps histrionica",
+"common": "Flock bronzewing",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Phylidonyris novaehollandiae",
+"common": "New Holland honeyeater",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Phylidonyris pyrrhopterus",
+"common": "Crescent honeyeater",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Platycercus adscitus",
+"common": "Pale-headed rosella",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Platycercus adscitus adscitus",
+"common": "Blue-cheeked rosella",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Platycercus caledonicus",
+"common": "Green rosella",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Platycercus elegans (elegans & melanopterus)",
+"common": "Crimson rosella",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Platycercus elegans (fleurieuensis & subadelaidae)",
+"common": "Adelaide rosellas",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Platycercus elegans flaveolus",
+"common": "Yellow rosella",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Platycercus eximius",
+"common": "Eastern rosella",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Platycercus icterotis",
+"common": "Western rosella",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Platycercus venustus",
+"common": "Northern rosella (Brown’s rosella)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Platycercus venustus hilli",
+"common": "Kimberley northern rosella",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Podargus strigoides",
+"common": "Tawny frogmouth",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Poephila acuticauda acuticauda",
+"common": "Long-tailed finch (Longtail)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Poephila acuticauda hecki",
+"common": "Long-tailed finch (Hecks)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Poephila cincta atropygialis",
+"common": "Black-throated finch (Diggles)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Poephila cincta cincta",
+"common": "Black-throated finch (Parson)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Poephila guttata",
+"common": "Zebra finch",
+"group": "birds",
+"level": "ok",
+"label": "Unprotected: no permit needed",
+"detail": "SA keeping category: Unprotected"
+},
+{
+"sci": "Poephila personata leucotis",
+"common": "Masked finch (White-eared)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Poephila personata personata",
+"common": "Masked finch (Masked)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Pogona barbata",
+"common": "Eastern bearded dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Pogona henrylawsoni",
+"common": "Downs bearded dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Pogona microlepidota",
+"common": "Kimberley bearded dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Pogona minor minima",
+"common": "Western bearded dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Pogona minor minor",
+"common": "Dwarf bearded dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Pogona minor mitchelli",
+"common": "North-west bearded dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Pogona vitticeps",
+"common": "Central bearded dragon",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Polytelis alexandrae",
+"common": "Princess parrot",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Polytelis anthopeplus anthopeplus",
+"common": "Regent parrot (WA subspecies)",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Polytelis anthopeplus monarchoides",
+"common": "Regent parrot (eastern subspecies)",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Polytelis swainsonii",
+"common": "Superb parrot",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Potorous tridactylus",
+"common": "Long-nosed potoroo",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Proablepharus kinghorni",
+"common": "Blacksoil skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Psephotellus varius",
+"common": "Mulga parrot",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Psephotus chrysopterygius",
+"common": "Golden-shouldered parrot",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Psephotus dissimilis",
+"common": "Hooded parrot",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Psephotus haematonotus",
+"common": "Red-rumped parrot",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Pseudomys australis",
+"common": "Plains mouse (Rat)",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Pseudothecadactylus lindneri",
+"common": "Northern giant cave gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Psitteuteles versicolor",
+"common": "Varied lorikeet",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ptilinopus regina",
+"common": "Rose-crowned fruit-dove",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ptilinopus superbus",
+"common": "Superb fruit-dove",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Ptilotula penicillata",
+"common": "White-plumed honeyeater",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Purnella albifrons",
+"common": "White-fronted honeyeater",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Purpureicephalus spurius",
+"common": "Red-capped parrot",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Pygopus lepidopodus",
+"common": "Common scaly-foot",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Pygopus nigriceps",
+"common": "Western hooded scaly-foot",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Pygopus schraderi",
+"common": "Eastern hooded scaly-foot",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Rankinia diemensis",
+"common": "Mountain dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Saiphos equalis",
+"common": "Three-toed skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Saltuarius salebrosus",
+"common": "Rough-throated leaf-tailed gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Silvascincus murrayi",
+"common": "Murray’s skink",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Sminthopsis crassicaudata",
+"common": "Fat-tailed dunnart",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Stagonopleura guttata",
+"common": "Diamond Firetail",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Stagonopleura oculata",
+"common": "Red-eared firetail",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Stegonotus cucullatus",
+"common": "Slaty-grey snake",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Stizoptera bichenovii annulosa",
+"common": "Double-barred finch (Black rump)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Stizoptera bichenovii bichenovii",
+"common": "Double-barred finch (White rump)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Strophurus ciliaris",
+"common": "Northern spiny-tailed gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Strophurus elderi",
+"common": "Jewelled gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Strophurus intermedius",
+"common": "Southern spiny-tailed gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Strophurus strophurus",
+"common": "Western spiny-tailed gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Strophurus taeniatus",
+"common": "Phasmid striped gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Strophurus taenicauda",
+"common": "Golden-tailed gecko",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Tadorna radjah",
+"common": "Raja shelduck",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Tadorna tadornoides",
+"common": "Australian shelduck",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Thylogale billardierii",
+"common": "Tasmanian pademelon",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Thylogale thetis",
+"common": "Red-necked pademelon",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Tiliqua multifasciata",
+"common": "Centralian bluetongue",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Tiliqua nigrolutea",
+"common": "Blotched bluetongue",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Tiliqua occipitalis",
+"common": "Western bluetongue",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Tiliqua rugosa",
+"common": "Sleepy lizard",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Tiliqua scincoides",
+"common": "Eastern bluetongue",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Tribonyx mortierii",
+"common": "Tasmanian nativehen",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Tribonyx ventralis",
+"common": "Black-tailed nativehen",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Trichoglossus chlorolepidotus",
+"common": "Scaly-breasted lorikeet",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Trichoglossus haematodus",
+"common": "Rainbow lorikeet",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Trichoglossus haematodus rubritorquis",
+"common": "Red-collared lorikeet",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Trichosurus vulpecula",
+"common": "Common brushtail possum",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Tropidonophis mairii",
+"common": "Keelback snake",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Turnix maculosus",
+"common": "Red-backed buttonquail",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Turnix melanogaster",
+"common": "Black-breasted buttonquail",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Turnix pyrrhothorax",
+"common": "Red-chested buttonquail",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Turnix varius",
+"common": "Painted buttonquail",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Turnix velox",
+"common": "Little buttonquail",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Tympanocryptis lineata",
+"common": "Lined earless dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Tympanocryptis tetraporophora",
+"common": "Eyrean earless dragon",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Underwoodisaurus milii",
+"common": "Common barking gecko",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed (Exempt)",
+"detail": "SA keeping category: Exempt"
+},
+{
+"sci": "Vanellus miles miles",
+"common": "Masked lapwing (northern subspecies)",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Vanellus miles novaehollandiae",
+"common": "Spur-winged plover",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Vanellus tricolor",
+"common": "Banded lapwing",
+"group": "birds",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus acanthurus",
+"common": "Ridge-tailed monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus baritji",
+"common": "Black-spotted spiny-tailed monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus brevicauda",
+"common": "Short-tailed pygmy goanna",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus bushi",
+"common": "Pilbara Mulga monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus caudolineatus",
+"common": "Stripe-tailed monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus eremius",
+"common": "Desert pygmy goanna",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus gilleni",
+"common": "Pygmy Mulga goanna",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus glauerti",
+"common": "Kimberley rock monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus glebopalma",
+"common": "Black-palmed monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus gouldii flavirufus",
+"common": "Sand monitor (arid subspecies)",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus gouldii gouldii",
+"common": "Gould’s goanna",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus indicus",
+"common": "Mangrove monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus kingorum",
+"common": "Long-tailed rock monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus mertensi",
+"common": "Mertens’ water monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus mitchelli",
+"common": "Mitchell’s water monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus pilbarensis",
+"common": "Pilbara rock monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus primordius",
+"common": "Northern ridge-tailed monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus scalaris",
+"common": "Spotted tree monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus semiremex",
+"common": "Rusty monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus spenceri",
+"common": "Spencer’s monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus storri",
+"common": "Storr’s monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Varanus tristis",
+"common": "Black-headed monitor",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Wallabia bicolor",
+"common": "Swamp wallaby",
+"group": "mammals",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Wollumbinia latisternum",
+"common": "Saw-shelled turtle",
+"group": "reptiles",
+"level": "permit",
+"label": "Basic permit needed",
+"detail": "SA keeping category: Basic"
+},
+{
+"sci": "Zosterops lateralis halmaturina",
+"common": "Grey-backed silvereye",
+"group": "birds",
+"level": "ok",
+"label": "Unprotected: no permit needed",
+"detail": "SA keeping category: Unprotected"
+}
+]
+}

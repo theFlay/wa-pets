@@ -1,0 +1,1200 @@
+© 2019 State of NSW and Office of Environment and Heritage
+
+With the exception of photographs, the State of NSW and Office of Environment and Heritage are pleased to allow this material to be reproduced in whole or
+in part for educational and non-commercial use, provided the meaning is unchanged and its source, publisher and authorship are acknowledged. Specific
+permission is required for the reproduction of photographs.
+
+The Office of Environment and Heritage (OEH) has compiled this report in good faith, exercising all due care and attention. No representation is made about
+the accuracy, completeness or suitability of the information in this publication for any particular purpose. OEH shall not be liable for any damage which may
+occur to any person or organisation taking action or not on the basis of this publication. Readers should seek appropriate advice when applying the
+information to their specific needs.
+
+All content in this publication is owned by OEH and is protected by Crown Copyright, unless credited otherwise. It is licensed under the Creative Commons
+Attribution 4.0 International (CC BY 4.0), subject to the exemptions contained in the licence. The legal code for the licence is available at Creative Commons.
+
+OEH asserts the right to be attributed as author of the original material in the following manner: © State of New South Wales and Office of Environment and
+Heritage 2019.
+
+Front cover images: Eastern snake-necked turtle (Chelodina longicollis), Rosie Nicolai; Peninsula Crevice Dragon (Ctenophorus fionni), Ken Stepnell; Green
+and Gold Bell Frog (Litoria aurea), Rosie Nicolai; Star Finch (Neochmia ruficauda), Roger Smith; Carpet/Diamond python (Morelia spilota), John Turbill.
+
+Published by:
+
+Office of Environment and Heritage
+59 Goulburn Street, Sydney NSW 2000
+PO Box A290, Sydney South NSW 1232
+Phone: +61 2 9995 5000 (switchboard)
+Phone: 1300 361 967 (OEH and national parks enquiries)
+TTY users: phone 133 677, then ask for 1300 361 967
+Speak and listen users: phone 1300 555 727, then ask for 1300 361 967
+Email: info@environment.nsw.gov.au
+Website: www.environment.nsw.gov.au
+
+Report pollution and environmental incidents
+Environment Line: 131 555 (NSW only) or info@environment.nsw.gov.au
+See also www.environment.nsw.gov.au
+ISBN 978-1-925755-23-7 OEH 2016/0264
+First published in April 2016; reprinted January 2019 with changes to Broad-tailed gecko species.
+                                                                           NSW Native Animal Keeper Species List 2016
+
+Contents
+
+Contents……………………………………………………………………………………………………………………………………………….. ii
+Abbreviations………………………………………………………………………………………………………………………………………… iii
+Introduction…………………………………………………………………………………………………………………………………………… 1
+Amphibians…………………………………………………………………………………………………………………………………………… 2
+Birds……………………………………………………………………………………………………………………………………………………. 6
+Mammals………………………………………………………………………………………………………………………………………………. 16
+Reptiles………………………………………………………………………………………………………………………………………………… 17
+Exempt species………………………………………………………………………………………………………………………………………. 33
+Keeping native animals as pets……………………………………………………………………………………………………………………34
+
+   Where can I find out about animal keeping?......................................................................................................................................... 34
+
+                                                                                                         ii
+                                                                           NSW Native Animal Keeper Species List 2016
+
+Abbreviations
+
+Licence classes
+
+A1 basic amphibian
+A2 advanced amphibian
+B1 basic bird
+B2 advanced bird
+B3 emu endorsement
+Companion Companion Native Animal Keeper Licence
+M1 basic mammal
+R1 basic reptile
+R2 advanced reptile non venomous
+R3 advanced reptile, venomous, category 1
+R4 advanced reptile, venomous, category 2
+R5 advanced reptile, venomous, category 3
+
+                                                                                                         iii
+                                                                           NSW Native Animal Keeper Species List 2016
+
+Introduction
+
+The NSW Native Animal Keepers’ Species List 2016 contains the names of all fauna species that may be kept under licence.
+Animals are listed by group (amphibian, bird, reptile, mammal) and according to the licence type required to keep that animal. If the animal
+species you want to keep is not listed, you generally cannot legally keep it (see exceptions below).
+There is a temporary freeze on requests to add new species of fauna to the NSW Native Animal Keeper’s Species List. This is due to the
+Independent Review of Biodiversity Legislation in NSW. The review has recommended changes to wildlife licensing, which are likely to impact
+this list and many Native Animal Keeper and Companion Animal Keeper Licences. The Independent Review Panel’s final report is available to
+download. Until further details about proposed changes are available all current licence requirements continue to apply.
+Some points to note:
+• A new species list is produced by the Office of Environment and Heritage (OEH) each year. You can only hold an animal that is applicable
+
+     to class as listed in the current year’s species list.
+• Some animals are listed as exempt and a licence is not required to hold or trade those species (see exempt species list at the back of this
+
+     document).
+• Some hybridised animals are recorded in this list. OEH does not support native animal keepers who breed between animals of different
+
+     species. Regulations prohibit the breeding of native waterfowl with domestic waterfowl.
+• Your licence must be endorsed with the class under which the species is applicable. Holding requirements for venomous reptiles must be in
+
+     accordance with the requirements contained in the class criteria for advanced reptile venomous category 1, 2 or 3 as contained in the
+     Application for an Advanced Class – Native Animal Keepers’ Licence.
+• If you acquire or dispose of a native species of cockatoo listed as applicable to class B1, or any species of animal listed under classes A2,
+     B2, B3, R2, R3, R4 or R5 you must notify the Director General by email or in writing of the details of the transaction within 14 days of the
+     transaction taking place. You can email wildlife.licensing@environment.nsw.gov.au with the transaction details.
+• Some animals are not suitable to be held under a Native Animal Keeper Licence, including all species of Crocodylidae (crocodiles);
+     Cheloniidae and Dermochelyidae (sea turtles); Hydrophiidae and Laticaudidae (sea snakes); and all non-native (exotic) species.
+• Non-native (exotic) species of animal can be held in Australia only by licensed exhibitors (for example, zoos) or under a licence from the
+     NSW Department of Primary Industries. If you want to keep an exotic animal, telephone (02) 6391 3100.
+
+                                                                                                         1
+                             NSW Native Animal Keeper Species List 2016
+
+Scientific name                            Amphibians                   Species  Applicable to licence  Species group
+                                                                        code     class
+Adelotus brevis              Common name                                3001     A1, A2                 Ground frog
+Crinia parinsignifera                                                   3131     A1, A2                 Ground frog
+Crinia signifera             Tusked frog                                3134     A1, A2                 Ground frog
+Crinia sloanei               Eastern sign-bearing froglet               3135     A1, A2                 Ground frog
+Cyclorana alboguttata        Common eastern froglet                     3165     A1, A2, Companion      Ground frog
+Cyclorana brevipes           Sloane’s froglet                           3018     A1, A2, Companion      Ground frog
+Cyclorana novaehollandiae    Striped burrowing frog                     3024     A1, A2, Companion      Ground frog
+Cyclorana platycephala       Short-footed frog                          3025     A1, A2, Companion      Ground frog
+Lechriodus fletcheri         New Holland frog                           3052     A1, A2, Companion      Ground frog
+Limnodynastes dumerilii      Water-holding frog                         3058     A1, A2, Companion      Ground frog
+Limnodynastes fletcheri      Fletcher's frog                            3059     A1, A2, Companion      Ground frog
+Limnodynastes interioris     Bullfrog                                   3060     A1, A2, Companion      Ground frog
+Limnodynastes ornatus        Long-thumbed frog                          3112     A1, A2, Companion      Ground frog
+Limnodynastes peronii        Giant bullfrog                             3061     A1, A2, Companion      Ground frog
+Limnodynastes salmini        Ornate burrowing frog                      3062     A1, A2, Companion      Ground frog
+Limnodynastes tasmaniensis   Striped marsh frog                         3063     A1, A2, Companion      Ground frog
+Limnodynastes terraereginae  Salmon-striped frog                        3064     A1, A2, Companion      Ground frog
+Litoria bicolor              Spotted marsh frog                         3167     A1, A2                 Tree frog
+Litoria caerulea             Northern banjo frog                        3171     A1, A2, Companion      Tree frog
+Litoria chloris              Northern dwarf tree frog                   3174     A1, A2, Companion      Tree frog
+Litoria citropa              Green tree frog                            3175     A1, A2, Companion      Tree frog
+                             Red-eyed tree frog
+                             Blue Mountains tree frog
+
+                                                                     2
+                        NSW Native Animal Keeper Species List 2016
+
+Scientific name                       Amphibians                   Species  Applicable to licence  Species group
+                                                                   code     class
+Litoria dentata         Common name                                3180     A1, A2, Companion      Tree frog
+Litoria ewingii                                                    3182     A1, A2, Companion      Tree frog
+Litoria fallax          Keferstein’s tree frog                     3183     A1, A2                 Tree frog
+Litoria freycineti      Southern brown tree frog                   3184     A1, A2, Companion      Tree frog
+Litoria gilleni         Eastern dwarf tree frog                    3185     A1, A2, Companion      Tree frog
+Litoria gracilenta      Freycinet's frog                           3187     A1, A2, Companion      Tree frog
+Litoria infrafrenata    Centralian tree frog                       3189     A1, A2, Companion      Tree frog
+Litoria jervisiensis    Dainty tree frog                           3190     A1, A2, Companion      Tree frog
+Litoria latopalmata     White-lipped tree frog                     3191     A1, A2, Companion      Tree frog
+Litoria lesueuri        Jervis Bay tree frog                       3316     A1, A2, Companion      Tree frog
+Litoria moorei          Broad-palmed frog                          3197     A1, A2, Companion      Tree frog
+Litoria nasuta          Lesueur’s frog                             3199     A1, A2                 Tree frog
+Litoria peronii         Moore’s frog                               3204     A1, A2, Companion      Tree frog
+Litoria phyllochroa     Rocket frog                                3206     A1, A2                 Tree frog
+Litoria rothii          Peron's tree frog                          3209     A1, A2, Companion      Tree frog
+Litoria rubella         Green stream frog                          3210     A1, A2                 Tree frog
+Litoria splendida       Roth’s tree frog                           3212     A1, A2, Companion      Tree frog
+Litoria tyleri          Desert tree frog                           3214     A1, A2, Companion      Tree frog
+Litoria verreauxii      Magnificent tree frog                      3215     A1, A2                 Tree frog
+Neobatrachus centralis  Tyler’s tree frog                          3083     A1, A2, Companion      Ground frog
+Neobatrachus sudelli    Verreaux’s tree frog                       3086     A1, A2, Companion      Ground frog
+                        Trilling frog
+                        Painted burrowing frog
+
+                                                                3
+                          NSW Native Animal Keeper Species List 2016
+
+Scientific name                         Amphibians                   Species  Applicable to licence  Species group
+                                                                     code     class
+Uperoleia capitulata      Common name                                3013     A1, A2                 Ground frog
+Uperoleia fusca                                                      3035     A1, A2                 Ground frog
+Uperoleia laevigata       Small-headed toadlet                       3158     A1, A2                 Ground frog
+Uperoleia rugosa          Dusky toadlet                              3151     A1, A2                 Ground frog
+Uperoleia tyleri          Smooth toadlet                             3302     A1, A2                 Ground frog
+Assa darlingtoni          Wrinkled toadlet                           3007     A2                     Ground frog
+Crinia deserticola        Tyler’s toadlet                            3128     A2                     Ground frog
+Crinia tinnula            Pouched frog                               3137     A2                     Ground frog
+Cyclorana cultripes       Desert froglet                             3020     A2                     Ground frog
+Cyclorana verrucosa       Wallum froglet                             3026     A2                     Ground frog
+Geocrinia laevis          Knife-footed frog                          3029     A2                     Ground frog
+Geocrinia victoriana      Rough frog                                 3033     A2                     Ground frog
+Geocrinia vitellina       Tasmanian smooth froglet                   3006     A2                     Ground frog
+Heleioporus australiacus  Victorian smooth froglet                   3042     A2                     Ground frog
+Litoria aurea             Orange-bellied frog                        3166     A2                     Tree frog
+Litoria booroolongensis   Giant burrowing frog                       3168     A2                     Tree frog
+Litoria brevipalmata      Green and golden bell frog                 3169     A2                     Tree frog
+Litoria burrowsae         Booroolong frog                            3170     A2                     Tree frog
+Litoria dahlii            Green-thighed frog                         3179     A2                     Tree frog
+Litoria eucnemis          Tasmanian tree frog                        3304     A2                     Tree frog
+Litoria littlejohni       Dahl’s aquatic frog                        3039     A2                     Tree frog
+                          Fringed tree frog, growling tree frog
+                          Littlejohn’s tree frog
+
+                                                                  4
+                            NSW Native Animal Keeper Species List 2016
+
+Scientific name                           Amphibians   Species          Applicable to licence  Species group
+                                                       code             class
+Litoria pearsoniana         Common name                3003             A2                     Tree frog
+Litoria raniformis                                     3207             A2                     Tree frog
+Litoria revelata            Pearson’s green tree frog  3219             A2                     Tree frog
+Litoria xanthomera          Southern bell frog         3220             A2                     Tree frog
+Mixophyes balbus            Whirring tree frog         3073             A2                     Ground frog
+Mixophyes fasciolatus       Orange-thighed frog        3074             A2                     Ground frog
+Mixophyes iteratus          Stuttering frog            3075             A2                     Ground frog
+Notaden bennettii           Great barred frog          3098             A2                     Ground frog
+Paracrinia haswelli         Giant barred frog          3103             A2                     Ground frog
+Philoria kundagungan        Crucifix frog              3107             A2                     Ground frog
+Philoria loveridgei         Haswell’s froglet          3108             A2                     Ground frog
+Philoria sphagnicolus       Mountain frog              3109             A2                     Ground frog
+Pseudophryne australis      Loveridge’s frog           3116             A2                     Ground frog
+Pseudophryne bibronii       Sphagnum frog              3117             A2                     Ground frog
+Pseudophryne coriacea       Red-crowned toadlet        3118             A2                     Ground frog
+Pseudophryne dendyi         Bibron’s toadlet           3120             A2                     Ground frog
+Pseudophryne semimarmorata  Red-backed toadlet         3125             A2                     Ground frog
+                            Southern toadlet
+                            Southern toadlet
+
+                            5
+                                     NSW Native Animal Keeper Species List 2016
+
+Scientific name                                         Birds                   Species  Applicable to licence  Species group
+                                                                                code     class
+Alisterus scapularis                 Common name                                0281     B1, B2, B3, Companion  Parrot
+Aprosmictus erythropterus                                                       0280     B1, B2, B3, Companion  Parrot
+Barnardius zonarius barnardi         Australian king parrot                     0291     B1, B2, B3, Companion  Parrot
+Barnardius zonarius macgillivrayi    Red-winged parrot                          0292     B1, B2, B3, Companion  Parrot
+Barnardius zonarius macgillivrayi x  Mallee ringneck
+Barnardius semitorquatus             Cloncurry parrot                           T218     B1, B2, B3, Companion Parrot
+Cacatua Hybrid
+Cacatua leadbeateri                  Cloncurry twenty eight hybrid parrot       G/PH     B1, B2, B3, Companion Parrot
+                                                                                0270     B1, B2, B3, Companion Parrot
+Cacatua leadbeateri x galerita       Galah/pink cockatoo
+                                     Major Mitchell’s cockatoo                  MMC/SCC B1, B2, B3, Companion Parrot
+Callocephalon fimbriatum             Major Mitchell’s/sulphur-crested cockatoo
+Calyptorhynchus banksii              hybrid                                     0268     B1, B2, B3, Companion  Parrot
+Calyptorhynchus baudinii             Gang-gang cockatoo                         0264     B1, B2, B3, Companion  Parrot
+Calyptorhynchus funereus             Red-tailed black cockatoo                  0266     B1, B2, B3, Companion  Parrot
+Calyptorhynchus lathami              Long-billed black cockatoo                 0267     B1, B2, B3, Companion  Parrot
+Calyptorhynchus latirostris          Yellow-tailed black cockatoo               0265     B1, B2, B3, Companion  Parrot
+Columba leucomela                    Glossy black cockatoo                      0794     B1, B2, B3, Companion  Parrot
+Eclectus roratus macgillivrayi       Short-billed black cockatoo                0028     B1, B2, B3, Companion  Pigeon and dove
+Geophaps plumifera                   White-headed pigeon                        8029     B1, B2, B3, Companion  Parrot
+Geophaps scripta                     Eclectus parrot (Australian sub-species)   0042     B1, B2, B3, Companion  Pigeon and dove
+Glossopsitta porphyrocephala         Spinifex pigeon                            0039     B1, B2, B3, Companion  Pigeon and dove
+Glossopsitta pusilla                 Squatter pigeon                            0259     B1, B2, B3, Companion  Parrot
+                                     Purple-crowned lorikeet                    0260     B1, B2, B3, Companion  Parrot
+                                     Little lorikeet
+
+                                                                             6
+                                   NSW Native Animal Keeper Species List 2016
+
+Scientific name                                       Birds                   Species  Applicable to licence  Species group
+                                                                              code     class
+Heteromunia pectoralis             Common name                                0659     B1, B2, B3, Companion  Finch
+Lathamus discolor                                                             0309     B1, B2, B3, Companion  Parrot
+Lonchura castaneothorax            Pictorella mannikin                        0657     B1, B2, B3, Companion  Finch
+Lonchura flaviprymna               Swift parrot                               0658     B1, B2, B3, Companion  Finch
+Neochmia modesta                   Chestnut-breasted mannikin                 0661     B1, B2, B3, Companion  Finch
+Neochmia phaeton                   Yellow-rumped mannikin                     0664     B1, B2, B3, Companion  Finch
+Neochmia temporalis                Plum-headed finch                          0662     B1, B2, B3, Companion  Finch
+Neophema chrysostoma               Crimson finch                              0306     B1, B2, B3, Companion  Parrot
+Neophema Hybrid                    Red-browed finch                           S/TH     B1, B2, B3, Companion  Parrot
+Neophema petrophila                Blue-winged parrot                         0308     B1, B2, B3, Companion  Parrot
+Neophema pulchella                 Scarlet-chested/turquoise parrot           0302     B1, B2, B3, Companion  Parrot
+Neophema pulchella x Psephotus     Rock parrot
+chrysopterygius                    Turquoise parrot                           T160     B1, B2, B3, Companion Parrot
+Northiella haematogaster           Turquoise parrot/golden-shouldered parrot
+Northiella haematogaster narethae  hybrid                                     0297     B1, B2, B3, Companion  Parrot
+Parrot Hybrid                      Blue bonnet                                0298     B1, B2, B3, Companion  Parrot
+Parrot Hybrid                      Naretha blue bonnet                        E/MH     B1, B2, B3, Companion  Parrot
+Parrot Hybrid                      Eastern rosella/mallee ringneck            K/RH     B1, B2, B3, Companion  Parrot
+Phaps elegans                      King/red-winged parrot                     K/SH     B1, B2, B3, Companion  Parrot
+Phaps histrionica                  King/superb parrot                         0035     B1, B2, B3, Companion  Pigeon and dove
+Platycercus caledonicus            Brush bronzewing                           0036     B1, B2, B3, Companion  Pigeon and dove
+Platycercus elegans                Flock bronzewing                           0285     B1, B2, B3, Companion  Parrot
+                                   Green rosella                              0282     B1, B2, B3, Companion  Parrot
+                                   Crimson rosella
+
+                                                                           7
+                                              NSW Native Animal Keeper Species List 2016
+
+                                                           Birds
+
+Scientific name                               Common name                                    Species  Applicable to licence  Species group
+                                                                                             code     class                  Parrot
+Platycercus venustus                          Northern rosella                               0287                            Parrot
+Platycercus venustus x adscitus               Northern rosella/pale-headed rosella hybrid    T155     B1, B2, B3, Companion
+Platycercus venustus x Barnardius zonarius
+macgillivrayi                                 Northern rosella/cloncurry ringneck hybrid     T159     B1, B2, B3, Companion
+Poephila acuticauda
+Poephila cincta                               Long-tailed finch                              0666     B1, B2, B3, Companion Parrot
+Poephila cincta atropygialis                  Black-throated finch                           0667
+Poephila cincta cincta                        Black-tailed finch                             0668     B1, B2, B3, Companion  Finch
+Poephila cincta x Poephila acuticauda         Black-throated finch (southern sub-species)    8324     B1, B2, B3, Companion  Finch
+Poephila personata                            Black-throated finch/long-tailed finch hybrid  T151     B1, B2, B3, Companion  Finch
+Poephila personata leucotis                   Masked finch                                   0669     B1, B2, B3, Companion  Finch
+Polytelis anthopeplus                         White-eared finch                              8001     B1, B2, B3, Companion  Finch
+Polytelis anthopeplus x Aprosmictus           Regent parrot                                  0278     B1, B2, B3, Companion  Finch
+erythropterus                                                                                         B1, B2, B3, Companion  Finch
+Polytelis anthopeplus x Polytelis alexandrae  Regent parrot/red-winged parrot hybrid         T156     B1, B2, B3, Companion  Parrot
+Polytelis Hybrid
+Polytelis swainsonii                          Regent parrot/princess parrot hybrid           T148     B1, B2, B3, Companion Parrot
+Polytelis swainsonii x Polytelis alexandrae   Regent/superb parrot                           R/SH
+Polytelis swainsonii x Aprosmictus            Superb parrot                                  0277     B1, B2, B3, Companion  Parrot
+erythropterus                                 Superb parrot/princess parrot hybrid           T149     B1, B2, B3, Companion  Parrot
+Psephotus chrysopterygius                                                                             B1, B2, B3, Companion  Parrot
+Psephotus varius                              Superb parrot/ red-winged parrot hybrid        SP/RW    B1, B2, B3, Companion  Parrot
+
+                                              Golden-shouldered parrot                       0300     B1, B2, B3, Companion Parrot
+                                              Mulga parrot                                   0296
+                                                                                                      B1, B2, B3, Companion Parrot
+                                                                                                      B1, B2, B3, Companion Parrot
+
+                                                           8
+                                                NSW Native Animal Keeper Species List 2016
+
+                                                             Birds
+
+Scientific name                                 Common name                                   Species  Applicable to licence  Species group
+                                                                                              code     class
+
+Psephotus varius x Psephotus                    Mulga parrot/red-rumped parrot hybrid         T153     B1, B2, B3, Companion Parrot
+haematonotus
+Psephotus varius x Psephotus                    Mulga parrot/golden-shouldered parrot hybrid  T154     B1, B2, B3, Companion Parrot
+chrysopterygius
+Psitteuteles versicolor                         Varied lorikeet                               0257     B1, B2, B3, Companion  Parrot
+Psitteuteles versicolor x Glossopsitta pusilla  Varied lorikeet/little lorikeet hybrid        T150     B1, B2, B3, Companion  Parrot
+Ptilinopus regina                               Rose-crowned fruit-dove                       0021     B1, B2, B3, Companion  Pigeon and dove
+Sericornis citreogularis                        Yellow-throated scrubwren                     0493     B1, B2, B3, Companion  N/A
+Sericornis frontalis                            White-browed scrubwren                        0488     B1, B2, B3, Companion  N/A
+Stagonopleura guttata                           Diamond firetail                              0652     B1, B2, B3, Companion  Finch
+Taeniopygia bichenovii                          Double-barred finch                           0655     B1, B2, B3, Companion  Finch
+Taeniopygia bichenovii annulosa                 Black-ringed finch                            0656     B1, B2, B3, Companion  Finch
+Taeniopygia bichenovii x Taeniopygia
+guttata                                         Double-barred finch/zebra finch hybrid        T157     B1, B2, B3, Companion Finch
+Turnix melanogaster
+Alectura lathami                                Black-breasted button quail                   0017     B1, B2, B3, Companion  Quail
+Acanthagenys rufogularis                        Australian brush turkey                       0008     B2, B3                 N/A
+Acanthiza chrysorrhoa                           Spiny-cheeked honeyeater                      0640     B2, B3                 N/A
+Acanthorhynchus tenuirostris                    Yellow-rumped thornbill                       0486     B2, B3                 N/A
+Ailuroedus crassirostris                        Eastern spinebill                             0591     B2, B3                 N/A
+Amytornis striatus                              Green catbird                                 0676     B2, B3                 N/A
+Amytornis textilis                              Striated grasswren                            0513     B2, B3                 N/A
+                                                Thick-billed grasswren                        0512     B2, B3                 N/A
+
+                                                             9
+                           NSW Native Animal Keeper Species List 2016
+
+Scientific name                               Birds                   Species  Applicable to licence  Species group
+                                                                      code     class
+Anas castanea              Common name                                0210     B2, B3                 Waterfowl
+Anas gracilis                                                         0211     B2, B3                 Waterfowl
+Anas rhynchotis            Chestnut teal                              0212     B2, B3                 Waterfowl
+Anas superciliosa          Grey teal                                  0208     B2, B3                 Waterfowl
+Anseranas semipalmata      Australasian shoveler                      0199     B2, B3                 Waterfowl
+Anthochaera carunculata    Pacific black duck                         0638     B2, B3                 N/A
+Anthochaera chrysoptera    Magpie goose                               0710     B2, B3                 N/A
+Aplonis metallica          Red wattlebird                             0674     B2, B3                 N/A
+Ardea ibis                 Little wattlebird                          0977     B2, B3                 N/A
+Ardea picata               Metallic starling                          0190     B2, B3                 N/A
+Artamus cinereus           Cattle egret                               0546     B2, B3                 N/A
+Artamus cyanopterus        Pied heron                                 0547     B2, B3                 N/A
+Artamus superciliosus      Black-faced woodswallow                    0545     B2, B3                 N/A
+Aythya australis           Dusky woodswallow                          0215     B2, B3                 Waterfowl
+Burhinus grallarius        White-browed woodswallow                   0174     B2, B3                 N/A
+Centropus phasianinus      Hardhead                                   0349     B2, B3                 N/A
+Cereopsis novaehollandiae  Bush stone-curlew                          0198     B2, B3                 Waterfowl
+Certhionyx variegatus      Pheasant coucal                            0602     B2, B3                 N/A
+Charadrius australis       Cape barren goose                          0145     B2, B3                 N/A
+Chenonetta jubata          Pied honeyeater                            0202     B2, B3                 Waterfowl
+Chlamydera maculata        Inland dotterel                            0680     B2, B3                 N/A
+                           Australian wood duck
+                           Spotted bowerbird
+
+                                                                  10
+                                NSW Native Animal Keeper Species List 2016
+
+Scientific name                                    Birds                   Species  Applicable to licence  Species group
+                                                                           code     class
+Cladorhynchus leucocephalus     Common name                                0147     B2, B3                 N/A
+Corcorax melanorhamphos                                                    0693     B2, B3                 N/A
+Cyclopsitta diophthalma         Banded stilt                               0261     B2, B3                 Parrot
+Cyclopsitta diophthalma coxeni  White-winged chough                        8028     B2, B3                 Parrot
+Cygnus atratus                  Double-eyed fig-parrot                     0203     B2, B3                 Waterfowl
+Dacelo leachii                  Double-eyed fig-parrot                     0323     B2, B3                 N/A
+Dacelo novaeguineae             Black swan                                 0322     B2, B3                 N/A
+Dendrocygna arcuata             Blue-winged kookaburra                     0204     B2, B3                 Waterfowl
+Dendrocygna eytoni              Laughing kookaburra                        0205     B2, B3                 Waterfowl
+Dicaeum hirundinaceum           Wandering whistling duck                   0564     B2, B3                 N/A
+Ducula bicolor                  Plumed whistling duck                      0026     B2, B3                 Pigeon and dove
+Ducula bicolour spilorrhoa      Mistletoebird                              8839     B2, B3                 Pigeon and dove
+Egretta novaehollandiae         Pied imperial pigeon                       0188     B2, B3                 N/A
+Entomyzon cyanotis              Torresian imperial pigeon                  0641     B2, B3                 N/A
+Eopsaltria australis            White-faced heron                          0392     B2, B3                 N/A
+Epthianura albifrons            Blue-faced honeyeater                      0448     B2, B3                 N/A
+Epthianura aurifrons            Eastern yellow robin                       0450     B2, B3                 N/A
+Epthianura tricolor             White-fronted chat                         0449     B2, B3                 N/A
+Eulabeornis castaneoventris     Orange chat                                0047     B2, B3                 N/A
+Fulica atra                     Crimson chat                               0059     B2, B3                 Waterfowl
+Gallinula ventralis             Chestnut rail                              0055     B2, B3                 N/A
+                                Eurasian coot
+                                Black-tailed native hen
+
+                                                                       11
+                             NSW Native Animal Keeper Species List 2016
+
+Scientific name                                 Birds                   Species  Applicable to licence  Species group
+                                                                        code     class
+Gallirallus philippensis     Common name                                0046     B2, B3                 N/A
+Geophaps smithii                                                        0040     B2, B3                 Pigeon and dove
+Gymnorhina tibicen           Buff-banded rail                           0705     B2, B3                 N/A
+Himantopus himantopus        Partridge pigeon                           0146     B2, B3                 N/A
+Leucosarcia melanoleuca      Australian magpie                          0044     B2, B3                 Pigeon and dove
+Lichenostomus melanops       Black-winged stilt                         0619     B2, B3                 N/A
+Lichenostomus penicillatus   Wonga pigeon                               0625     B2, B3                 N/A
+Lopholaimus antarcticus      Yellow-tufted honeyeater                   0027     B2, B3                 Pigeon and dove
+Macropygia amboinensis       White-plumed honeyeater                    0029     B2, B3                 Pigeon and dove
+Malacorhynchus membranaceus  Topknot pigeon                             0213     B2, B3                 Waterfowl
+Malurus lamberti             Brown cuckoo-dove                          0536     B2, B3                 N/A
+Malurus amabilis             Pink-eared duck                            0539     B2, B3                 N/A
+Malurus coronatus            Variegated fairy-wren                      0542     B2, B3                 N/A
+Malurus cyaneus              Lovely fairy-wren                          0529     B2, B3                 N/A
+Malurus elegans              Purple-crowned fairy-wren                  0538     B2, B3                 N/A
+Malurus leucopterus          Superb fairy-wren                          0535     B2, B3                 N/A
+Malurus melanocephalus       Red-winged fairy-wren                      0541     B2, B3                 N/A
+Malurus pulcherrimus         White-winged fairy-wren                    0540     B2, B3                 N/A
+Malurus splendens            Red-backed fairy-wren                      0532     B2, B3                 N/A
+Manorina melanocephala       Blue-breasted fairy-wren                   0634     B2, B3                 N/A
+Melanodryas cucullata        Splendid fairy-wren                        0385     B2, B3                 N/A
+                             Noisy minor
+                             Hooded robin
+
+                                                                    12
+                              NSW Native Animal Keeper Species List 2016
+
+Scientific name                                  Birds                   Species  Applicable to licence  Species group
+                                                                         code     class
+Meliphaga lewinii             Common name                                0605     B2, B3                 N/A
+Merops ornatus                                                           0329     B2, B3                 N/A
+Myzomela sanguinolenta        Lewin’s honeyeater                         0586     B2, B3                 N/A
+Nectarinia jugularis          Rainbow bee-eater                          0572     B2, B3                 N/A
+Nettapus coromandelianus      Scarlet honeyeater                         0200     B2, B3                 Waterfowl
+Nettapus pulchellus           Olive-backed sunbird                       0201     B2, B3                 Waterfowl
+Oriolus sagittatus            Cotton pygmy-goose                         0671     B2, B3                 N/A
+Oxyura australis              Green pygmy-goose                          0216     B2, B3                 Waterfowl
+Pachycephala pectoralis       Olive-backed oriole                        0398     B2, B3                 N/A
+Petroica boodang              Blue-billed duck                           0380     B2, B3                 N/A
+Petroica goodenovii           Golden whistler                            0381     B2, B3                 N/A
+Petroica phoenicea            Scarlet robin                              0382     B2, B3                 N/A
+Petrophassa albipennis        Red-capped robin                           0037     B2, B3                 Pigeon and dove
+Petrophassa rufipennis        Flame robin                                0038     B2, B3                 Pigeon and dove
+Phalacrocorax melanoleucos    White-quilled rock-pigeon                  0100     B2, B3                 N/A
+Philemon corniculatus         Chestnut-quilled rock-pigeon               0645     B2, B3                 N/A
+Philemon citreogularis        Little pied cormorant                      0646     B2, B3                 N/A
+Phylidonyris nigra            Noisy friarbird                            0632     B2, B3                 N/A
+Phylidonyris novaehollandiae  Little friarbird                           0631     B2, B3                 N/A
+Pitta iris                    White-cheeked honeyeater                   0354     B2, B3                 N/A
+Pitta versicolor              New Holland honeyeater                     0352     B2, B3                 N/A
+                              Rainbow pitta
+                              Noisy pitta
+
+                                                                     13
+                           NSW Native Animal Keeper Species List 2016
+
+Scientific name                               Birds                   Species  Applicable to licence  Species group
+                                                                      code     class
+Platalea flavipes          Common name                                0182     B2, B3                 N/A
+Plegadis falcinellus                                                  0178     B2, B3                 N/A
+Podargus strigoides        Yellow-billed spoonbill                    0313     B2, B3                 N/A
+Porphyrio porphyrio        Glossy ibis                                0058     B2, B3                 N/A
+Probosciger aterrimus      Tawny frogmouth                            0263     B2, B3                 Parrot
+Psophodes olivaceus        Purple swamphen                            0421     B2, B3                 N/A
+Ptilinopus magnificus      Palm cockatoo                              0025     B2, B3                 Pigeon and dove
+Ptilinopus superbus        Eastern whipbird                           0023     B2, B3                 Pigeon and dove
+Ptilonorhynchus violaceus  Wompoo fruit-dove                          0679     B2, B3                 N/A
+Sericulus chrysocephalus   Superb fruit-dove                          0684     B2, B3                 N/A
+Sphecotheres vieilloti     Satin bowerbird                            0432     B2, B3                 N/A
+Stagonopleura bella        Regent bowerbird                           0650     B2, B3                 Finch
+Stagonopleura oculata      Australasian figbird                       0651     B2, B3                 Finch
+Stictonetta naevosa        Beautiful firetail                         0214     B2, B3                 Waterfowl
+Struthidea cinerea         Red-eared firetail                         0675     B2, B3                 N/A
+Tadorna radjah             Freckled duck                              0206     B2, B3                 Waterfowl
+Tadorna tadornoides        Apostlebird                                0207     B2, B3                 Waterfowl
+Threskiornis molucca       Radjah shelduck                            0179     B2, B3                 N/A
+Threskiornis spinicollis   Australian shelduck                        0180     B2, B3                 N/A
+Todiramphus pyrrhopygia    Australian white ibis                      0325     B2, B3                 N/A
+Todiramphus sanctus        Straw-necked ibis                          0326     B2, B3                 N/A
+                           Red-backed kingfisher
+                           Sacred kingfisher
+
+                                                                  14
+                          NSW Native Animal Keeper Species List 2016
+
+Scientific name                              Birds      Species       Applicable to licence  Species group
+                                                        code          class
+Turnix castanota          Common name                   0015          B2, B3                 Quail
+Turnix maculosa                                         0013          B2, B3                 Quail
+Turnix olivii             Chestnut-backed button-quail  0016          B2, B3                 Quail
+Turnix pyrrhothorax       Red-backed button-quail       0019          B2, B3                 Quail
+Vanellus miles            Buff-breasted button-quail    0133          B2, B3                 N/A
+Vanellus tricolor         Red-chested button-quail      0135          B2, B3                 N/A
+Zosterops lateralis       Masked lapwing                0574          B2, B3                 N/A
+Dromaius novaehollandiae  Banded lapwing                0001          B3                     N/A
+                          Silvereye
+                          Emu
+
+                          15
+                     NSW Native Animal Keeper Species List 2016
+
+Scientific name                     Mammals  Species             Applicable to licence  Species group
+                                             code                class
+Notomys alexis       Common name                                                        Rodent
+Pseudomys australis  Spinifex hopping-mouse  1481                M1                     Rodent
+                     Plains rat
+                                             1469                M1
+
+                     16
+                                          NSW Native Animal Keeper Species List 2016
+
+                                                                      Reptiles
+
+Scientific name                           Common name                               Species code  Applicable to licence class  Species group
+Acritoscincus platynota                   Red-throated cool-skink                   2464                                       Skink
+Amphibolurus muricatus                    Jacky lashtail                            2194          R1, R2, R3, R4, R5           Dragon
+Amphibolurus nobbi                        Nobbi lashtail                            2195                                       Dragon
+Anomalopus brevicollis                    Short-necked worm-skink                   2039          R1, R2, R3, R4, R5           Skink
+Anomalopus verreauxii                     Three-clawed worm-skink                   2295                                       Skink
+                                                                                                  R1, R2, R3, R4, R5           Python
+Antaresia childreni                       Children’s python                         2619
+                                                                                                  R1, R2, R3, R4, R5           Python
+Antaresia childreni x Antaresia           Children's/eastern small-blotched python  T162
+maculosa                                  hybrid                                    T169          R1, R2, R3, R4, R5           Python
+                                                                                                  R1, R2, R3, R4, R5,
+Antaresia childreni x Antaresia stimsoni  Children’s/stimson’s python hybrid                      Companion                    Python
+
+Antaresia maculosa                        Eastern small-blotched python             2818          R1, R2, R3, R4, R5,          Python
+                                                                                                  Companion
+Antaresia perthensis                      Pygmy python                              2622          R1, R2, R3, R4, R5,          Python
+                                                                                                  Companion
+Aspidites melanocephalus                  Black-headed python                       2612                                       Python
+                                                                                                  R1, R2, R3, R4, R5,          Colubridae
+Aspidites ramsayi                         Woma                                      2613          Companion                    Colubridae
+                                                                                                  R1, R2, R3, R4, R5,          Elapidae
+Boiga irregularis                         Eastern brown tree snake                  2630          Companion                    Elapidae
+Boiga irregularis fusca                   Northern brown tree snake                 T172                                       Elapidae
+Brachyurophis australis                   Eastern shovel-nosed snake                2711          R1, R2, R3, R4, R5,
+Cacophis krefftii                         Dwarf crowned snake                       2646          Companion
+Cacophis squamulosus                      Golden crowned snake                      2647
+                                                                                                  R1, R2, R3, R4, R5,
+                                                                                                  Companion
+
+                                                                                                  R1, R2, R3, R4, R5
+
+                                                                                                  R1, R2, R3, R4, R5
+                                                                                                  R1, R2, R3, R4, R5
+
+                                                                                                  R1, R2, R3, R4, R5
+
+                                                                                                  R1, R2, R3, R4, R5
+
+                                                                         17
+                           NSW Native Animal Keeper Species List 2016
+
+                                                        Reptiles
+
+Scientific name            Common name                            Species code  Applicable to licence class  Species group
+Chelodina canni                                                                                              Turtle/tortoise
+                           New guinea snake-necked turtle         2018          R1, R2, R3, R4, R5,
+Chelodina longicollis                                                           Companion                    Turtle/tortoise
+                           Eastern snake-necked turtle            2017
+Chelodina oblonga                                                               R1, R2, R3, R4, R5,          Turtle/tortoise
+                           Oblong snake-necked turtle             2019          Companion
+Chelodina Sp.                                                                                                Turtle/tortoise
+Christinus marmoratus      Long-necked turtle species unknown     T900          R1, R2, R3, R4, R5,          Gecko
+Cryptoblepharus virgatus                                                        Companion                    Skink
+Ctenophorus nuchalis       Marbled southern gecko                 2126                                       Dragon
+Ctenophorus pictus         Cream-striped shinning-skink           2331          R1, R2, R3, R4, R5,          Dragon
+Ctenotus regius                                                                 Companion                    Skink
+Ctenotus robustus          Central netted ground-dragon           2196                                       Skink
+Ctenotus taeniolatus       Painted ground-dragon                  2199          R1, R2, R3, R4, R5           Skink
+Cyclodomorphus casuarinae  Pale-rumped ctenotus                   2374                                       Skink
+                           Robust ctenotus                        2375          R1, R2, R3, R4, R5
+Cyclodomorphus gerrardii   Copper-tailed ctenotus                 2386                                       Skink
+                                                                                R1, R2, R3, R4, R5,
+Cyclodomorphus michaeli    She-oak slender bluetongue             2574          Companion                    Skink
+Delma tincta                                                                                                 Legless lizard
+Demansia psammophis        Pink-tongued skink                     2575          R1, R2, R3, R4, R5           Elapidae
+
+                           Mainland she-oak skink                 2866          R1, R2, R3, R4, R5
+
+                           Excitable delma                        2165          R1, R2, R3, R4, R5
+                           Yellow-faced whipsnake                 2655
+                                                                                R1, R2, R3, R4, R5
+
+                                                                                R1, R2, R3, R4, R5,
+                                                                                Companion
+
+                                                                                R1, R2, R3, R4, R5,
+                                                                                Companion
+
+                                                                                R1, R2, R3, R4, R5,
+                                                                                Companion
+
+                                                                                R1, R2, R3, R4, R5
+
+                                                                                R1, R2, R3, R4, R5
+
+                                                           18
+                             NSW Native Animal Keeper Species List 2016
+
+                                                       Reptiles
+
+Scientific name              Common name                          Species code  Applicable to licence class  Species group
+Dendrelaphis punctulatus                                                                                     Colubridae
+Denisonia devisi             Green tree snake                     2633          R1, R2, R3, R4, R5           Elapidae
+Diplodactylus steindachneri  De vis’s banded snake                2660          R1, R2, R3, R4, R5           Gecko
+Diplodactylus tessellatus    Box-patterned gecko                  2071          R1, R2, R3, R4, R5           Gecko
+Diplodactylus vittatus       Tesselated gecko                     2076          R1, R2, R3, R4, R5           Gecko
+Diporiphora australis        Eastern stone gecko                  2077          R1, R2, R3, R4, R5           Dragon
+Drysdalia coronoides         Eastern two-line dragon              2223          R1, R2, R3, R4, R5           Elapidae
+Drysdalia rhodogaster        White-lipped snake                   2665          R1, R2, R3, R4, R5           Elapidae
+Egernia cunninghami          Mustard-bellied snake                2805          R1, R2, R3, R4, R5           Skink
+Egernia frerei               Cunningham’s spiny-tailed skink      2408          R1, R2, R3, R4, R5           Skink
+Egernia hosmeri              Major skink                          2411          R1, R2, R3, R4, R5           Skink
+Egernia inornata             Hosmer’s spiny-tailed skink          2412          R1, R2, R3, R4, R5           Skink
+Egernia kingii               Unadorned desert-skink               2413          R1, R2, R3, R4, R5           Skink
+Egernia major                King’s skink                         2414          R1, R2, R3, R4, R5           Skink
+Egernia modesta              Land mullet                          2417          R1, R2, R3, R4, R5           Skink
+Egernia saxatilis            Eastern ranges rock-skink            2419          R1, R2, R3, R4, R5           Skink
+Egernia stokesii             Black crevice-skink                  2425          R1, R2, R3, R4, R5           Skink
+Egernia striolata            Gidgee spiny-tailed skink            2427          R1, R2, R3, R4, R5           Skink
+Egernia whitii               Tree-crevice skink                   2429          R1, R2, R3, R4, R5           Skink
+                             White’s rock-skink                   2430          R1, R2, R3, R4, R5
+Elseya dentata                                                                  R1, R2, R3, R4, R5,          Turtle/tortoise
+                             Northern snapping turtle             2028          Companion
+
+                                                              19
+                             NSW Native Animal Keeper Species List 2016
+
+Scientific name              Common name                 Reptiles                           Applicable to licence class  Species group
+Elseya latisternum           Saw-shelled turtle                                                                          Turtle/tortoise
+Elusor macrurus                                                               Species code  R1, R2, R3, R4, R5,          Turtle/tortoise
+Emydura macquarii                                                             2029          Companion                    Turtle/tortoise
+Emydura macquarii dharra                                                                                                 Turtle/tortoise
+Emydura macquarii dharuk     Mary river turtle                       2776                   R1, R2, R3, R4, R5,          Turtle/tortoise
+Emydura macquarii emmotti                                                                   Companion                    Turtle/tortoise
+Emydura macquarii gunabarra  Murray short-necked turtle              2034                                                Turtle/tortoise
+Emydura macquarii krefftii                                                                  R1, R2, R3, R4, R5,          Turtle/tortoise
+Emydura macquarii signata    Macleay river turtle                    2953                   Companion                    Turtle/tortoise
+Eremiascincus fasciolatus                                                                                                Skink
+Eremiascincus richardsonii   Sydney basin turtle                     2955                   R1, R2, R3, R4, R5,          Skink
+Eulamprus murrayi                                                                           Companion                    Skink
+Eulamprus quoyii             Cooper creek turtle                     2949                                                Skink
+Eulamprus tenuis                                                                            R1, R2, R3, R4, R5,          Skink
+                             Hunter river turtle                     2954                   Companion
+
+                             Krefft’s river turtle                   2033                   R1, R2, R3, R4, R5,
+                                                                                            Companion
+                             Brisbane river short-necked turtle      2035
+                             Narrow-banded sand-swimmer              2437                   R1, R2, R3, R4, R5,
+                             Broad-banded sand-swimmer               2438                   Companion
+                             Blue-spectacled forest skink            2552
+                                                                                            R1, R2, R3, R4, R5,
+                             Eastern water-skink                     2557                   Companion
+
+                             Bar-sided forest-skink                  2559                   R1, R2, R3, R4, R5,
+                                                                                            Companion
+
+                                                                                            R1, R2, R3, R4, R5
+
+                                                                                            R1, R2, R3, R4, R5
+
+                                                                                            R1, R2, R3, R4, R5,
+                                                                                            Companion
+
+                                                                                            R1, R2, R3, R4, R5,
+                                                                                            Companion
+
+                                                                                            R1, R2, R3, R4, R5,
+                                                                                            Companion
+
+                                                                 20
+                           NSW Native Animal Keeper Species List 2016
+
+                                                  Reptiles
+
+Scientific name            Common name                       Species code  Applicable to licence class  Species group
+Furina diadema             Red-naped snake                   2669                                       Elapidae
+Furina ornata              Orange-naped snake                2807          R1, R2, R3, R4, R5           Elapidae
+Gehyra australis           Top-end dtella                    2085          R1, R2, R3, R4, R5           Gecko
+Gehyra dubia               Dubious dtella                    2082          R1, R2, R3, R4, R5           Gecko
+Gehyra variegata           Varied dtella                     2092          R1, R2, R3, R4, R5           Gecko
+Hemiaspis signata          Marsh snake                       2674          R1, R2, R3, R4, R5           Elapidae
+Heteronotia binoei         Prickly gecko                     2105          R1, R2, R3, R4, R5           Gecko
+Heteronotia spelea         Cave prickly gecko                2106          R1, R2, R3, R4, R5           Gecko
+                                                                           R1, R2, R3, R4, R5
+Hypsilurus spinipes        Southern forest dragon            2245          R1, R2, R3, R4, R5,          Dragon
+                                                                           Companion
+Lampropholis delicata      Dark-flecked garden sunskink      2450          R1, R2, R3, R4, R5           Skink
+Lampropholis guichenoti    Pale-flecked garden sunskink      2451          R1, R2, R3, R4, R5           Skink
+Lerista bougainvillii      South-eastern slider              2475          R1, R2, R3, R4, R5           Skink
+Lialis burtonis            Burton's snake-lizard             2170          R1, R2, R3, R4, R5           Legless lizard
+Liasis fuscus              Water python                      2620          R1,R2,R3,R4,R5, Companion    Python
+                                                                           R1, R2, R3, R4, R5,
+Liasis olivaceus           Olive python                      2621          Companion                    Python
+                                                                           R1, R2, R3, R4, R5,
+Liasis stimsoni            Stimson’s python                  2819          Companion                    Python
+                                                                           R1, R2, R3, R4, R5
+Lophognathus burnsi        Burns' dragon                     2822          R1, R2, R3, R4, R5           Dragon
+Lophognathus gilberti      Gilbert’s lashtail                2246          R1, R2, R3, R4, R5           Dragon
+Lophognathus longirostris  Long-snouted lashtail             2247          R1, R2, R3, R4, R5           Dragon
+Lophognathus temporalis    Swamplands lashtail               2248                                       Dragon
+
+                                                         21
+                                           NSW Native Animal Keeper Species List 2016
+
+                                                                         Reptiles
+
+Scientific name                            Common name                              Species code  Applicable to licence class  Species group
+Lucasium damaeum                           Beaded gecko                             2109                                       Gecko
+Macrochelodina rugosa                      Northern snake-necked turtle             2020          R1, R2, R3, R4, R5           Turtle/tortoise
+Menetia greyii                                                                                                                 Skink
+Morelia bredli                             Common dwarf skink                       2519          R1, R2, R3, R4, R5,          Python
+                                           Centralian carpet python                 2623          Companion                    Python
+                                                                                                                               Python
+Morelia spilota cheyni                     Jungle carpet python                     5094          R1, R2, R3, R4, R5           Python
+                                                                                                                               Python
+Morelia spilota imbricata                  Western carpet python                    5098          R1, R2, R3, R4, R5,          Python
+                                                                                                  Companion                    Python
+Morelia spilota mcdowelli                  Eastern carpet python                    5095                                       Python
+                                                                                                  R1, R2, R3, R4, R5,          Python
+Morelia spilota metcalfei                  Murray/darling carpet python             5097          Companion                    Python
+                                                                                                                               Python
+Morelia spilota spilota                    Diamond python                           5096          R1, R2, R3, R4, R5,
+                                                                                    2625          Companion
+Morelia spilota unknown                    Carpet/diamond python sub species        5099
+                                           unknown                                  T903          R1, R2, R3, R4, R5,
+                                                                                    T164          Companion
+Morelia spilota variegata                  Top end carpet python                    T167
+                                                                                                  R1, R2, R3, R4, R5,
+Morelia spilota cheynei x Morelia spilota  Jungle/top end python hybrid                           Companion
+variegata                                  Coastal/Centralian carpet python hybrid
+                                           Coastal/jungle carpet python hybrid                    R1, R2, R3, R4, R5,
+Morelia spilota mcdowelli x Morelia                                                               Companion
+bredli
+                                                                                                  R1, R2, R3, R4, R5,
+Morelia spilota mcdowelli x Morelia                                                               Companion
+cheynei
+                                                                                                  R1, R2, R3, R4, R5,
+                                                                                                  Companion
+
+                                                                                                  R1, R2, R3, R4, R5
+
+                                                                                                  R1, R2, R3, R4, R5,
+                                                                                                  Companion
+
+                                                                                                  R1, R2, R3, R4, R5,
+                                                                                                  Companion
+
+                                                                         22
+                                             NSW Native Animal Keeper Species List 2016
+
+                                                                       Reptiles
+
+Scientific name                           Common name                            Species code  Applicable to licence class  Species group
+Morelia spilota spilota x Morelia bredli                                                                                    Python
+                                          Diamond/Centralian carpet python hybrid T165         R1, R2, R3, R4, R5,          Python
+                                                                                               Companion                    Python
+Morelia spilota spilota x Morelia cheynei Diamond/jungle python hybrid           T170                                       Python
+                                                                                 T171          R1, R2, R3, R4, R5,          Python
+Morelia spilota spilota x Morelia         Carpet/diamond python                  T166          Companion                    Skink
+mcdowelli                                                                        T185                                       Gecko
+                                          Diamond/coastal carpet python hybrid   2526          R1, R2, R3, R4, R5,          Gecko
+Morelia spilota spilota x Morelia                                                2777          Companion                    Gecko
+mcdowelli                                 Diamond/Murray/Darling carpet python                                              Gecko
+                                          hybrid                                               R1, R2, R3, R4, R5,          Gecko
+Morelia spilota spilota x Morelia         South-eastern morethia skink                         Companion                    Gecko
+metcalfei                                                                                                                   Gecko
+                                                                                               R1, R2, R3, R4, R5,
+Morethia boulengeri                                                                            Companion
+
+Nephrurus amyae                           Centralian rough knob-tail gecko                     R1,R2,R3,R4,R5
+
+Nephrurus asper                           Rough knob-tail gecko                  2110          R1, R2, R3, R4, R5,
+                                                                                               Companion
+Nephrurus laevissimus                     Smooth knob-tail gecko                 2111
+                                                                                               R1, R2, R3, R4, R5,
+Nephrurus levis                           Three-lined knob-tail gecko            2112          Companion
+
+Nephrurus levis levis                     Smooth knob-tail gecko                 2962          R1, R2, R3, R4, R5,
+                                                                                               Companion
+Nephrurus levis occidentalis              –                                      2963
+                                                                                               R1, R2, R3, R4, R5,
+Nephrurus levis pilbarensis               Smooth knob-tail gecko                 2964          Companion
+
+                                                                                               R1, R2, R3, R4, R5,
+                                                                                               Companion
+
+                                                                                               R1, R2, R3, R4, R5,
+                                                                                               Companion
+
+                                                                                               R1, R2, R3, R4, R5,
+                                                                                               Companion
+
+                                                                            23
+                                  NSW Native Animal Keeper Species List 2016
+
+                                                            Reptiles
+
+Scientific name                   Common name                          Species code  Applicable to licence class  Species group
+Nephrurus sheai                                                                                                   Gecko
+                                  Kimberley rough knob-tail gecko      2778          R1, R2, R3, R4, R5,
+Nephrurus stellatus                                                                  Companion                    Gecko
+                                  Stellate knob-tail gecko             2113
+Nephrurus wheeleri                                                                   R1, R2, R3, R4, R5,          Gecko
+                                  Banded knob-tail gecko               2115          Companion
+Oedura castelnaui                                                                                                 Gecko
+Oedura coggeri                    Northern velvet gecko                2116          R1, R2, R3, R4, R5,          Gecko
+Oedura filicipoda                                                                    Companion                    Gecko
+Oedura lesueurii                  Northern spotted velvet gecko        2117                                       Gecko
+Oedura marmorata                  Fringe-toed velvet gecko             2131          R1, R2, R3, R4, R5,          Gecko
+Oedura monilis                    Lesueur's velvet gecko               2118          Companion                    Gecko
+Oedura robusta                    Marbled velvet gecko                 2119                                       Gecko
+Oedura tryoni                     Ocellated velvet gecko               2120          R1, R2, R3, R4, R5           Gecko
+Parasuta dwyeri                   Robust velvet gecko                  2123                                       Elapidae
+Phyllurus platurus                Southern spotted velvet gecko        2124          R1, R2, R3, R4, R5           Gecko
+                                  Variable black-naped snake           2726
+Physignathus lesueurii                                                               R1, R2, R3, R4, R5           Dragon
+                                  Broad-tailed gecko                   2129
+Physignathus lesueurii lesueurii                                                     R1, R2, R3, R4, R5           Dragon
+                                  Eastern water dragon                 2252
+Physignathus lesueurii howitti                                                       R1, R2, R3, R4, R5           Dragon
+                                  Eastern water dragon                 5075
+                                                                                     R1, R2, R3, R4, R5
+                                  Gippsland water dragon               5076
+                                                                                     R1, R2, R3, R4, R5
+
+                                                                                     R1, R2, R3, R4, R5
+
+                                                                                     R1, R2, R3, R4, R5,
+                                                                                     Companion
+
+                                                                                     R1, R2, R3, R4, R5,
+                                                                                     Companion
+
+                                                                                     R1, R2, R3, R4, R5,
+                                                                                     Companion
+
+                                                                                     R1, R2, R3, R4, R5,
+                                                                                     Companion
+
+                                                                   24
+                                   NSW Native Animal Keeper Species List 2016
+
+                                                               Reptiles
+
+Scientific name                    Common name                            Species code  Applicable to licence class  Species group
+Pogona barbata                                                                                                       Dragon
+Pogona barbata x Pogona vitticeps  Eastern bearded dragon                 2177          R1, R2, R3, R4, R5,          Dragon
+Pogona henrylawsoni                                                                     Companion                    Dragon
+Pogona minima                      Eastern/central bearded dragon hybrid  T163                                       Dragon
+Pogona minor                                                                            R1, R2, R3, R4, R5,          Dragon
+Pogona mitchelli                   Black-soil bearded dragon              2775          Companion                    Dragon
+Pogona vitticeps                                                                                                     Dragon
+Pygopus lepidopodus                Western bearded dragon                 2191          R1, R2, R3, R4, R5,          Legless lizard
+Pygopus nigriceps                                                                       Companion                    Legless lizard
+Pygopus schraderi                  Western bearded dragon                 2192                                       Legless lizard
+Rankinia diemensis                                                                      R1, R2, R3, R4, R5,          Dragon
+Saltuarius cornutus                North-west bearded dragon              2193          Companion                    Gecko
+Saltuarius salebrosus                                                                                                Gecko
+Saltuarius swaini                  Central bearded dragon                 2204          R1, R2, R3, R4, R5,          Gecko
+Stegonotus cucullatus                                                                   Companion                    Colubridae
+                                   Southern scaly-foot                    2174
+                                   Western scaly-foot                     2175          R1, R2, R3, R4, R5,
+                                   Eastern hooded scaly-foot              2911          Companion
+                                   Mountain heath dragon                  2182
+                                                                                        R1, R2, R3, R4, R5,
+                                   Northern leaf-tail gecko               2128          Companion
+
+                                   Rough-throated leaf-tail gecko         2130          R1, R2, R3, R4, R5
+
+                                   Southern leaf-tailed gecko             2687          R1, R2, R3, R4, R5
+                                   Slaty-grey snake                       2638
+                                                                                        R1, R2, R3, R4, R5
+
+                                                                                        R1, R2, R3, R4, R5
+
+                                                                                        R1, R2, R3, R4, R5,
+                                                                                        Companion
+
+                                                                                        R1, R2, R3, R4, R5,
+                                                                                        Companion
+
+                                                                                        R1, R2, R3, R4, R5,
+                                                                                        Companion
+
+                                                                                        R1, R2, R3, R4, R5
+
+                                                                   25
+                                         NSW Native Animal Keeper Species List 2016
+
+                                                                        Reptiles
+
+Scientific name                          Common name                              Species code  Applicable to licence class  Species group
+Strophurus ciliaris                      Northern spiny-tailed gecko              2053                                       Gecko
+Strophurus intermedius                   Southern spiny-tailed gecko              2059          R1, R2, R3, R4, R5           Gecko
+Strophurus taenicauda                    Golden spiny-tailed gecko                2075                                       Gecko
+Strophurus williamsi                     Eastern spiny-tailed gecko               2078          R1, R2, R3, R4, R5           Gecko
+Tiliqua nigrolutea                       Blotched bluetongue                      2578                                       Skink
+Tiliqua rugosa                                                                                  R1, R2, R3, R4, R5,          Skink
+Tiliqua scincoides                       Shingleback lizard                       2583          Companion                    Skink
+Tiliqua scincoides x Tiliqua nigrolutea                                                                                      Skink
+Underwoodisaurus milii                   Common bluetongue                        2580          R1,R2,R3,R4,R5               Gecko
+Varanus acanthurus                                                                                                           Monitor
+Varanus gilleni                          Eastern/blotched bluetongue hybrid       T168          R1, R2, R3, R4, R5,          Monitor
+Varanus gouldii                                                                                 Companion                    Monitor
+Varanus tristis                          Thick-tailed gecko                       2138                                       Monitor
+Acrochordus arafurae                                                                            R1, R2, R3, R4, R5,          File and blind
+Carettochelys insculpta                  Ocellate ridge-tailed monitor            2263          Companion                    Turtle/tortoise
+
+                                         Pygmy mulga monitor                      2268          R1, R2, R3, R4, R5,
+                                                                                                Companion
+                                         Sand monitor                             2271
+                                                                                                R1, R2, R3, R4, R5,
+                                         Black-tailed monitor                     2282          Companion
+
+                                         Arafura file snake                       2627          R1, R2, R3, R4, R5,
+                                         Pig-nosed turtle                         2014          Companion
+
+                                                                                                R1, R2, R3, R4, R5,
+                                                                                                Companion
+
+                                                                                                R1, R2, R3, R4, R5,
+                                                                                                Companion
+
+                                                                                                R1, R2, R3, R4, R5,
+                                                                                                Companion
+
+                                                                                                R1, R2, R3, R4, R5,
+                                                                                                Companion
+
+                                                                                                R2, R3, R4, R5
+
+                                                                                                R2, R3, R4, R5
+
+                                                                        26
+                                NSW Native Animal Keeper Species List 2016
+
+                                Reptiles
+
+Scientific name                 Common name                           Species code  Applicable to licence class  Species group
+
+Carlia coensis                  Coen rainbow-skink                    2305          R2, R3, R4, R5               Skink
+Carphodactylus laevis           Chameleon gecko                       2046          R2, R3, R4, R5               Gecko
+Chelodina steindachneri         Flat-shelled snake-necked turtle      2021          R2, R3, R4, R5               Turtle/tortoise
+Chlamydosaurus kingii           Frilled lizard                        2221          R2, R3, R4, R5               Dragon
+Ctenophorus caudicinctus        Ring-tailed bicycle-dragon            2178          R2, R3, R4, R5               Dragon
+Ctenophorus cristatus           Crested bicycle-dragon                2180          R2, R3, R4, R5               Dragon
+Ctenophorus decresii            Tawny crevice-dragon                  2181          R2, R3, R4, R5               Dragon
+Ctenophorus fionni              Peninsula crevice-dragon              2184          R2, R3, R4, R5               Dragon
+Ctenophorus isolepis            Military sand-dragon                  2187          R2, R3, R4, R5               Dragon
+Ctenophorus reticulatus         Western netted ground-dragon          2200          R2, R3, R4, R5               Dragon
+Ctenophorus vadnappa            Red-barred crevice-dragon             2203          R2, R3, R4, R5               Dragon
+Ctenotus leonhardii             Leonhardi’s ctenotus                  2365          R2, R3, R4, R5               Skink
+Ctenotus pantherinus            Leopard ctenotus                      2370          R2, R3, R4, R5               Skink
+Ctenotus pantherinus ocellifer  Leopard ctenotus                      2993          R2, R3, R4, R5               Skink
+Ctenotus saxatilis              Stony-soil ctenotus                   2377          R2, R3, R4, R5               Skink
+Cyrtodactylus louisiadensis     Ring-tailed gecko                     2049          R2, R3, R4, R5               Gecko
+Delma impar                     Striped legless lizard                2159          R2, R3, R4, R5               Legless lizard
+Delma inornata                  Patternless delma                     2160          R2, R3, R4, R5               Legless lizard
+Demansia papuensis              Greater black whipsnake               2654          R2, R3, R4, R5               Elapidae
+Dendrelaphis calligastra        Northern tree snake                   2632          R2, R3, R4, R5               Colubridae
+Diplodactylus byrnei            Gibber gecko                          2052          R2, R3, R4, R5               Gecko
+Diplodactylus conspicillatus    Fat-tailed diplodactylus              2054          R2, R3, R4, R5               Gecko
+
+                                                                  27
+                               NSW Native Animal Keeper Species List 2016
+
+                               Reptiles
+
+Scientific name                Common name                       Species code  Applicable to licence class  Species group
+
+Diplodactylus elderi           Jewelled gecko                    2055          R2, R3, R4, R5               Gecko
+Diplodactylus galeatus         Helmeted gecko                    2057          R2, R3, R4, R5               Gecko
+Diplodactylus granariensis     Wheat-belt stone gecko            2058          R2, R3, R4, R5               Gecko
+Diplodactylus stenodactylus    Crowned gecko                     2072          R2, R3, R4, R5               Gecko
+Diporiphora bennettii          Robust two-line dragon            2224          R2, R3, R4, R5               Dragon
+Diporiphora bilineata          Northern two-line dragon          2225          R2, R3, R4, R5               Dragon
+Diporiphora magna              Yellow-sided two-line dragon      2229          R2, R3, R4, R5               Dragon
+Diporiphora winneckei          Canegrass two-line dragon         2235          R2, R3, R4, R5               Dragon
+Egernia depressa               Pygmy spiny-tailed skink          2409          R2, R3, R4, R5               Skink
+Egernia margaretae margaretae  Centralian Ranges rock-skink      5006          R2, R3, R4, R5               Skink
+Egernia margaretae personata   Flinder’s Ranges rock-skink       5007          R2, R3, R4, R5               Skink
+Egernia mcpheei                Eastern crevice skink             2213          R2, R3, R4, R5               Skink
+Egernia pulchra                South-western rock-skink          2422          R2, R3, R4, R5               Skink
+Egernia rugosa                 Yakka skink                       2424          R2, R3, R4, R5               Skink
+Egernia striata                Nocturnal desert-skink            2428          R2, R3, R4, R5               Skink
+Elseya albagula                Southern snapping turtle          5135          R2, R3, R4, R5               Turtle/tortoise
+Elseya belli                   Bell’s turtle                     2825          R2, R3, R4, R5               Turtle/tortoise
+Elseya irwini                  Irwin’s turtle                    2827          R2, R3, R4, R5               Turtle/tortoise
+Elseya lavarackorum            Gulf snapping turtle              2828          R2, R3, R4, R5               Turtle/tortoise
+Emydura australis              North-west red-faced turtle       2830          R2, R3, R4, R5               Turtle/tortoise
+Emydura subglobosa             Painted short-necked turtle       2036          R2, R3, R4, R5               Turtle/tortoise
+Emydura tanybaraga             Northern yellow-faced turtle      2831          R2, R3, R4, R5               Turtle/tortoise
+
+                                                             28
+                              NSW Native Animal Keeper Species List 2016
+
+                              Reptiles
+
+Scientific name               Common name                           Species code  Applicable to licence class  Species group
+
+Emydura victoriae             Northern red-faced turtle             2037          R2, R3, R4, R5               Turtle/tortoise
+Enhydris polylepis            Macleay’s water snake                 2634          R2, R3, R4, R5               Colubridae
+Eulamprus martini             Dark barsided skink                   2720          R2, R3, R4, R5               Skink
+Eulamprus tryoni              Tryon’s skink                         2871          R2, R3, R4, R5               Skink
+Eulamprus tympanum            Cool-temperate water-skink            2561          R2, R3, R4, R5               Skink
+Gehyra montium                Centralian dtella                     2083          R2, R3, R4, R5               Gecko
+Gnypetoscincus queenslandiae  Prickly forest skink                  2584          R2, R3, R4, R5               Skink
+Hypsilurus boydii             Boyd’s forest dragon                  2243          R2, R3, R4, R5               Dragon
+Leiopython albertisii         White-lipped python                   2617          R2, R3, R4, R5               Python
+Lepidodactylus lugubris       Mourning chained gecko                2107          R2, R3, R4, R5               Gecko
+Macrochelodina burrungandjii  Sandstone long-necked turtle          2906          R2, R3, R4, R5               Turtle/tortoise
+Macrochelodina expansa        Broad-shelled snake-necked turtle     2016          R2, R3, R4, R5               Turtle/tortoise
+Morelia amethistina           Amethyst python                       2618          R2, R3, R4, R5               Python
+Morelia carinata              Rough-scaled python                   2624          R2, R3, R4, R5               Python
+Morelia viridis               Green python (Australian provenance)  2616          R2, R3, R4, R5               Python
+Oedura gemmata                Dotted velvet gecko                   2132          R2, R3, R4, R5               Gecko
+Pogona microlepidota          Kimberley bearded dragon              2190          R2, R3, R4, R5               Dragon
+Pseudothecadactylus lindneri  Giant cave gecko                      2135          R2, R3, R4, R5               Gecko
+Ramphotyphlops nigrescens     Blackish blind snake                  2599          R2, R3, R4, R5               File and blind
+Rheodytes leukops             Fitzroy river turtle                  2045          R2, R3, R4, R5               Turtle/tortoise
+Rhynchoedura ornata           Beaked gecko                          2137          R2, R3, R4, R5               Gecko
+Saltuarius wyberba            Granite leaf-tailed gecko             2851          R2, R3, R4, R5               Gecko
+
+                              29
+                               NSW Native Animal Keeper Species List 2016
+
+                               Reptiles
+
+Scientific name                Common name                             Species code  Applicable to licence class  Species group
+
+Strophurus spinigerus          South-west spiny-tailed gecko           2069          R2, R3, R4, R5               Gecko
+Tiliqua multifasciata          Centralian blue-tongued lizard          2577          R2, R3, R4, R5               Skink
+Tiliqua occipitalis            Western blue-tongued lizard             2579          R2, R3, R4, R5               Skink
+Tiliqua scincoides intermedia  Northern blue-tongue lizard             5057          R2, R3, R4, R5               Skink
+Tropidonophis mairii           Keelback snake                          2629          R2, R3, R4, R5               Colubridae
+Tympanocryptis cephalus        Blotch-tailed earless dragon            2253          R2, R3, R4, R5               Dragon
+Tympanocryptis lineata         Lined earless dragon                    2255          R2, R3, R4, R5               Dragon
+Tympanocryptis tetraporophora  Long-tailed earless dragon              2257          R2, R3, R4, R5               Dragon
+Underwoodisaurus sphyrurus     Border thick-tailed gecko               2139          R2, R3, R4, R5               Gecko
+Varanus baritji                Black-spotted ridge-tailed monitor      2733          R2, R3, R4, R5               Monitor
+Varanus brevicauda             Short-tailed pygmy monitor              2264          R2, R3, R4, R5               Monitor
+Varanus caudolineatus          Line-tailed pygmy monitor               2265          R2, R3, R4, R5               Monitor
+Varanus giganteus              Perentie                                2267          R2, R3, R4, R5               Monitor
+Varanus glauerti               Kimberley rock monitor                  2269          R2, R3, R4, R5               Monitor
+Varanus indicus                Mangrove monitor                        2272          R2, R3, R4, R5               Monitor
+Varanus kingorum               Pygmy rock monitor                      2284          R2, R3, R4, R5               Monitor
+Varanus mertensi               Mertens’s water monitor                 2273          R2, R3, R4, R5               Monitor
+Varanus mitchelli              Mitchell's water monitor                2274          R2, R3, R4, R5               Monitor
+Varanus panoptes               Yellow-spotted monitor                  2285          R2, R3, R4, R5               Monitor
+Varanus primordius             Northern blunt-spined monitor           2276          R2, R3, R4, R5               Monitor
+Varanus rosenbergi             Rosenberg’s goanna                      2287          R2, R3, R4, R5               Monitor
+Varanus scalaris               Spotted tree monitor                    2281          R2, R3, R4, R5               Monitor
+
+                                                                   30
+                                  NSW Native Animal Keeper Species List 2016
+
+                                  Reptiles
+
+Scientific name                   Common name                         Species code  Applicable to licence class  Species group
+                                  Spencer’s monitor                   2279          R2, R3, R4, R5               Monitor
+Varanus spenceri                  Storr’s monitor                     2280          R2, R3, R4, R5               Monitor
+Varanus storri                    Lace monitor                        2283          R2, R3, R4, R5               Monitor
+Varanus varius                    Pale-headed snake                   2675          R3, R4, R5                   Elapidae
+Hoplocephalus bitorquatus         Pale-headed/stephens’ banded snake
+Hoplocephalus bitorquatus x       hybrid                              T161          R3, R4, R5                   Elapidae
+Hoplocephalus stephensii          Broad-headed snake
+Hoplocephalus bungaroides         Stephens’ banded snake              2676          R3, R4, R5                   Elapidae
+Hoplocephalus stephensii          Spectacled hooded snake             2677          R3, R4, R5                   Elapidae
+Parasuta spectabilis                                                  2813          R3, R4, R5                   Elapidae
+Parasuta spectabilis spectabilis  Collett’s snake                     5112          R3, R4, R5                   Elapidae
+Pseudechis collettii              Red-bellied black snake             2691          R3, R4, R5                   Elapidae
+Pseudechis porphyriacus           Little whip snake                   2693          R3, R4, R5                   Elapidae
+Suta flagellum                    Mainland tiger snake                2727          R3, R4, R5                   Elapidae
+Notechis scutatus                 Eastern bandy-bandy                 2681          R4, R5                       Elapidae
+Vermicella annulata               Southern death adder                2734          R3, R4, R5                   Elapidae
+Acanthophis antarcticus           Northern death adder                2640          R4, R5                       Elapidae
+Acanthophis praelongus            Desert death adder                  2804          R4, R5                       Elapidae
+Acanthophis Pyrrhus               Pilbara death adder                 2641          R4, R5                       Elapidae
+Acanthophis wellsei               Highlands copperhead                2833          R4, R5                       Elapidae
+Austrelaps ramsayi                Lowlands copperhead                 2615          R4, R5                       Elapidae
+Austrelaps superbus               Eastern small-eyed snake            2642          R4, R5                       Elapidae
+Cryptophis nigrescens                                                 2650          R4, R5                       Elapidae
+
+                                  31
+                          NSW Native Animal Keeper Species List 2016
+
+Scientific name           Common name           Reptiles                           Applicable to licence class  Species group
+
+Denisonia maculata        Ornamental snake                           Species code  R4, R5                       Elapidae
+Notechis ater             Black tiger snake                          2662          R4, R5                       Elapidae
+Pseudechis affinis        Dugite                                     2680          R4, R5                       Elapidae
+Pseudechis australis      Mulga snake                                2694          R4, R5                       Elapidae
+Pseudechis butleri        Spotted mulga snake                        2690          R4, R5                       Elapidae
+Pseudechis guttatus       Spotted black snake                        2814          R4, R5                       Elapidae
+Pseudonaja ingrami        Ingram’s brown snake                       2692          R4, R5                       Elapidae
+Pseudonaja modesta        Ringed brown snake                         2696          R4, R5                       Elapidae
+Pseudonaja nuchalis       Mulga                                      2697          R4, R5                       Elapidae
+Suta suta                 Curl snake                                 2698          R4, R5                       Elapidae
+Oxyuranus microlepidotus  Fierce snake                               2722          R5                           Elapidae
+Oxyuranus scutellatus     Taipan                                     2689          R5                           Elapidae
+Pseudonaja guttata        Speckled brown snake                       2688          R5                           Elapidae
+Pseudonaja textilis       Eastern brown snake                        2695          R5                           Elapidae
+Pseudechis weigeli        –                                          2699          R5                           Elapidae
+Tropidechis carinatus     Rough-scaled snake                         T1041         R5                           Elapidae
+                                                                     2723
+
+                                                32
+                               NSW Native Animal Keeper Species List 2016
+
+                                                    Exempt species
+
+A certificate or licence is not required to buy, sell (including commercial trade through pet shops) or hold these 41 species
+
+Cacatua galerita               Cacatua pastinator butleri         Cacatua roseicapilla           Cacatua sanguinea
+Sulphur-crested cockatoo       Western corella                    Galah                          Little corella
+
+Cacatua tenuirostris           Nymphicus hollandicus              Trichoglossus chlorolepidotus  Trichoglossus haematodus
+Long-billed corella            Cockatiel                          Scaly-breasted lorikeet        Rainbow lorikeet
+
+Trichoglossus rubritorquis     Glossopsitta concinna              Polytelis alexandrae           Platycercus adscitus
+Red-collared lorikeet          Musk lorikeet                      Princess parrot                Pale-headed rosella
+
+Platycercus elegans adelaidae  Platycercus elegans flaveolus      Platycercus eximius            Platycercus icterotis
+Adelaide rosella               Yellow rosella                     Eastern rosella                Western rosella
+
+Purpureicephalus spurious      Barnardius zonarius                Barnardius zonarius zonarius   Psephotus dissimilis
+Red-capped parrot              semitorquatus                      Port lincoln parrot            Hooded parrot
+
+                               Twenty-eight parrot
+
+Psephotus haematonotus         Neopsephotus bourkii               Neophema elegans               Neophema splendida
+Red-rumped parrot              Bourke’s parrot                    Elegant parrot                 Scarlet-chested parrot
+
+Melopsittacus undulatus        Coturnix chinensis                 Coturnix pectoralis            Coturnix ypsilophora
+Budgerigar                     King quail                         Stubble quail                  Brown quail
+
+Turnix varia                   Turnix velox                       Geopelia cuneata               Geopelia humeralis
+Painted button-quail           Little button-quail                Diamond dove                   Bar-shouldered dove
+
+Geopelia striata               Phaps chalcoptera                  Ocyphaps lophotes              Chalcophaps indica
+Peaceful dove                  Common bronzewing                  Crested pigeon                 Emerald dove
+
+Neochmia ruficauda             Emblema pictum                     Erythrura gouldiae             Erythrura trichroa
+Star finch                     Painted finch                      Gouldian finch                 Blue-faced parrot finch
+
+Taeiopygia guttata
+Zebra finch
+
+                                                              33
+                                                       NSW Native Animal Keeper Species List 2016
+
+Keeping native animals as pets
+
+Where can I find out about animal keeping?
+
+The Office of Environment and Heritage recommends that native animal enthusiasts join a local animal keeper group that is relevant to their
+animal/s of interest. You will be able to share knowledge, experience and expertise with other keepers of similar native animals, trade animals
+and, perhaps, participate in field observation and research activities (Table 1).
+
+Table 1: Names and location of some animal keeper groups in NSW.
+
+Group                                                  Address                                     Website/Facebook page
+Reptile and frog groups
+Australian Herpetological Society                      PO Box R79 Royal Exchange Sydney NSW 1225   www.ahs.org.au
+Australian Society of Herpetologists                                                               www.australiansocietyofherpetologists.org
+Central Coast Herpetological Society                   PO Box 9040 Wyoming NSW 2250                www.ccherps.org.au/
+Hawkesbury Herpetological Society                      PO Box 680 Penrith NSW 2751                 www.hawkesburyherps.com.au
+Frog and Tadpole Study Group of NSW                    PO Box 296 Rockdale NSW 2216                www.fats.org.au
+Macarthur Herpetological Society                       PO Box 235 Narellan NSW 2567                www.macarthurreptiles.com.au
+North Coast Herpetological Group                       PO Box 8006 Flynns Beach NSW 2444           www.facebook.com/pages/North-Coast-Herpetology-
+                                                                                                   Group/298278363610498
+Orana Herpetological Society                           PO Box 809 Mudgee NSW 2850                  www.snakyo.tripod.com
+Shoalhaven Reptile Club                                P.O Box 809 Nowra 2541                      www.shoalhavenreptileclub.com
+Illawarra Reptile Society                              PO Box 183 Albion Park NSW 2527             www.illawarrareptilesociety.com.au
+Bird groups
+Associated Bird Keepers of Australia Inc               PO Box 41 Berry NSW 2535                    www.birdkeepers.com.au
+Avicultural Society of NSW                             PO Box 482 West Ryde NSW 1685               www.aviculturalsocietynsw.org
+The Canary and Cage Bird Federation of Australia Inc.  PO Box 230 Frenchs Forest NSW 1640
+Parrot Society of Australia (NSW) Inc                  PO Box 783 Seven Hills NSW 2147             www.parrotsocietynsw.com/index.php/en
+Mammal groups
+The Australian Mammal Society                                                                      www.australianmammals.org.au
+
+                                                                  34
+NSW Native Animal Keeper Species List 2016
+                             35
+

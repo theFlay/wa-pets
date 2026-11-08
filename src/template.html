@@ -243,13 +243,15 @@ const STATES=INFO.states;
 let STATE=(()=>{try{return localStorage.getItem("waState")}catch(e){return null}})()||"WA";
 if(!STATES.find(x=>x.id===STATE))STATE="WA";
 const stInfo=id=>STATES.find(x=>x.id===id);
-const NODATA=()=>({level:"none",label:"Not added yet",detail:`${stInfo(STATE).name}'s official lists haven't been added yet.`,src:"States still to add",url:"https://github.com/theFlay/wa-pets/blob/main/docs/STATES.md",checked:""});
+const NODATA=()=>{const st=stInfo(STATE);return st.ready
+  ?{level:"none",label:"Not on "+st.id+"'s lists",detail:st.default,src:(st.sources[0]||[])[0]||"",url:(st.sources[0]||[])[1]||"#",checked:""}
+  :{level:"none",label:"Not added yet",detail:`${st.name}'s official lists haven't been added yet.`,src:"States still to add",url:"https://github.com/theFlay/wa-pets/blob/main/docs/STATES.md",checked:""}};
 const stOf=m=>(m&&m[STATE])||NODATA();
 const rowSt=(S,x)=>x[3][STATE]!=null?S[x[3][STATE]]:NODATA();
-const lvlName=l=>({ok:"Allowed",permit:"Permit",check:"Check",no:"Banned",none:"Not added"})[l]||l;
+const lvlName=l=>({ok:"Allowed",permit:"Permit",check:"Check",no:"Banned",none:stInfo(STATE).ready?"Not listed":"Not added"})[l]||l;
 function stateNotes(){
   const st=stInfo(STATE);
-  document.getElementById("stnote").textContent=st.ready?"":"Not added yet: only Western Australia has statuses so far.";
+  document.getElementById("stnote").textContent=STATE==="WA"?"":st.ready?`Loaded for ${st.id}: ${st.sources.map(x=>x[0]).join("; ")}. ${st.default}`:"Not added yet.";
   document.getElementById("fnote").innerHTML=STATE==="WA"?"":`<div class="soon"><b>This guide is Western Australia's</b>The pet keeper's licence and its A, B and C categories are WA rules. ${esc(st.name)} licenses native animals differently and hasn't been added yet.</div>`}
 const stSel=document.getElementById("state");
 stSel.innerHTML=STATES.map(x=>`<option value="${x.id}"${x.id===STATE?" selected":""}>${esc(x.name)}${x.ready?"":" (coming)"}</option>`).join("");

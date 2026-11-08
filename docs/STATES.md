@@ -1,55 +1,49 @@
 # State and territory sources
 
-Only Western Australia's lists are loaded so far. This file records where each other state's official lists are, so they can be added one at a time. Nothing here has been downloaded or parsed yet.
-
 Each state usually has three separate kinds of rules, often run by different departments:
 
 1. **Native animal keeping**: which native animals need a licence and which are exempt (environment department)
-2. **Pests and biosecurity**: prohibited or restricted animals and plants, including exotics (agriculture or primary industries department)
+2. **Pests and biosecurity**: prohibited or restricted animals and plants, including exotics (agriculture department)
 3. **Fish and aquatic animals**: noxious or prohibited aquatic species (fisheries)
 
-How adding a state works: write an `add_<state>(cat)` function in `tools/realms.py` that reads the state's lists and calls `cat.add(..., "<STATE>", status)`. Species already in the catalogue (matched on scientific name) just gain that state's status, so nothing is duplicated. Extend `guide_statuses()` the same way for the hobby guides. The state picker switches from "(coming)" to live by itself once a state has any statuses.
+## What's loaded
 
-## Western Australia (loaded)
+| State | Native keeping | Pests and biosecurity | Fish |
+|---|---|---|---|
+| WA | DBCA pet keeper's licence (fauna guide) | WA Organism List (full, weekly) | Noxious and high-risk lists (weekly) |
+| NSW | Native Animal Keeper Species List 2016 (505 species) | not yet | not yet |
+| VIC | Wildlife Regulations 2024, Schedules 2, 3, 4, 7 (315) | not yet | not yet |
+| QLD | Animals Regulation 2020, Schedule 3 (608, incl. genus entries) | illegal pets fact sheet (examples only) | fact sheet examples only |
+| SA | Keeping categories species list (360) | not yet | not yet |
+| TAS | Requirements for importing and keeping wildlife (2017, 309) | covered by the same document for vertebrates | not yet |
+| NT | Exempt native and non-native no-permit lists (70) | not yet | not yet |
+| ACT | Exempt Animals Declaration 2026 (81) | not yet | not yet |
 
-- Pests and imports: DPIRD [WA Organism List](https://www.dpird.wa.gov.au/online-tools/western-australian-organism-list/), full CSV export
-- Fish: DPIRD noxious fish list and high-risk non-endemic fish list
-- Native animal keeping: DBCA pet keeper's licence guidelines, Appendix 1 (the fauna guide)
+Anything not on a state's loaded lists shows "Not on <state>'s lists" with that state's rule for unlisted animals (for example, "Most native animals need a licence in NSW"), never a guessed status.
 
-## New South Wales
+## How it works
 
-- Native animal keeping: [NSW native animal keepers species list](https://www.environment.nsw.gov.au/publications/nsw-native-animal-keepers-species-list) ([PDF](https://www.environment.nsw.gov.au/sites/default/files/nsw-native-animal-keepers-species-list.pdf)). Most native animals need a biodiversity conservation licence; about 41 captive-bred native birds are exempt (Biodiversity Conservation Regulation 2017). The species list is dated 2016, so check it is still current.
-- Pests (Biosecurity Act 2015 prohibited matter) and noxious fish: not found yet. Start at NSW DPI.
+- Source files are saved in `data/sources/states/` (text extracted once; Queensland and Victoria trimmed to the relevant schedules).
+- `python tools/state_lists.py` parses them into `data/lists/states/<STATE>.json`. It refuses to write if a known species (budgie, carpet python, bearded dragon) goes missing.
+- `tools/realms.py` merges every state into the same catalogue by scientific name: a species already there gains the state's status; a genus-wide entry ("*Acanthophis* spp.") applies to every species of that genus without a more specific entry; a state that lists only subspecies gives the species row the strictest of them, labelled "Varies by subspecies".
+- These lists change rarely, so they aren't re-downloaded weekly like WA's. Re-download and re-run when a state publishes a new version.
+- Tasmania's tables were extracted with Xpdf's `pdftotext -table` (Poppler, on GitHub's runners, doesn't have it), which is why the extracted text is what's saved.
 
-## Victoria
+## Known limits
 
-- Native animal keeping: [Wildlife Regulations 2024](https://wildlife.vic.gov.au/wildlife-regulations-2024). Schedule 4 Parts A and B are exempt (no licence); Schedules 2 and 7 need a basic licence, Schedule 3 an advanced licence. See the [private wildlife licence guide](https://www.vic.gov.au/sites/default/files/2025-08/Private-wildlife-licence-guide-250829-.pdf). Reforms announced October 2025 (for example, no more pet crocodiles) may change the schedules.
-- Pests (Agriculture Victoria prohibited, controlled and restricted pest animals) and noxious aquatic species: not found yet.
+- **NSW**: the species list is from 2016 (reprinted 2019). NSW has reviewed native animal keeping since, so some classes may have changed.
+- **Tasmania**: the requirements document is from 2017, under the older 2010 regulations. 26 entries show "Check" where the table text couldn't be read cleanly (mostly travelling exhibition animals).
+- **Queensland**: the Biosecurity Act's full prohibited and restricted lists aren't loaded, only the species the illegal pets fact sheet names (rabbits, ferrets, corn snakes, boas, red-eared sliders, hamsters, carp, gambusia...).
+- **Victoria**: the 2025 reforms (for example, no more pet crocodiles) aren't in the 2024 schedules yet.
+- **All states except WA**: exotic pest lists, plants and fish are still to find.
 
-## Queensland
+## Sources
 
-- Native animal keeping: Nature Conservation (Animals) Regulation 2020 ([current text](https://www.legislation.qld.gov.au/view/whole/pdf/inforce/current/sl-2020-0136)) and the [exempt, prohibited and species class listings](https://www.qld.gov.au/environment/plants-animals/wildlife-permits/permit-types/wildlife-licence/keeping-native-animals/what-animals-can-i-keep/animals-that-dont-need-a-licence). Species are Exempt, Class 1 or Class 2; anything not listed is prohibited by default. Most invertebrates are exempt except protected crayfish, *Urodacus* scorpions and tarantulas (Theraphosidae). No reptiles or amphibians are exempt.
-- Pests: Biosecurity Queensland [prohibited pets](https://www.publications.qld.gov.au/dataset/e1aa5912-b5c2-4faa-a583-3c04cdba950d/resource/3df2d637-688d-4a67-9e72-d6cd949cb693/download/prohibited-pets.pdf) (PDF). Full prohibited and restricted matter lists and noxious fish: not found yet.
-
-## South Australia
-
-- Native animal keeping: [keeping categories](https://www.environment.sa.gov.au/licences-and-permits/wildlife-permits/keep-sell/keeping-categories) and the [species list](https://www.environment.sa.gov.au/licences-and-permits/wildlife-permits/native-animal-categories/species-list) ([PDF](https://cdn.environment.sa.gov.au/environment/docs/Keeping-categories-species-list.pdf)): Basic, Specialist, Exempt and Unprotected. The list has scientific names and codes, which makes it a good first state to add. Legal basis: [National Parks and Wildlife (Wildlife) Regulations 2019](https://www.legislation.sa.gov.au/__legislation/lz/c/r/national%20parks%20and%20wildlife%20(wildlife)%20regulations%202019/current/2019.36.auth.pdf).
-- Pests and fish: not found yet. Start at PIRSA.
-
-## Tasmania
-
-- Not found yet. Start at the Department of Natural Resources and Environment Tasmania (NRE Tas) for wildlife permits and Biosecurity Tasmania for import and pest rules.
-
-## Northern Territory
-
-- Native animal keeping: [animals that do not need a permit](https://nt.gov.au/environment/animals/wildlife-permits/animals-that-do-not-need-a-permit), [native animals that need a permit](https://nt.gov.au/environment/animals/wildlife-permits/native-animals-that-need-a-permit), and [protected and prohibited wildlife](https://nt.gov.au/environment/animals/wildlife-permits/keeping-protected-prohibited-wildlife). Australian natives that don't occur naturally in the NT are prohibited.
-- Pests and fish: not found yet.
-
-## Australian Capital Territory
-
-- Native animal keeping: [keeping or selling animals in the ACT](https://www.act.gov.au/environment/animals-and-plants/licensing-of-plants-and-animals/keeping-or-selling-animals-in-the-act). A short, mostly bird exempt list; everything else needs a nature conservation licence.
-- Pests and fish: not found yet.
-
-## National
-
-- Live Import List (EPBC Act): what can be imported into Australia at all. Already loaded.
+- NSW: [Native Animal Keeper Species List](https://www.environment.nsw.gov.au/publications/nsw-native-animal-keepers-species-list)
+- VIC: [Wildlife Regulations 2024](https://wildlife.vic.gov.au/wildlife-regulations-2024) ([authorised PDF](https://content.legislation.vic.gov.au/sites/default/files/2024-06/24-45sra001-authorised.pdf))
+- QLD: [Nature Conservation (Animals) Regulation 2020](https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2020-0136); [illegal pets fact sheet](https://www.publications.qld.gov.au/dataset/e1aa5912-b5c2-4faa-a583-3c04cdba950d/resource/3df2d637-688d-4a67-9e72-d6cd949cb693/download/prohibited-pets.pdf)
+- SA: [native animal keeping categories species list](https://www.environment.sa.gov.au/licences-and-permits/wildlife-permits/native-animal-categories/species-list)
+- TAS: [Requirements for importing and keeping wildlife in Tasmania](https://nre.tas.gov.au/Documents/Requirements%20for%20importing%20and%20keeping%20wildlife%20in%20Tasmania.pdf)
+- NT: [animals that do not need a permit](https://nt.gov.au/environment/animals/wildlife-permits/animals-that-do-not-need-a-permit), [native animals that need a permit](https://nt.gov.au/environment/animals/wildlife-permits/native-animals-that-need-a-permit), [prohibited wildlife](https://nt.gov.au/environment/animals/wildlife-permits/prohibited-wildlife)
+- ACT: [Nature Conservation (Exempt Animals) Declaration 2026](https://www.legislation.act.gov.au/di/2026-61)
+- National: Live Import List (EPBC Act), already loaded

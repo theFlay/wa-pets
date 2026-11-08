@@ -1,0 +1,576 @@
+{
+"state": "NT",
+"sources": [
+[
+"NT animals that do not need a permit",
+"https://nt.gov.au/environment/animals/wildlife-permits/animals-that-do-not-need-a-permit"
+],
+[
+"NT native animals that need a permit (exempt list)",
+"https://nt.gov.au/environment/animals/wildlife-permits/native-animals-that-need-a-permit"
+]
+],
+"default": "Most native animals need a permit in the NT, and all wildlife not native to the NT is prohibited without a permit.",
+"species": [
+{
+"sci": "Agapornis spp.",
+"common": "Lovebirds",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Amadina fasciata",
+"common": "Cut-throat finch",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Amandava subflava",
+"common": "Orange-breasted waxbill",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Anas platyrhynchos",
+"common": "Domestic duck",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Anser anser",
+"common": "Domestic (grey-lag) goose",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Anser cygnoides",
+"common": "Goose",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Antaresia childreni",
+"common": "Children's python",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Bos indicus",
+"common": "Cattle",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Bos javanicus",
+"common": "Bali cattle",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Bos taurus",
+"common": "Cattle",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Bubalus bubalis",
+"common": "Buffalo",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Cacatua galerita",
+"common": "Sulphur-crested cockatoo",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Cacatua rosicapilla",
+"common": "Galah",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Cacatua sanguinea",
+"common": "Little corella",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Cairina moschata",
+"common": "Muscovy duck",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Camelus dromedarius",
+"common": "Camel",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Canis familiaris",
+"common": "Dog",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Capra hircus",
+"common": "Goat",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Carduelis carduelis",
+"common": "European goldfinch",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Carduelis chloris",
+"common": "Greenfinch",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Carvia porcellus",
+"common": "Guinea pig",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Catreus wallichii",
+"common": "Cheer pheasant",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Chelodina rugosa",
+"common": "Northern long-necked turtle",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Chrysolophus amherstiae",
+"common": "Lady amherst pheasant",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Chrysolophus pictus",
+"common": "Golden pheasant",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Columba livia",
+"common": "Domestic pigeon",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Coturnix chinensis",
+"common": "King quail",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Coturnix coturnix",
+"common": "Domestic quail",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Coturnix ypsilophora",
+"common": "Brown quail",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Ctenophorus nuchalis",
+"common": "Central netted dragon",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Cyanoramphus novaezelandiae",
+"common": "Kakariki (red-fronted parakeet)",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Equus asinus",
+"common": "Donkey",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Equus caballus",
+"common": "Horse",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Erythrura trichroa",
+"common": "Blue-faced parrot-finch",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Estrilda astrild",
+"common": "Saint Helena waxbill",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Estrilda melpoda",
+"common": "Orange-cheeked waxbill",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Felis catus",
+"common": "Cat",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Gallus gallus",
+"common": "Domestic fowl",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Geopelia cuneata",
+"common": "Diamond dove",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Geopelia humeralis",
+"common": "Bar-shouldered dove",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Geopelia striata",
+"common": "Peaceful dove",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Lagonosticta senegala",
+"common": "African firefinch",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Lonchura castaneothorax",
+"common": "Chestnut-breasted mannikin",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Lophura nycthemera",
+"common": "Silver pheasant",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Meleagris galloparvo",
+"common": "Turkey",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Melopsittacus undulatas",
+"common": "Budgerigar",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Mus musculus",
+"common": "Mouse (laboratory strain)",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Neopsephotus bourkii",
+"common": "Bourke’s parrot",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Numidia meleagris",
+"common": "Guineafowl",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Nymphicus hollandicus",
+"common": "Cockatiel",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Ocyphaps lophotes",
+"common": "Crested pigeon",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Oryctolagus cuniculus",
+"common": "Rabbit (domestic varieties)",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Ovis aries",
+"common": "Sheep",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Pavo cristatus",
+"common": "Common peafowl",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Platycercus venustus",
+"common": "Northern rosella",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Poephila acuticauda",
+"common": "Long-tailed finch",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Pogona vitticeps",
+"common": "Central bearded dragon",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Psittacula cyanocephala",
+"common": "Plum-headed parakeet",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Rattus rattus",
+"common": "Rat (laboratory strain)",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Scientific name",
+"common": "Common name",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Serinus canaria",
+"common": "Canary",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Sus scrofa",
+"common": "Pig",
+"group": "mammals",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Taeniopygia bichenovii",
+"common": "Double-barred finch",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Taeniopygia guttata",
+"common": "Zebra finch",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Tiaris canora",
+"common": "Cuban finch",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Tiliqua multifasciata",
+"common": "Centralian blue-tongued lizard",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Tiliqua scincoides",
+"common": "Common blue-tongued lizard",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Tiliqua scinoides",
+"common": "Common blue-tongued lizard",
+"group": "reptiles",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+},
+{
+"sci": "Trichoglossus haematodus rubritorquis",
+"common": "Red-collared lorikeet",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "NT exempt native animal"
+},
+{
+"sci": "Uraeginthus spp.",
+"common": "Cordon bleu finches",
+"group": "birds",
+"level": "ok",
+"label": "No permit needed",
+"detail": "Non-native animal that needs no NT permit"
+}
+]
+}

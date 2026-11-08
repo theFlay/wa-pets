@@ -213,16 +213,117 @@ def add_wa(cat):
         cat.add("aquatic", x["name"] + rank_suffix.get(x["rank"], ""), "", rec["sub"], "WA", st)
 
 
+STATE_DIR = os.path.join(ROOT, "data", "lists", "states")
+GROUP_TO = {"birds": ("fauna", "birds"), "reptiles": ("fauna", "reptiles"), "frogs": ("fauna", "frogs"),
+            "mammals": ("mammals", "others"), "inverts": ("bugs", "others"), "fish": ("aquatic", "fresh")}
+
+
+def load_states():
+    """data/lists/states/<STATE>.json, written by tools/state_lists.py."""
+    out = {}
+    if os.path.isdir(STATE_DIR):
+        for f in sorted(os.listdir(STATE_DIR)):
+            if f.endswith(".json"):
+                d = json.load(open(os.path.join(STATE_DIR, f), encoding="utf-8"))
+                out[d["state"]] = d
+    return out
+
+
+STATE_DATA = load_states()
+CHECKED = json.load(open(os.path.join(ROOT, "data", "lists", "meta.json"))).get("states", {}).get("checked", "")
+
+
+def state_status(st, e):
+    srcs = STATE_DATA[st]["sources"]
+    name, url = srcs[1] if len(srcs) > 1 and "fact sheet" in e["detail"] else srcs[0]
+    return {"level": e["level"], "label": e["label"], "detail": e["detail"], "src": name, "url": url, "checked": CHECKED}
+
+
+def add_states(cat):
+    """Every other state: a species already in the catalogue just gains the
+    state's status; genus-wide entries ('Acanthophis spp.') apply to every
+    species of that genus that has no more specific entry; anything new gets
+    its own row, placed by the WA Organism List's classification of its genus
+    when possible."""
+    where = {}  # taxon key -> realm
+    for realm, rows in cat.rows.items():
+        for k in rows:
+            where.setdefault(k, realm)
+    genus_home = {}
+    for row in S.WAOL["rows"]:
+        c = classify(row)
+        if c and c[0] in ("fauna", "mammals", "bugs", "aquatic"):
+            genus_home.setdefault(row[0].split()[0], c)
+    for st, d in STATE_DATA.items():
+        genus_entries = []
+        for e in d["species"]:
+            if e["sci"].endswith(" spp."):
+                genus_entries.append(e)
+                continue
+            k = taxon_key(e["sci"])
+            if k in where:
+                realm = where[k]
+                sub = cat.rows[realm][k]["sub"]
+            else:
+                realm, sub = genus_home.get(e["sci"].split()[0]) or GROUP_TO.get(e["group"], ("fauna", "reptiles"))
+                where[k] = realm
+            cat.add(realm, e["sci"], e.get("common", ""), sub, st, state_status(st, e))
+        # a state that lists only subspecies: the species row shows the strictest of them
+        subsp = {}
+        for e in d["species"]:
+            w = e["sci"].split()
+            if len(w) == 3 and not e["sci"].endswith(" spp."):
+                subsp.setdefault((w[0] + " " + w[1]).lower(), []).append(e)
+        for k, es in subsp.items():
+            realm = where.get(k)
+            if not realm or st in cat.rows[realm][k]["st"]:
+                continue
+            worst = max(es, key=lambda e: SEVERITY[e["level"]])
+            parts = "; ".join(f"{e['sci'].split()[2]}: {e['label']}" for e in es)[:200]
+            cat.rows[realm][k]["st"][st] = state_status(st, {**worst, "label": "Varies by subspecies",
+                                                             "detail": "Listed by subspecies. " + parts})
+        for e in genus_entries:
+            g = e["sci"].split()[0]
+            realm, sub = genus_home.get(g) or GROUP_TO.get(e["group"], ("fauna", "reptiles"))
+            st_obj = state_status(st, {**e, "detail": e["detail"] + f" (listed as {g} spp.)"})
+            for k, row in cat.rows[realm].items():
+                if k.split()[0] == g.lower() and st not in row["st"]:
+                    row["st"][st] = st_obj
+            cat.add(realm, g + " (whole genus)", "", sub, st, st_obj)
+
+
+def state_lookup(st, names):
+    """A hobby guide species' entry in a state's list: exact name, else its genus."""
+    d = STATE_DATA.get(st)
+    if not d:
+        return None
+    keys = {taxon_key(n) for n in names}
+    for e in d["species"]:
+        if taxon_key(e["sci"]) in keys:
+            return e
+    genera = {n.split()[0] for n in names}
+    for e in d["species"]:
+        if e["sci"].endswith(" spp.") and e["sci"].split()[0] in genera:
+            return {**e, "detail": e["detail"] + f" (listed as {e['sci']})"}
+    return None
+
+
 def guide_statuses(realm, rec):
-    """Status per state for a hobby guide species. Add a state here once its lists are in."""
-    return {"WA": S.aquatic(rec) if realm == "aquatic" else S.organism(rec)}
+    """Status per state for a hobby guide species."""
+    sts = {"WA": S.aquatic(rec) if realm == "aquatic" else S.organism(rec)}
+    names = [rec["sci"]] + rec.get("also", [])
+    for st in STATE_DATA:
+        e = state_lookup(st, names)
+        if e:
+            sts[st] = state_status(st, e)
+    return sts
 
 
 def build(photo_for):
     os.makedirs(OUT, exist_ok=True)
     cat = Catalogue()
     add_wa(cat)
-    # future: add_nsw(cat), add_vic(cat)... each adds its state to existing taxa
+    add_states(cat)
 
     counts, covered = {}, set()
     for realm in SUBS:
@@ -244,7 +345,9 @@ def build(photo_for):
         with open(os.path.join(OUT, realm + ".json"), "w", encoding="utf-8", newline="\n") as f:
             json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
         counts[realm] = {"guide": len(guide), "list": len(rows)}
-    states = [{"id": s, "name": n, "ready": s in covered} for s, n in STATES]
+    states = [{"id": s, "name": n, "ready": s in covered,
+               "default": STATE_DATA[s]["default"] if s in STATE_DATA else "",
+               "sources": STATE_DATA[s]["sources"] if s in STATE_DATA else []} for s, n in STATES]
     return counts, states
 
 

@@ -33,7 +33,7 @@ Every status carries its source and the date that list was downloaded. Levels:
 
 ## States
 
-Statuses are stored per state. `tools/realms.py` builds one catalogue per tab where each taxon (matched on scientific name, ignoring the author) holds a status for every state that has one. Only WA is loaded so far; [docs/STATES.md](../docs/STATES.md) lists where the other states' official lists are and how to add one.
+Statuses are stored per state. `tools/realms.py` builds one catalogue per tab where each taxon (matched on scientific name, ignoring the author) holds a status for every state that has one. Other states come from `tools/state_lists.py` (parses saved sources into `data/lists/states/`); see [docs/STATES.md](../docs/STATES.md).
 
 ## Automation
 

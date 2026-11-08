@@ -1,0 +1,660 @@
+{
+"state": "ACT",
+"sources": [
+[
+"Nature Conservation (Exempt Animals) Declaration 2026 (DI2026-61)",
+"https://www.legislation.act.gov.au/di/2026-61"
+]
+],
+"default": "Any animal not on the ACT exempt list needs a nature conservation licence to import, keep or sell.",
+"species": [
+{
+"sci": "Agapornis canus",
+"common": "Fischer's Lovebird",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Agapornis fischeri",
+"common": "European Goldfinch",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Agapornis personatus",
+"common": "Masked Lovebird",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Agapornis roseicollis",
+"common": "Peach-faced Lovebird, Rosy-faced",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Anas platyrhynchos",
+"common": "Mallard (Domestic)",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Anser anser",
+"common": "Golden Pheasant",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Anser cygnoides",
+"common": "Common Name",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Aratinga solstitilalis",
+"common": "Sun Conure, Sun Parakeet",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Barnardius zonarius semitorquatus",
+"common": "Twenty-eight Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Barnardius zonarius zonarius",
+"common": "Port Lincoln Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Cacatua galerita",
+"common": "Sulphur-crested Cockatoo",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Cacatua pastinator derbyi",
+"common": "Western Corella",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Cacatua sanguinea",
+"common": "Little Corella",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Cacatua tenuirostris",
+"common": "Long-billed Corella",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Cairina moschata domestica",
+"common": "Muscovy Duck (Domestic)",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Canis familiaris",
+"common": "Dog (Domestic)",
+"group": "mammals",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Carduelis carduelis",
+"common": "Pigeon",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Carduelis chloris",
+"common": "Domestic Turkey",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Cavia porcellus",
+"common": "Guinea Pig, Cavy (Domestic)",
+"group": "mammals",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Chalcophaps indica",
+"common": "Emerald Dove",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Chrysolophus amherstiae",
+"common": "Helmeted Guineafowl (domestic)",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Chrysolophus pictus",
+"common": "European Greenfinch",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Columba livia",
+"common": "Domestic Chicken (all breeds), Red",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Coturnix japonica",
+"common": "Greylag Goose (Domestic)",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Coturnix pectoralis",
+"common": "Stubble Quail",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Coturnix ypsilophora",
+"common": "Brown Quail",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Eclectus roratuus",
+"common": "Eclectus Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Emblema pictum",
+"common": "Painted Finch",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Eolophus roseicapilla",
+"common": "Galah",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Erythrura gouldiae",
+"common": "Gouldian Finch",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Erythrura psittacea",
+"common": "Red-throated Parrot Finch. Red-faced",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Erythrura trichroa",
+"common": "Blue-faced Parrot-finch",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Excalfactoria chinensis",
+"common": "King Quail",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Felis catus",
+"common": "Cat (Domestic)",
+"group": "mammals",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Gallus gallus",
+"common": "Common Canary, Island Canary",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Geopelia cuneata",
+"common": "Diamond Dove",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Geopelia humeralis",
+"common": "Bar-shouldered Dove",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Geopelia placida",
+"common": "Peaceful Dove",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Glossopsitta concinna",
+"common": "Musk Lorikeet",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Lama glama",
+"common": "Llama",
+"group": "mammals",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Lonchura castaneothorax",
+"common": "Chestnut-breasted Mannikin",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Lophura diardi",
+"common": "Siamese Fireback Pheasant",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Meleagris gallopayo",
+"common": "Domestic Pigeon, Rock Dove, Feral",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Melopsittacus undulatus",
+"common": "Budgerigar",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Mus musculus",
+"common": "Fancy Mouse (Domestic)",
+"group": "mammals",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Myopsitta monachus",
+"common": "Monk Parakeet Quaker Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Neochmia modesta",
+"common": "Plum-headed Finch",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Neochmia rificauda",
+"common": "Star Finch",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Neophema elegans",
+"common": "Elegant Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Neophema pulchella",
+"common": "Turquoise Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Neophema splendida",
+"common": "Scarlet-chested Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Neopsephotus bourkii",
+"common": "Bourke’s Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Numida meleagris",
+"common": "Grey-headed Lovebird",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Nymphicus hollandicuas",
+"common": "Cockatiel",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Ocyphaps lophotes",
+"common": "Crested Pigeon",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Oryctolagus cuniculus",
+"common": "Rabbit (Domestic)",
+"group": "mammals",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Phaps chalcoptera",
+"common": "Common Bronzewing",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Phasianus colchicus",
+"common": "Chinese Goose. Swan Goose",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Platycercus adscitus",
+"common": "Pale-headed Rosella",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Platycercus elegans",
+"common": "Crimson Rosella",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Platycercus elegans flaveolus",
+"common": "Yellow Rosella",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Platycercus elegans subadelaidae",
+"common": "Adelaide Rosella",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Platycercus eximius",
+"common": "Eastern Rosella",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Platycercus icterotis",
+"common": "Western Rosella",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Poephila acuticauda",
+"common": "Long-tailed Finch",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Poephila personata",
+"common": "Masked Finch",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Polytelis alexandrae",
+"common": "Princess Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Polytelis anthopeplus",
+"common": "Regent Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Psephotus chrysopterygius",
+"common": "Golden-shouldered Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Psephotus dissimilis",
+"common": "Hooded Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Psephotus haematonotus",
+"common": "Red-rumped Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Psittacula eupatria",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Purpureicephalus spurius",
+"common": "Red-capped Parrot",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Rattus norvegicus",
+"common": "Fancy Rat (Domestic)",
+"group": "mammals",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Serenus canaria",
+"common": "Alexandrine Parakeet",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Taeniopygia guttata",
+"common": "Zebra Finch",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Trichoglossus chlorolepidotus",
+"common": "Scaly-breasted Lorikeet",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Trichoglossus haematodus",
+"common": "Rainbow Lorikeet",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Trichoglossus rubritorquis",
+"common": "Red-collared Lorikeet",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Turnix varius",
+"common": "Painted Button-quail",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+},
+{
+"sci": "Turnix velox",
+"common": "Little Button-quail",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "On the ACT exempt animals list"
+}
+]
+}

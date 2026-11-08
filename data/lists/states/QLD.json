@@ -1,0 +1,4880 @@
+{
+"state": "QLD",
+"sources": [
+[
+"Nature Conservation (Animals) Regulation 2020, Schedule 3",
+"https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2020-0136"
+],
+[
+"Biosecurity Queensland: illegal pets fact sheet",
+"https://www.publications.qld.gov.au/dataset/e1aa5912-b5c2-4faa-a583-3c04cdba950d/resource/3df2d637-688d-4a67-9e72-d6cd949cb693/download/prohibited-pets.pdf"
+]
+],
+"default": "Native animals not listed as exempt, Class 1 or Class 2 are prohibited by default. Introduced mammals can't be kept unless listed as exceptions.",
+"species": [
+{
+"sci": "Acanthagenys rufogularis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Acanthiza chrysorrhoa",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Acanthophis spp.",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Acanthorhynchus superciliosus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Acanthorhynchus tenuirostris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Acritoscincus platynotum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Acrochordus arafurae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2), dangerous animal",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Acrochordus granulatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Adelotus brevis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ailuroedus crassirostris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Alectura lathami",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Alisterus scapularis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Amalosia lesueurii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Amphibolurus burnsi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Amphibolurus centralis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Amphibolurus muricatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Amytornis rowleyi",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Amytornis striatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Amytornis textilis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Anabas testudineus",
+"common": "",
+"group": "fish",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Anas castanea",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Anas gracilis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Anas superciliosa",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Anilios nigrescens",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Anomalopus verreauxii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Anseranas semipalmata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Antaresia childreni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Antaresia maculosa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Antaresia perthensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Anthochaera carunculata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Anthochaera chrysoptera",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Aplonis metallica",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Aprasia picturata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Aprosmictus erythropterus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Artamus cinereus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Artamus cyanopterus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Artamus leucorynchus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Artamus personatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Artamus superciliosus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Aspidites melanocephalus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Aspidites ramsayi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Assa darlingtoni",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Austrelaps spp.",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Aythya australis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Barnardius zonarius",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Bellatorias frerei",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Bellatorias major",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Biziura lobata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Boa constrictor",
+"common": "",
+"group": "reptiles",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Boiga irregularis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Brachyurophis australis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Bubulcus ibis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Burhinus grallarius",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Cacatua galerita",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Cacatua pastinator",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Cacatua sanguinea",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Cacatua tenuirostris",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Cacophis harriettae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Cacophis krefftii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Cacophis squamulosus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Cairnsichthys rhombosomoides",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Caligavis chrysops",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Callocephalon fimbriatum",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Calyptorhynchus banksii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Calyptorhynchus baudinii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Calyptorhynchus funereus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Calyptorhynchus lathami",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Calyptorhynchus latirostris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Calyptotis ruficauda",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Carettochelys insculpta",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Carphodactylus laevis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Centropus phasianinus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Cerberus australis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Cereopsis novaehollandiae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Certhionyx variegatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Chalcophaps longirostris",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Chamaeleonidae",
+"common": "",
+"group": "reptiles",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Chelodina burrungandjii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Chelodina canni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Chelodina expansa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Chelodina longicollis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Chelodina rugosa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Chelodina steindachneri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Chelosania brunnea",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Chenonetta jubata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Cherax robustus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Chlamydera maculata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Chlamydogobius squamigenus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Chlamydosaurus kingii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Chloebia gouldiae",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Christinus marmoratus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Cinnyris jugularis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Cladorhynchus leucocephalus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Columba leucomela",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Concinnia martini",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Concinnia tenuis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Corbicula fluminea",
+"common": "",
+"group": "fish",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Corcorax melanorhamphos",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Corvus orru",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Coturnix pectoralis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Crinia deserticola",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Crinia parinsignifera",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Crinia signifera",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Crinia sloanei",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Crinia tinnula",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Crocodylus johnstoni",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Crocodylus porosus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Cryptoblepharus virgatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Cryptophis nigrescens",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenophorus caudicinctus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenophorus clayi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenophorus cristatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenophorus decresii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenophorus fionni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenophorus fordi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenophorus isolepis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenophorus nuchalis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Ctenophorus ornatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenophorus pictus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Ctenophorus reticulatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenophorus salinarum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenophorus vadnappa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenotus leonhardii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenotus pantherinus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenotus regius",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Ctenotus robustus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Ctenotus saxatilis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ctenotus schomburgkii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Ctenotus spaldingi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Ctenotus taeniolatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Cyclodomorphus casuarinae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Cyclodomorphus gerrardii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Cyclodomorphus michaeli",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Cyclopsitta diopthalma",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Cyclorana alboguttata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Cyclorana australis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Cyclorana brevipes",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Cyclorana cultripes",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Cyclorana novaehollandiae",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Cyclorana platycephala",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Cyclorana verrucosa",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Cygnus atratus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Cyprinus carpio",
+"common": "",
+"group": "fish",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Cyrtodactylus mcdonaldi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Cyrtodactylus tuberculatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Dacelo leachii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Dacelo novaeguineae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Delma impar",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Delma inornata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Delma molleri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Delma tincta",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Demansia papuensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Demansia psammophis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Demansia vestigiata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Dendrelaphis calligastra",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Dendrelaphis punctulatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Dendrocygna arcuata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Dendrocygna eytoni",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Denisonia devisi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Denisonia maculata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Dicaeum hirundinaceum",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Diplodactylus ameyi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Diplodactylus barraganae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2), dangerous animal",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Diplodactylus conspicillatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Diplodactylus galeatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Diplodactylus granariensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Diplodactylus laevis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2), dangerous animal",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Diplodactylus platyurus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Diplodactylus tessellatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Diplodactylus vittatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Diporiphora australis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Diporiphora bennettii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Diporiphora bilineata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Diporiphora magna",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Diporiphora nobbi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Diporiphora winneckei",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Dromaius novaehollandiae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Drysdalia coronoides",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Drysdalia rhodogaster",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ducula bicolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Echiopsis curta",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Eclectus polychloros",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Eclectus spp.",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Egernia cunninghami",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Egernia cygnitos",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Egernia depressa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Egernia eos",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Egernia epsisolus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Egernia hosmeri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Egernia kingii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Egernia mcpheei",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Egernia rugosa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Egernia saxatilis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Egernia stokesii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Egernia striolata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Egretta garzetta",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Egretta novaehollandiae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Egretta picata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Elseya albagula",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Elseya dentata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Elseya irwini",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Elseya oneiros",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Elusor macrurus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Emblema pictum",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Emydura macquarii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Emydura subglobosa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Emydura tanybaraga",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Emydura victoriae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Entomyzon cyanotis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Eolophus roseicapilla",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Eopsaltria australis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Epthianura albifrons",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Epthianura aurifrons",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Epthianura tricolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Eremiascincus fasciolatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Eremiascincus phantasmus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Eremiascincus richardsonii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Erythrura trichroa",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Euastacus spp.",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Eulabeornis castaneoventris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Eulamprus quoyii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Eulamprus tympanum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Eurystomus orientalis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Fulica atra",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Furina diadema",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Furina ornata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Gallinula mortierii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Gallinula tenebrosus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Gallinula ventralis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Gallirallus philippensis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Gambusia holbrooki",
+"common": "",
+"group": "fish",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Gehyra australis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Gehyra dubia",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Gehyra montium",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Gehyra occidentalis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Gehyra robusta",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Gehyra versicolor",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Geocrinia laevis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Geocrinia victoriana",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Geocrinia vitellina",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Geopelia cuneata",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Geopelia humeralis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Geopelia striata",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Geophaps plumifera",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Geophaps scripta",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Geophaps smithii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Glossopsitta concinna",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Gnypetoscincus queenslandiae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Gowidon longirostris",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Grallina cyanoleuca",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Gymnorhina tibicen",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Heleioporus australiacus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Hemiaspis signata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Heteromunia pectoralis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Heteronotia binoei",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Heteronotia spelea",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Himantopus himantopus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Hoplocephalus spp.",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Iguana iguana",
+"common": "",
+"group": "reptiles",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Intellagama lesueurii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Karma murrayi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Karma tryoni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Lampropholis delicata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Lampropholis guichenoti",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Lathamus discolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Leiopython hoserae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Lepidodactylus lugubris",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Leucosarcia melanoleuca",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Lialis burtonis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Liasis fuscus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Liasis olivaceus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Liburnascincus coensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Lichenostomus melanops",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Limnodynastes dumerilii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Limnodynastes fletcheri",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Limnodynastes interioris",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Limnodynastes peronii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Limnodynastes salmini",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Limnodynastes tasmaniensis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Limnodynastes terraereginae",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Liopholis inornata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Liopholis margaretae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2), dangerous animal",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Liopholis modesta",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Liopholis pulchra",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Liopholis striata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Liopholis whitii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria aurea",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Litoria balatus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria bicolor",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria booroolongensis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Litoria brevipalmata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Litoria burrowsae",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Litoria caerulea",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria chloris",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria citropa",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria dahlii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Litoria dentata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria eucnemis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Litoria ewingii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria fallax",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria freycineti",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria gilleni",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria gracilenta",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria infrafrenata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria jervisiensis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria jungguy",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria latopalmata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria lesueuri",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria littlejohni",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Litoria moorei",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria nasuta",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria nudidigita",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria pearsoniana",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Litoria peronii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria phyllochroa",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria raniformis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Litoria revelata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Litoria rothii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria rubella",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria splendida",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria tyleri",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria verreauxii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria wilcoxii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Litoria xanthomera",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Lonchura castaneothorax",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Lonchura flaviprymna",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Lophochroa leadbeateri",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Lophognathus gilberti",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Lophognathus horneri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Lopholaimus antarcticus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Lophosaurus boydii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Lophosaurus spinipes",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Lucasium byrnei",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Lucasium damaeum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Lucasium microplax",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Lucasium steindachneri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Lucasium stenodactylum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Macropygia amboinensis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Malacorhynchus membranaceus pink",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Malurus amabilis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Malurus assimilis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Malurus coronatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Malurus cyaneus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Malurus elegans",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Malurus lamberti",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Malurus leucopterus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Malurus melanocephalus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Malurus pulcherrimus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Malurus splendens",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Manorina melanocephala",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Melanodryas cucullata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Meliphaga lewinii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Melithreptus lunatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Melopsittacus undulatus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Menetia greyii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Merops ornatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Mesocricetus auratus",
+"common": "",
+"group": "mammals",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Microcarbo melanoleucos",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Misgurnus anguillicaudatus",
+"common": "",
+"group": "fish",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Mixophyes balbus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Mixophyes fasciolatus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Mixophyes iteratus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Morelia bredli",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Morelia carinata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Morelia oenpelliensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Morelia spilota",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Morelia viridis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Morethia boulengeri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Morethia lineoocellata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Mustela furo",
+"common": "",
+"group": "mammals",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Mustela putorius",
+"common": "",
+"group": "mammals",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Myzomela sanguinolenta",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Nebulifera robusta",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Neobatrachus pictus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Neobatrachus sudellae",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Neochmia modesta",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Neochmia phaeton",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Neochmia ruficauda",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Neochmia temporalis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Neophema chrysostoma",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Neophema elegans",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Neophema petrophila",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Neophema pulchella",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Neophema splendida",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Neopsephotus bourkii",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Nephrurus amyae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Nephrurus asper",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Nephrurus laevissimus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Nephrurus levis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Nephrurus sheai",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Nephrurus stellatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Nephrurus wheeleri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Nettapus coromandelianus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Nettapus pulchellus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Northiella haematogaster",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Northiella narethae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Notaden bennettii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Notaden nichollsi",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Notechis spp.",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Nymphicus hollandicus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Ocyphaps lophotes",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Oedura bella",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Oedura castelnaui",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Oedura cincta",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Oedura coggeri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Oedura filicipoda",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Oedura gemmata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Oedura marmorata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Oedura monilis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Oedura tryoni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Oreochromis mossambicus",
+"common": "",
+"group": "fish",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Oriolus sagittatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ornithoptera spp.",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Oryctolagus cuniculus",
+"common": "",
+"group": "mammals",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Oxyura australis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Oxyuranus spp.",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pachycephala pectoralis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pachycephala rufiventris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pantherophis guttatus",
+"common": "",
+"group": "reptiles",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Papilio ulysses",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Paracrinia haswelli",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Parasuta flagellum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Parasuta spectabilis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pardalotus punctatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pardalotus striatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Parvipsitta porphyrocephala",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Parvipsitta pusilla",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Peltohyas australis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Petroica boodang",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Petroica goodenovii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Petroica phoenicea",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Petrophassa albipennis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Petrophassa rufipennis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Phaps chalcoptera",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Phaps elegans",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Phaps histrionica",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Philemon citreogularis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Philemon corniculatus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Philoria kundagungan",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Philoria loveridgei",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Philoria sphagnicolus",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Phylidonyris niger",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Phylidonyris novaehollandiae",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Phylidonyris pyrrhopterus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Phyllurus platurus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Pitta iris",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pitta versicolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Platalea flavipes",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Platalea regia",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Platycercus adscitus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Platycercus caledonicus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Platycercus elegans adelaidae",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Platycercus elegans elegans",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Platycercus elegans flaveolus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Platycercus eximius",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Platycercus icterotis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Platycercus venustus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Platyplectrum ornatum",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Plectorhyncha lanceolata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Plegadis falcinellus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Podargus strigoides",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Poephila acuticauda",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Poephila cincta",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Poephila personata",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Pogona barbata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Pogona henrylawsoni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Pogona microlepidota",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pogona minor",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Pogona mitchelli",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Pogona vitticeps",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Polytelis alexandrae",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Polytelis anthopeplus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Polytelis swainsonii",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Porphyrio melanotus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Psephotus chrysopterygius",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Psephotus dissimilis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Psephotus haematonotus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Psephotus varius",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Pseudechis spp.",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2), dangerous animal",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pseudoferania polylepis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pseudomugil mellis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Pseudonaja spp.",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2), dangerous animal",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pseudophryne australis",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pseudophryne bibronii",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pseudophryne coriacea",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pseudophryne dendyi",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pseudophryne major",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pseudophryne semimarmorata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pseudothecadactylus cavaticus western",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Pseudothecadactylus lindneri northern",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Psitteuteles versicolor",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Psophodes olivaceus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ptilinopus magnificus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ptilinopus regina",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Ptilinopus superbus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Ptilonorhynchus violaceus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Ptilotula penicillata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Purpureicephalus spurius",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Pygopus lepidopodus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Pygopus nigriceps",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Pygopus schraderi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Radjah radjah",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Rankinia diemensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Rheodytes leukops",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Rhynchoedura ornata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Saltuarius cornutus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Saltuarius moritzi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Saltuarius salebrosus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Saltuarius swaini",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Saltuarius wyberba",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Scaturiginichthys vermeilipinnis redfin",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Sericornis citreogularis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Sericornis frontalis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Sericulus chrysocephalus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Simalia amethistina",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Simalia kinghorni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Spatula rhynchotis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Sphecotheres vieilloti",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Stagonopleura bella",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Stagonopleura guttata",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Stagonopleura oculata",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Stegonotus cucullatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Stictonetta naevosa",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Strophurus ciliaris",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Strophurus elderi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Strophurus intermedius",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Strophurus jeanae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Strophurus krisalys",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Strophurus spinigerus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Strophurus taenicauda",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Strophurus wellingtonae",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Strophurus williamsi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Struthidea cinerea",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Suta dwyeri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Suta suta",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2), dangerous animal",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Synoicus chinensis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Synoicus ypsilophorus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Tadorna tadornoides",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Taeniopygia bichenovii",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Taeniopygia guttata",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Threskiornis molucca",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Threskiornis spinicollis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Tiliqua multifasciata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Tiliqua nigrolutea",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Tiliqua occipitalis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Tiliqua rugosa",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Tiliqua scincoides",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Todiramphus macleayii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Todiramphus pyrrhopygius",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Todiramphus sanctus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Trachemys scripta",
+"common": "",
+"group": "reptiles",
+"level": "no",
+"label": "Illegal pet in Queensland",
+"detail": "Named as illegal to keep in Biosecurity Queensland's illegal pets fact sheet (Biosecurity Act 2014)"
+},
+{
+"sci": "Trichoglossus chlorolepidotus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Trichoglossus haemotodus",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Trichoglossus rubritorquis",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Tropicagama temporalis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Tropidechis carinatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2), dangerous animal",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Tropidonophis mairii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Turnix castanotus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Turnix maculosus",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Turnix melanogaster",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Turnix olivii",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Turnix pyrrhothorax",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Turnix varius",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Turnix velox",
+"common": "",
+"group": "birds",
+"level": "ok",
+"label": "No licence needed (exempt)",
+"detail": "QLD Animals Regulation: Exempt animals"
+},
+{
+"sci": "Tympanocryptis centralis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Tympanocryptis cephalus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Tympanocryptis intima",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Tympanocryptis lineata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Tympanocryptis tetraporophora",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Underwoodisaurus milii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Uperoleia fusca",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Uperoleia laevigata",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Uperoleia rugosa",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Uperoleia tyleri",
+"common": "",
+"group": "frogs",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Uvidicolus sphyrurus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Vanellus miles",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Vanellus tricolor",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus acanthurus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Varanus baritji",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus brevicauda",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus bushi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus caudolineatus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus eremius",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus giganteus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus gilleni",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Varanus glauerti",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus glebopalma",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus gouldii",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Varanus hammersleyensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus indicus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus kingorum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus mertensi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Varanus mitchelli",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus panoptes",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus pilbarensis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus prasinus",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus primordius",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus rosenbergi",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus scalaris",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Varanus semiremex",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus spenceri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Varanus storri",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Varanus tristis",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Varanus varius",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Vermicella annulata",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Wollumbinia belli",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 2)",
+"detail": "QLD Animals Regulation: Class 2 animals"
+},
+{
+"sci": "Wollumbinia latisternum",
+"common": "",
+"group": "reptiles",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+},
+{
+"sci": "Zosterops lateralis",
+"common": "",
+"group": "birds",
+"level": "permit",
+"label": "Licence needed (Class 1)",
+"detail": "QLD Animals Regulation: Class 1 animals"
+}
+]
+}
