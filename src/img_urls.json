@@ -146,7 +146,7 @@
   "Callocephalon fimbriatum": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Callocephalon_fimbriatum_male_-_Callum_Brae.jpg/500px-Callocephalon_fimbriatum_male_-_Callum_Brae.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "Lophochroa leadbeateri": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Major_Mitchell%27s_Cockatoo_1_-_Mt_Grenfell.jpg/500px-Major_Mitchell%27s_Cockatoo_1_-_Mt_Grenfell.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "Cacatua galerita": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Cacatua_galerita_Tas_2.jpg/500px-Cacatua_galerita_Tas_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "Eclectus roratus": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Eclectus_roratus_-North_Carolina_Zoo%2C_Asheboro%2C_North_Carolina%2C_USA_-female-8a_%281%29.jpg/500px-Eclectus_roratus_-North_Carolina_Zoo%2C_Asheboro%2C_North_Carolina%2C_USA_-female-8a_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Eclectus roratus": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Eclectus_roratus_-North_Carolina_Zoo%2C_Asheboro%2C_North_Carolina%2C_USA_-female-8a_%281%29.jpg/330px-Eclectus_roratus_-North_Carolina_Zoo%2C_Asheboro%2C_North_Carolina%2C_USA_-female-8a_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "Psephotellus chrysopterygius": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Golden-shouldered_Parrot_0A2A7450.jpg/500px-Golden-shouldered_Parrot_0A2A7450.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "Psephotellus dissimilis": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Hooded_Parrot_%28Male%29.jpg/500px-Hooded_Parrot_%28Male%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "Platycercus caledonicus": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Platycercus_caledonicus_-_Melaleuca.jpg/500px-Platycercus_caledonicus_-_Melaleuca.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -728,7 +728,18 @@
   "Chamaedorea elegans": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Chamaedorea_elegans_Mart.JPG/330px-Chamaedorea_elegans_Mart.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "Diplodactylus conspicillatus": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Diplodactylus_conspicillatus_126324117.jpg/330px-Diplodactylus_conspicillatus_126324117.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
   "Macroderma gigas": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/%281%29Ghost_Bat_078.jpg/330px-%281%29Ghost_Bat_078.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "Meiacanthus oualanensis": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Meiacanthus_oualanensis.jpg/330px-Meiacanthus_oualanensis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "Meiacanthus oualanensis": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Meiacanthus_oualanensis.jpg/330px-Meiacanthus_oualanensis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Diporiphora winneckei": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Canegrass_dragon_1.jpg/330px-Canegrass_dragon_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Macroglossus minimus": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Macroglossus_minimus_pregnant.jpg/330px-Macroglossus_minimus_pregnant.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Melanochromis auratus": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Melanochromis_auratus_%28male%29.jpg/330px-Melanochromis_auratus_%28male%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Dromaius novaehollandiae": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Emu_1_-_Tidbinbilla.jpg/330px-Emu_1_-_Tidbinbilla.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Macropus antilopinus": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/AntilopineWallerooLargeMale.jpg/330px-AntilopineWallerooLargeMale.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Conogethes punctiferalis": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Conogethes_punctiferalis.jpg/330px-Conogethes_punctiferalis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Macropus irma": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Macropus_irma_Gould.jpg/330px-Macropus_irma_Gould.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Mesonauta festivus": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Mesonauta_festivus.jpg/330px-Mesonauta_festivus.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Macrotis lagotis": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Bilby_at_Sydney_Wildlife_World.jpg/330px-Bilby_at_Sydney_Wildlife_World.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Mikrogeophagus altispinosus": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Mikrogeophagus_altispinosus_PiaH.jpg/330px-Mikrogeophagus_altispinosus_PiaH.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Corcyra cephalonica": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Corcyra_cephalonica_female.jpg/330px-Corcyra_cephalonica_female.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
  },
  "not_found": {
   "Pseudechis butleri": "2026-11-09",
